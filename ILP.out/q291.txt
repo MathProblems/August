@@ -1,7 +1,7 @@
-constants :
-unknowns :
+constants : 0.375 0.25
+unknowns : x
 operators : + - * / =
-objtypes :
-constantOrUnknownType :
-n : 1
-answer :  0.625
+objtypes : garment UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.625

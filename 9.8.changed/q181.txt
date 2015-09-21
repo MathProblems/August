@@ -1,0 +1,7 @@
+constants : 4 15
+unknowns : x
+operators : + - * / =
+objtypes : people dollar bill
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 5.0

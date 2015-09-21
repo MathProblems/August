@@ -1,0 +1,7 @@
+constants : 9
+unknowns : x
+operators : + - * / =
+objtypes : bill money
+constantOrUnknownType : 0 1
+n : 3
+answer :  45.0

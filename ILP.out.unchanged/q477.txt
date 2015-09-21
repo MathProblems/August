@@ -1,0 +1,7 @@
+constants : 2 9
+unknowns :
+operators : + - * / =
+objtypes : ounce pound
+constantOrUnknownType : 0 1
+n : 5
+answer : 18

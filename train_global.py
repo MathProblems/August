@@ -8,6 +8,7 @@ import pickle
 from random import randint
 from train_local import get_k_eqs
 from train_local import read_parse
+from train_local import read_sets
 sys.path.insert(0, '/Users/rikka/libsvm-3.18/python')
 from svmutil import *
 from random import sample
@@ -71,6 +72,9 @@ def make_eq(q,a,equations):
     for k in range(len(wps)):
         print(k,equations[k])
         answers = get_k_eqs(equations[k],g=True)
+        #simpleanswers = [x for x in answers if x[1].split(" ")[-2] == '=']
+        #if simpleanswers:
+        #    answers = simpleanswers
         good = list(set([x for x in answers if x[0]==1]))
         bad = list(set([x for x in answers if x[0]==0]))[:len(good)]
         '''
@@ -96,7 +100,8 @@ def make_eq(q,a,equations):
         #make story
         #story = nlp.parse(problem)
         story = read_parse(int(equations[k]))
-        sets = makesets.makesets(story['sentences'])
+        #sets = makesets.makesets(story['sentences'])
+        sets = read_sets(int(equations[k]))
         i = 0
 
         xidx = [i for i,x in enumerate(sets) if x[1].num=='x']
@@ -123,7 +128,7 @@ def make_eq(q,a,equations):
         for j,eq,cons in answers:
             consts = [x for x in eq.split(" ") if x not in ['(',')','+','-','/','*','=',]]
             order = int(consts==[x[0] for x in numlist])
-            if order == 0:continue
+            #if order == 0:continue
             trips = []
             print(j,eq)
             l,r = [x.strip().split(' ') for x in eq.split('=')]

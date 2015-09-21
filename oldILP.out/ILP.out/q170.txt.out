@@ -1,0 +1,6 @@
+parameters: n=3 l=1 k=1 p=5 q=2 m=7
+TOTAL 4 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 275 | 11 | x=11 | x 11 = | x:quarter 11:quarter =:quarter
+EXPR: 0 | POS | INT | 0 | 275 | 11 | 11=x | 11 x = | 11:quarter x:quarter =:quarter
+NET 2 unique, non-negative, integer-valued solutions found out of 4 total solutions

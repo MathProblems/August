@@ -15,13 +15,14 @@ def main(sets):
     #simple solution: targets are things that come after the x
     xidx = [x[0] for x in sets if x[1].num=='x']
     if not xidx:
-        return sets
+        return (sets, 0)
     
     xidx = xidx[0]
     target = [x[1] for x in sets if x[0]>=xidx]
+    conv = 0
 
     for targ in target:
-        if targ.entity not in ['dollar','money','second','minute','hour']:continue
+        if targ.entity not in ['dollar','money','second','minute','hour','cent']:continue
         for idx,entity in sets:
             if entity.num == 'x': continue
             if entity.entity == targ.entity: continue
@@ -29,10 +30,11 @@ def main(sets):
             if convertedVal is not None:
                 #print("CONVERTING")
                 #print(entity.entity,targ.entity)
+                conv = 1
                 entity.entity = targ.entity
                 entity.num = str(convertedVal)
 
-    return sets
+    return (sets, conv)
 
 def findConversion(unit, target, conversions):
     for c in conversions.keys():

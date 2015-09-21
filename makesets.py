@@ -130,16 +130,13 @@ def vector(a,b,problem,story,target,feats=False):
     elif b.location == a.location: vec.append(1)
     else: vec.append(-1)
 
+
     features.append('number distances')
     try:
         distance = abs(int(a.idx)-int(b.idx))
         distance = 1 / ( 10000 - distance )
     except: distance = 1
     vec.append(distance)
-
-    asidx = a.idx//1000
-    bsent = b.idx//1000
-
 
 
 
@@ -418,7 +415,10 @@ def extract_quantify(story):
 
         # nums is a list of potential entities
         nums = [(x[1],x[2]) for x in deps if x[0]=='num' or x[0]=='number' or x[0]=='det']
-        nums.extend([(x[2],x[1]) for x in deps if x[0]=="prep_of" and (x[1].split("-")[0].isdigit() or x[1].rsplit("-",maxsplit=1)[0] in ['half','third','quarter'])])
+        #nums.extend([(x[1],x[2]) for x in deps if x[0] == 'nmod' and x[1][0].isdigit()])
+        print(nums)
+        nums.extend([(x[2],x[1]) for x in deps if x[0]=="prep_of" and (x[1][0].isdigit() or x[1].rsplit("-",maxsplit=1)[0] in ['half','third','quarter'])])
+        print(nums)
         # w = word, n = number. Take each and split it out
         for w,n in nums:
             n,nidx = n.split("-")
@@ -515,7 +515,7 @@ def containers_dozens(sets, deps, thissentsets, j, s):
 
 def containers_each(sets, deps, thissentsets, j, s):
     #deal with each
-    thiseach = [x for x in thissentsets if x[1].num in ['each','a','an','the','every','per','one','1']]
+    thiseach = [x for x in thissentsets if x[1].num in ['each','a','an','every','per','one','1']]
     if len(thiseach)>0:
         thisothers = [x for x in thissentsets if x not in thiseach]
         if thisothers:
@@ -588,11 +588,19 @@ def articulate(sets, deps, thissentsets, j, s):
         if vbs:
             for y in vbs:
                 verb = y[1]
-                #find subj, this is container
-                vsubj = [x for x in deps if x[1]==verb and x[0] in ['nsubj','nsubjpass']]
-                if vsubj:
-                    e[1].container = ' '.join([x[2].split('-')[0] for x in vsubj])
+                #deal with ditrans verbs
+                if verb.split("-")[0]=='gave':
+                    dtv = [x for x in deps if x[1]==verb and x[0] in ['prep_to','iobj']]
+                    if dtv:
+                        e[1].container = ' '.join([x[2].split('-')[0] for x in dtv])
+                else:
+                    #find subj, this is container
+                    vsubj = [x for x in deps if x[1]==verb and x[0] in ['nsubj','nsubjpass']]
+                    if vsubj:
+                        e[1].container = ' '.join([x[2].split('-')[0] for x in vsubj])
         else:
+            print("CONTAINER IS POSSIBLE")
+            print(e[1].entity,e[1].num)
             possible_containers = [x[1].container for x in sets if x[1].container is not None]
             possible_containers = [x for x in possible_containers if x.lower() in [y[0].lower for y in s['words']]]
             if possible_containers:
@@ -622,7 +630,8 @@ def floatcheck(n):
         n = float(n)
         return True
     except:
-        return False
+        if n == 'x': return True
+        else: return False
     
 
 def fix_each(sets):
@@ -630,6 +639,7 @@ def fix_each(sets):
     eaches = [x for x in sets if x[1].num in ['each','every','per','a','an','per','one']]
     for x in eaches:
         moveto = [y for y in sets if y[1].entity == x[1].entity and floatcheck(y[1].num)]
+        print(moveto)
         if moveto:
             moveto = moveto[0]
             if x[0] > moveto[0]:
@@ -776,6 +786,7 @@ def move_x(sets,story):
     if len([x for x in endwords if x in qlem])>0:
         return sets
 
+    """
     spots = []
     for j,s in enumerate(story):
         thissentsets = [x for x in sets if x[0]//1000 == j]
@@ -799,9 +810,10 @@ def move_x(sets,story):
             place = bspots[0][0]
         else:
             place = spots[0][0]
-        #print("moving x")
-        #print(targets,spots,place)
+        print("moving x")
+        print(targets,spots,place)
         sets[targets[0][0]] = (place,targets[0][1][1])
+    """
 
 
 
@@ -840,26 +852,21 @@ def oneEnt(sets):
             x.entity = list(notx)[0]
     return sets
 
-
 def oneSet(sets,story):
-    qsets = [x for x in sets if floatcheck(x[1].num) and x[1].container != 'dozen']
+    qsets = [x for x in sets if x[1].num!="x"]
     if len(qsets)==1:
         allwords = ' '.join([story[i]['text'] for i in range(len(story))])
         allwords = ''.join([x for x in allwords if x.isalnum() or x==' '])
         if 'week' in allwords or "Week" in allwords:
             sets.append((0,aset('7','day','week',0)))
-        elif ('dozen' in allwords or 'dozens' in allwords) and len([x for x in sets if x[1].container == 'dozen'])==0:
-            sets.append((0,aset('12','dozen','dozen',0)))
         else:
-            #count uniq names
-            print(allwords)
-            allwords = [x for x in allwords.split(" ") if len(x)>0]
-            n = len(set([x for x in allwords if x[0].isupper() and x in NAMES]))
-            sets.append((0,aset(str(n),'people','names',0)))
+            names = []
+            for s in story:
+                names.extend([x[0] for x in s['words'] if x[1]["NamedEntityTag"]=='PERSON'])
+            
+            n = len(set(names))
+            sets.append((0,aset(str(n),'person','names',0)))
     return sets
-
-
-
             
 def xAdjFix(sets):
     exes = [x[1] for x in sets if x[1].num=='x']
@@ -873,24 +880,13 @@ def xAdjFix(sets):
             x.adjs = " ".join(adjs)
     return sets
 
-def prune(sets):
-    x = [x[1] for x in sets if x[1].num=='x']
-    if len(x)>0:
-        x = x[0]
-        if x.adjs != None:
-            sets = [y for y in sets if y[1].adjs != None]
-            sets = [y for y in sets if x.adjs in y[1].adjs]
-        ents = [y[1].entity for y in sets if y[1].num!='x']
-        if x.entity in ents:
-            sets = [y for y in sets if y[1].entity == x.entity]
-    return sets
-
-
 def makesets(story):
     sets = extract_quantify(story)
+    print([(x[0],x[1].num) for x in sets])
     (sets, good) = question_entity(story, sets)
     sets = circumscription(story, sets)            
     sets = assert_question_entity(story, sets, good)
+    print([(x[0],x[1].num) for x in sets])
     sets = sorted(sets)
     # print("ee")
     # print([(x[0],x[1].entity,x[1].num) for x in sets])
@@ -898,12 +894,13 @@ def makesets(story):
     sets = containers(sets,story)
     #sets = circumscription(sets,story)
     #sets = oneSet(sets,story)
-    sets = uc.main(sets)
+    (sets, conv) = uc.main(sets)
     sets = add_bare_sets(sets,story)
     # print("units and bare sets")
     # print([(x[0],x[1].entity,x[1].num) for x in sets])
     sets = fix_each(sets)
     sets = fix_times(sets)
+    print([(x[0],x[1].num) for x in sets])
     # print('eac')
     # print([(x[0],x[1].entity,x[1].num) for x in sets])
     sets = move_x(sets,story)
@@ -913,19 +910,19 @@ def makesets(story):
     # print('target entity fix')
     #sets = oneEnt(sets)
     sets = xAdjFix(sets)
+    sets = [x for x in sets if (floatcheck(x[1].num) or x[1].num=='x')]
+    if conv == 0:
+        sets = oneSet(sets, story)
+    print([(x[0],x[1].num) for x in sets])
+    # is there x?
+    exes = [x for x in sets if x[1].num=='x']
+    if not exes:
+        sets.append((1000*(len(story)-1),aset('x','UNKNOWN','UNKNOWN',10000)))
+
     #sets = prune(sets)
     #print([(x[0],x[1].entity,x[1].num) for x in sets])
     #rewrite(sets,story)
     
-    i=0
-    #print(sets)
-    while i < len(sets):
-        x = sets[i]
-        if (not floatcheck(x[1].num)) and x[1].num != 'x':
-            sets.remove(x)
-        else:
-            i+=1
-
     #fix idx
     for idx,x in sets:
         x.idx = idx
@@ -981,7 +978,8 @@ if __name__ == "__main__":
             print(i, q[i])
         k = input()
         k=int(k)
-        problem = wps[k].lower()
+        problem = wps[k]
+
         print(problem)
         story = nlp.parse(problem)
         sets = makesets(story["sentences"])

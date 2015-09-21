@@ -1,0 +1,7 @@
+constants : 2 96
+unknowns : x
+operators : + - * / =
+objtypes : people muffin box
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 8.0

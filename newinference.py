@@ -7,6 +7,7 @@ import pickle
 from random import randint
 from train_local import get_k_eqs
 from train_local import read_parse
+from train_local import read_sets
 from train_local import parse_inp
 from functools import reduce
 sys.path.insert(0, '/Users/rikka/libsvm-3.18/python')
@@ -36,7 +37,6 @@ def make_eq(q,a,equations):
 
     for k in range(len(wps)):
         answers = get_k_eqs(equations[k],g=True,a=True)
-        if answers == []: continue
         seeneq = []
         seen = []
         for x in answers:
@@ -57,25 +57,24 @@ def make_eq(q,a,equations):
                 problem[i] = x[:-1]+" "+x[-1]
         problem = ' '.join(problem)
         problem = " " + problem + " "
+        print(equations[k])
         print(problem)
+        if len(answers)==0:print("0 Answers \nINCORRECT"); wrong += 1; continue
 
 
         #make story
-        #story = nlp.parse(problem)
         story = read_parse(int(equations[k]))
-        sets = makesets.makesets(story['sentences'])
+        #sets = makesets.makesets(story['sentences'])
+        sets = read_sets(int(equations[k]))
         i = 0
 
-        ######
         for x in sets:
             x[1].details()
-        #continue
 
         xidx = [i for i,x in enumerate(sets) if x[1].num=='x']
         if not xidx:
-            print("NO X WHY");continue
+            print("NO X WHY");wrong += 1; continue
 
-        #TODO look for 2 xes
         xidx = xidx[0]
 
 
@@ -86,8 +85,8 @@ def make_eq(q,a,equations):
         print(objs.items())
         consts = [x for x in answers[0][1].split(" ") if x not in ['(',')','+','-','/','*','=',]]
         present = [x for x in consts if x in objs]
-        if consts!=present: print(present,consts);print("missing thing");continue
-        if len([x for x in objs if x not in consts])>0: print("missing thing");continue
+        if consts!=present: print(present,consts);print("missing thing");wrong += 1; continue
+        if len([x for x in objs if x not in consts])>0: print("missing thing");wrong +=1;continue
         scores = []
 
 
@@ -108,6 +107,7 @@ def make_eq(q,a,equations):
             target = (target,objs[target])
 
             #find innermost parens?
+            print(eq)
             sides = []
             thisscore = []
             for i,compound in enumerate([l,r]):
@@ -132,11 +132,14 @@ def make_eq(q,a,equations):
                         exit()
                     score,c,vals = pute
                     thisscore.append(score)
+                    print(subeq,score)
                 sides.append(objs[compound[0]])
             p = sides[0]; e = sides[1]
             score = 1
             for s in thisscore: score *= s
-            score *= compute(p,'=',e,target,problem,story,order,score,cons)[0]
+            gscore = compute(p,'=',e,target,problem,story,order,score,cons)[0]
+            print("gscore ",gscore)
+            score *= gscore
             scores.append((score,j,eq,guess))
         scores = sorted(scores,reverse=True)
         righties = [x for x in scores if x[1]==1]
@@ -191,7 +194,6 @@ def compute(p,op,e,target,problem,story,order,score=None,cons=None):
 
 if __name__=="__main__":
     inp, mfile, gfile = sys.argv[1:4]
-    q,a,e = parse_inp(inp)
     multi = svm_load_model(mfile)
     glob = svm_load_model(gfile)
     #q, a = sys.argv[1:3]

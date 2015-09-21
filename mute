@@ -1,3007 +1,1963 @@
-0 0
-
+0
  Joan found 70 seashells on the beach . she gave Sam some of her seashells . She has 27 seashell left . How many seashells did she give to Sam  ? 
-1 ( 70 - x ) = 27
-0
-0
-0 70 = ( x / 27 )
+['( 70 - 27 ) = x', '( x + 27 ) = 70', '( 27 + x ) = 70', 'x = ( 70 - 27 )', '27 = ( 70 - x )', '( 70 - x ) = 27', '70 = ( x + 27 )', '70 = ( 27 + x )']
+dict_items([('70', (0, <makesets.aset object at 0x10ca866d8>)), ('27', (0, <makesets.aset object at 0x10ca86908>)), ('x', (0, <makesets.aset object at 0x10ca869e8>))])
+0 ( 70 - 27 ) = x
+1 ( x + 27 ) = 70
+2 ( 27 + x ) = 70
+3 x = ( 70 - 27 )
+4 27 = ( 70 - x )
+5 ( 70 - x ) = 27
+6 70 = ( x + 27 )
+7 70 = ( 27 + x )
 1
-0
-0 70 = ( x - 27 )
-1
-0
-1 70 = ( x + 27 )
-1
-0
-1 1
-
  There were 28 bales of hay in the barn . Tim stacked more bales in the barn today . There are now 54 bales of hay in the barn . How many bales did he store in the barn  ? 
-0 28 = ( x / 54 )
-1
-0
-1 ( 28 + x ) = 54
-0
-1
-2 3
-
+['( x + 28 ) = 54', '( 54 - 28 ) = x', '( 28 + x ) = 54', '54 = ( x + 28 )', '28 = ( 54 - x )', 'x = ( 54 - 28 )', '54 = ( 28 + x )', '( 54 - x ) = 28']
+dict_items([('x', (0, <makesets.aset object at 0x10ca860b8>)), ('54', (0, <makesets.aset object at 0x10ca864e0>)), ('28', (0, <makesets.aset object at 0x10ca866a0>))])
+0 ( x + 28 ) = 54
+1 ( 54 - 28 ) = x
+2 ( 28 + x ) = 54
+3 54 = ( x + 28 )
+4 28 = ( 54 - x )
+5 x = ( 54 - 28 )
+6 54 = ( 28 + x )
+7 ( 54 - x ) = 28
+2
+ After eating at the restaurant , Sally , Sam , and Alyssa decided to divide the bill evenly . If each person paid 45 dollars , what was the total of the bill  ? 
+3
  Mary is baking a cake . The recipe wants 8 cups of flour . She already put in 2 cups . How many more cups does she need to add  ? 
-0 ( 8 * 2 ) = x
-1
-2
-1 8 = ( 2 + x )
-2
-1
-1 ( 8 - 2 ) = x
-1
-1
-3 4
-
+['( 2 + x ) = 8', '2 = ( 8 - x )', '8 = ( 2 + x )', '8 = ( x + 2 )', 'x = ( 8 - 2 )', '( x + 2 ) = 8', '( 8 - x ) = 2', '( 8 - 2 ) = x']
+dict_items([('8', (0, <makesets.aset object at 0x1100c7a90>)), ('2', (0, <makesets.aset object at 0x10ca7eeb8>)), ('x', (0, <makesets.aset object at 0x10ca7ef98>))])
+0 ( 2 + x ) = 8
+1 2 = ( 8 - x )
+2 8 = ( 2 + x )
+3 8 = ( x + 2 )
+4 x = ( 8 - 2 )
+5 ( x + 2 ) = 8
+6 ( 8 - x ) = 2
+7 ( 8 - 2 ) = x
+4
  Sara's high school played 12 basketball games this year . The team won most of their games . They were defeated during 4 games . How many games did they win  ? 
-0 ( 12 / x ) = 4
-0
-1
-0 12 = ( x - 4 )
-1
-0
-1 12 = ( x + 4 )
-1
-0
-1 ( 12 - x ) = 4
-0
-0
-4 5
-
+['( 12 - 4 ) = x', '4 = ( 12 - x )', '( x + 4 ) = 12', '12 = ( x + 4 )', '12 = ( 4 + x )', '( 4 + x ) = 12', '( 12 - x ) = 4', 'x = ( 12 - 4 )']
+dict_items([('4', (0, <makesets.aset object at 0x1100e97f0>)), ('x', (0, <makesets.aset object at 0x1100e9908>)), ('12', (0, <makesets.aset object at 0x1100e9630>))])
+0 ( 12 - 4 ) = x
+1 4 = ( 12 - x )
+2 ( x + 4 ) = 12
+3 12 = ( x + 4 )
+4 12 = ( 4 + x )
+5 ( 4 + x ) = 12
+6 ( 12 - x ) = 4
+7 x = ( 12 - 4 )
+5
  There are 22 walnut trees currently in the park . Park workers will plant more walnut trees today . When the workers are finished there will be 55 walnut trees in the park . How many walnut trees did the workers plant today  ? 
-0 22 = ( x / 55 )
-1
-0
-1 ( 22 + x ) = 55
-0
-1
-5 6
-
+['x = ( 55 - 22 )', '( 55 - x ) = 22', '( x + 22 ) = 55', '55 = ( x + 22 )', '( 22 + x ) = 55', '55 = ( 22 + x )', '22 = ( 55 - x )', '( 55 - 22 ) = x']
+dict_items([('x', (0, <makesets.aset object at 0x10ca86748>)), ('22', (0, <makesets.aset object at 0x1100e95f8>)), ('55', (0, <makesets.aset object at 0x10ca864e0>))])
+0 x = ( 55 - 22 )
+1 ( 55 - x ) = 22
+2 ( x + 22 ) = 55
+3 55 = ( x + 22 )
+4 ( 22 + x ) = 55
+5 55 = ( 22 + x )
+6 22 = ( 55 - x )
+7 ( 55 - 22 ) = x
+6
  Mike had 34 peaches left at his roadside fruit stand . He went to the orchard and picked more peaches to stock up the stand . There are now 86 peaches at the stand , how many did he pick  ? 
-1 ( 34 + x ) = 86
-0
-1
-0 34 = ( x - 86 )
-1
-0
-6 7
-
+['( x + 34 ) = 86', 'x = ( 86 - 34 )', '86 = ( x + 34 )', '34 = ( 86 - x )', '( 86 - 34 ) = x', '86 = ( 34 + x )', '( 86 - x ) = 34', '( 34 + x ) = 86']
+dict_items([('x', (0, <makesets.aset object at 0x11011a860>)), ('34', (0, <makesets.aset object at 0x10fd89ba8>)), ('86', (0, <makesets.aset object at 0x11011ab38>))])
+0 ( x + 34 ) = 86
+1 x = ( 86 - 34 )
+2 86 = ( x + 34 )
+3 34 = ( 86 - x )
+4 ( 86 - 34 ) = x
+5 86 = ( 34 + x )
+6 ( 86 - x ) = 34
+7 ( 34 + x ) = 86
+7
  There were 6 roses in the vase . Mary cut some more roses from her flower garden . There are now 16 roses in the vase . How many roses did she cut  ? 
-1 ( 6 + x ) = 16
-0
-1
-0 6 = ( x / 16 )
-1
-0
-0 6 = ( x - 16 )
-1
-0
-7 8
-
+['( x + 6 ) = 16', '16 = ( 6 + x )', '6 = ( 16 - x )', '( 16 - x ) = 6', 'x = ( 16 - 6 )', '16 = ( x + 6 )', '( 16 - 6 ) = x', '( 6 + x ) = 16']
+dict_items([('6', (0, <makesets.aset object at 0x1100c7c88>)), ('x', (0, <makesets.aset object at 0x10ca84048>)), ('16', (0, <makesets.aset object at 0x10ca84128>))])
+0 ( x + 6 ) = 16
+1 16 = ( 6 + x )
+2 6 = ( 16 - x )
+3 ( 16 - x ) = 6
+4 x = ( 16 - 6 )
+5 16 = ( x + 6 )
+6 ( 16 - 6 ) = x
+7 ( 6 + x ) = 16
+8
  Benny bought a soft drink for 2 dollars and 5 candy bars . He spent a total of 27 dollars . How much did each candy bar cost  ? 
-1 ( 2 + ( 5 * x ) ) = 27
-0
-0
-0
-8 9
-
+['( 2 + ( x * 5 ) ) = 27', '( ( x * 5 ) + 2 ) = 27', '2 = ( 27 - ( 5 * x ) )', '2 = ( 27 - ( x * 5 ) )', '( 2 + ( 5 * x ) ) = 27', '( ( 5 * x ) + 2 ) = 27']
+dict_items([('27', (0, <makesets.aset object at 0x11016f5f8>)), ('x', (0, <makesets.aset object at 0x11016f588>)), ('5', (0, <makesets.aset object at 0x11016f4a8>)), ('2', (0, <makesets.aset object at 0x10ca84208>))])
+0 ( 2 + ( x * 5 ) ) = 27
+1 ( ( x * 5 ) + 2 ) = 27
+2 2 = ( 27 - ( 5 * x ) )
+3 2 = ( 27 - ( x * 5 ) )
+4 ( 2 + ( 5 * x ) ) = 27
+5 ( ( 5 * x ) + 2 ) = 27
+9
  Benny bought 4 new baseball trading cards to add to his collection . The next day his dog ate half of his collection . There are now only 34 cards left . How many cards did Benny start with  ? 
-1 ( ( x + 4 ) * 0.5 ) = 34
-0
-0
-1
-9 12
-
+['( ( 4 + x ) * 0.5 ) = 34', '( 0.5 * ( x + 4 ) ) = 34', '4 = ( ( 34 / 0.5 ) - x )', '( 0.5 * ( 4 + x ) ) = 34', '( ( x + 4 ) * 0.5 ) = 34']
+dict_items([('4', (0, <makesets.aset object at 0x10ca866d8>)), ('x', (0, <makesets.aset object at 0x11016f208>)), ('34', (0, <makesets.aset object at 0x10ca86240>)), ('0.5', (0, <makesets.aset object at 0x10ca86320>))])
+0 ( ( 4 + x ) * 0.5 ) = 34
+1 ( 0.5 * ( x + 4 ) ) = 34
+2 4 = ( ( 34 / 0.5 ) - x )
+3 ( 0.5 * ( 4 + x ) ) = 34
+4 ( ( x + 4 ) * 0.5 ) = 34
+10
+ Alyssa spent half of her allowance going to the movies . She washed the family car and earned 8 dollars . What is her weekly allowance if she ended with 12 dollars  ? 
+['( x + ( 0.5 * 8 ) ) = 12', '0.5 = ( ( 12 - 8 ) / x )', '( ( x * 0.5 ) + 8 ) = 12', '( ( 0.5 * 8 ) + x ) = 12']
+dict_items([('0.5', (0, <makesets.aset object at 0x10ca7eeb8>)), ('x', (0, <makesets.aset object at 0x11016f9b0>)), ('12', (0, <makesets.aset object at 0x11016fa58>)), ('8', (0, <makesets.aset object at 0x11016f978>))])
+0 ( x + ( 0.5 * 8 ) ) = 12
+1 0.5 = ( ( 12 - 8 ) / x )
+2 ( ( x * 0.5 ) + 8 ) = 12
+3 ( ( 0.5 * 8 ) + x ) = 12
+11
+ The sum of three consecutive even numbers is 162 . What is the smallest of the three numbers  ? 
+12
  Sam had 79 dollars to spend on 9 books . After buying them he had 16 dollars . How much did each book cost  ? 
-1 ( 79 - ( 9 * x ) ) = 16
-0
-0
-0
-1 79 = ( ( 9 * x ) + 16 )
-0
-0
-0
-10 13
-
- Oceanside Bike Rental Shop charges 17 dollars plus 7 dollars an hour for renting a bike . Tom paid 80 dollars to rent a bike . How many hours did he pay to have the bike checked out  ? 
-1 ( 17 + ( 7 * x ) ) = 80
-0
-0
-0
-11 14
-
- On Monday , 375 students went on a trip to the zoo . All 7 buses were filled and 4 students had to travel in cars . How many students were in each bus  ? 
-12 15
-
+['( ( 79 - 16 ) / 9 ) = x', '79 = ( ( x * 9 ) + 16 )', '79 = ( 16 + ( x * 9 ) )', 'x = ( ( 79 - 16 ) / 9 )', '( 79 - ( 9 * x ) ) = 16', '( 79 - ( x * 9 ) ) = 16', '79 = ( 16 + ( 9 * x ) )', '79 = ( ( 9 * x ) + 16 )']
+dict_items([('x', (0, <makesets.aset object at 0x110190240>)), ('9', (0, <makesets.aset object at 0x110190908>)), ('16', (0, <makesets.aset object at 0x1101907f0>)), ('79', (0, <makesets.aset object at 0x1101d1d68>))])
+0 ( ( 79 - 16 ) / 9 ) = x
+1 79 = ( ( x * 9 ) + 16 )
+2 79 = ( 16 + ( x * 9 ) )
+3 x = ( ( 79 - 16 ) / 9 )
+4 ( 79 - ( 9 * x ) ) = 16
+5 ( 79 - ( x * 9 ) ) = 16
+6 79 = ( 16 + ( 9 * x ) )
+7 79 = ( ( 9 * x ) + 16 )
+13
  Sandy sold half of her comic books and then bought 6 more . She now has 13 . How many did she begin with  ? 
-1 ( ( x * 0.5 ) + 6 ) = 13
-0
-0
-0
-13 17
-
+['( ( x * 0.5 ) + 6 ) = 13', '( 6 + ( 0.5 * x ) ) = 13', '( 6 + ( x * 0.5 ) ) = 13', '( ( 0.5 * x ) + 6 ) = 13']
+dict_items([('6', (0, <makesets.aset object at 0x11016f1d0>)), ('x', (0, <makesets.aset object at 0x10ca84320>)), ('13', (0, <makesets.aset object at 0x11016f198>)), ('0.5', (0, <makesets.aset object at 0x1100c7c88>))])
+0 ( ( x * 0.5 ) + 6 ) = 13
+1 ( 6 + ( 0.5 * x ) ) = 13
+2 ( 6 + ( x * 0.5 ) ) = 13
+3 ( ( 0.5 * x ) + 6 ) = 13
+14
+ The sum of three consecutive odd numbers is 69 . What is the smallest of the three numbers  ? 
+15
  Joan went to 4 football games this year . She went to 9 games last year . How many football games did Joan go to in all  ? 
-1 ( 4 + 9 ) = x
-0
-1
-0 ( 4 * 9 ) = x
-0
-1
-0 4 = ( 9 - x )
-1
-0
-14 18
-
- Tom has 9 yellow balloons Sara has 8 yellow balloons . How many yellow balloons do they have in total  ? 
-0 ( 9 - 8 ) = x
-0
-0
-0 9 = ( 8 + x )
-0
-0
-1 ( 9 + 8 ) = x
-0
-0
-15 19
-
- There are 4 walnut trees currently in the park . Park workers will plant 6 more walnut trees today . How many walnut trees will the park have when the workers are finished  ? 
-0 4 = ( 6 - x )
-1
-0
-1 ( 4 + 6 ) = x
-0
-1
-16 20
-
- Sam had 9 dimes in his bank . His dad gave him 7 more dimes . How many dimes does Sam have now  ? 
-0 9 = ( 7 + x )
-1
-0
-1 ( 9 + 7 ) = x
-0
-1
-0 ( 9 * 7 ) = x
-0
-1
-17 21
-
+['( x - 9 ) = 4', '( x - 4 ) = 9', '( 4 + 9 ) = x', '4 = ( x - 9 )', 'x = ( 4 + 9 )', '9 = ( x - 4 )']
+dict_items([('4', (0, <makesets.aset object at 0x10ca84128>)), ('x', (0, <makesets.aset object at 0x1101d5710>)), ('9', (0, <makesets.aset object at 0x1101d5438>))])
+0 ( x - 9 ) = 4
+1 ( x - 4 ) = 9
+2 ( 4 + 9 ) = x
+3 4 = ( x - 9 )
+4 x = ( 4 + 9 )
+5 9 = ( x - 4 )
+16
  Alyssa's dog had puppies . She gave 7 to her friends .  She now has 5 puppies left . How many puppies did she have to start with  ? 
-0 x = ( 7 - 5 )
-1
-0
-0 x = ( 7 * 5 )
-1
-0
+['5 = ( x - 7 )', 'x = ( 7 + 5 )', '( 7 + 5 ) = x', '( x - 5 ) = 7', '( x - 7 ) = 5', '7 = ( x - 5 )']
+dict_items([('x', (0, <makesets.aset object at 0x1100c7d30>)), ('5', (0, <makesets.aset object at 0x11016c5f8>)), ('7', (0, <makesets.aset object at 0x11016c6d8>))])
+0 5 = ( x - 7 )
 1 x = ( 7 + 5 )
-1
-0
-1 ( x - 7 ) = 5
-0
-0
-18 22
-
- A restaurant served 9 pizzas during lunch and 6 during dinner today . How many pizzas were served today  ? 
-0 ( 9 * 6 ) = x
-0
-0
-0 ( 9 - 6 ) = x
-0
-0
-1 ( 9 + 6 ) = x
-0
-0
-19 24
-
- Joan found 6 seashells and Jessica found 8 seashells on the beach . How many seashells did they find together  ? 
-0 ( 6 * 8 ) = x
-0
-0
-1 ( 6 + 8 ) = x
-0
-0
-20 25
-
- Sandy grew 6 carrots . Sam grew 3 carrots . How many carrots did they grow in total  ? 
-1 ( 6 + 3 ) = x
-0
-1
-21 26
-
- Benny picked 2 apples and Dan picked 9 apples from the apple tree . How many apples were picked in total  ? 
-1 ( 2 + 9 ) = x
-0
-0
-22 28
-
+2 ( 7 + 5 ) = x
+3 ( x - 5 ) = 7
+4 ( x - 7 ) = 5
+5 7 = ( x - 5 )
+17
+ There are 2 pencils in the drawer . Tim placed 3 more pencils in the drawer . How many pencils are now there in total  ? 
+['( x - 3 ) = 2', '2 = ( x - 3 )', 'x = ( 2 + 3 )', '3 = ( x - 2 )', '( 2 + 3 ) = x', '( x - 2 ) = 3']
+dict_items([('x', (0, <makesets.aset object at 0x1101d5f28>)), ('2', (0, <makesets.aset object at 0x1101d5278>)), ('3', (0, <makesets.aset object at 0x1101d5c50>))])
+0 ( x - 3 ) = 2
+1 2 = ( x - 3 )
+2 x = ( 2 + 3 )
+3 3 = ( x - 2 )
+4 ( 2 + 3 ) = x
+5 ( x - 2 ) = 3
+18
+ Sally found 9 seashells , Tom found 7 seashells , and Jessica found 5 seashells on the beach . How many seashells did they find together  ? 
+['x = ( 7 + ( 9 + 5 ) )', '( ( 9 + 7 ) + 5 ) = x', '7 = ( x - ( 9 + 5 ) )', '( ( x - 9 ) - 7 ) = 5', '( 9 + ( 7 + 5 ) ) = x', '( ( 9 + 5 ) + 7 ) = x', 'x = ( ( 9 + 5 ) + 7 )', '7 = ( ( x - 9 ) - 5 )', 'x = ( 9 + ( 7 + 5 ) )', '( ( x - 7 ) - 9 ) = 5', '9 = ( x - ( 7 + 5 ) )', '( x - 9 ) = ( 7 + 5 )', '( 7 + ( 9 + 5 ) ) = x', 'x = ( ( 9 + 7 ) + 5 )', '( x - ( 9 + 5 ) ) = 7', '( x - ( 9 + 7 ) ) = 5', '9 = ( ( x - 7 ) - 5 )']
+dict_items([('7', (0, <makesets.aset object at 0x11016c1d0>)), ('9', (0, <makesets.aset object at 0x11016c9e8>)), ('5', (0, <makesets.aset object at 0x11016c278>)), ('x', (0, <makesets.aset object at 0x11016c438>))])
+0 x = ( 7 + ( 9 + 5 ) )
+1 ( ( 9 + 7 ) + 5 ) = x
+2 7 = ( x - ( 9 + 5 ) )
+3 ( ( x - 9 ) - 7 ) = 5
+4 ( 9 + ( 7 + 5 ) ) = x
+5 ( ( 9 + 5 ) + 7 ) = x
+6 x = ( ( 9 + 5 ) + 7 )
+7 7 = ( ( x - 9 ) - 5 )
+8 x = ( 9 + ( 7 + 5 ) )
+9 ( ( x - 7 ) - 9 ) = 5
+10 9 = ( x - ( 7 + 5 ) )
+11 ( x - 9 ) = ( 7 + 5 )
+12 ( 7 + ( 9 + 5 ) ) = x
+13 x = ( ( 9 + 7 ) + 5 )
+14 ( x - ( 9 + 5 ) ) = 7
+15 ( x - ( 9 + 7 ) ) = 5
+16 9 = ( ( x - 7 ) - 5 )
+19
  Tim's cat had kittens . He gave 3 to Jessica and 6 to Sara . He now has 9 kittens left . How many kittens did he have to start with  ? 
-0 x = ( ( 3 + 6 ) / 9 )
-1
-1
-0
-0 x = ( 3 + ( 6 - 9 ) )
-1
-1
-0
-0 x = ( ( 3 + 6 ) - 9 )
-1
-1
-0
-1 ( x - ( 3 + 6 ) ) = 9
-1
-0
-0
-1 x = ( ( 3 + 6 ) + 9 )
-1
-1
-0
-1 x = ( 3 + ( 6 + 9 ) )
-1
-1
-0
-23 29
-
+['6 = ( ( x - 3 ) - 9 )', 'x = ( 6 + ( 3 + 9 ) )', 'x = ( ( 3 + 9 ) + 6 )', '( 6 + ( 3 + 9 ) ) = x', '( ( 3 + 9 ) + 6 ) = x', 'x = ( 3 + ( 6 + 9 ) )', '( 3 + ( 6 + 9 ) ) = x', '( ( 3 + 6 ) + 9 ) = x', 'x = ( ( 3 + 6 ) + 9 )', '( ( x - 3 ) - 6 ) = 9', '3 = ( ( x - 6 ) - 9 )', '3 = ( x - ( 6 + 9 ) )', '( x - ( 3 + 6 ) ) = 9', '( x - 3 ) = ( 6 + 9 )']
+dict_items([('6', (0, <makesets.aset object at 0x1101d1dd8>)), ('x', (0, <makesets.aset object at 0x1101d1e10>)), ('9', (0, <makesets.aset object at 0x1101d10f0>)), ('3', (0, <makesets.aset object at 0x1101d1f60>))])
+0 6 = ( ( x - 3 ) - 9 )
+1 x = ( 6 + ( 3 + 9 ) )
+2 x = ( ( 3 + 9 ) + 6 )
+3 ( 6 + ( 3 + 9 ) ) = x
+4 ( ( 3 + 9 ) + 6 ) = x
+5 x = ( 3 + ( 6 + 9 ) )
+6 ( 3 + ( 6 + 9 ) ) = x
+7 ( ( 3 + 6 ) + 9 ) = x
+8 x = ( ( 3 + 6 ) + 9 )
+9 ( ( x - 3 ) - 6 ) = 9
+10 3 = ( ( x - 6 ) - 9 )
+11 3 = ( x - ( 6 + 9 ) )
+12 ( x - ( 3 + 6 ) ) = 9
+13 ( x - 3 ) = ( 6 + 9 )
+20
  Joan has 9 blue balloons , Sally has 5 blue balloons , and Jessica has  2 blue balloons . How many blue balloons do they have in total  ? 
-0 ( 9 + ( 5 - 2 ) ) = x
-0
-0
-0
-0 ( ( 9 * 5 ) + 2 ) = x
-0
-0
-0
-1 ( ( 9 + 5 ) + 2 ) = x
-0
-0
-0
-1 ( 9 + ( 5 + 2 ) ) = x
-0
-0
-0
-24 30
-
+['( 5 + ( 9 + 2 ) ) = x', '( x - ( 9 + 5 ) ) = 2', '( ( 9 + 5 ) + 2 ) = x', '( x - 9 ) = ( 5 + 2 )', '5 = ( ( x - 9 ) - 2 )', '( ( x - 9 ) - 5 ) = 2', 'x = ( ( 9 + 5 ) + 2 )', '( x - ( 9 + 2 ) ) = 5', '9 = ( x - ( 5 + 2 ) )', '9 = ( ( x - 5 ) - 2 )', 'x = ( 9 + ( 5 + 2 ) )', '( ( x - 5 ) - 9 ) = 2', '( ( 9 + 2 ) + 5 ) = x', '5 = ( x - ( 9 + 2 ) )', '( 9 + ( 5 + 2 ) ) = x', 'x = ( 5 + ( 9 + 2 ) )', 'x = ( ( 9 + 2 ) + 5 )']
+dict_items([('x', (0, <makesets.aset object at 0x1101d5c50>)), ('9', (0, <makesets.aset object at 0x1101d11d0>)), ('2', (0, <makesets.aset object at 0x1101d5cf8>)), ('5', (0, <makesets.aset object at 0x1101d5f28>))])
+0 ( 5 + ( 9 + 2 ) ) = x
+1 ( x - ( 9 + 5 ) ) = 2
+2 ( ( 9 + 5 ) + 2 ) = x
+3 ( x - 9 ) = ( 5 + 2 )
+4 5 = ( ( x - 9 ) - 2 )
+5 ( ( x - 9 ) - 5 ) = 2
+6 x = ( ( 9 + 5 ) + 2 )
+7 ( x - ( 9 + 2 ) ) = 5
+8 9 = ( x - ( 5 + 2 ) )
+9 9 = ( ( x - 5 ) - 2 )
+10 x = ( 9 + ( 5 + 2 ) )
+11 ( ( x - 5 ) - 9 ) = 2
+12 ( ( 9 + 2 ) + 5 ) = x
+13 5 = ( x - ( 9 + 2 ) )
+14 ( 9 + ( 5 + 2 ) ) = x
+15 x = ( 5 + ( 9 + 2 ) )
+16 x = ( ( 9 + 2 ) + 5 )
+21
  Melanie had 7 dimes in her bank . Her dad gave her 8 dimes and her mother gave her 4 dimes . How many dimes does Melanie have now  ? 
-0 ( 7 + ( 8 * 4 ) ) = x
-1
-0
-1
-1 ( ( 7 + 8 ) + 4 ) = x
-0
-1
-1
-0 ( ( 7 + 8 ) * 4 ) = x
-0
-1
-1
-1 ( 7 + ( 8 + 4 ) ) = x
-1
-0
-1
-25 31
-
- A restaurant served 5 cakes during lunch and 6 during dinner today . The restaurant served 3 cakes yesterday . How many cakes were served in total  ? 
-0 ( ( 5 * 6 ) + 3 ) = x
-0
-0
-1
-0 ( ( 5 + 6 ) - 3 ) = x
-0
-0
-0
-0 ( 5 - ( 6 - 3 ) ) = x
-0
-0
-0
-1 ( 5 + ( 6 + 3 ) ) = x
-0
-0
-1
-1 ( ( 5 + 6 ) + 3 ) = x
-0
-0
-1
-26 33
-
+['( 8 + ( 7 + 4 ) ) = x', '( x - ( 7 + 4 ) ) = 8', 'x = ( ( 7 + 8 ) + 4 )', 'x = ( 7 + ( 8 + 4 ) )', '8 = ( x - ( 7 + 4 ) )', '( x - 7 ) = ( 8 + 4 )', '7 = ( ( x - 8 ) - 4 )', '( 7 + ( 8 + 4 ) ) = x', '( x - ( 7 + 8 ) ) = 4', '7 = ( x - ( 8 + 4 ) )', 'x = ( 8 + ( 7 + 4 ) )', '( ( x - 7 ) - 8 ) = 4', '( ( 7 + 4 ) + 8 ) = x', '( ( 7 + 8 ) + 4 ) = x', 'x = ( ( 7 + 4 ) + 8 )', '8 = ( ( x - 7 ) - 4 )', '( ( x - 8 ) - 7 ) = 4']
+dict_items([('4', (0, <makesets.aset object at 0x110221908>)), ('7', (0, <makesets.aset object at 0x1100e9048>)), ('x', (0, <makesets.aset object at 0x110221978>)), ('8', (0, <makesets.aset object at 0x110221278>))])
+0 ( 8 + ( 7 + 4 ) ) = x
+1 ( x - ( 7 + 4 ) ) = 8
+2 x = ( ( 7 + 8 ) + 4 )
+3 x = ( 7 + ( 8 + 4 ) )
+4 8 = ( x - ( 7 + 4 ) )
+5 ( x - 7 ) = ( 8 + 4 )
+6 7 = ( ( x - 8 ) - 4 )
+7 ( 7 + ( 8 + 4 ) ) = x
+8 ( x - ( 7 + 8 ) ) = 4
+9 7 = ( x - ( 8 + 4 ) )
+10 x = ( 8 + ( 7 + 4 ) )
+11 ( ( x - 7 ) - 8 ) = 4
+12 ( ( 7 + 4 ) + 8 ) = x
+13 ( ( 7 + 8 ) + 4 ) = x
+14 x = ( ( 7 + 4 ) + 8 )
+15 8 = ( ( x - 7 ) - 4 )
+16 ( ( x - 8 ) - 7 ) = 4
+22
+ Melanie picked 4 plums , Dan picked 9 plums , and Sally picked 3 plums from the plum tree . How many plums were picked in total  ? 
+['( ( x - 4 ) - 9 ) = 3', '( 4 + ( 9 + 3 ) ) = x', 'x = ( 9 + ( 4 + 3 ) )', '( 9 + ( 4 + 3 ) ) = x', '( x - ( 4 + 3 ) ) = 9', '9 = ( x - ( 4 + 3 ) )', '( ( 4 + 9 ) + 3 ) = x', '( x - 4 ) = ( 9 + 3 )', '( ( x - 9 ) - 4 ) = 3', '4 = ( x - ( 9 + 3 ) )', 'x = ( ( 4 + 3 ) + 9 )', 'x = ( 4 + ( 9 + 3 ) )', 'x = ( ( 4 + 9 ) + 3 )', '( ( 4 + 3 ) + 9 ) = x', '9 = ( ( x - 4 ) - 3 )', '( x - ( 4 + 9 ) ) = 3', '4 = ( ( x - 9 ) - 3 )']
+dict_items([('4', (0, <makesets.aset object at 0x10fd89ba8>)), ('x', (0, <makesets.aset object at 0x110224d68>)), ('9', (0, <makesets.aset object at 0x1102240f0>)), ('3', (0, <makesets.aset object at 0x110224160>))])
+0 ( ( x - 4 ) - 9 ) = 3
+1 ( 4 + ( 9 + 3 ) ) = x
+2 x = ( 9 + ( 4 + 3 ) )
+3 ( 9 + ( 4 + 3 ) ) = x
+4 ( x - ( 4 + 3 ) ) = 9
+5 9 = ( x - ( 4 + 3 ) )
+6 ( ( 4 + 9 ) + 3 ) = x
+7 ( x - 4 ) = ( 9 + 3 )
+8 ( ( x - 9 ) - 4 ) = 3
+9 4 = ( x - ( 9 + 3 ) )
+10 x = ( ( 4 + 3 ) + 9 )
+11 x = ( 4 + ( 9 + 3 ) )
+12 x = ( ( 4 + 9 ) + 3 )
+13 ( ( 4 + 3 ) + 9 ) = x
+14 9 = ( ( x - 4 ) - 3 )
+15 ( x - ( 4 + 9 ) ) = 3
+16 4 = ( ( x - 9 ) - 3 )
+23
  There are 7 dogwood trees currently in the park . Park workers will plant 3 more dogwood trees today and 2 more dogwood trees tomorrow . How many dogwood trees will the park have when the workers are finished  ? 
-0 7 = ( ( 3 * 2 ) + x )
-1
-1
-0
-1 ( 7 + ( 3 + 2 ) ) = x
-1
-0
-1
-0 ( ( 7 + 3 ) - 2 ) = x
-0
-1
-1
-0 ( 7 * ( 3 + 2 ) ) = x
-1
-0
-1
-1 ( ( 7 + 3 ) + 2 ) = x
-0
-1
-1
-27 34
-
- Sara grew 4 onions , Sally grew 5 onions , and Fred grew  9 onions . How many onions did they grow in all  ? 
-1 ( 4 + ( 5 + 9 ) ) = x
-0
-0
-0
-1 ( ( 4 + 5 ) + 9 ) = x
-0
-0
-0
-28 35
-
- Sam found 18 seashells and Mary found 47 seashells on the beach . How many seashells did they find together  ? 
-1 ( 18 + 47 ) = x
-0
-0
-29 37
-
+['( 7 + ( 3 + 2 ) ) = x', '( x - ( 7 + 3 ) ) = 2', '( ( 7 + 3 ) + 2 ) = x', '7 = ( ( x - 3 ) - 2 )', '7 = ( x - ( 3 + 2 ) )', 'x = ( 7 + ( 3 + 2 ) )', '( ( x - 7 ) - 3 ) = 2', 'x = ( ( 7 + 3 ) + 2 )', '( 3 + ( 7 + 2 ) ) = x']
+dict_items([('7', (0, <makesets.aset object at 0x1100c7d30>)), ('x', (0, <makesets.aset object at 0x110190438>)), ('2', (0, <makesets.aset object at 0x1101909b0>)), ('3', (0, <makesets.aset object at 0x110190908>))])
+0 ( 7 + ( 3 + 2 ) ) = x
+1 ( x - ( 7 + 3 ) ) = 2
+2 ( ( 7 + 3 ) + 2 ) = x
+3 7 = ( ( x - 3 ) - 2 )
+4 7 = ( x - ( 3 + 2 ) )
+5 x = ( 7 + ( 3 + 2 ) )
+6 ( ( x - 7 ) - 3 ) = 2
+7 x = ( ( 7 + 3 ) + 2 )
+8 ( 3 + ( 7 + 2 ) ) = x
+24
+ Sara picked 45 pears and Sally picked 11 pears from the pear tree . How many pears were picked in total  ? 
+['45 = ( x - 11 )', 'x = ( 45 + 11 )', '( x - 11 ) = 45', '11 = ( x - 45 )', '( 45 + 11 ) = x', '( x - 45 ) = 11']
+dict_items([('x', (0, <makesets.aset object at 0x110190208>)), ('11', (0, <makesets.aset object at 0x11016c550>)), ('45', (0, <makesets.aset object at 0x10ca7e9e8>))])
+0 45 = ( x - 11 )
+1 x = ( 45 + 11 )
+2 ( x - 11 ) = 45
+3 11 = ( x - 45 )
+4 ( 45 + 11 ) = x
+5 ( x - 45 ) = 11
+25
  Keith has 20 books . Jason has 21 books .  How many books do they have together  ? 
-0 ( 20 * 21 ) = x
-0
-1
-1 ( 20 + 21 ) = x
-0
-1
-30 38
-
+['( x - 20 ) = 21', '20 = ( x - 21 )', '( 20 + 21 ) = x', '( x - 21 ) = 20', 'x = ( 20 + 21 )', '21 = ( x - 20 )']
+dict_items([('20', (0, <makesets.aset object at 0x10ca84128>)), ('x', (0, <makesets.aset object at 0x1102649b0>)), ('21', (0, <makesets.aset object at 0x110264898>))])
+0 ( x - 20 ) = 21
+1 20 = ( x - 21 )
+2 ( 20 + 21 ) = x
+3 ( x - 21 ) = 20
+4 x = ( 20 + 21 )
+5 21 = ( x - 20 )
+26
  Jason had 49 quarters in his bank . His dad gave him 25 more quarters . How many quarters does he have now  ? 
-0 ( 49 * 25 ) = x
-0
-1
-1 ( 49 + 25 ) = x
-0
-1
-31 40
-
+['25 = ( x - 49 )', '( x - 49 ) = 25', '( 49 + 25 ) = x', '49 = ( x - 25 )', '( x - 25 ) = 49', 'x = ( 49 + 25 )']
+dict_items([('x', (0, <makesets.aset object at 0x1100c7da0>)), ('25', (0, <makesets.aset object at 0x11016c978>)), ('49', (0, <makesets.aset object at 0x10ca84198>))])
+0 25 = ( x - 49 )
+1 ( x - 49 ) = 25
+2 ( 49 + 25 ) = x
+3 49 = ( x - 25 )
+4 ( x - 25 ) = 49
+5 x = ( 49 + 25 )
+27
+ There are 33 walnut trees currently in the park . Park workers will plant  44 more walnut trees today . How many walnut trees will the park have when the workers are finished  ? 
+['( x - 33 ) = 44', '44 = ( x - 33 )', '33 = ( x - 44 )', '( x - 44 ) = 33', '( 33 + 44 ) = x', 'x = ( 33 + 44 )']
+dict_items([('x', (0, <makesets.aset object at 0x1101d13c8>)), ('33', (0, <makesets.aset object at 0x11016f5f8>)), ('44', (0, <makesets.aset object at 0x1101d1940>))])
+0 ( x - 33 ) = 44
+1 44 = ( x - 33 )
+2 33 = ( x - 44 )
+3 ( x - 44 ) = 33
+4 ( 33 + 44 ) = x
+5 x = ( 33 + 44 )
+28
  Sara had 21 quarters in her bank . Her dad gave her 49 more quarters . How many quarters does she have now  ? 
-0 ( 21 * 49 ) = x
-0
-1
-1 ( 21 + 49 ) = x
-0
-1
-32 41
-
+['( x - 21 ) = 49', 'x = ( 21 + 49 )', '( x - 49 ) = 21', '49 = ( x - 21 )', '( 21 + 49 ) = x', '21 = ( x - 49 )']
+dict_items([('x', (0, <makesets.aset object at 0x11016f160>)), ('49', (0, <makesets.aset object at 0x11016f278>)), ('21', (0, <makesets.aset object at 0x1102135c0>))])
+0 ( x - 21 ) = 49
+1 x = ( 21 + 49 )
+2 ( x - 49 ) = 21
+3 49 = ( x - 21 )
+4 ( 21 + 49 ) = x
+5 21 = ( x - 49 )
+29
  There are 41 pencils in the drawer . Mike placed 30 more  pencils in the drawer . How many pencils are now there in total  ? 
-0 ( 41 * 30 ) = x
-0
-1
-1 ( 41 + 30 ) = x
-0
-1
-33 42
-
+['( 41 + 30 ) = x', '41 = ( x - 30 )', '30 = ( x - 41 )', '( x - 41 ) = 30', 'x = ( 41 + 30 )', '( x - 30 ) = 41']
+dict_items([('41', (0, <makesets.aset object at 0x110190630>)), ('x', (0, <makesets.aset object at 0x110190908>)), ('30', (0, <makesets.aset object at 0x110190748>))])
+0 ( 41 + 30 ) = x
+1 41 = ( x - 30 )
+2 30 = ( x - 41 )
+3 ( x - 41 ) = 30
+4 x = ( 41 + 30 )
+5 ( x - 30 ) = 41
+30
  Joan has 10 books . Tom has 38 books .  How many books do they have together  ? 
-0 ( 10 * 38 ) = x
-0
-1
-1 ( 10 + 38 ) = x
-0
-1
-34 43
-
+['( 10 + 38 ) = x', '( x - 38 ) = 10', '10 = ( x - 38 )', '38 = ( x - 10 )', 'x = ( 10 + 38 )', '( x - 10 ) = 38']
+dict_items([('x', (0, <makesets.aset object at 0x1101d1e80>)), ('10', (0, <makesets.aset object at 0x1100e9048>)), ('38', (0, <makesets.aset object at 0x1101d1940>))])
+0 ( 10 + 38 ) = x
+1 ( x - 38 ) = 10
+2 10 = ( x - 38 )
+3 38 = ( x - 10 )
+4 x = ( 10 + 38 )
+5 ( x - 10 ) = 38
+31
  Joan has 40 blue balloons Melanie has 41 blue balloons . How many blue balloons do they have in total  ? 
-1 ( 40 + 41 ) = x
-0
-0
-35 44
-
+['40 = ( x - 41 )', '( x - 41 ) = 40', '41 = ( x - 40 )', '( x - 40 ) = 41', '( 40 + 41 ) = x', 'x = ( 40 + 41 )']
+dict_items([('41', (0, <makesets.aset object at 0x11016c588>)), ('x', (0, <makesets.aset object at 0x11016cd30>)), ('40', (0, <makesets.aset object at 0x1101d1198>))])
+0 40 = ( x - 41 )
+1 ( x - 41 ) = 40
+2 41 = ( x - 40 )
+3 ( x - 40 ) = 41
+4 ( 40 + 41 ) = x
+5 x = ( 40 + 41 )
+32
  Fred grew 38 cantelopes . Tim grew 44 cantelopes . How many cantelopes did they grow in total  ? 
-0 ( 38 * 44 ) = x
-0
-1
-1 ( 38 + 44 ) = x
-0
-1
-36 45
-
+['38 = ( x - 44 )', '44 = ( x - 38 )', '( x - 44 ) = 38', '( 38 + 44 ) = x', '( x - 38 ) = 44', 'x = ( 38 + 44 )']
+dict_items([('x', (0, <makesets.aset object at 0x110190240>)), ('38', (0, <makesets.aset object at 0x10fd89ba8>)), ('44', (0, <makesets.aset object at 0x110190630>))])
+0 38 = ( x - 44 )
+1 44 = ( x - 38 )
+2 ( x - 44 ) = 38
+3 ( 38 + 44 ) = x
+4 ( x - 38 ) = 44
+5 x = ( 38 + 44 )
+33
  Sam went to 14 football games this year . He went to 29 games  last year . How many football games did Sam go to in all  ? 
-0 ( 14 * 29 ) = x
-0
-1
-1 ( 14 + 29 ) = x
-0
-1
-37 46
-
+['14 = ( x - 29 )', '( x - 14 ) = 29', '( 14 + 29 ) = x', '29 = ( x - 14 )', 'x = ( 14 + 29 )', '( x - 29 ) = 14']
+dict_items([('x', (0, <makesets.aset object at 0x11016c780>)), ('29', (0, <makesets.aset object at 0x11016c630>)), ('14', (0, <makesets.aset object at 0x110190208>))])
+0 14 = ( x - 29 )
+1 ( x - 14 ) = 29
+2 ( 14 + 29 ) = x
+3 29 = ( x - 14 )
+4 x = ( 14 + 29 )
+5 ( x - 29 ) = 14
+34
  Mary found 18 seashells and Jessica found 41 seashells on the beach . How many seashells did they find together  ? 
-1 ( 18 + 41 ) = x
-0
-0
-38 48
-
+['x = ( 18 + 41 )', '( x - 18 ) = 41', '( 18 + 41 ) = x', '41 = ( x - 18 )', '18 = ( x - 41 )', '( x - 41 ) = 18']
+dict_items([('41', (0, <makesets.aset object at 0x10ca869b0>)), ('x', (0, <makesets.aset object at 0x10ca86860>)), ('18', (0, <makesets.aset object at 0x1101d16a0>))])
+0 x = ( 18 + 41 )
+1 ( x - 18 ) = 41
+2 ( 18 + 41 ) = x
+3 41 = ( x - 18 )
+4 18 = ( x - 41 )
+5 ( x - 41 ) = 18
+35
+ There are 39 dogwood trees currently in the park . Park workers will plant  41 more dogwood trees today and 20 more dogwood trees tomorrow . How many dogwood trees will the park have when the workers are finished  ? 
+['x = ( ( 39 + 41 ) + 20 )', '( ( 39 + 20 ) + 41 ) = x', '39 = ( x - ( 41 + 20 ) )', '( ( 39 + 41 ) + 20 ) = x', 'x = ( 41 + ( 39 + 20 ) )', '39 = ( ( x - 41 ) - 20 )', 'x = ( 39 + ( 41 + 20 ) )', '( 39 + ( 41 + 20 ) ) = x', '( ( x - 39 ) - 41 ) = 20', 'x = ( ( 39 + 20 ) + 41 )', '( x - ( 39 + 41 ) ) = 20', '( 41 + ( 39 + 20 ) ) = x']
+dict_items([('41', (0, <makesets.aset object at 0x1100c7da0>)), ('39', (0, <makesets.aset object at 0x11016ce48>)), ('x', (0, <makesets.aset object at 0x11016f940>)), ('20', (0, <makesets.aset object at 0x110264630>))])
+0 x = ( ( 39 + 41 ) + 20 )
+1 ( ( 39 + 20 ) + 41 ) = x
+2 39 = ( x - ( 41 + 20 ) )
+3 ( ( 39 + 41 ) + 20 ) = x
+4 x = ( 41 + ( 39 + 20 ) )
+5 39 = ( ( x - 41 ) - 20 )
+6 x = ( 39 + ( 41 + 20 ) )
+7 ( 39 + ( 41 + 20 ) ) = x
+8 ( ( x - 39 ) - 41 ) = 20
+9 x = ( ( 39 + 20 ) + 41 )
+10 ( x - ( 39 + 41 ) ) = 20
+11 ( 41 + ( 39 + 20 ) ) = x
+36
  Sandy has 10 books , Benny has 24 books , and Tim has  33 books . How many books do they have together  ? 
-0 ( ( 10 * 24 ) + 33 ) = x
-0
-0
-0
-1 ( 10 + ( 24 + 33 ) ) = x
-0
-0
-0
-1 ( ( 10 + 24 ) + 33 ) = x
-0
-0
-0
-39 51
-
+['( x - 10 ) = ( 24 + 33 )', '( 24 + ( 10 + 33 ) ) = x', '24 = ( ( x - 10 ) - 33 )', '( x - ( 10 + 33 ) ) = 24', 'x = ( ( 10 + 24 ) + 33 )', '( ( x - 24 ) - 10 ) = 33', '24 = ( x - ( 10 + 33 ) )', 'x = ( ( 10 + 33 ) + 24 )', '( ( 10 + 24 ) + 33 ) = x', '10 = ( ( x - 24 ) - 33 )', '( ( x - 10 ) - 24 ) = 33', '( 10 + ( 24 + 33 ) ) = x', '( x - ( 10 + 24 ) ) = 33', 'x = ( 24 + ( 10 + 33 ) )', '( ( 10 + 33 ) + 24 ) = x', 'x = ( 10 + ( 24 + 33 ) )', '10 = ( x - ( 24 + 33 ) )']
+dict_items([('x', (0, <makesets.aset object at 0x11016ccc0>)), ('10', (0, <makesets.aset object at 0x11016c198>)), ('24', (0, <makesets.aset object at 0x11016c3c8>)), ('33', (0, <makesets.aset object at 0x11016c8d0>))])
+0 ( x - 10 ) = ( 24 + 33 )
+1 ( 24 + ( 10 + 33 ) ) = x
+2 24 = ( ( x - 10 ) - 33 )
+3 ( x - ( 10 + 33 ) ) = 24
+4 x = ( ( 10 + 24 ) + 33 )
+5 ( ( x - 24 ) - 10 ) = 33
+6 24 = ( x - ( 10 + 33 ) )
+7 x = ( ( 10 + 33 ) + 24 )
+8 ( ( 10 + 24 ) + 33 ) = x
+9 10 = ( ( x - 24 ) - 33 )
+10 ( ( x - 10 ) - 24 ) = 33
+11 ( 10 + ( 24 + 33 ) ) = x
+12 ( x - ( 10 + 24 ) ) = 33
+13 x = ( 24 + ( 10 + 33 ) )
+14 ( ( 10 + 33 ) + 24 ) = x
+15 x = ( 10 + ( 24 + 33 ) )
+16 10 = ( x - ( 24 + 33 ) )
+37
+ Jason picked 46 pears , Keith picked 47 pears , and Mike picked  12 pears from the pear tree . How many pears were picked in total  ? 
+['( 47 + ( 46 + 12 ) ) = x', '( ( x - 46 ) - 47 ) = 12', '46 = ( ( x - 47 ) - 12 )', '47 = ( ( x - 46 ) - 12 )', '( x - ( 46 + 12 ) ) = 47', '( ( x - 47 ) - 46 ) = 12', 'x = ( 46 + ( 47 + 12 ) )', '( ( 46 + 47 ) + 12 ) = x', 'x = ( 47 + ( 46 + 12 ) )', '( 46 + ( 47 + 12 ) ) = x', 'x = ( ( 46 + 12 ) + 47 )', '47 = ( x - ( 46 + 12 ) )', '( ( 46 + 12 ) + 47 ) = x', 'x = ( ( 46 + 47 ) + 12 )', '( x - ( 46 + 47 ) ) = 12', '( x - 46 ) = ( 47 + 12 )', '46 = ( x - ( 47 + 12 ) )']
+dict_items([('x', (0, <makesets.aset object at 0x110224ac8>)), ('46', (0, <makesets.aset object at 0x11016c438>)), ('47', (0, <makesets.aset object at 0x1102243c8>)), ('12', (0, <makesets.aset object at 0x110224dd8>))])
+0 ( 47 + ( 46 + 12 ) ) = x
+1 ( ( x - 46 ) - 47 ) = 12
+2 46 = ( ( x - 47 ) - 12 )
+3 47 = ( ( x - 46 ) - 12 )
+4 ( x - ( 46 + 12 ) ) = 47
+5 ( ( x - 47 ) - 46 ) = 12
+6 x = ( 46 + ( 47 + 12 ) )
+7 ( ( 46 + 47 ) + 12 ) = x
+8 x = ( 47 + ( 46 + 12 ) )
+9 ( 46 + ( 47 + 12 ) ) = x
+10 x = ( ( 46 + 12 ) + 47 )
+11 47 = ( x - ( 46 + 12 ) )
+12 ( ( 46 + 12 ) + 47 ) = x
+13 x = ( ( 46 + 47 ) + 12 )
+14 ( x - ( 46 + 47 ) ) = 12
+15 ( x - 46 ) = ( 47 + 12 )
+16 46 = ( x - ( 47 + 12 ) )
+38
+ Keith grew 29 cantelopes , Fred grew 16 cantelopes , and Jason grew  20 cantelopes . How many cantelopes did they grow in total  ? 
+['( ( 29 + 16 ) + 20 ) = x', '16 = ( ( x - 29 ) - 20 )', 'x = ( 29 + ( 16 + 20 ) )', '( ( x - 16 ) - 29 ) = 20', 'x = ( 16 + ( 29 + 20 ) )', '( x - 29 ) = ( 16 + 20 )', '( x - ( 29 + 16 ) ) = 20', '( x - ( 29 + 20 ) ) = 16', '29 = ( x - ( 16 + 20 ) )', '( ( 29 + 20 ) + 16 ) = x', '( 16 + ( 29 + 20 ) ) = x', 'x = ( ( 29 + 16 ) + 20 )', '( ( x - 29 ) - 16 ) = 20', '16 = ( x - ( 29 + 20 ) )', '( 29 + ( 16 + 20 ) ) = x', 'x = ( ( 29 + 20 ) + 16 )', '29 = ( ( x - 16 ) - 20 )']
+dict_items([('20', (0, <makesets.aset object at 0x1101d5fd0>)), ('29', (0, <makesets.aset object at 0x10ca84320>)), ('16', (0, <makesets.aset object at 0x1101d57b8>)), ('x', (0, <makesets.aset object at 0x1101d5668>))])
+0 ( ( 29 + 16 ) + 20 ) = x
+1 16 = ( ( x - 29 ) - 20 )
+2 x = ( 29 + ( 16 + 20 ) )
+3 ( ( x - 16 ) - 29 ) = 20
+4 x = ( 16 + ( 29 + 20 ) )
+5 ( x - 29 ) = ( 16 + 20 )
+6 ( x - ( 29 + 16 ) ) = 20
+7 ( x - ( 29 + 20 ) ) = 16
+8 29 = ( x - ( 16 + 20 ) )
+9 ( ( 29 + 20 ) + 16 ) = x
+10 ( 16 + ( 29 + 20 ) ) = x
+11 x = ( ( 29 + 16 ) + 20 )
+12 ( ( x - 29 ) - 16 ) = 20
+13 16 = ( x - ( 29 + 20 ) )
+14 ( 29 + ( 16 + 20 ) ) = x
+15 x = ( ( 29 + 20 ) + 16 )
+16 29 = ( ( x - 16 ) - 20 )
+39
  Melanie had 19 dimes in her bank . Her dad gave her 39 dimes and her mother gave her 25 dimes . How many dimes does Melanie have now  ? 
-1 ( ( 19 + 39 ) + 25 ) = x
-0
-1
-1
-0 ( ( 19 * 39 ) + 25 ) = x
-0
-1
-1
-1 ( 19 + ( 39 + 25 ) ) = x
-1
-0
-1
-40 53
-
- Sally had 27 cards . Dan gave her 41 new cards . Sally bought 20 cards . How many cards does Sally have now  ? 
-0 ( ( 27 * 41 ) + 20 ) = x
-0
-1
-2
-1 ( 27 + ( 41 + 20 ) ) = x
-1
-0
-2
-0 ( 27 + ( 41 - 20 ) ) = x
-1
-0
-1
-1 ( ( 27 + 41 ) + 20 ) = x
-0
-1
-2
-0 ( ( 27 * 41 ) - 20 ) = x
-0
-1
-1
-41 54
-
- Jason went to 11 football games this month . He went to 17 games last month , and plans to go to 16 games next month . How many games will he attend in all  ? 
-0 ( 11 - ( 17 - 16 ) ) = x
-1
-0
-0
-1 ( 11 + ( 17 + 16 ) ) = x
-1
-0
-1
-1 ( ( 11 + 17 ) + 16 ) = x
-0
-1
-1
-42 56
-
+['( 19 + ( 39 + 25 ) ) = x', '19 = ( x - ( 39 + 25 ) )', '( x - ( 19 + 39 ) ) = 25', '( ( x - 19 ) - 39 ) = 25', '39 = ( ( x - 19 ) - 25 )', '( 39 + ( 19 + 25 ) ) = x', '39 = ( x - ( 19 + 25 ) )', '( x - 19 ) = ( 39 + 25 )', '( ( 19 + 25 ) + 39 ) = x', '( x - ( 19 + 25 ) ) = 39', '19 = ( ( x - 39 ) - 25 )', 'x = ( ( 19 + 25 ) + 39 )', '( ( x - 39 ) - 19 ) = 25', 'x = ( ( 19 + 39 ) + 25 )', 'x = ( 19 + ( 39 + 25 ) )', '( ( 19 + 39 ) + 25 ) = x', 'x = ( 39 + ( 19 + 25 ) )']
+dict_items([('19', (0, <makesets.aset object at 0x10fd89ba8>)), ('39', (0, <makesets.aset object at 0x10ca86208>)), ('25', (0, <makesets.aset object at 0x10ca86c18>)), ('x', (0, <makesets.aset object at 0x110213b70>))])
+0 ( 19 + ( 39 + 25 ) ) = x
+1 19 = ( x - ( 39 + 25 ) )
+2 ( x - ( 19 + 39 ) ) = 25
+3 ( ( x - 19 ) - 39 ) = 25
+4 39 = ( ( x - 19 ) - 25 )
+5 ( 39 + ( 19 + 25 ) ) = x
+6 39 = ( x - ( 19 + 25 ) )
+7 ( x - 19 ) = ( 39 + 25 )
+8 ( ( 19 + 25 ) + 39 ) = x
+9 ( x - ( 19 + 25 ) ) = 39
+10 19 = ( ( x - 39 ) - 25 )
+11 x = ( ( 19 + 25 ) + 39 )
+12 ( ( x - 39 ) - 19 ) = 25
+13 x = ( ( 19 + 39 ) + 25 )
+14 x = ( 19 + ( 39 + 25 ) )
+15 ( ( 19 + 39 ) + 25 ) = x
+16 x = ( 39 + ( 19 + 25 ) )
+40
+ Alyssa has 37 blue balloons , Sandy has 28 blue balloons , and Sally  has 39 blue balloons . How many blue balloons do they have in all  ? 
+['x = ( ( 37 + 28 ) + 39 )', '( 28 + ( 37 + 39 ) ) = x', 'x = ( ( 37 + 39 ) + 28 )', '( x - ( 37 + 39 ) ) = 28', '28 = ( ( x - 37 ) - 39 )', '37 = ( x - ( 28 + 39 ) )', '( x - 37 ) = ( 28 + 39 )', '28 = ( x - ( 37 + 39 ) )', '37 = ( ( x - 28 ) - 39 )', '( ( 37 + 28 ) + 39 ) = x', 'x = ( 37 + ( 28 + 39 ) )', '( x - ( 37 + 28 ) ) = 39', '( ( x - 37 ) - 28 ) = 39', '( 37 + ( 28 + 39 ) ) = x', 'x = ( 28 + ( 37 + 39 ) )', '( ( 37 + 39 ) + 28 ) = x', '( ( x - 28 ) - 37 ) = 39']
+dict_items([('39', (0, <makesets.aset object at 0x110248a90>)), ('37', (0, <makesets.aset object at 0x1100e9048>)), ('28', (0, <makesets.aset object at 0x110190a20>)), ('x', (0, <makesets.aset object at 0x110248320>))])
+0 x = ( ( 37 + 28 ) + 39 )
+1 ( 28 + ( 37 + 39 ) ) = x
+2 x = ( ( 37 + 39 ) + 28 )
+3 ( x - ( 37 + 39 ) ) = 28
+4 28 = ( ( x - 37 ) - 39 )
+5 37 = ( x - ( 28 + 39 ) )
+6 ( x - 37 ) = ( 28 + 39 )
+7 28 = ( x - ( 37 + 39 ) )
+8 37 = ( ( x - 28 ) - 39 )
+9 ( ( 37 + 28 ) + 39 ) = x
+10 x = ( 37 + ( 28 + 39 ) )
+11 ( x - ( 37 + 28 ) ) = 39
+12 ( ( x - 37 ) - 28 ) = 39
+13 ( 37 + ( 28 + 39 ) ) = x
+14 x = ( 28 + ( 37 + 39 ) )
+15 ( ( 37 + 39 ) + 28 ) = x
+16 ( ( x - 28 ) - 37 ) = 39
+41
+ There are 43 pencils in the drawer and 19 pencils on the desk . Dan placed  16 more pencils on the desk . How many pencils are now there in total  ? 
+['( ( x - 19 ) - 43 ) = 16', '( 43 + ( 19 + 16 ) ) = x', '( 19 + ( 43 + 16 ) ) = x', '19 = ( ( x - 43 ) - 16 )', 'x = ( 19 + ( 43 + 16 ) )', 'x = ( ( 43 + 19 ) + 16 )', '( x - 43 ) = ( 19 + 16 )', '( ( 43 + 16 ) + 19 ) = x', '( x - ( 43 + 16 ) ) = 19', 'x = ( 43 + ( 19 + 16 ) )', '( ( 43 + 19 ) + 16 ) = x', '( x - ( 43 + 19 ) ) = 16', '( ( x - 43 ) - 19 ) = 16', '43 = ( ( x - 19 ) - 16 )', '19 = ( x - ( 43 + 16 ) )', 'x = ( ( 43 + 16 ) + 19 )', '43 = ( x - ( 19 + 16 ) )']
+dict_items([('19', (0, <makesets.aset object at 0x1102be780>)), ('x', (0, <makesets.aset object at 0x1102be2b0>)), ('16', (0, <makesets.aset object at 0x1102be0f0>)), ('43', (0, <makesets.aset object at 0x1102be4e0>))])
+0 ( ( x - 19 ) - 43 ) = 16
+1 ( 43 + ( 19 + 16 ) ) = x
+2 ( 19 + ( 43 + 16 ) ) = x
+3 19 = ( ( x - 43 ) - 16 )
+4 x = ( 19 + ( 43 + 16 ) )
+5 x = ( ( 43 + 19 ) + 16 )
+6 ( x - 43 ) = ( 19 + 16 )
+7 ( ( 43 + 16 ) + 19 ) = x
+8 ( x - ( 43 + 16 ) ) = 19
+9 x = ( 43 + ( 19 + 16 ) )
+10 ( ( 43 + 19 ) + 16 ) = x
+11 ( x - ( 43 + 19 ) ) = 16
+12 ( ( x - 43 ) - 19 ) = 16
+13 43 = ( ( x - 19 ) - 16 )
+14 19 = ( x - ( 43 + 16 ) )
+15 x = ( ( 43 + 16 ) + 19 )
+16 43 = ( x - ( 19 + 16 ) )
+42
  Mike has 35 books in his library . He bought several books at a yard sale over the weekend . He now has 56 books in his library . How many books did he buy at the yard sale  ? 
-0 35 = ( x - 56 )
-1
-0
-0 35 = ( x / 56 )
-1
-0
-1 ( 35 + x ) = 56
-0
-1
-43 57
-
+['35 = ( 56 - x )', '( 56 - x ) = 35', 'x = ( 56 - 35 )', '56 = ( x + 35 )', '( x + 35 ) = 56', '( 35 + x ) = 56', '56 = ( 35 + x )', '( 56 - 35 ) = x']
+dict_items([('35', (0, <makesets.aset object at 0x110248e80>)), ('56', (0, <makesets.aset object at 0x110248048>)), ('x', (0, <makesets.aset object at 0x110248710>))])
+0 35 = ( 56 - x )
+1 ( 56 - x ) = 35
+2 x = ( 56 - 35 )
+3 56 = ( x + 35 )
+4 ( x + 35 ) = 56
+5 ( 35 + x ) = 56
+6 56 = ( 35 + x )
+7 ( 56 - 35 ) = x
+43
  Sandy is baking a cake . The recipe wants 7 cups of flour . She already put in 4 cups . How many more cups does she need to add  ? 
-1 7 = ( 4 + x )
-2
-1
-0 ( 7 * 4 ) = x
-1
-2
-1 ( 7 - 4 ) = x
-1
-1
-44 58
-
+['7 = ( x + 4 )', '( 7 - x ) = 4', '( 7 - 4 ) = x', '7 = ( 4 + x )', '( 4 + x ) = 7', '4 = ( 7 - x )', 'x = ( 7 - 4 )', '( x + 4 ) = 7']
+dict_items([('4', (0, <makesets.aset object at 0x110213940>)), ('7', (0, <makesets.aset object at 0x1102132b0>)), ('x', (0, <makesets.aset object at 0x110213780>))])
+0 7 = ( x + 4 )
+1 ( 7 - x ) = 4
+2 ( 7 - 4 ) = x
+3 7 = ( 4 + x )
+4 ( 4 + x ) = 7
+5 4 = ( 7 - x )
+6 x = ( 7 - 4 )
+7 ( x + 4 ) = 7
+44
  There are 53 maple trees currently in the park . Park workers will plant more maple trees today . When the workers are finished there will be 64 maple trees in the park . How many maple trees did the workers plant today  ? 
-0 53 = ( x / 64 )
-1
-0
-1 ( 53 + x ) = 64
-0
-1
-0 53 = ( x - 64 )
-1
-0
-45 59
-
- Dan found 56 seashells on the beach , he gave Jessica some of his seashells . He has 22 seashell left . How many seashells did he give to Jessica  ? 
-0 56 = ( x / 22 )
-0
-0
-1 56 = ( x + 22 )
-0
-0
-1 ( 56 - x ) = 22
-0
-0
-46 60
-
+['53 = ( 64 - x )', '( 64 - 53 ) = x', '( 53 + x ) = 64', '64 = ( x + 53 )', 'x = ( 64 - 53 )', '64 = ( 53 + x )', '( x + 53 ) = 64', '( 64 - x ) = 53']
+dict_items([('53', (0, <makesets.aset object at 0x110213240>)), ('x', (0, <makesets.aset object at 0x11016c2e8>)), ('64', (0, <makesets.aset object at 0x11016c3c8>))])
+0 53 = ( 64 - x )
+1 ( 64 - 53 ) = x
+2 ( 53 + x ) = 64
+3 64 = ( x + 53 )
+4 x = ( 64 - 53 )
+5 64 = ( 53 + x )
+6 ( x + 53 ) = 64
+7 ( 64 - x ) = 53
+45
  Sally had 13 peaches left at her roadside fruit stand . She went to the orchard and picked more peaches to stock up the stand . There are now 55 peaches at the stand , how many did she pick  ? 
-1 ( 13 + x ) = 55
-0
-1
-47 62
-
+['( 13 + x ) = 55', '( x + 13 ) = 55', '( 55 - 13 ) = x', '13 = ( 55 - x )', 'x = ( 55 - 13 )', '( 55 - x ) = 13', '55 = ( x + 13 )', '55 = ( 13 + x )']
+dict_items([('x', (0, <makesets.aset object at 0x1102aab38>)), ('55', (0, <makesets.aset object at 0x1102aa9b0>)), ('13', (0, <makesets.aset object at 0x1102aa940>))])
+0 ( 13 + x ) = 55
+1 ( x + 13 ) = 55
+2 ( 55 - 13 ) = x
+3 13 = ( 55 - x )
+4 x = ( 55 - 13 )
+5 ( 55 - x ) = 13
+6 55 = ( x + 13 )
+7 55 = ( 13 + x )
+46
+ Benny received 67 dollars for his birthday . He went to a sporting goods store and bought a baseball glove , baseball , and bat . He had 33 dollars left over . How much did he spent on the baseball gear  ? 
+['33 = ( 67 - x )', '67 = ( 33 + x )', '( 67 - 33 ) = x', '( x + 33 ) = 67', '( 33 + x ) = 67', '67 = ( x + 33 )', '( 67 - x ) = 33', 'x = ( 67 - 33 )']
+dict_items([('67', (0, <makesets.aset object at 0x1102ba128>)), ('x', (0, <makesets.aset object at 0x10ca86780>)), ('33', (0, <makesets.aset object at 0x11016c860>))])
+0 33 = ( 67 - x )
+1 67 = ( 33 + x )
+2 ( 67 - 33 ) = x
+3 ( x + 33 ) = 67
+4 ( 33 + x ) = 67
+5 67 = ( x + 33 )
+6 ( 67 - x ) = 33
+7 x = ( 67 - 33 )
+47
  There were 3 roses in the vase . Alyssa cut some more roses from her flower garden . There are now 14 roses in the vase . How many roses did she cut  ? 
-1 ( 3 + x ) = 14
-0
-1
-0 3 = ( x / 14 )
-1
-0
-48 64
-
+['( 14 - 3 ) = x', '3 = ( 14 - x )', '( x + 3 ) = 14', '14 = ( 3 + x )', '14 = ( x + 3 )', '( 3 + x ) = 14', '( 14 - x ) = 3', 'x = ( 14 - 3 )']
+dict_items([('x', (0, <makesets.aset object at 0x11016f860>)), ('14', (0, <makesets.aset object at 0x10ca84080>)), ('3', (0, <makesets.aset object at 0x1101d55c0>))])
+0 ( 14 - 3 ) = x
+1 3 = ( 14 - x )
+2 ( x + 3 ) = 14
+3 14 = ( 3 + x )
+4 14 = ( x + 3 )
+5 ( 3 + x ) = 14
+6 ( 14 - x ) = 3
+7 x = ( 14 - 3 )
+48
+ Last week Tom had 74 dollars . He washed cars over the weekend and now has 86 dollars . How much money did he make washing cars  ? 
+['( 74.0 + x ) = 86.0', '74.0 = ( 86.0 - x )', '( 86.0 - x ) = 74.0', '( 86.0 - 74.0 ) = x', '86.0 = ( 74.0 + x )', 'x = ( 86.0 - 74.0 )', '( x + 74.0 ) = 86.0', '86.0 = ( x + 74.0 )']
+dict_items([('x', (0, <makesets.aset object at 0x1102aaf60>)), ('86.0', (0, <makesets.aset object at 0x1102aa5c0>)), ('74.0', (0, <makesets.aset object at 0x10ca86748>))])
+0 ( 74.0 + x ) = 86.0
+1 74.0 = ( 86.0 - x )
+2 ( 86.0 - x ) = 74.0
+3 ( 86.0 - 74.0 ) = x
+4 86.0 = ( 74.0 + x )
+5 x = ( 86.0 - 74.0 )
+6 ( x + 74.0 ) = 86.0
+7 86.0 = ( x + 74.0 )
+49
  There were 73 bales of hay in the barn . Jason stacked more bales in the barn today . There are now 96 bales of hay in the barn . How many bales did he store in the barn  ? 
+['96 = ( 73 + x )', '( 73 + x ) = 96', '96 = ( x + 73 )', '( x + 73 ) = 96', '( 96 - x ) = 73', '( 96 - 73 ) = x', 'x = ( 96 - 73 )', '73 = ( 96 - x )']
+dict_items([('73', (0, <makesets.aset object at 0x1100e9048>)), ('x', (0, <makesets.aset object at 0x110190978>)), ('96', (0, <makesets.aset object at 0x1101905c0>))])
+0 96 = ( 73 + x )
 1 ( 73 + x ) = 96
-0
-1
-0 73 = ( x - 96 )
-1
-0
-0 73 = ( x / 96 )
-1
-0
-49 65
-
+2 96 = ( x + 73 )
+3 ( x + 73 ) = 96
+4 ( 96 - x ) = 73
+5 ( 96 - 73 ) = x
+6 x = ( 96 - 73 )
+7 73 = ( 96 - x )
+50
  Nancy grew 6 potatoes . Sandy grew 7 potatoes . How many potatoes did they grow in total  ? 
-1 ( 6 + 7 ) = x
-0
-1
-0 6 = ( 7 - x )
-1
-0
-0 ( 6 * 7 ) = x
-0
-1
-50 66
-
+['x = ( 6 + 7 )', '( x - 7 ) = 6', '( x - 6 ) = 7', '6 = ( x - 7 )', '7 = ( x - 6 )', '( 6 + 7 ) = x']
+dict_items([('6', (0, <makesets.aset object at 0x110248f98>)), ('7', (0, <makesets.aset object at 0x110248da0>)), ('x', (0, <makesets.aset object at 0x110248c88>))])
+0 x = ( 6 + 7 )
+1 ( x - 7 ) = 6
+2 ( x - 6 ) = 7
+3 6 = ( x - 7 )
+4 7 = ( x - 6 )
+5 ( 6 + 7 ) = x
+51
  There are 9 crayons in the drawer . Benny placed 3 more crayons in the drawer . How many crayons are now there in total  ? 
-0 ( 9 * 3 ) = x
-0
-1
-0 ( 9 - 3 ) = x
-0
-0
-1 ( 9 + 3 ) = x
-0
-1
-51 68
-
- There were a total of 7 football games this year . Melanie missed 4 of the games . How many football games did Melanie go to in all  ? 
-1 7 = ( 4 + x )
-1
-0
-0 ( 7 * 4 ) = x
-0
-1
-1 ( 7 - 4 ) = x
-0
-0
-52 69
-
+['x = ( 9 + 3 )', '( x - 9 ) = 3', '9 = ( x - 3 )', '( x - 3 ) = 9', '( 9 + 3 ) = x', '3 = ( x - 9 )']
+dict_items([('x', (0, <makesets.aset object at 0x1101905f8>)), ('9', (0, <makesets.aset object at 0x1101d1e10>)), ('3', (0, <makesets.aset object at 0x1101d1198>))])
+0 x = ( 9 + 3 )
+1 ( x - 9 ) = 3
+2 9 = ( x - 3 )
+3 ( x - 3 ) = 9
+4 ( 9 + 3 ) = x
+5 3 = ( x - 9 )
+52
+ There are 5 oak trees currently in the park . Park workers will plant 4 more oak trees today . How many oak trees will the park have when the workers are finished  ? 
+['( x - 5 ) = 4', '( x - 4 ) = 5', '4 = ( x - 5 )', '( 5 + 4 ) = x', '5 = ( x - 4 )', 'x = ( 5 + 4 )']
+dict_items([('4', (0, <makesets.aset object at 0x110190b38>)), ('x', (0, <makesets.aset object at 0x110190b70>)), ('5', (0, <makesets.aset object at 0x1100c7da0>))])
+0 ( x - 5 ) = 4
+1 ( x - 4 ) = 5
+2 4 = ( x - 5 )
+3 ( 5 + 4 ) = x
+4 5 = ( x - 4 )
+5 x = ( 5 + 4 )
+53
  Tom found 7 seashells but 4 were broken .  How many unbroken seashells did Tom find  ? 
-1 7 = ( 4 + x )
-0
-0
-0 ( 7 * 4 ) = x
-0
-0
-1 ( 7 - 4 ) = x
-0
-0
-53 72
-
+['7 = ( x + 4 )', '( 7 - x ) = 4', '( 7 - 4 ) = x', '7 = ( 4 + x )', '( 4 + x ) = 7', '4 = ( 7 - x )', 'x = ( 7 - 4 )', '( x + 4 ) = 7']
+dict_items([('4', (0, <makesets.aset object at 0x10ca86780>)), ('7', (0, <makesets.aset object at 0x1100c7d30>)), ('x', (0, <makesets.aset object at 0x10ca86550>))])
+0 7 = ( x + 4 )
+1 ( 7 - x ) = 4
+2 ( 7 - 4 ) = x
+3 7 = ( 4 + x )
+4 ( 4 + x ) = 7
+5 4 = ( 7 - x )
+6 x = ( 7 - 4 )
+7 ( x + 4 ) = 7
+54
+ Sally picked 7 lemons and Mary picked 9 lemons from the lemon tree . How many lemons were picked in total  ? 
+['x = ( 7 + 9 )', '( x - 9 ) = 7', '9 = ( x - 7 )', '( 7 + 9 ) = x', '( x - 7 ) = 9', '7 = ( x - 9 )']
+dict_items([('7', (0, <makesets.aset object at 0x10fd89ba8>)), ('9', (0, <makesets.aset object at 0x1102481d0>)), ('x', (0, <makesets.aset object at 0x110248f28>))])
+0 x = ( 7 + 9 )
+1 ( x - 9 ) = 7
+2 9 = ( x - 7 )
+3 ( 7 + 9 ) = x
+4 ( x - 7 ) = 9
+5 7 = ( x - 9 )
+55
+ A restaurant served 6 cakes during lunch and 9 during dinner today . How many cakes were served today  ? 
+['( x - 6 ) = 9', 'x = ( 6 + 9 )', '( 6 + 9 ) = x', '9 = ( x - 6 )', '( x - 9 ) = 6', '6 = ( x - 9 )']
+dict_items([('6', (0, <makesets.aset object at 0x1102aa550>)), ('x', (0, <makesets.aset object at 0x1102aa208>)), ('9', (0, <makesets.aset object at 0x1102aa518>))])
+0 ( x - 6 ) = 9
+1 x = ( 6 + 9 )
+2 ( 6 + 9 ) = x
+3 9 = ( x - 6 )
+4 ( x - 9 ) = 6
+5 6 = ( x - 9 )
+56
  Joan has 8 orange balloons  but lost 2 of them . How many orange balloons does Joan have now  ? 
-0 ( 8 * 2 ) = x
-0
-0
-1 8 = ( 2 + x )
-0
-0
-1 ( 8 - 2 ) = x
-0
-0
-54 73
-
+['( 2 + x ) = 8', '2 = ( 8 - x )', '8 = ( 2 + x )', '8 = ( x + 2 )', 'x = ( 8 - 2 )', '( x + 2 ) = 8', '( 8 - x ) = 2', '( 8 - 2 ) = x']
+dict_items([('8', (0, <makesets.aset object at 0x1100e9048>)), ('2', (0, <makesets.aset object at 0x1102247f0>)), ('x', (0, <makesets.aset object at 0x110224518>))])
+0 ( 2 + x ) = 8
+1 2 = ( 8 - x )
+2 8 = ( 2 + x )
+3 8 = ( x + 2 )
+4 x = ( 8 - 2 )
+5 ( x + 2 ) = 8
+6 ( 8 - x ) = 2
+7 ( 8 - 2 ) = x
+57
  Fred had 7 dimes in his bank . His sister borrowed 3 of his dimes . How many dimes does Fred have now  ? 
-0 ( 7 * 3 ) = x
-0
-1
-1 ( 7 - 3 ) = x
-0
-0
-1 7 = ( 3 + x )
-1
-0
-55 75
-
+['( 7 - 3 ) = x', '7 = ( x + 3 )', '( 7 - x ) = 3', '3 = ( 7 - x )', 'x = ( 7 - 3 )', '( 3 + x ) = 7', '7 = ( 3 + x )', '( x + 3 ) = 7']
+dict_items([('7', (0, <makesets.aset object at 0x1100c7ef0>)), ('x', (0, <makesets.aset object at 0x11016f2e8>)), ('3', (0, <makesets.aset object at 0x1101d1cc0>))])
+0 ( 7 - 3 ) = x
+1 7 = ( x + 3 )
+2 ( 7 - x ) = 3
+3 3 = ( 7 - x )
+4 x = ( 7 - 3 )
+5 ( 3 + x ) = 7
+6 7 = ( 3 + x )
+7 ( x + 3 ) = 7
+58
+ Joan's cat had 8 kittens . She gave 2 to her friends .  How many kittens does she have now  ? 
+['( 2 + x ) = 8', '2 = ( 8 - x )', '8 = ( 2 + x )', '8 = ( x + 2 )', 'x = ( 8 - 2 )', '( x + 2 ) = 8', '( 8 - x ) = 2', '( 8 - 2 ) = x']
+dict_items([('8', (0, <makesets.aset object at 0x10ca86b38>)), ('2', (0, <makesets.aset object at 0x110248400>)), ('x', (0, <makesets.aset object at 0x110248358>))])
+0 ( 2 + x ) = 8
+1 2 = ( 8 - x )
+2 8 = ( 2 + x )
+3 8 = ( x + 2 )
+4 x = ( 8 - 2 )
+5 ( x + 2 ) = 8
+6 ( 8 - x ) = 2
+7 ( 8 - 2 ) = x
+59
  There are 34 dogwood trees currently in the park . Park workers will plant  49 more dogwood trees today . How many dogwood trees will the park have when the workers are finished  ? 
-1 ( 34 + 49 ) = x
-0
-1
-56 76
-
- There are 27 pencils in the drawer . Nancy placed 45 more  pencils in the drawer . How many pencils are now there in total  ? 
-0 ( 27 * 45 ) = x
-0
-1
-1 ( 27 + 45 ) = x
-0
-1
-57 77
-
+['( 34 + 49 ) = x', '( x - 49 ) = 34', '34 = ( x - 49 )', '49 = ( x - 34 )', '( x - 34 ) = 49', 'x = ( 34 + 49 )']
+dict_items([('x', (0, <makesets.aset object at 0x11016f518>)), ('34', (0, <makesets.aset object at 0x10ca86c18>)), ('49', (0, <makesets.aset object at 0x1101d13c8>))])
+0 ( 34 + 49 ) = x
+1 ( x - 49 ) = 34
+2 34 = ( x - 49 )
+3 49 = ( x - 34 )
+4 ( x - 34 ) = 49
+5 x = ( 34 + 49 )
+60
  Benny's high school played 39 baseball games this year . He attended  14 games . How many baseball games did Benny miss  ? 
-0 ( 39 + 14 ) = x
-0
-1
-1 ( 39 - 14 ) = x
-0
-0
-1 39 = ( 14 + x )
-1
-0
-58 78
-
+['( 39 - 14 ) = x', '39 = ( x + 14 )', 'x = ( 39 - 14 )', '( 14 + x ) = 39', '( x + 14 ) = 39', '( 39 - x ) = 14', '14 = ( 39 - x )', '39 = ( 14 + x )']
+dict_items([('39', (0, <makesets.aset object at 0x11016c048>)), ('14', (0, <makesets.aset object at 0x11033dcf8>)), ('x', (0, <makesets.aset object at 0x11033de10>))])
+0 ( 39 - 14 ) = x
+1 39 = ( x + 14 )
+2 x = ( 39 - 14 )
+3 ( 14 + x ) = 39
+4 ( x + 14 ) = 39
+5 ( 39 - x ) = 14
+6 14 = ( 39 - x )
+7 39 = ( 14 + x )
+61
  Sam found 35 seashells on the beach , he gave Joan 18 of the seashells . How many seashells does he now have  ? 
-1 ( 35 - 18 ) = x
-0
-0
-0 ( 35 + 18 ) = x
-0
-0
-0 ( 35 * 18 ) = x
-0
-0
-1 35 = ( 18 + x )
-0
-0
-59 80
-
+['18 = ( 35 - x )', '( 35 - x ) = 18', '35 = ( x + 18 )', 'x = ( 35 - 18 )', '35 = ( 18 + x )', '( 35 - 18 ) = x', '( x + 18 ) = 35', '( 18 + x ) = 35']
+dict_items([('35', (0, <makesets.aset object at 0x110248518>)), ('18', (0, <makesets.aset object at 0x110360198>)), ('x', (0, <makesets.aset object at 0x1103600b8>))])
+0 18 = ( 35 - x )
+1 ( 35 - x ) = 18
+2 35 = ( x + 18 )
+3 x = ( 35 - 18 )
+4 35 = ( 18 + x )
+5 ( 35 - 18 ) = x
+6 ( x + 18 ) = 35
+7 ( 18 + x ) = 35
+62
+ Tim has 22 books . Mike has 20 books .  How many books do they have together  ? 
+['22 = ( x - 20 )', '( 22 + 20 ) = x', '( x - 22 ) = 20', '( x - 20 ) = 22', '20 = ( x - 22 )', 'x = ( 22 + 20 )']
+dict_items([('20', (0, <makesets.aset object at 0x11035a358>)), ('22', (0, <makesets.aset object at 0x11035aa20>)), ('x', (0, <makesets.aset object at 0x11035a710>))])
+0 22 = ( x - 20 )
+1 ( 22 + 20 ) = x
+2 ( x - 22 ) = 20
+3 ( x - 20 ) = 22
+4 20 = ( x - 22 )
+5 x = ( 22 + 20 )
+63
  Mike has 87 baseball cards . Sam bought 13 of Mike's  baseball cards . How many baseball cards does Mike have now  ? 
-1 87 = ( 13 + x )
-1
-0
-1 ( 87 - 13 ) = x
-0
-0
-0 ( 87 * 13 ) = x
-0
-1
-0 ( 87 + 13 ) = x
-0
-1
-60 81
-
+['( x + 13 ) = 87', '13 = ( 87 - x )', '( 13 + x ) = 87', '( 87 - x ) = 13', '( 87 - 13 ) = x', 'x = ( 87 - 13 )', '87 = ( x + 13 )', '87 = ( 13 + x )']
+dict_items([('x', (0, <makesets.aset object at 0x11033da90>)), ('87', (0, <makesets.aset object at 0x1102aa6d8>)), ('13', (0, <makesets.aset object at 0x11033da20>))])
+0 ( x + 13 ) = 87
+1 13 = ( 87 - x )
+2 ( 13 + x ) = 87
+3 ( 87 - x ) = 13
+4 ( 87 - 13 ) = x
+5 x = ( 87 - 13 )
+6 87 = ( x + 13 )
+7 87 = ( 13 + x )
+64
  Sandy grew 51 pumpkins . Mike grew 23 pumpkins . How many pumpkins did they grow in total  ? 
-0 ( 51 - 23 ) = x
-0
-0
-1 ( 51 + 23 ) = x
-0
-1
-61 82
-
+['x = ( 51 + 23 )', '51 = ( x - 23 )', '( x - 23 ) = 51', '( 51 + 23 ) = x', '23 = ( x - 51 )', '( x - 51 ) = 23']
+dict_items([('x', (0, <makesets.aset object at 0x1102aaa58>)), ('51', (0, <makesets.aset object at 0x1101905f8>)), ('23', (0, <makesets.aset object at 0x110224b70>))])
+0 x = ( 51 + 23 )
+1 51 = ( x - 23 )
+2 ( x - 23 ) = 51
+3 ( 51 + 23 ) = x
+4 23 = ( x - 51 )
+5 ( x - 51 ) = 23
+65
  Tim has 44 books . Sam has 52 books .  How many books do they have together  ? 
-0 44 = ( 52 - x )
-1
-0
-1 ( 44 + 52 ) = x
-0
-1
-62 83
-
+['( x - 44 ) = 52', '44 = ( x - 52 )', '52 = ( x - 44 )', '( 44 + 52 ) = x', 'x = ( 44 + 52 )', '( x - 52 ) = 44']
+dict_items([('x', (0, <makesets.aset object at 0x11033d438>)), ('52', (0, <makesets.aset object at 0x11033d358>)), ('44', (0, <makesets.aset object at 0x1100c7a20>))])
+0 ( x - 44 ) = 52
+1 44 = ( x - 52 )
+2 52 = ( x - 44 )
+3 ( 44 + 52 ) = x
+4 x = ( 44 + 52 )
+5 ( x - 52 ) = 44
+66
  Dan has 64 violet marbles , he gave Mary 14 of the marbles . How many violet marbles does he now have  ? 
-1 64 = ( 14 + x )
-0
-0
-0 ( 64 + 14 ) = x
-0
-0
+['14 = ( 64 - x )', '( 64 - 14 ) = x', '( 64 - x ) = 14', '64 = ( x + 14 )', '( 14 + x ) = 64', '64 = ( 14 + x )', '( x + 14 ) = 64', 'x = ( 64 - 14 )']
+dict_items([('x', (0, <makesets.aset object at 0x1102aa8d0>)), ('64', (0, <makesets.aset object at 0x1102aae10>)), ('14', (0, <makesets.aset object at 0x1102aaeb8>))])
+0 14 = ( 64 - x )
 1 ( 64 - 14 ) = x
-0
-0
-63 84
-
- There are 25 popular trees currently in the park . Park workers will plant  73 more popular trees today . How many popular trees will the park have when the workers are finished  ? 
-1 ( 25 + 73 ) = x
-0
-1
-64 85
-
+2 ( 64 - x ) = 14
+3 64 = ( x + 14 )
+4 ( 14 + x ) = 64
+5 64 = ( 14 + x )
+6 ( x + 14 ) = 64
+7 x = ( 64 - 14 )
+67
  There are 54 scissors in the drawer . Keith placed 22 more  scissors in the drawer . How many scissors are now there in all  ? 
-0 ( 54 - 22 ) = x
-0
-0
-0 54 = ( 22 + x )
-1
-0
+['22 = ( x - 54 )', '( 54 + 22 ) = x', '( x - 22 ) = 54', 'x = ( 54 + 22 )', '( x - 54 ) = 22', '54 = ( x - 22 )']
+dict_items([('x', (0, <makesets.aset object at 0x110213400>)), ('54', (0, <makesets.aset object at 0x110224518>)), ('22', (0, <makesets.aset object at 0x110224710>))])
+0 22 = ( x - 54 )
 1 ( 54 + 22 ) = x
-0
-1
-65 86
-
+2 ( x - 22 ) = 54
+3 x = ( 54 + 22 )
+4 ( x - 54 ) = 22
+5 54 = ( x - 22 )
+68
  Alyssa picked 42 pears and Nancy picked 17 pears from the pear tree . How many pears were picked in all  ? 
-0 42 = ( 17 + x )
-0
-0
-0 ( 42 - 17 ) = x
-0
-0
-1 ( 42 + 17 ) = x
-0
-0
-66 87
-
+['17 = ( x - 42 )', '( x - 17 ) = 42', '42 = ( x - 17 )', '( x - 42 ) = 17', '( 42 + 17 ) = x', 'x = ( 42 + 17 )']
+dict_items([('42', (0, <makesets.aset object at 0x1100c7cf8>)), ('x', (0, <makesets.aset object at 0x11016f518>)), ('17', (0, <makesets.aset object at 0x11016f0f0>))])
+0 17 = ( x - 42 )
+1 ( x - 17 ) = 42
+2 42 = ( x - 17 )
+3 ( x - 42 ) = 17
+4 ( 42 + 17 ) = x
+5 x = ( 42 + 17 )
+69
  Sam had 98 pennies in his bank . He spent 93 of his pennies . How many pennies does he have now  ? 
-0 ( 98 + 93 ) = x
-0
-1
-1 ( 98 - 93 ) = x
-0
-0
-1 98 = ( 93 + x )
-1
-0
-67 88
-
+['98 = ( x + 93 )', '( 98 - x ) = 93', 'x = ( 98 - 93 )', '93 = ( 98 - x )', '( 98 - 93 ) = x', '( x + 93 ) = 98', '( 93 + x ) = 98', '98 = ( 93 + x )']
+dict_items([('x', (0, <makesets.aset object at 0x1101909b0>)), ('93', (0, <makesets.aset object at 0x110213208>)), ('98', (0, <makesets.aset object at 0x1100c7a20>))])
+0 98 = ( x + 93 )
+1 ( 98 - x ) = 93
+2 x = ( 98 - 93 )
+3 93 = ( 98 - x )
+4 ( 98 - 93 ) = x
+5 ( x + 93 ) = 98
+6 ( 93 + x ) = 98
+7 98 = ( 93 + x )
+70
  Joan found 79 seashells on the beach , she gave Mike 63 of the seashells . How many seashells does she now have  ? 
-0 ( 79 * 63 ) = x
-0
-0
-1 79 = ( 63 + x )
-0
-0
-1 ( 79 - 63 ) = x
-0
-0
-68 89
-
+['( x + 63 ) = 79', '( 79 - x ) = 63', '79 = ( 63 + x )', '( 63 + x ) = 79', 'x = ( 79 - 63 )', '( 79 - 63 ) = x', '63 = ( 79 - x )', '79 = ( x + 63 )']
+dict_items([('63', (0, <makesets.aset object at 0x110248dd8>)), ('x', (0, <makesets.aset object at 0x1102480b8>)), ('79', (0, <makesets.aset object at 0x110248be0>))])
+0 ( x + 63 ) = 79
+1 ( 79 - x ) = 63
+2 79 = ( 63 + x )
+3 ( 63 + x ) = 79
+4 x = ( 79 - 63 )
+5 ( 79 - 63 ) = x
+6 63 = ( 79 - x )
+7 79 = ( x + 63 )
+71
  Melanie's high school played 64 soccer games this year . She attended  32 games . How many soccer games did Melanie miss  ? 
-0 ( 64 * 32 ) = x
-0
-1
-1 ( 64 - 32 ) = x
-0
-0
-1 64 = ( 32 + x )
-1
-0
-69 90
-
+['( 32 + x ) = 64', 'x = ( 64 - 32 )', '64 = ( x + 32 )', '( x + 32 ) = 64', '32 = ( 64 - x )', '( 64 - x ) = 32', '64 = ( 32 + x )', '( 64 - 32 ) = x']
+dict_items([('x', (0, <makesets.aset object at 0x110190128>)), ('64', (0, <makesets.aset object at 0x110248400>)), ('32', (0, <makesets.aset object at 0x110190400>))])
+0 ( 32 + x ) = 64
+1 x = ( 64 - 32 )
+2 64 = ( x + 32 )
+3 ( x + 32 ) = 64
+4 32 = ( 64 - x )
+5 ( 64 - x ) = 32
+6 64 = ( 32 + x )
+7 ( 64 - 32 ) = x
+72
  Sam has 110 books . Joan has 102 books .  How many books do they have together  ? 
-0 110 = ( 102 + x )
-1
-0
-0 ( 110 - 102 ) = x
-0
-0
-1 ( 110 + 102 ) = x
-0
-1
-70 91
-
+['110 = ( x - 102 )', '( x - 110 ) = 102', '( 110 + 102 ) = x', '102 = ( x - 110 )', '( x - 102 ) = 110', 'x = ( 110 + 102 )']
+dict_items([('102', (0, <makesets.aset object at 0x110360550>)), ('x', (0, <makesets.aset object at 0x110360f60>)), ('110', (0, <makesets.aset object at 0x10ca7ebe0>))])
+0 110 = ( x - 102 )
+1 ( x - 110 ) = 102
+2 ( 110 + 102 ) = x
+3 102 = ( x - 110 )
+4 ( x - 102 ) = 110
+5 x = ( 110 + 102 )
+73
  Mary picked 122 oranges and Jason picked 105 oranges from the orange tree . How many oranges were picked in total  ? 
-1 ( 122 + 105 ) = x
-0
-0
-71 93
-
+['122 = ( x - 105 )', '( x - 105 ) = 122', 'x = ( 122 + 105 )', '105 = ( x - 122 )', '( x - 122 ) = 105', '( 122 + 105 ) = x']
+dict_items([('x', (0, <makesets.aset object at 0x11035ab70>)), ('105', (0, <makesets.aset object at 0x11035a6a0>)), ('122', (0, <makesets.aset object at 0x10ca7e9e8>))])
+0 122 = ( x - 105 )
+1 ( x - 105 ) = 122
+2 x = ( 122 + 105 )
+3 105 = ( x - 122 )
+4 ( x - 122 ) = 105
+5 ( 122 + 105 ) = x
+74
+ Sally had 760 quarters in her bank . She spent 418 of her quarters . How many quarters does she have now  ? 
+['( 418 + x ) = 760', '( x + 418 ) = 760', '( 760 - x ) = 418', '418 = ( 760 - x )', 'x = ( 760 - 418 )', '760 = ( 418 + x )', '760 = ( x + 418 )', '( 760 - 418 ) = x']
+dict_items([('x', (0, <makesets.aset object at 0x110213780>)), ('760', (0, <makesets.aset object at 0x1100e9048>)), ('418', (0, <makesets.aset object at 0x110213860>))])
+0 ( 418 + x ) = 760
+1 ( x + 418 ) = 760
+2 ( 760 - x ) = 418
+3 418 = ( 760 - x )
+4 x = ( 760 - 418 )
+5 760 = ( 418 + x )
+6 760 = ( x + 418 )
+7 ( 760 - 418 ) = x
+75
  Fred's high school played 616 baseball games this year . He attended  147 games . How many baseball games did Fred miss  ? 
-0 ( 616 + 147 ) = x
-0
-1
-0 ( 616 * 147 ) = x
-0
-1
-1 ( 616 - 147 ) = x
-0
-0
-1 616 = ( 147 + x )
-1
-0
-72 94
-
+['( x + 147 ) = 616', '616 = ( x + 147 )', '147 = ( 616 - x )', '( 616 - 147 ) = x', '( 616 - x ) = 147', '( 147 + x ) = 616', '616 = ( 147 + x )', 'x = ( 616 - 147 )']
+dict_items([('x', (0, <makesets.aset object at 0x110360518>)), ('616', (0, <makesets.aset object at 0x10fd89ba8>)), ('147', (0, <makesets.aset object at 0x1103608d0>))])
+0 ( x + 147 ) = 616
+1 616 = ( x + 147 )
+2 147 = ( 616 - x )
+3 ( 616 - 147 ) = x
+4 ( 616 - x ) = 147
+5 ( 147 + x ) = 616
+6 616 = ( 147 + x )
+7 x = ( 616 - 147 )
+76
  Melanie grew 139 turnips . Benny grew 113 turnips . How many turnips did they grow in all  ? 
-0 ( 139 * 113 ) = x
-0
-1
-1 ( 139 + 113 ) = x
-0
-1
-0 139 = ( 113 + x )
-1
-0
-73 95
-
+['( x - 113 ) = 139', 'x = ( 139 + 113 )', '( x - 139 ) = 113', '139 = ( x - 113 )', '( 139 + 113 ) = x', '113 = ( x - 139 )']
+dict_items([('x', (0, <makesets.aset object at 0x1102136d8>)), ('139', (0, <makesets.aset object at 0x10ca84dd8>)), ('113', (0, <makesets.aset object at 0x110213b38>))])
+0 ( x - 113 ) = 139
+1 x = ( 139 + 113 )
+2 ( x - 139 ) = 113
+3 139 = ( x - 113 )
+4 ( 139 + 113 ) = x
+5 113 = ( x - 139 )
+77
  Jason has 676 Pokemon cards . Alyssa bought 224 of Jason's  Pokemon cards . How many Pokemon cards does Jason have now  ? 
+['( x + 224 ) = 676', '( 676 - 224 ) = x', '676 = ( x + 224 )', '( 676 - x ) = 224', 'x = ( 676 - 224 )', '676 = ( 224 + x )', '( 224 + x ) = 676', '224 = ( 676 - x )']
+dict_items([('224', (0, <makesets.aset object at 0x110360a20>)), ('x', (0, <makesets.aset object at 0x110360d68>)), ('676', (0, <makesets.aset object at 0x110213e80>))])
+0 ( x + 224 ) = 676
 1 ( 676 - 224 ) = x
-0
-0
-0 ( 676 * 224 ) = x
-0
-1
-0 ( 676 + 224 ) = x
-0
-1
-1 676 = ( 224 + x )
-1
-0
-74 96
-
+2 676 = ( x + 224 )
+3 ( 676 - x ) = 224
+4 x = ( 676 - 224 )
+5 676 = ( 224 + x )
+6 ( 224 + x ) = 676
+7 224 = ( 676 - x )
+78
  There are 107 walnut trees currently in the park . Park workers will plant  104 more walnut trees today . How many walnut trees will the park have when the workers are finished  ? 
-1 ( 107 + 104 ) = x
-0
-1
-75 98
-
+['( x - 107 ) = 104', '104 = ( x - 107 )', '( 107 + 104 ) = x', '( x - 104 ) = 107', 'x = ( 107 + 104 )', '107 = ( x - 104 )']
+dict_items([('x', (0, <makesets.aset object at 0x1102132b0>)), ('107', (0, <makesets.aset object at 0x11016c048>)), ('104', (0, <makesets.aset object at 0x110213358>))])
+0 ( x - 107 ) = 104
+1 104 = ( x - 107 )
+2 ( 107 + 104 ) = x
+3 ( x - 104 ) = 107
+4 x = ( 107 + 104 )
+5 107 = ( x - 104 )
+79
+ Fred has 709 green balloons , he gave Sandy 221 of the balloons . How many green balloons does he now have  ? 
+['( 709 - x ) = 221', '( x + 221 ) = 709', '709 = ( 221 + x )', '( 221 + x ) = 709', '( 709 - 221 ) = x', '221 = ( 709 - x )', '709 = ( x + 221 )', 'x = ( 709 - 221 )']
+dict_items([('221', (0, <makesets.aset object at 0x11035aba8>)), ('709', (0, <makesets.aset object at 0x1100c7d30>)), ('x', (0, <makesets.aset object at 0x11035a080>))])
+0 ( 709 - x ) = 221
+1 ( x + 221 ) = 709
+2 709 = ( 221 + x )
+3 ( 221 + x ) = 709
+4 ( 709 - 221 ) = x
+5 221 = ( 709 - x )
+6 709 = ( x + 221 )
+7 x = ( 709 - 221 )
+80
  There are 115 pencils in the drawer . Sara placed 100 more  pencils in the drawer . How many pencils are now there in all  ? 
-0 ( 115 - 100 ) = x
-0
-0
-1 ( 115 + 100 ) = x
-0
-1
-76 99
-
+['x = ( 115 + 100 )', '( x - 115 ) = 100', '115 = ( x - 100 )', '( x - 100 ) = 115', '100 = ( x - 115 )', '( 115 + 100 ) = x']
+dict_items([('115', (0, <makesets.aset object at 0x1100c7a20>)), ('100', (0, <makesets.aset object at 0x110386198>)), ('x', (0, <makesets.aset object at 0x110386358>))])
+0 x = ( 115 + 100 )
+1 ( x - 115 ) = 100
+2 115 = ( x - 100 )
+3 ( x - 100 ) = 115
+4 100 = ( x - 115 )
+5 ( 115 + 100 ) = x
+81
  Mike has 45 dollars in 5 dollar bills .  How many five dollars bills does  he have  ? 
-0 ( 45 - 5 ) = x
-0
-0
+['45 = ( 5 * x )', '( 45 / 5 ) = x', '45 = ( x * 5 )', '( 45 / x ) = 5', '( x * 5 ) = 45', '5 = ( 45 / x )', '( 5 * x ) = 45', 'x = ( 45 / 5 )']
+dict_items([('x', (0, <makesets.aset object at 0x110360940>)), ('45', (0, <makesets.aset object at 0x11016f0f0>)), ('5', (0, <makesets.aset object at 0x110360748>))])
+0 45 = ( 5 * x )
 1 ( 45 / 5 ) = x
-0
-0
-0 45 = ( 5 + x )
-0
-0
-1 45 = ( 5 * x )
-0
-0
-77 100
-
-78 101
-
-79 102
-
+2 45 = ( x * 5 )
+3 ( 45 / x ) = 5
+4 ( x * 5 ) = 45
+5 5 = ( 45 / x )
+6 ( 5 * x ) = 45
+7 x = ( 45 / 5 )
+82
+ Nancy goes fishing with Joan . They catch 18 trout .  If they equally split up the trout , how many will each one get  ? 
+83
+ A restaurant sold 63 hamburgers last week . How many hamburgers on average were sold each day  ? 
+84
  Sandy worked 45 hours in the last 5 days . Assuming that she worked the same amount of hours each day , how long did she work each day  ? 
-0 ( 45 - 5 ) = x
-0
-0
+['45 = ( 5 * x )', '( 45 / 5 ) = x', '45 = ( x * 5 )', '( 45 / x ) = 5', '( x * 5 ) = 45', '5 = ( 45 / x )', '( 5 * x ) = 45', 'x = ( 45 / 5 )']
+dict_items([('x', (0, <makesets.aset object at 0x1101d1f28>)), ('45', (0, <makesets.aset object at 0x11016f390>)), ('5', (0, <makesets.aset object at 0x1101d1048>))])
+0 45 = ( 5 * x )
 1 ( 45 / 5 ) = x
-0
-0
-0 45 = ( 5 + x )
-0
-0
-1 45 = ( 5 * x )
-0
-0
-80 103
-
+2 45 = ( x * 5 )
+3 ( 45 / x ) = 5
+4 ( x * 5 ) = 45
+5 5 = ( 45 / x )
+6 ( 5 * x ) = 45
+7 x = ( 45 / 5 )
+85
  There were a total of 27 soccer games during the 3 month season .  If the games are equally divided , how many soccer games are played a month  ? 
-1 ( 27 / 3 ) = x
-0
-0
-1 27 = ( 3 * x )
-0
-0
-81 104
-
-82 105
-
- Fred has 110 blue marbles . Fred has 22 times more blue marbles than Tim . How many blue marbles does Tim have ? 
-1 ( 110 / 22 ) = x
-0
-0
-1 110 = ( 22 * x )
-1
-0
-0 ( 110 + 22 ) = x
-0
-0
-83 106
-
- There are 390 students at a school . If each classroom holds 30 students , how many classrooms are needed at the school ? 
-0 ( 390 - x ) = 30
-0
-0
-1 390 = ( x * 30 )
-1
-0
-1 ( 390 / x ) = 30
-0
-1
-84 107
-
-85 108
-
+['27 = ( 3 * x )', '( 3 * x ) = 27', '( 27 / x ) = 3', '( x * 3 ) = 27', 'x = ( 27 / 3 )', '3 = ( 27 / x )', '27 = ( x * 3 )', '( 27 / 3 ) = x']
+dict_items([('27', (0, <makesets.aset object at 0x11035a2e8>)), ('x', (0, <makesets.aset object at 0x11033d5c0>)), ('3', (0, <makesets.aset object at 0x11033dcc0>))])
+0 27 = ( 3 * x )
+1 ( 3 * x ) = 27
+2 ( 27 / x ) = 3
+3 ( x * 3 ) = 27
+4 x = ( 27 / 3 )
+5 3 = ( 27 / x )
+6 27 = ( x * 3 )
+7 ( 27 / 3 ) = x
+86
+ Mike has 96 muffins , which he needs to box up into dozens . How many boxes does he need ? 
+87
  Tim has saved 2000 cents from selling lemonade .  How many dollars does Tim have ? 
+['x = 20.0', '20.0 = x']
+dict_items([('x', (0, <makesets.aset object at 0x110360358>)), ('20.0', (0, <makesets.aset object at 0x11016f550>))])
+0 x = 20.0
 1 20.0 = x
-0
-86 109
-
+88
  Jason's shelves hold 45 books each . How many shelves will Jason need if Jason has 315 books ? 
-1 ( 45 * x ) = 315
-0
-1
-87 110
-
+['( x * 45 ) = 315', '315 = ( 45 * x )', '( 45 * x ) = 315', '45 = ( 315 / x )', 'x = ( 315 / 45 )', '( 315 / 45 ) = x', '( 315 / x ) = 45', '315 = ( x * 45 )']
+dict_items([('x', (0, <makesets.aset object at 0x110224780>)), ('45', (0, <makesets.aset object at 0x11016c048>)), ('315', (0, <makesets.aset object at 0x11033d400>))])
+0 ( x * 45 ) = 315
+1 315 = ( 45 * x )
+2 ( 45 * x ) = 315
+3 45 = ( 315 / x )
+4 x = ( 315 / 45 )
+5 ( 315 / 45 ) = x
+6 ( 315 / x ) = 45
+7 315 = ( x * 45 )
+89
  Nancy bought 615 crayons that came in packs of 15 .  How many packs of crayons did Nancy buy ? 
-1 615 = ( 15 * x )
-0
-0
-1 ( 615 / 15 ) = x
-0
-0
-88 112
-
+['615 = ( x * 15 )', '( 15 * x ) = 615', '( 615 / 15 ) = x', '( x * 15 ) = 615', '15 = ( 615 / x )', '615 = ( 15 * x )', '( 615 / x ) = 15', 'x = ( 615 / 15 )']
+dict_items([('615', (0, <makesets.aset object at 0x110213780>)), ('x', (0, <makesets.aset object at 0x1102137b8>)), ('15', (0, <makesets.aset object at 0x110213cf8>))])
+0 615 = ( x * 15 )
+1 ( 15 * x ) = 615
+2 ( 615 / 15 ) = x
+3 ( x * 15 ) = 615
+4 15 = ( 615 / x )
+5 615 = ( 15 * x )
+6 ( 615 / x ) = 15
+7 x = ( 615 / 15 )
+90
+ Mary earns $46 cleaning a home . How many homes did she clean , if she made 276 dollars ? 
+['276 = ( x * 46 )', '( 46 * x ) = 276', 'x = ( 276 / 46 )', '46 = ( 276 / x )', '( 276 / x ) = 46', '276 = ( 46 * x )', '( x * 46 ) = 276', '( 276 / 46 ) = x']
+dict_items([('x', (0, <makesets.aset object at 0x1102aaa58>)), ('46', (0, <makesets.aset object at 0x10ca7ebe0>)), ('276', (0, <makesets.aset object at 0x1102aae80>))])
+0 276 = ( x * 46 )
+1 ( 46 * x ) = 276
+2 x = ( 276 / 46 )
+3 46 = ( 276 / x )
+4 ( 276 / x ) = 46
+5 276 = ( 46 * x )
+6 ( x * 46 ) = 276
+7 ( 276 / 46 ) = x
+91
  There were a total of 323 football games in the season . The season is played for 17 months . How many football games were played each month , if each month has the same number of games ? 
-1 323 = ( 17 * x )
-1
-0
-0 323 = ( 17 + x )
-1
-0
-1 ( 323 / 17 ) = x
-0
-1
-0 ( 323 * 17 ) = x
-0
-1
-89 113
-
-90 114
-
- A teacher has 344 pieces of candy . If there are 43 students , and the candy is divided evenly , How many pieces will each student get ? 
-1 ( 344 / 43 ) = x
-0
-1
-1 344 = ( 43 * x )
-1
-0
-0 ( 344 * 43 ) = x
-0
-1
-0 344 = ( 43 + x )
-1
-0
-91 115
-
-92 117
-
+['( 323 / 17 ) = x', '( 17 * x ) = 323', 'x = ( 323 / 17 )', '323 = ( 17 * x )', '( 323 / x ) = 17', '( x * 17 ) = 323', '323 = ( x * 17 )', '17 = ( 323 / x )']
+dict_items([('x', (0, <makesets.aset object at 0x110386ac8>)), ('17', (0, <makesets.aset object at 0x110386a58>)), ('323', (0, <makesets.aset object at 0x10ca84240>))])
+0 ( 323 / 17 ) = x
+1 ( 17 * x ) = 323
+2 x = ( 323 / 17 )
+3 323 = ( 17 * x )
+4 ( 323 / x ) = 17
+5 ( x * 17 ) = 323
+6 323 = ( x * 17 )
+7 17 = ( 323 / x )
+92
+ Nancy , Melanie , Mary , and Alyssa each bought 540 baseball cards ,  which come in packs of 20 . How many packs of baseball cards do they have in all ? 
+93
+ Sally earns $25.00 for each house she cleans . If she cleans 96 houses , how many dozens of dollars will she make ? 
+['( 25.00 * 96 ) = ( x * 12 )', '( 25.00 * 96 ) = ( 12 * x )']
+dict_items([('x', (0, <makesets.aset object at 0x1101905c0>)), ('96', (0, <makesets.aset object at 0x110224080>)), ('12', (0, <makesets.aset object at 0x1101900f0>)), ('25.00', (0, <makesets.aset object at 0x10ca84198>))])
+0 ( 25.00 * 96 ) = ( x * 12 )
+1 ( 25.00 * 96 ) = ( 12 * x )
+94
+ There are 60 calories in a candy bar . How many dozen calories are there in 45 candy bars ? 
+95
  Sara saw 96 birds in a tree . How many dozen birds did Sara see ? 
-0 96 = ( x / 12 )
-1
-0
-1 96 = ( x * 12 )
-1
-0
-0 96 = ( x + 12 )
-1
-0
-0 ( 96 - x ) = 12
-0
-0
-1 ( 96 / x ) = 12
-0
-1
-93 118
-
-94 119
-
+['96 = ( x * 12 )', '( 12 * x ) = 96', '( 96 / 12 ) = x', '96 = ( 12 * x )', 'x = ( 96 / 12 )', '( x * 12 ) = 96', '( 96 / x ) = 12', '12 = ( 96 / x )']
+dict_items([('x', (0, <makesets.aset object at 0x11035ada0>)), ('96', (0, <makesets.aset object at 0x11016c048>)), ('12', (0, <makesets.aset object at 0x11035a278>))])
+0 96 = ( x * 12 )
+1 ( 12 * x ) = 96
+2 ( 96 / 12 ) = x
+3 96 = ( 12 * x )
+4 x = ( 96 / 12 )
+5 ( x * 12 ) = 96
+6 ( 96 / x ) = 12
+7 12 = ( 96 / x )
+96
+ Melanie has 84 blue marbles . Sandy has 8 times more blue marbles than Melanie . How many dozen blue marbles does Sandy have ? 
+97
  Sara has 192 golf balls . How many dozen golf balls does she have ? 
-1 192 = ( x * 12 )
-1
-0
-1 ( 192 / x ) = 12
-0
-1
-0 192 = ( x / 12 )
-1
-0
-95 121
-
-96 123
-
-97 124
-
+['x = ( 192 / 12 )', '192 = ( 12 * x )', '12 = ( 192 / x )', '( x * 12 ) = 192', '( 192 / x ) = 12', '( 192 / 12 ) = x', '192 = ( x * 12 )', '( 12 * x ) = 192']
+dict_items([('192', (0, <makesets.aset object at 0x110213b38>)), ('12', (0, <makesets.aset object at 0x11033d550>)), ('x', (0, <makesets.aset object at 0x11033de10>))])
+0 x = ( 192 / 12 )
+1 192 = ( 12 * x )
+2 12 = ( 192 / x )
+3 ( x * 12 ) = 192
+4 ( 192 / x ) = 12
+5 ( 192 / 12 ) = x
+6 192 = ( x * 12 )
+7 ( 12 * x ) = 192
+98
+ Keith bought 72 eggs from the store to bake some cakes .  How many dozen eggs did Keith buy ? 
+['12 = ( 72 / x )', '( x * 12 ) = 72', '72 = ( x * 12 )', '72 = ( 12 * x )', '( 72 / x ) = 12', '( 12 * x ) = 72', 'x = ( 72 / 12 )', '( 72 / 12 ) = x']
+dict_items([('72', (0, <makesets.aset object at 0x1100c7cf8>)), ('x', (0, <makesets.aset object at 0x110248b38>)), ('12', (0, <makesets.aset object at 0x1102480b8>))])
+0 12 = ( 72 / x )
+1 ( x * 12 ) = 72
+2 72 = ( x * 12 )
+3 72 = ( 12 * x )
+4 ( 72 / x ) = 12
+5 ( 12 * x ) = 72
+6 x = ( 72 / 12 )
+7 ( 72 / 12 ) = x
+99
+ Sara has saved 9 dollars from washing cars .  How many dozen quarters does Sara have ? 
+['( 12 - 9 ) = x', '12 = ( x + 9 )', '( 12 - x ) = 9', '( x + 9 ) = 12', 'x = ( 12 - 9 )', '( 9 + x ) = 12', '9 = ( 12 - x )', '12 = ( 9 + x )']
+dict_items([('x', (0, <makesets.aset object at 0x110224e48>)), ('9', (0, <makesets.aset object at 0x1100c7a20>)), ('12', (0, <makesets.aset object at 0x1102240b8>))])
+0 ( 12 - 9 ) = x
+1 12 = ( x + 9 )
+2 ( 12 - x ) = 9
+3 ( x + 9 ) = 12
+4 x = ( 12 - 9 )
+5 ( 9 + x ) = 12
+6 9 = ( 12 - x )
+7 12 = ( 9 + x )
+100
  Jason has 3 Pokemon cards . Benny bought 2 of Jason's  Pokemon cards . How many Pokemon cards does Jason have now  ? 
-1 ( 3 - 2 ) = x
-0
-0
-0 ( 3 * 2 ) = x
-0
-1
-1 3 = ( 2 + x )
-1
-0
-98 125
-
+['x = ( 3 - 2 )', '( x + 2 ) = 3', '( 2 + x ) = 3', '( 3 - 2 ) = x', '2 = ( 3 - x )', '3 = ( 2 + x )', '3 = ( x + 2 )', '( 3 - x ) = 2']
+dict_items([('x', (0, <makesets.aset object at 0x1103db080>)), ('2', (0, <makesets.aset object at 0x1103db6d8>)), ('3', (0, <makesets.aset object at 0x110360518>))])
+0 x = ( 3 - 2 )
+1 ( x + 2 ) = 3
+2 ( 2 + x ) = 3
+3 ( 3 - 2 ) = x
+4 2 = ( 3 - x )
+5 3 = ( 2 + x )
+6 3 = ( x + 2 )
+7 ( 3 - x ) = 2
+101
  Mike has 8 orange marbles , he gave Sam 4 of the marbles . How many orange marbles does he now have  ? 
-0 ( 8 + 4 ) = x
-0
-0
-0 8 = ( 4 * x )
-0
-0
-1 8 = ( 4 + x )
-0
-0
-1 ( 8 - 4 ) = x
-0
-0
-99 126
-
- Joan had 5 dimes in her bank . She spent 2 of her dimes . How many dimes does she have now  ? 
-1 ( 5 - 2 ) = x
-0
-0
-0 ( 5 + 2 ) = x
-0
-1
-1 5 = ( 2 + x )
-1
-0
-0 ( 5 * 2 ) = x
-0
-1
-100 127
-
+['8 = ( 4 + x )', 'x = ( 8 - 4 )', '( 4 + x ) = 8', '8 = ( x + 4 )', '( 8 - x ) = 4', '( 8 - 4 ) = x', '4 = ( 8 - x )', '( x + 4 ) = 8']
+dict_items([('4', (0, <makesets.aset object at 0x110452e48>)), ('8', (0, <makesets.aset object at 0x1101905c0>)), ('x', (0, <makesets.aset object at 0x110452860>))])
+0 8 = ( 4 + x )
+1 x = ( 8 - 4 )
+2 ( 4 + x ) = 8
+3 8 = ( x + 4 )
+4 ( 8 - x ) = 4
+5 ( 8 - 4 ) = x
+6 4 = ( 8 - x )
+7 ( x + 4 ) = 8
+102
  There are 2 rose bushes currently in the park . Park workers will plant 4 more rose bushes today . How many rose bushes will the park have when the workers are finished  ? 
-1 ( 2 + 4 ) = x
-0
-1
-0 ( 2 * 4 ) = x
-0
-1
-101 129
-
- Sam grew 4 watermelons , but the rabbits ate 3 watermelons . How many watermelons does Sam have left  ? 
-1 4 = ( 3 + x )
-0
-0
-1 ( 4 - 3 ) = x
-0
-0
-0 ( 4 + 3 ) = x
-0
-0
-0 ( 4 * 3 ) = x
-0
-0
-102 130
-
- There are 3 calories in a candy bar . How many calories are there in 5 candy bars  ? 
-1 ( 3 * 5 ) = x
-0
-0
-103 131
-
+['( 2 + 4 ) = x', '2 = ( x - 4 )', '( x - 4 ) = 2', '( x - 2 ) = 4', 'x = ( 2 + 4 )', '4 = ( x - 2 )']
+dict_items([('4', (0, <makesets.aset object at 0x1103ecc50>)), ('x', (0, <makesets.aset object at 0x1103ecda0>)), ('2', (0, <makesets.aset object at 0x1102aa860>))])
+0 ( 2 + 4 ) = x
+1 2 = ( x - 4 )
+2 ( x - 4 ) = 2
+3 ( x - 2 ) = 4
+4 x = ( 2 + 4 )
+5 4 = ( x - 2 )
+103
+ Sara picked 6 pears and Tim picked 5 pears from the pear tree . How many pears were picked in total  ? 
+['5 = ( x - 6 )', '( x - 6 ) = 5', '6 = ( x - 5 )', '( x - 5 ) = 6', 'x = ( 6 + 5 )', '( 6 + 5 ) = x']
+dict_items([('6', (0, <makesets.aset object at 0x1102aa940>)), ('x', (0, <makesets.aset object at 0x1103db6d8>)), ('5', (0, <makesets.aset object at 0x1103db438>))])
+0 5 = ( x - 6 )
+1 ( x - 6 ) = 5
+2 6 = ( x - 5 )
+3 ( x - 5 ) = 6
+4 x = ( 6 + 5 )
+5 ( 6 + 5 ) = x
+104
  Dan has 5 blue marbles . Mary has 2 times more blue marbles than Dan . How many blue marbles does Mary have  ? 
-0 ( 5 + 2 ) = x
-0
-0
-1 ( 5 * 2 ) = x
-0
-0
-104 132
-
- Sara has 9 dozen golf balls . How many golf balls does she have  ? 
-0 9 = ( 12 - x )
-0
-0
-1 ( 9 * 12 ) = x
-0
-0
-105 133
-
- Jason had Pokemon cards . He gave 9 to his friends . He now has 4 Pokemon cards left . How many Pokemon cards did he have to start with  ? 
-0 ( x / 9 ) = 4
-0
-1
-1 ( x - 9 ) = 4
-0
-0
-1 x = ( 9 + 4 )
-1
-0
-106 134
-
+['( x / 2 ) = 5', '( x / 5 ) = 2', 'x = ( 5 * 2 )', '( 5 * 2 ) = x', '5 = ( x / 2 )', '2 = ( x / 5 )']
+dict_items([('x', (0, <makesets.aset object at 0x11033d978>)), ('2', (0, <makesets.aset object at 0x11033de10>)), ('5', (0, <makesets.aset object at 0x1101d1da0>))])
+0 ( x / 2 ) = 5
+1 ( x / 5 ) = 2
+2 x = ( 5 * 2 )
+3 ( 5 * 2 ) = x
+4 5 = ( x / 2 )
+5 2 = ( x / 5 )
+105
  Mary had 7 nickels in her bank . Her dad gave her 5 more nickels . How many nickels does Mary have now  ? 
-0 ( 7 - 5 ) = x
-0
-0
-1 ( 7 + 5 ) = x
-0
-1
-107 136
-
+['5 = ( x - 7 )', 'x = ( 7 + 5 )', '( 7 + 5 ) = x', '( x - 5 ) = 7', '( x - 7 ) = 5', '7 = ( x - 5 )']
+dict_items([('7', (0, <makesets.aset object at 0x11035a128>)), ('5', (0, <makesets.aset object at 0x11049d048>)), ('x', (0, <makesets.aset object at 0x1100c7cf8>))])
+0 5 = ( x - 7 )
+1 x = ( 7 + 5 )
+2 ( 7 + 5 ) = x
+3 ( x - 5 ) = 7
+4 ( x - 7 ) = 5
+5 7 = ( x - 5 )
+106
+ Melanie , Benny , Sally , and Jessica each have 3 baseball cards .  How many baseball cards do they have in all  ? 
+107
  Keith grew 6 turnips . Alyssa grew 9 turnips . How many turnips did they grow in all  ? 
-0 ( 6 * 9 ) = x
-0
-1
-1 ( 6 + 9 ) = x
-0
-1
-108 137
-
+['( x - 6 ) = 9', 'x = ( 6 + 9 )', '( 6 + 9 ) = x', '9 = ( x - 6 )', '( x - 9 ) = 6', '6 = ( x - 9 )']
+dict_items([('6', (0, <makesets.aset object at 0x1102240b8>)), ('x', (0, <makesets.aset object at 0x110452550>)), ('9', (0, <makesets.aset object at 0x110452588>))])
+0 ( x - 6 ) = 9
+1 x = ( 6 + 9 )
+2 ( 6 + 9 ) = x
+3 9 = ( x - 6 )
+4 ( x - 9 ) = 6
+5 6 = ( x - 9 )
+108
  There are 4 children in the classroom , each student will get 2 pencils . How many pencils will the teacher have to give out  ? 
-1 ( 4 * 2 ) = x
-0
-0
-0 4 = ( 2 + x )
-0
-0
-109 138
-
+['2 = ( x / 4 )', '4 = ( x / 2 )', '( 4 * 2 ) = x', '( x / 4 ) = 2', '( x / 2 ) = 4', 'x = ( 4 * 2 )']
+dict_items([('4', (0, <makesets.aset object at 0x1104a1080>)), ('x', (0, <makesets.aset object at 0x1102139e8>)), ('2', (0, <makesets.aset object at 0x1102139b0>))])
+0 2 = ( x / 4 )
+1 4 = ( x / 2 )
+2 ( 4 * 2 ) = x
+3 ( x / 4 ) = 2
+4 ( x / 2 ) = 4
+5 x = ( 4 * 2 )
+109
  Mary has 9 yellow marbles Joan has 3 yellow marbles . How many yellow marbles do they have in all  ? 
-0 ( 9 * 3 ) = x
-0
-0
-0 ( 9 - 3 ) = x
-0
-0
-1 ( 9 + 3 ) = x
-0
-0
-110 139
-
+['x = ( 9 + 3 )', '( x - 9 ) = 3', '9 = ( x - 3 )', '( x - 3 ) = 9', '( 9 + 3 ) = x', '3 = ( x - 9 )']
+dict_items([('x', (0, <makesets.aset object at 0x1104527f0>)), ('9', (0, <makesets.aset object at 0x11049d2e8>)), ('3', (0, <makesets.aset object at 0x110452438>))])
+0 x = ( 9 + 3 )
+1 ( x - 9 ) = 3
+2 9 = ( x - 3 )
+3 ( x - 3 ) = 9
+4 ( 9 + 3 ) = x
+5 3 = ( x - 9 )
+110
  There are 8 calories in a candy bar . How many calories are there in 3 candy bars  ? 
-1 ( 8 * 3 ) = x
-0
-0
-111 140
-
-112 142
-
+['x = ( 8 * 3 )', '8 = ( x / 3 )', '3 = ( x / 8 )', '( x / 8 ) = 3', '( 8 * 3 ) = x', '( x / 3 ) = 8']
+dict_items([('8', (0, <makesets.aset object at 0x1104c1c50>)), ('x', (0, <makesets.aset object at 0x1103db668>)), ('3', (0, <makesets.aset object at 0x1103db358>))])
+0 x = ( 8 * 3 )
+1 8 = ( x / 3 )
+2 3 = ( x / 8 )
+3 ( x / 8 ) = 3
+4 ( 8 * 3 ) = x
+5 ( x / 3 ) = 8
+111
+ Joan has saved 6 quarters from washing cars .  How many cents does Joan have  ? 
+112
+ There are 960 students at a school . If each classroom holds 30 students , how many classrooms are needed at the school ? 
+['( 30 * x ) = 960', '30 = ( 960 / x )', '960 = ( 30 * x )', '( x * 30 ) = 960', '( 960 / x ) = 30', '960 = ( x * 30 )', '( 960 / 30 ) = x', 'x = ( 960 / 30 )']
+dict_items([('x', (0, <makesets.aset object at 0x1102130b8>)), ('960', (0, <makesets.aset object at 0x1104c1c18>)), ('30', (0, <makesets.aset object at 0x110213240>))])
+0 ( 30 * x ) = 960
+1 30 = ( 960 / x )
+2 960 = ( 30 * x )
+3 ( x * 30 ) = 960
+4 ( 960 / x ) = 30
+5 960 = ( x * 30 )
+6 ( 960 / 30 ) = x
+7 x = ( 960 / 30 )
+113
  Sally earns $12.50 an hour cleaning houses . If she works for 12 hours , how much money will she make  ? 
-0 ( 12.5 - 12 ) = x
-0
-0
-1 ( 12.5 * 12 ) = x
-0
-1
-113 143
-
+['( 12.5 * 12 ) = x', '( x / 12 ) = 12.5', '12 = ( x / 12.5 )', 'x = ( 12.5 * 12 )', '( x / 12.5 ) = 12', '12.5 = ( x / 12 )']
+dict_items([('x', (0, <makesets.aset object at 0x11016f978>)), ('12.5', (0, <makesets.aset object at 0x110360518>)), ('12', (0, <makesets.aset object at 0x110452f60>))])
+0 ( 12.5 * 12 ) = x
+1 ( x / 12 ) = 12.5
+2 12 = ( x / 12.5 )
+3 x = ( 12.5 * 12 )
+4 ( x / 12.5 ) = 12
+5 12.5 = ( x / 12 )
+114
  There were a total of 12 basketball games in the season . The season is played for 2 months . How many basketball games were played each month , if each month has the same number of games ? 
-1 12 = ( 2 * x )
-1
-0
-0 ( 12 * 2 ) = x
-0
-1
-1 ( 12 / 2 ) = x
-0
-1
-114 144
-
+['12 = ( 2 * x )', '( 2 * x ) = 12', '2 = ( 12 / x )', 'x = ( 12 / 2 )', '( 12 / x ) = 2', '( x * 2 ) = 12', '( 12 / 2 ) = x', '12 = ( x * 2 )']
+dict_items([('x', (0, <makesets.aset object at 0x1101909b0>)), ('12', (0, <makesets.aset object at 0x110248518>)), ('2', (0, <makesets.aset object at 0x11033d390>))])
+0 12 = ( 2 * x )
+1 ( 2 * x ) = 12
+2 2 = ( 12 / x )
+3 x = ( 12 / 2 )
+4 ( 12 / x ) = 2
+5 ( x * 2 ) = 12
+6 ( 12 / 2 ) = x
+7 12 = ( x * 2 )
+115
  Joan bought 6 dozen eggs from the grocery store to bake some cakes .  How many eggs did Joan buy  ? 
-1 ( 6 * 12 ) = x
-0
-0
-0 6 = ( 12 / x )
-0
-0
-115 146
-
+['12 = ( x / 6 )', '( x / 6 ) = 12', '( x / 12 ) = 6', '6 = ( x / 12 )', 'x = ( 6 * 12 )', '( 6 * 12 ) = x']
+dict_items([('6', (0, <makesets.aset object at 0x1102489b0>)), ('x', (0, <makesets.aset object at 0x11049d438>)), ('12', (0, <makesets.aset object at 0x11049d400>))])
+0 12 = ( x / 6 )
+1 ( x / 6 ) = 12
+2 ( x / 12 ) = 6
+3 6 = ( x / 12 )
+4 x = ( 6 * 12 )
+5 ( 6 * 12 ) = x
+116
+ Mary , Sam , Keith , and Alyssa each have 6 baseball cards .  How many baseball cards do they have in all  ? 
+117
  Sally bought 4 dozen eggs from the grocery store to bake some cakes .  How many eggs did Sally buy  ? 
-1 ( 4 * 12 ) = x
-0
-0
-116 147
-
- There are 1110 students at a school . If each classroom holds 30 students , how many classrooms are needed at the school ? 
-1 ( 1110 / x ) = 30
-0
-1
-0 1110 = ( x + 30 )
-1
-0
-1 1110 = ( x * 30 )
-1
-0
-117 148
-
- Sally grew 6 carrots . Fred grew 4 carrots . How many carrots did they grow in all  ? 
-1 ( 6 + 4 ) = x
-0
-1
-0 ( 6 - 4 ) = x
-0
-0
-118 150
-
- Fred earns $12.50 an hour cleaning houses . If he works for 8 hours , how much money will he make  ? 
-1 ( 12.5 * 8 ) = x
-0
-1
-0 ( 12.5 / 8 ) = x
-0
-1
-0 ( 12.5 - 8 ) = x
-0
-0
-119 151
-
+['4 = ( x / 12 )', '12 = ( x / 4 )', 'x = ( 4 * 12 )', '( 4 * 12 ) = x', '( x / 4 ) = 12', '( x / 12 ) = 4']
+dict_items([('4', (0, <makesets.aset object at 0x1103db9b0>)), ('x', (0, <makesets.aset object at 0x1104a5cf8>)), ('12', (0, <makesets.aset object at 0x1104a54e0>))])
+0 4 = ( x / 12 )
+1 12 = ( x / 4 )
+2 x = ( 4 * 12 )
+3 ( 4 * 12 ) = x
+4 ( x / 4 ) = 12
+5 ( x / 12 ) = 4
+118
+ Benny has 6 blue marbles . Keith has 5 times more blue marbles than Benny . How many blue marbles does Keith have  ? 
+['( x / 6 ) = 5', '5 = ( x / 6 )', '( 6 * 5 ) = x', '6 = ( x / 5 )', '( x / 5 ) = 6', 'x = ( 6 * 5 )']
+dict_items([('6', (0, <makesets.aset object at 0x11035a128>)), ('x', (0, <makesets.aset object at 0x1104a1160>)), ('5', (0, <makesets.aset object at 0x1104a1048>))])
+0 ( x / 6 ) = 5
+1 5 = ( x / 6 )
+2 ( 6 * 5 ) = x
+3 6 = ( x / 5 )
+4 ( x / 5 ) = 6
+5 x = ( 6 * 5 )
+119
  Tom found 5 seashells on the beach . he gave Jessica 2 of the seashells . How many seashells does he now have  ? 
-1 ( 5 - 2 ) = x
-0
-0
-0 ( 5 + 2 ) = x
-0
-1
-1 5 = ( 2 + x )
-1
-0
-0 ( 5 * 2 ) = x
-0
-1
-120 152
-
- Fred has 5 baseball cards . Melanie bought 3 of Fred's  baseball cards . How many baseball cards does Fred have now  ? 
-0 ( 5 + 3 ) = x
-0
-1
-0 ( 5 * 3 ) = x
-0
-1
-1 ( 5 - 3 ) = x
-0
-0
-1 5 = ( 3 + x )
-1
-0
-121 153
-
+['( 5 - 2 ) = x', '2 = ( 5 - x )', '( 5 - x ) = 2', '5 = ( 2 + x )', '5 = ( x + 2 )', '( 2 + x ) = 5', 'x = ( 5 - 2 )', '( x + 2 ) = 5']
+dict_items([('x', (0, <makesets.aset object at 0x1104a5da0>)), ('2', (0, <makesets.aset object at 0x1104a5c50>)), ('5', (0, <makesets.aset object at 0x11035a6d8>))])
+0 ( 5 - 2 ) = x
+1 2 = ( 5 - x )
+2 ( 5 - x ) = 2
+3 5 = ( 2 + x )
+4 5 = ( x + 2 )
+5 ( 2 + x ) = 5
+6 x = ( 5 - 2 )
+7 ( x + 2 ) = 5
+120
  Nancy has saved 4900 cents from selling lemonade .  How many dollars does Nancy have ? 
+['x = 49.0', '49.0 = x']
+dict_items([('x', (0, <makesets.aset object at 0x1104a5b70>)), ('49.0', (0, <makesets.aset object at 0x1100c7d30>))])
+0 x = 49.0
 1 49.0 = x
-0
-122 154
-
+121
  There were a total of 10 soccer games in the season . The season is played for 5 months . How many soccer games were played each month , if each month has the same number of games ? 
+['( 10 / x ) = 5', '10 = ( 5 * x )', '( 10 / 5 ) = x', '5 = ( 10 / x )', '10 = ( x * 5 )', '( 5 * x ) = 10', 'x = ( 10 / 5 )', '( x * 5 ) = 10']
+dict_items([('x', (0, <makesets.aset object at 0x1104a1898>)), ('10', (0, <makesets.aset object at 0x110360518>)), ('5', (0, <makesets.aset object at 0x1104a1780>))])
+0 ( 10 / x ) = 5
 1 10 = ( 5 * x )
-1
-0
-0 ( 10 + 5 ) = x
-0
-1
-1 ( 10 / 5 ) = x
-0
-1
-123 155
-
-124 156
-
+2 ( 10 / 5 ) = x
+3 5 = ( 10 / x )
+4 10 = ( x * 5 )
+5 ( 5 * x ) = 10
+6 x = ( 10 / 5 )
+7 ( x * 5 ) = 10
+122
  Melanie goes fishing with Tom . Melanie catches 8 trout . Tom catches 2 times as many trout as Melanie . How many trout did Tom catch  ? 
-0 ( 8 + 2 ) = x
-1
-1
-0 8 = ( 2 + x )
-2
-1
-1 ( 8 * 2 ) = x
-1
-1
-125 157
-
- Tom was at the beach for 5 days and found 7 seashells every day . How many seashells did Tom find during the beach trip  ? 
-0 ( 5 + 7 ) = x
-0
-0
-1 ( 5 * 7 ) = x
-0
-0
-126 158
-
-127 159
-
-128 160
-
-129 161
-
+['( 8 * 2 ) = x', '8 = ( x / 2 )', 'x = ( 8 * 2 )', '2 = ( x / 8 )', '( x / 8 ) = 2', '( x / 2 ) = 8']
+dict_items([('8', (0, <makesets.aset object at 0x110224860>)), ('2', (0, <makesets.aset object at 0x1103db4e0>)), ('x', (0, <makesets.aset object at 0x1103db6d8>))])
+0 ( 8 * 2 ) = x
+1 8 = ( x / 2 )
+2 x = ( 8 * 2 )
+3 2 = ( x / 8 )
+4 ( x / 8 ) = 2
+5 ( x / 2 ) = 8
+123
+ Benny worked 3 hours for 6 days . How many hours did he work in total  ? 
+124
  Nancy has 7 black balloons . Mary has 4 times more  black balloons than Nancy . How many black balloons does Mary have now  ? 
+['7 = ( x / 4 )', '( 7 * 4 ) = x', '( x / 4 ) = 7', '4 = ( x / 7 )', 'x = ( 7 * 4 )', '( x / 7 ) = 4']
+dict_items([('4', (0, <makesets.aset object at 0x110213d30>)), ('7', (0, <makesets.aset object at 0x10ca7ebe0>)), ('x', (0, <makesets.aset object at 0x110213c88>))])
+0 7 = ( x / 4 )
 1 ( 7 * 4 ) = x
-0
-0
-0 7 = ( 4 + x )
-1
-0
-130 162
-
-131 163
-
-132 164
-
+2 ( x / 4 ) = 7
+3 4 = ( x / 7 )
+4 x = ( 7 * 4 )
+5 ( x / 7 ) = 4
+125
+ Jessica , Sandy , and Jason each have 8 pencils . How many pencils do they have have in all  ? 
+126
+ Sam , Dan , Tom , and Keith each have 14 Pokemon cards .  How many Pokemon cards do they have in all  ? 
+127
  Alyssa has 36 books . Nancy has 7 times more books than  Alyssa . How many books does Nancy have  ? 
-0 36 = ( 7 + x )
-1
-0
-0 ( 36 + 7 ) = x
-0
-0
-1 ( 36 * 7 ) = x
-0
-0
-133 165
-
+['x = ( 36 * 7 )', '( x / 36 ) = 7', '( x / 7 ) = 36', '36 = ( x / 7 )', '7 = ( x / 36 )', '( 36 * 7 ) = x']
+dict_items([('7', (0, <makesets.aset object at 0x1104ecd30>)), ('36', (0, <makesets.aset object at 0x1103ec7b8>)), ('x', (0, <makesets.aset object at 0x1104ecda0>))])
+0 x = ( 36 * 7 )
+1 ( x / 36 ) = 7
+2 ( x / 7 ) = 36
+3 36 = ( x / 7 )
+4 7 = ( x / 36 )
+5 ( 36 * 7 ) = x
+128
  Tim has 13 dozen golf balls . How many golf balls does he have  ? 
-0 ( 13 + 12 ) = x
-0
-0
-1 ( 13 * 12 ) = x
-0
-0
-134 166
-
+['13 = ( x / 12 )', 'x = ( 13 * 12 )', '( x / 13 ) = 12', '( 13 * 12 ) = x', '12 = ( x / 13 )', '( x / 12 ) = 13']
+dict_items([('x', (0, <makesets.aset object at 0x1103ec9b0>)), ('12', (0, <makesets.aset object at 0x1103ec8d0>)), ('13', (0, <makesets.aset object at 0x1104ec1d0>))])
+0 13 = ( x / 12 )
+1 x = ( 13 * 12 )
+2 ( x / 13 ) = 12
+3 ( 13 * 12 ) = x
+4 12 = ( x / 13 )
+5 ( x / 12 ) = 13
+129
  There were a total of 13 hockey games a month . The season is played for  14 months . How many hockey games are in the seasons  ? 
-0 13 = ( 14 - x )
-0
-0
-1 ( 13 * 14 ) = x
-0
-0
-135 167
-
+['( 13 * 14 ) = x', 'x = ( 13 * 14 )', '14 = ( x / 13 )', '13 = ( x / 14 )', '( x / 13 ) = 14', '( x / 14 ) = 13']
+dict_items([('x', (0, <makesets.aset object at 0x1104ecb70>)), ('14', (0, <makesets.aset object at 0x1104ec9e8>)), ('13', (0, <makesets.aset object at 0x110360518>))])
+0 ( 13 * 14 ) = x
+1 x = ( 13 * 14 )
+2 14 = ( x / 13 )
+3 13 = ( x / 14 )
+4 ( x / 13 ) = 14
+5 ( x / 14 ) = 13
+130
  Benny bought 7 dozen eggs from the grocery store to bake some cakes .  How many eggs did Benny buy  ? 
-1 ( 7 * 12 ) = x
-0
-0
-0 7 = ( 12 - x )
-0
-0
-0 ( 7 + 12 ) = x
-0
-0
-136 168
-
+['( x / 7 ) = 12', 'x = ( 7 * 12 )', '12 = ( x / 7 )', '( x / 12 ) = 7', '7 = ( x / 12 )', '( 7 * 12 ) = x']
+dict_items([('7', (0, <makesets.aset object at 0x11035a6d8>)), ('12', (0, <makesets.aset object at 0x110213b70>)), ('x', (0, <makesets.aset object at 0x1103ecda0>))])
+0 ( x / 7 ) = 12
+1 x = ( 7 * 12 )
+2 12 = ( x / 7 )
+3 ( x / 12 ) = 7
+4 7 = ( x / 12 )
+5 ( 7 * 12 ) = x
+131
  Dan has 29 violet balloons . Tim has 7 times more violet balloons than Dan . How many violet balloons does Tim have  ? 
-0 ( 29 - 7 ) = x
-0
-0
-1 ( 29 * 7 ) = x
-0
-0
-0 ( 29 + 7 ) = x
-0
-0
-137 169
-
+['x = ( 29 * 7 )', '( x / 29 ) = 7', '29 = ( x / 7 )', '7 = ( x / 29 )', '( 29 * 7 ) = x', '( x / 7 ) = 29']
+dict_items([('7', (0, <makesets.aset object at 0x1104ef630>)), ('29', (0, <makesets.aset object at 0x11035a128>)), ('x', (0, <makesets.aset object at 0x1104ef710>))])
+0 x = ( 29 * 7 )
+1 ( x / 29 ) = 7
+2 29 = ( x / 7 )
+3 7 = ( x / 29 )
+4 ( 29 * 7 ) = x
+5 ( x / 7 ) = 29
+132
  There are 31 calories in a candy bar . How many calories are there in 11 candy bars  ? 
-0 31 = ( 11 + x )
-0
-0
-0 ( 31 + 11 ) = x
-0
-0
-1 ( 31 * 11 ) = x
-0
-0
-138 170
-
-139 173
-
+['( x / 31 ) = 11', 'x = ( 31 * 11 )', '( 31 * 11 ) = x', '31 = ( x / 11 )', '( x / 11 ) = 31', '11 = ( x / 31 )']
+dict_items([('x', (0, <makesets.aset object at 0x1102489b0>)), ('11', (0, <makesets.aset object at 0x110190908>)), ('31', (0, <makesets.aset object at 0x11035a630>))])
+0 ( x / 31 ) = 11
+1 x = ( 31 * 11 )
+2 ( 31 * 11 ) = x
+3 31 = ( x / 11 )
+4 ( x / 11 ) = 31
+5 11 = ( x / 31 )
+133
+ There are 46 children in the classroom , each student will get 4 dozen pencils . How many pencils will the teacher have to give out  ? 
+['( ( 46 * 4 ) * 12 ) = x', 'x = ( ( 4 * 12 ) * 46 )', '( x / 46 ) = ( 4 * 12 )', '( x / 4 ) = ( 46 * 12 )', 'x = ( ( 46 * 4 ) * 12 )', '( ( 4 * 12 ) * 46 ) = x', 'x = ( ( 46 * 12 ) * 4 )', '( ( 46 * 12 ) * 4 ) = x']
+dict_items([('4', (0, <makesets.aset object at 0x1104ef3c8>)), ('x', (0, <makesets.aset object at 0x1104efb38>)), ('46', (0, <makesets.aset object at 0x10fd89ba8>)), ('12', (0, <makesets.aset object at 0x1104efb70>))])
+0 ( ( 46 * 4 ) * 12 ) = x
+1 x = ( ( 4 * 12 ) * 46 )
+2 ( x / 46 ) = ( 4 * 12 )
+3 ( x / 4 ) = ( 46 * 12 )
+4 x = ( ( 46 * 4 ) * 12 )
+5 ( ( 4 * 12 ) * 46 ) = x
+6 x = ( ( 46 * 12 ) * 4 )
+7 ( ( 46 * 12 ) * 4 ) = x
+134
+ Nancy has saved 1 dozen quarters from washing cars .  How much money does Nancy have  ? 
+['1 = ( 3.0 / x )', '( 1 * 3.0 ) = x', '( 1 * x ) = 3.0', '( 3.0 / x ) = 1', '3.0 = ( 1 * x )', '( x * 1 ) = 3.0', '( x / 3.0 ) = 1', '3.0 = ( x * 1 )', 'x = ( 1 * 3.0 )', '1 = ( x / 3.0 )']
+dict_items([('x', (0, <makesets.aset object at 0x1104ef438>)), ('1', (0, <makesets.aset object at 0x1104efc50>)), ('3.0', (0, <makesets.aset object at 0x1104ef5c0>))])
+0 1 = ( 3.0 / x )
+1 ( 1 * 3.0 ) = x
+2 ( 1 * x ) = 3.0
+3 ( 3.0 / x ) = 1
+4 3.0 = ( 1 * x )
+5 ( x * 1 ) = 3.0
+6 ( x / 3.0 ) = 1
+7 3.0 = ( x * 1 )
+8 x = ( 1 * 3.0 )
+9 1 = ( x / 3.0 )
+135
  Dan bought 9 dozen eggs from the grocery store to bake some cakes .  How many eggs did Dan buy  ? 
-0 9 = ( 12 - x )
-0
-0
-1 ( 9 * 12 ) = x
-0
-0
-140 174
-
+['x = ( 9 * 12 )', '9 = ( x / 12 )', '( x / 12 ) = 9', '( x / 9 ) = 12', '12 = ( x / 9 )', '( 9 * 12 ) = x']
+dict_items([('x', (0, <makesets.aset object at 0x1103db048>)), ('9', (0, <makesets.aset object at 0x110360898>)), ('12', (0, <makesets.aset object at 0x11049d1d0>))])
+0 x = ( 9 * 12 )
+1 9 = ( x / 12 )
+2 ( x / 12 ) = 9
+3 ( x / 9 ) = 12
+4 12 = ( x / 9 )
+5 ( 9 * 12 ) = x
+136
  There are 4 dozen calories in a candy bar . How many calories are there in 42 candy bars  ? 
-0 4 = ( ( 12 + 42 ) - x )
-0
-0
-0
-1 ( ( 4 * 12 ) * 42 ) = x
-0
-0
-0
-0 4 = ( 12 - ( 42 - x ) )
-0
-0
-0
-141 175
-
+['x = ( ( 4 * 42 ) * 12 )', '( 4 * 12 ) = ( x / 42 )', '( ( 4 * 12 ) * 42 ) = x', '( ( 4 * 42 ) * 12 ) = x', 'x = ( ( 4 * 12 ) * 42 )']
+dict_items([('4', (0, <makesets.aset object at 0x110360518>)), ('42', (0, <makesets.aset object at 0x1104ecb00>)), ('12', (0, <makesets.aset object at 0x1104ec550>)), ('x', (0, <makesets.aset object at 0x1104ec9e8>))])
+0 x = ( ( 4 * 42 ) * 12 )
+1 ( 4 * 12 ) = ( x / 42 )
+2 ( ( 4 * 12 ) * 42 ) = x
+3 ( ( 4 * 42 ) * 12 ) = x
+4 x = ( ( 4 * 12 ) * 42 )
+137
  Sandy has 8 dozen books . Fred has 5 times more books than  Sandy . How many books does Fred have  ? 
-1 ( ( 8 * 12 ) * 5 ) = x
-0
-0
-1
-142 176
-
+['( 8 * 12 ) = ( x / 5 )', '( ( 8 * 5 ) * 12 ) = x', 'x = ( ( 8 * 5 ) * 12 )', '( ( 8 * 12 ) * 5 ) = x', '( x / 8 ) = ( 12 * 5 )', 'x = ( ( 8 * 12 ) * 5 )']
+dict_items([('8', (0, <makesets.aset object at 0x1104ecef0>)), ('12', (0, <makesets.aset object at 0x1104ec320>)), ('5', (0, <makesets.aset object at 0x1104ec748>)), ('x', (0, <makesets.aset object at 0x1104ec710>))])
+0 ( 8 * 12 ) = ( x / 5 )
+1 ( ( 8 * 5 ) * 12 ) = x
+2 x = ( ( 8 * 5 ) * 12 )
+3 ( ( 8 * 12 ) * 5 ) = x
+4 ( x / 8 ) = ( 12 * 5 )
+5 x = ( ( 8 * 12 ) * 5 )
+138
  Jessica has 3 dozen red marbles . Sandy has 4 times more red marbles than Jessica . How many red marbles does Sandy have  ? 
-1 ( ( 3 * 12 ) * 4 ) = x
-0
-0
-1
-0 ( 3 - ( 12 / 4 ) ) = x
-0
-0
-0
-143 177
-
-144 179
-
-145 180
-
+['( ( 3 * 4 ) * 12 ) = x', '( x / 3 ) = ( 12 * 4 )', 'x = ( ( 3 * 12 ) * 4 )', '( ( 3 * 12 ) * 4 ) = x', 'x = ( ( 3 * 4 ) * 12 )', '( 3 * 12 ) = ( x / 4 )']
+dict_items([('4', (0, <makesets.aset object at 0x11049d550>)), ('x', (0, <makesets.aset object at 0x11049d208>)), ('12', (0, <makesets.aset object at 0x11049dc50>)), ('3', (0, <makesets.aset object at 0x11049d160>))])
+0 ( ( 3 * 4 ) * 12 ) = x
+1 ( x / 3 ) = ( 12 * 4 )
+2 x = ( ( 3 * 12 ) * 4 )
+3 ( ( 3 * 12 ) * 4 ) = x
+4 x = ( ( 3 * 4 ) * 12 )
+5 ( 3 * 12 ) = ( x / 4 )
+139
+ Sally saw 1 dozen birds in a tree . How many birds did Sally see  ? 
+['( 1 * 12 ) = x', '( x * 1 ) = 12', 'x = ( 1 * 12 )', '( x / 12 ) = 1', '12 = ( x * 1 )', '( 1 * x ) = 12', '1 = ( x / 12 )', '12 = ( 1 * x )', '( 12 / x ) = 1', '1 = ( 12 / x )']
+dict_items([('x', (0, <makesets.aset object at 0x1104a1550>)), ('1', (0, <makesets.aset object at 0x11049d080>)), ('12', (0, <makesets.aset object at 0x1104a1fd0>))])
+0 ( 1 * 12 ) = x
+1 ( x * 1 ) = 12
+2 x = ( 1 * 12 )
+3 ( x / 12 ) = 1
+4 12 = ( x * 1 )
+5 ( 1 * x ) = 12
+6 1 = ( x / 12 )
+7 12 = ( 1 * x )
+8 ( 12 / x ) = 1
+9 1 = ( 12 / x )
+140
+ Fred , Benny , and Jason have 24 crayons all together . If the crayons are equally divided , how many will each person get  ? 
+141
  Sara goes fishing with Melanie . Sara catches 5 trout . Melanie catches 2 times as many trout as Sara . How many trout did Melanie catch  ? 
-0 ( 5 + 2 ) = x
-1
-1
-1 ( 5 * 2 ) = x
-1
-1
-146 182
-
-147 183
-
+['( x / 2 ) = 5', '( x / 5 ) = 2', 'x = ( 5 * 2 )', '( 5 * 2 ) = x', '5 = ( x / 2 )', '2 = ( x / 5 )']
+dict_items([('x', (0, <makesets.aset object at 0x11049db70>)), ('2', (0, <makesets.aset object at 0x11049d630>)), ('5', (0, <makesets.aset object at 0x1102131d0>))])
+0 ( x / 2 ) = 5
+1 ( x / 5 ) = 2
+2 x = ( 5 * 2 )
+3 ( 5 * 2 ) = x
+4 5 = ( x / 2 )
+5 2 = ( x / 5 )
+142
+ Benny goes to lunch with Sally and Sandy . The total bill came to 15 dollars . They decided to equally split up the bill , how much will each person have to pay  ? 
+143
+ A restaurant sold 49 hamburgers last week . How many hamburgers on average were sold each day  ? 
+144
  Sally has 6 blue balloons . Fred has 3 times more  blue balloons than Sally . How many blue balloons does Fred have now  ? 
-1 ( 6 * 3 ) = x
-0
-0
-148 185
-
+['x = ( 6 * 3 )', '( x / 3 ) = 6', '3 = ( x / 6 )', '6 = ( x / 3 )', '( 6 * 3 ) = x', '( x / 6 ) = 3']
+dict_items([('6', (0, <makesets.aset object at 0x1104a15f8>)), ('x', (0, <makesets.aset object at 0x1102134e0>)), ('3', (0, <makesets.aset object at 0x1102139e8>))])
+0 x = ( 6 * 3 )
+1 ( x / 3 ) = 6
+2 3 = ( x / 6 )
+3 6 = ( x / 3 )
+4 ( 6 * 3 ) = x
+5 ( x / 6 ) = 3
+145
+ Mike worked 3 hours , each day , for 5 days . How many hours did he work in total  ? 
+146
  There were a total of 7 baseball games a month .  The season is played for 2 months . How many baseball games are in a season  ? 
-0 7 = ( 2 + x )
-0
-0
-1 ( 7 * 2 ) = x
-0
-0
-149 186
-
-150 187
-
+['( x / 7 ) = 2', 'x = ( 7 * 2 )', '7 = ( x / 2 )', '( x / 2 ) = 7', '2 = ( x / 7 )', '( 7 * 2 ) = x']
+dict_items([('7', (0, <makesets.aset object at 0x1104a1cf8>)), ('2', (0, <makesets.aset object at 0x1103db0f0>)), ('x', (0, <makesets.aset object at 0x1103db2e8>))])
+0 ( x / 7 ) = 2
+1 x = ( 7 * 2 )
+2 7 = ( x / 2 )
+3 ( x / 2 ) = 7
+4 2 = ( x / 7 )
+5 ( 7 * 2 ) = x
+147
+ Melanie is selling 4 gumballs for eight cents each . How much money can Melanie get from selling the gumballs ? 
+148
  Mary had 8 potatoes in the garden . The rabbits ate 3 of the potatoes . How many potatoes does Mary now have  ? 
-0 ( 8 * 3 ) = x
-0
-1
-1 8 = ( 3 + x )
-1
-0
-1 ( 8 - 3 ) = x
-0
-0
-151 191
-
+['3 = ( 8 - x )', '( x + 3 ) = 8', '( 8 - x ) = 3', 'x = ( 8 - 3 )', '8 = ( x + 3 )', '( 3 + x ) = 8', '8 = ( 3 + x )', '( 8 - 3 ) = x']
+dict_items([('8', (0, <makesets.aset object at 0x10fd89ba8>)), ('x', (0, <makesets.aset object at 0x1103ec748>)), ('3', (0, <makesets.aset object at 0x1103ecf98>))])
+0 3 = ( 8 - x )
+1 ( x + 3 ) = 8
+2 ( 8 - x ) = 3
+3 x = ( 8 - 3 )
+4 8 = ( x + 3 )
+5 ( 3 + x ) = 8
+6 8 = ( 3 + x )
+7 ( 8 - 3 ) = x
+149
+ There were a total of 6 soccer games this year . Jessica missed 4 of the games . How many soccer games did Jessica go to in all  ? 
+['6 = ( 4 + x )', '( 4 + x ) = 6', '( x + 4 ) = 6', '( 6 - 4 ) = x', 'x = ( 6 - 4 )', '4 = ( 6 - x )', '( 6 - x ) = 4', '6 = ( x + 4 )']
+dict_items([('6', (0, <makesets.aset object at 0x11049d898>)), ('4', (0, <makesets.aset object at 0x1104a1a20>)), ('x', (0, <makesets.aset object at 0x1104a15c0>))])
+0 6 = ( 4 + x )
+1 ( 4 + x ) = 6
+2 ( x + 4 ) = 6
+3 ( 6 - 4 ) = x
+4 x = ( 6 - 4 )
+5 4 = ( 6 - x )
+6 ( 6 - x ) = 4
+7 6 = ( x + 4 )
+150
+ There are 9 oak trees currently in the park . Park workers had to cut down 2  oak trees that were damaged . How many oak trees will the park have when the workers are finished  ? 
+['9 = ( x + 2 )', '( x + 2 ) = 9', '( 9 - x ) = 2', 'x = ( 9 - 2 )', '( 9 - 2 ) = x', '( 2 + x ) = 9', '9 = ( 2 + x )', '2 = ( 9 - x )']
+dict_items([('x', (0, <makesets.aset object at 0x1105212b0>)), ('9', (0, <makesets.aset object at 0x11035a160>)), ('2', (0, <makesets.aset object at 0x110521828>))])
+0 9 = ( x + 2 )
+1 ( x + 2 ) = 9
+2 ( 9 - x ) = 2
+3 x = ( 9 - 2 )
+4 ( 9 - 2 ) = x
+5 ( 2 + x ) = 9
+6 9 = ( 2 + x )
+7 2 = ( 9 - x )
+151
+ Jessica had 8 quarters in her bank . Her sister borrowed 3 of her quarters . How many quarters does Jessica have now  ? 
+['3 = ( 8 - x )', '( x + 3 ) = 8', '( 8 - x ) = 3', 'x = ( 8 - 3 )', '8 = ( x + 3 )', '( 3 + x ) = 8', '8 = ( 3 + x )', '( 8 - 3 ) = x']
+dict_items([('8', (0, <makesets.aset object at 0x1104a1d30>)), ('x', (0, <makesets.aset object at 0x1104efba8>)), ('3', (0, <makesets.aset object at 0x1104ef198>))])
+0 3 = ( 8 - x )
+1 ( x + 3 ) = 8
+2 ( 8 - x ) = 3
+3 x = ( 8 - 3 )
+4 8 = ( x + 3 )
+5 ( 3 + x ) = 8
+6 8 = ( 3 + x )
+7 ( 8 - 3 ) = x
+152
  A restaurant made 9 hamburgers to serve during lunch . Only 3 were  actually served . How many hamburgers were left over from lunch  ? 
-0 9 = ( 3 * x )
-1
-0
-0 ( 9 * 3 ) = x
-0
-1
-1 9 = ( 3 + x )
-1
-0
-1 ( 9 - 3 ) = x
-0
-0
-152 192
-
+['( 9 - x ) = 3', '( x + 3 ) = 9', 'x = ( 9 - 3 )', '( 3 + x ) = 9', '3 = ( 9 - x )', '9 = ( 3 + x )', '( 9 - 3 ) = x', '9 = ( x + 3 )']
+dict_items([('x', (0, <makesets.aset object at 0x1103db2e8>)), ('9', (0, <makesets.aset object at 0x1102aaf98>)), ('3', (0, <makesets.aset object at 0x1103db6a0>))])
+0 ( 9 - x ) = 3
+1 ( x + 3 ) = 9
+2 x = ( 9 - 3 )
+3 ( 3 + x ) = 9
+4 3 = ( 9 - x )
+5 9 = ( 3 + x )
+6 ( 9 - 3 ) = x
+7 9 = ( x + 3 )
+153
  There are 7 crayons in the drawer . Mary took 3 crayons out of the drawer . How many crayons are there now  ? 
-0 ( 7 * 3 ) = x
-0
-1
-1 ( 7 - 3 ) = x
-0
-0
-1 7 = ( 3 + x )
-1
-0
-153 193
-
+['( 7 - 3 ) = x', '7 = ( x + 3 )', '( 7 - x ) = 3', '3 = ( 7 - x )', 'x = ( 7 - 3 )', '( 3 + x ) = 7', '7 = ( 3 + x )', '( x + 3 ) = 7']
+dict_items([('7', (0, <makesets.aset object at 0x1102aa940>)), ('x', (0, <makesets.aset object at 0x110521c88>)), ('3', (0, <makesets.aset object at 0x110190ac8>))])
+0 ( 7 - 3 ) = x
+1 7 = ( x + 3 )
+2 ( 7 - x ) = 3
+3 3 = ( 7 - x )
+4 x = ( 7 - 3 )
+5 ( 3 + x ) = 7
+6 7 = ( 3 + x )
+7 ( x + 3 ) = 7
+154
  Dan picked 9 limes and gave Sara 4 of the limes .  How many limes does Dan have now  ? 
-0 ( 9 + 4 ) = x
-0
-0
-1 9 = ( 4 + x )
-0
-0
-0 ( 9 * 4 ) = x
-0
-0
-1 ( 9 - 4 ) = x
-0
-0
-154 195
-
+['9 = ( 4 + x )', '( 9 - x ) = 4', '( 9 - 4 ) = x', '4 = ( 9 - x )', '9 = ( x + 4 )', 'x = ( 9 - 4 )', '( x + 4 ) = 9', '( 4 + x ) = 9']
+dict_items([('4', (0, <makesets.aset object at 0x11052ae48>)), ('x', (0, <makesets.aset object at 0x11052ae80>)), ('9', (0, <makesets.aset object at 0x11052a0b8>))])
+0 9 = ( 4 + x )
+1 ( 9 - x ) = 4
+2 ( 9 - 4 ) = x
+3 4 = ( 9 - x )
+4 9 = ( x + 4 )
+5 x = ( 9 - 4 )
+6 ( x + 4 ) = 9
+7 ( 4 + x ) = 9
+155
+ Dan found 7 seashells but 3 were broken .  How many unbroken seashells did Dan find  ? 
+['( 7 - 3 ) = x', '7 = ( x + 3 )', '( 7 - x ) = 3', '3 = ( 7 - x )', 'x = ( 7 - 3 )', '( 3 + x ) = 7', '7 = ( 3 + x )', '( x + 3 ) = 7']
+dict_items([('7', (0, <makesets.aset object at 0x110360898>)), ('x', (0, <makesets.aset object at 0x1103eceb8>)), ('3', (0, <makesets.aset object at 0x1103ec128>))])
+0 ( 7 - 3 ) = x
+1 7 = ( x + 3 )
+2 ( 7 - x ) = 3
+3 3 = ( 7 - x )
+4 x = ( 7 - 3 )
+5 ( 3 + x ) = 7
+6 7 = ( 3 + x )
+7 ( x + 3 ) = 7
+156
  Joan has 9 blue balloons  but lost 2 of them . How many blue balloons does Joan have now  ? 
-1 ( 9 - 2 ) = x
-0
-0
-1 9 = ( 2 + x )
-0
-0
-155 196
-
+['9 = ( x + 2 )', '( x + 2 ) = 9', '( 9 - x ) = 2', 'x = ( 9 - 2 )', '( 9 - 2 ) = x', '9 = ( 2 + x )', '( 2 + x ) = 9', '2 = ( 9 - x )']
+dict_items([('x', (0, <makesets.aset object at 0x11033d390>)), ('9', (0, <makesets.aset object at 0x110224a90>)), ('2', (0, <makesets.aset object at 0x1101905c0>))])
+0 9 = ( x + 2 )
+1 ( x + 2 ) = 9
+2 ( 9 - x ) = 2
+3 x = ( 9 - 2 )
+4 ( 9 - 2 ) = x
+5 9 = ( 2 + x )
+6 ( 2 + x ) = 9
+7 2 = ( 9 - x )
+157
  Joan picked 43 apples from the orchard , and gave 27 apples  to  Melanie . How many apples does Joan have now  ? 
-0 ( 43 + 27 ) = x
-0
-0
-0 ( 43 * 27 ) = x
-0
-0
+['43 = ( x + 27 )', '( 43 - 27 ) = x', '( 43 - x ) = 27', '( x + 27 ) = 43', '43 = ( 27 + x )', '( 27 + x ) = 43', 'x = ( 43 - 27 )', '27 = ( 43 - x )']
+dict_items([('27', (0, <makesets.aset object at 0x110521710>)), ('x', (0, <makesets.aset object at 0x1105217b8>)), ('43', (0, <makesets.aset object at 0x10fd89ba8>))])
+0 43 = ( x + 27 )
 1 ( 43 - 27 ) = x
-0
-0
-1 43 = ( 27 + x )
-0
-0
-156 198
-
- Tom has 30 violet balloons , he gave Fred 16 of the balloons . How many violet balloons does he now have  ? 
-0 ( 30 * 16 ) = x
-0
-0
-0 ( 30 + 16 ) = x
-0
-0
-1 ( 30 - 16 ) = x
-0
-0
-1 30 = ( 16 + x )
-0
-0
-157 199
-
+2 ( 43 - x ) = 27
+3 ( x + 27 ) = 43
+4 43 = ( 27 + x )
+5 ( 27 + x ) = 43
+6 x = ( 43 - 27 )
+7 27 = ( 43 - x )
+158
+ Alyssa's high school played 31 hockey games this year . She attended  13 games . How many hockey games did Alyssa miss  ? 
+['( 31 - 13 ) = x', '31 = ( 13 + x )', '( 31 - x ) = 13', '( 13 + x ) = 31', '13 = ( 31 - x )', '31 = ( x + 13 )', '( x + 13 ) = 31', 'x = ( 31 - 13 )']
+dict_items([('x', (0, <makesets.aset object at 0x11052abe0>)), ('31', (0, <makesets.aset object at 0x11016f978>)), ('13', (0, <makesets.aset object at 0x11052a668>))])
+0 ( 31 - 13 ) = x
+1 31 = ( 13 + x )
+2 ( 31 - x ) = 13
+3 ( 13 + x ) = 31
+4 13 = ( 31 - x )
+5 31 = ( x + 13 )
+6 ( x + 13 ) = 31
+7 x = ( 31 - 13 )
+159
  Fred has 40 baseball cards . Keith bought 22 of Fred's  baseball cards . How many baseball cards does Fred have now  ? 
+['( 22 + x ) = 40', '40 = ( 22 + x )', '22 = ( 40 - x )', '( 40 - x ) = 22', '40 = ( x + 22 )', '( x + 22 ) = 40', '( 40 - 22 ) = x', 'x = ( 40 - 22 )']
+dict_items([('x', (0, <makesets.aset object at 0x1105219e8>)), ('22', (0, <makesets.aset object at 0x110521b38>)), ('40', (0, <makesets.aset object at 0x11035a160>))])
+0 ( 22 + x ) = 40
 1 40 = ( 22 + x )
-1
-0
-0 ( 40 + 22 ) = x
-0
-1
-1 ( 40 - 22 ) = x
-0
-0
-158 200
-
- Fred found 47 seashells on the beach , he gave Jessica 25 of the seashells . How many seashells does he now have  ? 
-0 ( 47 * 25 ) = x
-0
-0
-0 ( 47 + 25 ) = x
-0
-0
-1 47 = ( 25 + x )
-0
-0
-1 ( 47 - 25 ) = x
-0
-0
-159 201
-
+2 22 = ( 40 - x )
+3 ( 40 - x ) = 22
+4 40 = ( x + 22 )
+5 ( x + 22 ) = 40
+6 ( 40 - 22 ) = x
+7 x = ( 40 - 22 )
+160
  Sara grew 43 pumpkins , but the rabbits ate 23 pumpkins . How many pumpkins does Sara have left  ? 
-0 ( 43 * 23 ) = x
-0
-0
+['23 = ( 43 - x )', '43 = ( 23 + x )', '43 = ( x + 23 )', '( 43 - x ) = 23', '( 43 - 23 ) = x', '( x + 23 ) = 43', '( 23 + x ) = 43', 'x = ( 43 - 23 )']
+dict_items([('x', (0, <makesets.aset object at 0x1103ec748>)), ('43', (0, <makesets.aset object at 0x1104a1160>)), ('23', (0, <makesets.aset object at 0x1103ecf60>))])
+0 23 = ( 43 - x )
 1 43 = ( 23 + x )
-0
-0
-0 ( 43 + 23 ) = x
-0
-0
-1 ( 43 - 23 ) = x
-0
-0
-160 202
-
+2 43 = ( x + 23 )
+3 ( 43 - x ) = 23
+4 ( 43 - 23 ) = x
+5 ( x + 23 ) = 43
+6 ( 23 + x ) = 43
+7 x = ( 43 - 23 )
+161
  Joan decided to sell all of her old books . She gathered up 33 books to sell . She sold 26 books in a yard sale . How many books does Joan now have  ? 
-1 x = ( 33 - 26 )
-1
-0
-0 x = ( 33 * 26 )
-1
-0
-0 ( x - 33 ) = 26
-0
-0
-0 ( x / 33 ) = 26
-0
-1
-161 203
-
- There are 46 rulers in the drawer . Tim took 25  rulers from the drawer . How many rulers are now in the drawer  ? 
-0 ( 46 * 25 ) = x
-0
-1
-1 46 = ( 25 + x )
-1
-0
-0 ( 46 + 25 ) = x
-0
-1
-1 ( 46 - 25 ) = x
-0
-0
-162 205
-
-163 206
-
+['x = ( 33 - 26 )', '( 33 - 26 ) = x', '( x + 26 ) = 33', '( 33 - x ) = 26', '33 = ( 26 + x )', '( 26 + x ) = 33', '26 = ( 33 - x )', '33 = ( x + 26 )']
+dict_items([('x', (0, <makesets.aset object at 0x11052eeb8>)), ('26', (0, <makesets.aset object at 0x11052e780>)), ('33', (0, <makesets.aset object at 0x1104a1b00>))])
+0 x = ( 33 - 26 )
+1 ( 33 - 26 ) = x
+2 ( x + 26 ) = 33
+3 ( 33 - x ) = 26
+4 33 = ( 26 + x )
+5 ( 26 + x ) = 33
+6 26 = ( 33 - x )
+7 33 = ( x + 26 )
+162
+ There are 33 oak trees currently in the park . Park workers had to cut down  18 oak trees that were damaged . How many oak trees will be in the park when the workers are finished  ? 
+['( 33 - x ) = 18', '( x + 18 ) = 33', '( 33 - 18 ) = x', '33 = ( 18 + x )', '18 = ( 33 - x )', '( 18 + x ) = 33', 'x = ( 33 - 18 )', '33 = ( x + 18 )']
+dict_items([('x', (0, <makesets.aset object at 0x110521828>)), ('18', (0, <makesets.aset object at 0x110521240>)), ('33', (0, <makesets.aset object at 0x1101909b0>))])
+0 ( 33 - x ) = 18
+1 ( x + 18 ) = 33
+2 ( 33 - 18 ) = x
+3 33 = ( 18 + x )
+4 18 = ( 33 - x )
+5 ( 18 + x ) = 33
+6 x = ( 33 - 18 )
+7 33 = ( x + 18 )
+163
  Sam got 9 pennies for washing clothes , and 7 quarters for mowing lawns . How much money does Sam have ? 
-0 ( 0.09 / 1.75 ) = x
-0
-0
-1 ( 0.09 + 1.75 ) = x
-0
-0
-164 207
-
-165 208
-
+['x = ( 0.09 + 1.75 )', '0.09 = ( x - 1.75 )', '( x - 1.75 ) = 0.09', '1.75 = ( x - 0.09 )', '( 0.09 + 1.75 ) = x', '( x - 0.09 ) = 1.75']
+dict_items([('x', (0, <makesets.aset object at 0x11052a208>)), ('1.75', (0, <makesets.aset object at 0x1105adc18>)), ('0.09', (0, <makesets.aset object at 0x10fd89ba8>))])
+0 x = ( 0.09 + 1.75 )
+1 0.09 = ( x - 1.75 )
+2 ( x - 1.75 ) = 0.09
+3 1.75 = ( x - 0.09 )
+4 ( 0.09 + 1.75 ) = x
+5 ( x - 0.09 ) = 1.75
+164
+ When Joan was visited by the toothfairy , she received 14 each of quarters , half-dollars , and dimes . How much money did the toothfairy leave Joan ? 
+165
  As Alyssa was searching through her couch cushions , she found 12 quarters , and 7 pennies in the couch . How much money in total does Alyssa have ? 
-0 ( 3.0 - 0.07 ) = x
-0
-0
-1 ( 3.0 + 0.07 ) = x
-0
-0
-166 209
-
-167 210
-
+['3.0 = ( x - 0.07 )', 'x = ( 3.0 + 0.07 )', '( 3.0 + 0.07 ) = x', '( x - 0.07 ) = 3.0', '0.07 = ( x - 3.0 )', '( x - 3.0 ) = 0.07']
+dict_items([('x', (0, <makesets.aset object at 0x1105212b0>)), ('0.07', (0, <makesets.aset object at 0x110521ac8>)), ('3.0', (0, <makesets.aset object at 0x110360518>))])
+0 3.0 = ( x - 0.07 )
+1 x = ( 3.0 + 0.07 )
+2 ( 3.0 + 0.07 ) = x
+3 ( x - 0.07 ) = 3.0
+4 0.07 = ( x - 3.0 )
+5 ( x - 3.0 ) = 0.07
+166
+ On Wednesday , Joan spent 4 half-dollars playing pinball . The next day , she spent 14 half-dollars on pinball . What was the total amount Joan spent playing pinball ? 
+167
  Tim got 3 nickels and 13 dimes for shining shoes , and in his tip jar found 7 dimes and 9 half-dollars . How much money did Tim get ? 
-0 ( ( ( 0.15 / 1.3 ) + 0.7 ) * 4.5 ) = x
-0
-0
-0
-0
-1 ( 0.15 + ( 1.3 + ( 0.7 + 4.5 ) ) ) = x
-0
-0
-0
-0
-0 ( ( 0.15 - ( 1.3 / 0.7 ) ) + 4.5 ) = x
-0
-0
-0
-0
-1 ( ( 0.15 + 1.3 ) + ( 0.7 + 4.5 ) ) = x
-0
-0
-0
-0
-0 ( 0.15 + ( ( 1.3 + 0.7 ) / 4.5 ) ) = x
-0
-0
-0
-0
-1 ( ( 0.15 + ( 1.3 + 0.7 ) ) + 4.5 ) = x
-0
-0
-0
-0
-0 ( ( 0.15 * 1.3 ) + ( 0.7 * 4.5 ) ) = x
-0
-0
-0
-0
-0 ( ( 0.15 / 1.3 ) / ( 0.7 + 4.5 ) ) = x
-0
-0
-0
-0
-1 ( ( ( 0.15 + 1.3 ) + 0.7 ) + 4.5 ) = x
-0
-0
-0
-0
-168 211
-
+['( ( 0.15 + 1.3 ) + ( 0.7 + 4.5 ) ) = x', 'x = ( 0.15 + ( ( 1.3 + 4.5 ) + 0.7 ) )', 'x = ( 1.3 + ( ( 0.15 + 0.7 ) + 4.5 ) )', '( ( x - 0.15 ) - ( 1.3 + 0.7 ) ) = 4.5', '( ( ( 0.15 + 0.7 ) + 1.3 ) + 4.5 ) = x', 'x = ( 0.15 + ( ( 1.3 + 0.7 ) + 4.5 ) )', 'x = ( 0.15 + ( 1.3 + ( 0.7 + 4.5 ) ) )', '( ( 1.3 + ( 0.15 + 0.7 ) ) + 4.5 ) = x', '( 0.15 + ( 1.3 + ( 0.7 + 4.5 ) ) ) = x', 'x = ( ( ( 0.15 + 1.3 ) + 0.7 ) + 4.5 )', 'x = ( ( 0.15 + 1.3 ) + ( 0.7 + 4.5 ) )', '( ( 0.15 + ( 1.3 + 0.7 ) ) + 4.5 ) = x', 'x = ( ( 0.15 + ( 1.3 + 4.5 ) ) + 0.7 )', 'x = ( ( 0.15 + ( 1.3 + 0.7 ) ) + 4.5 )', 'x = ( 0.15 + ( 0.7 + ( 1.3 + 4.5 ) ) )', '( 0.15 + ( ( 1.3 + 0.7 ) + 4.5 ) ) = x', '( ( ( 0.15 + 1.3 ) + 0.7 ) + 4.5 ) = x']
+dict_items([('x', (0, <makesets.aset object at 0x11052a5f8>)), ('0.15', (0, <makesets.aset object at 0x11052a9e8>)), ('1.3', (0, <makesets.aset object at 0x11052acc0>)), ('0.7', (0, <makesets.aset object at 0x11052ae80>)), ('4.5', (0, <makesets.aset object at 0x11052a048>))])
+0 ( ( 0.15 + 1.3 ) + ( 0.7 + 4.5 ) ) = x
+1 x = ( 0.15 + ( ( 1.3 + 4.5 ) + 0.7 ) )
+2 x = ( 1.3 + ( ( 0.15 + 0.7 ) + 4.5 ) )
+3 ( ( x - 0.15 ) - ( 1.3 + 0.7 ) ) = 4.5
+4 ( ( ( 0.15 + 0.7 ) + 1.3 ) + 4.5 ) = x
+5 x = ( 0.15 + ( ( 1.3 + 0.7 ) + 4.5 ) )
+6 x = ( 0.15 + ( 1.3 + ( 0.7 + 4.5 ) ) )
+7 ( ( 1.3 + ( 0.15 + 0.7 ) ) + 4.5 ) = x
+8 ( 0.15 + ( 1.3 + ( 0.7 + 4.5 ) ) ) = x
+9 x = ( ( ( 0.15 + 1.3 ) + 0.7 ) + 4.5 )
+10 x = ( ( 0.15 + 1.3 ) + ( 0.7 + 4.5 ) )
+11 ( ( 0.15 + ( 1.3 + 0.7 ) ) + 4.5 ) = x
+12 x = ( ( 0.15 + ( 1.3 + 4.5 ) ) + 0.7 )
+13 x = ( ( 0.15 + ( 1.3 + 0.7 ) ) + 4.5 )
+14 x = ( 0.15 + ( 0.7 + ( 1.3 + 4.5 ) ) )
+15 ( 0.15 + ( ( 1.3 + 0.7 ) + 4.5 ) ) = x
+16 ( ( ( 0.15 + 1.3 ) + 0.7 ) + 4.5 ) = x
+168
  While digging through her clothes for ice cream money , Joan found 15 dimes in her jacket , and 4 dimes in her shorts . How much money did Joan find ? 
-1 ( x - 1.5 ) = 0.4
-0
-0
-1 x = ( 1.5 + 0.4 )
-0
-0
-0 ( x / 1.5 ) = 0.4
-0
-0
-169 212
-
+['( x - 1.5 ) = 0.4', '0.4 = ( x - 1.5 )', '( x - 0.4 ) = 1.5', 'x = ( 1.5 + 0.4 )', '1.5 = ( x - 0.4 )', '( 1.5 + 0.4 ) = x']
+dict_items([('x', (0, <makesets.aset object at 0x11052e7b8>)), ('1.5', (0, <makesets.aset object at 0x110521550>)), ('0.4', (0, <makesets.aset object at 0x1104efb00>))])
+0 ( x - 1.5 ) = 0.4
+1 0.4 = ( x - 1.5 )
+2 ( x - 0.4 ) = 1.5
+3 x = ( 1.5 + 0.4 )
+4 1.5 = ( x - 0.4 )
+5 ( 1.5 + 0.4 ) = x
+169
  On Friday , Sam spent 2 pennies on ice cream . The next day , Sam spent 12 dimes on baseball cards . All in all , how much money did Sam spend ? 
-0 ( 0.02 * 1.2 ) = x
-0
-1
-0 ( 0.02 / 1.2 ) = x
-0
-1
+['( x - 1.2 ) = 0.02', '( 0.02 + 1.2 ) = x', 'x = ( 0.02 + 1.2 )', '( x - 0.02 ) = 1.2', '0.02 = ( x - 1.2 )', '1.2 = ( x - 0.02 )']
+dict_items([('x', (0, <makesets.aset object at 0x1105210b8>)), ('0.02', (0, <makesets.aset object at 0x1103db780>)), ('1.2', (0, <makesets.aset object at 0x1105214e0>))])
+0 ( x - 1.2 ) = 0.02
 1 ( 0.02 + 1.2 ) = x
-0
-1
-0 0.02 = ( 1.2 - x )
-1
-0
-170 213
-
+2 x = ( 0.02 + 1.2 )
+3 ( x - 0.02 ) = 1.2
+4 0.02 = ( x - 1.2 )
+5 1.2 = ( x - 0.02 )
+170
  Joan purchased a basketball game for $5.20 , and a racing game for $4.23 . How much did Joan spend on video games ? 
-1 ( 5.20 + 4.23 ) = x
-0
-0
-0 5.20 = ( 4.23 / x )
-0
-0
-0 5.20 = ( 4.23 * x )
-0
-0
-171 214
-
+['( x - 4.23 ) = 5.20', '4.23 = ( x - 5.20 )', '( 5.20 + 4.23 ) = x', '( x - 5.20 ) = 4.23', '5.20 = ( x - 4.23 )', 'x = ( 5.20 + 4.23 )']
+dict_items([('5.20', (0, <makesets.aset object at 0x1101909b0>)), ('4.23', (0, <makesets.aset object at 0x11052e3c8>)), ('x', (0, <makesets.aset object at 0x11052e1d0>))])
+0 ( x - 4.23 ) = 5.20
+1 4.23 = ( x - 5.20 )
+2 ( 5.20 + 4.23 ) = x
+3 ( x - 5.20 ) = 4.23
+4 5.20 = ( x - 4.23 )
+5 x = ( 5.20 + 4.23 )
+171
  Mike joined his school's band . He bought a trumpet for $145.16 , and a song book which was $5.84 . How much did Mike spend at the music store ? 
-0 ( 145.16 * 5.84 ) = x
-1
-1
-1 ( 145.16 + 5.84 ) = x
-1
-1
-172 215
-
- Alyssa bought some toys . She bought a football for $5.71 , and spent $6.59 on marbles . In total , how much did Alyssa spend on toys ? 
-0 ( 5.71 * 6.59 ) = x
-1
-1
-1 ( 5.71 + 6.59 ) = x
-1
-1
-173 217
-
+['145.16 = ( x - 5.84 )', '( x - 5.84 ) = 145.16', '5.84 = ( x - 145.16 )', '( 145.16 + 5.84 ) = x', '( x - 145.16 ) = 5.84', 'x = ( 145.16 + 5.84 )']
+dict_items([('5.84', (0, <makesets.aset object at 0x11052eeb8>)), ('145.16', (0, <makesets.aset object at 0x1104a1b70>)), ('x', (0, <makesets.aset object at 0x11052ec50>))])
+0 145.16 = ( x - 5.84 )
+1 ( x - 5.84 ) = 145.16
+2 5.84 = ( x - 145.16 )
+3 ( 145.16 + 5.84 ) = x
+4 ( x - 145.16 ) = 5.84
+5 x = ( 145.16 + 5.84 )
+172
+ Keith loves trading cards . She bought 4 packs of Digimon cards for $4.45 each , and a deck of baseball cards for $6.06 . How much did Keith spend on cards ? 
+['( ( 4 * 4.45 ) + 6.06 ) = x', 'x = ( ( 4 * 4.45 ) + 6.06 )', 'x = ( 6.06 + ( 4 * 4.45 ) )', '( 6.06 + ( 4 * 4.45 ) ) = x']
+dict_items([('4', (0, <makesets.aset object at 0x11035a160>)), ('6.06', (0, <makesets.aset object at 0x110521cf8>)), ('4.45', (0, <makesets.aset object at 0x110521a90>)), ('x', (0, <makesets.aset object at 0x1105214e0>))])
+0 ( ( 4 * 4.45 ) + 6.06 ) = x
+1 x = ( ( 4 * 4.45 ) + 6.06 )
+2 x = ( 6.06 + ( 4 * 4.45 ) )
+3 ( 6.06 + ( 4 * 4.45 ) ) = x
+173
  Jessica spent $10.22 on a cat toy , and a cage cost her $11.73 . What was the total cost of Jessica's purchases ? 
-1 ( 10.22 + 11.73 ) = x
-0
-0
-174 218
-
+['x = ( 10.22 + 11.73 )', '( x - 10.22 ) = 11.73', '11.73 = ( x - 10.22 )', '10.22 = ( x - 11.73 )', '( x - 11.73 ) = 10.22', '( 10.22 + 11.73 ) = x']
+dict_items([('11.73', (0, <makesets.aset object at 0x1105adc18>)), ('x', (0, <makesets.aset object at 0x110521dd8>)), ('10.22', (0, <makesets.aset object at 0x1103ec780>))])
+0 x = ( 10.22 + 11.73 )
+1 ( x - 10.22 ) = 11.73
+2 11.73 = ( x - 10.22 )
+3 10.22 = ( x - 11.73 )
+4 ( x - 11.73 ) = 10.22
+5 ( 10.22 + 11.73 ) = x
+174
  Sara got fast food for lunch . Sara spent $5.36 on a hotdog and $5.10 on a salad . What was the total of the lunch bill ? 
-0 ( 5.36 / 5.10 ) = x
-1
-1
-1 ( 5.36 + 5.10 ) = x
-1
-1
-175 219
-
- Jason went to the mall on Saturday to buy clothes . He spent $14.28 on shorts and $4.74 on a jacket . In total , how much money did Jason spend on clothing ? 
-1 ( 14.28 + 4.74 ) = x
-1
-1
-176 220
-
- Alyssa loves eating fruits . Alyssa paid $12.08 for grapes , and $9.85 for cherries . In total , how much money did Alyssa spend ? 
-0 ( 12.08 / 9.85 ) = x
-1
-1
-1 ( 12.08 + 9.85 ) = x
-1
-1
-177 221
-
- Mary loves eating fruits . Mary paid $11.08 for berries , $14.33 for apples , and $9.31 for peaches . In total , how much money did she spend ? 
-1 ( 11.08 + ( 14.33 + 9.31 ) ) = x
-1
-1
-1
-0 ( 11.08 + ( 14.33 / 9.31 ) ) = x
-1
-1
-1
-1 ( ( 11.08 + 14.33 ) + 9.31 ) = x
-1
-1
-1
-178 222
-
+['( x - 5.10 ) = 5.36', '5.36 = ( x - 5.10 )', '( x - 5.36 ) = 5.10', '( 5.36 + 5.10 ) = x', '5.10 = ( x - 5.36 )', 'x = ( 5.36 + 5.10 )']
+dict_items([('x', (0, <makesets.aset object at 0x1105da940>)), ('5.36', (0, <makesets.aset object at 0x1105da208>)), ('5.10', (0, <makesets.aset object at 0x1105dab70>))])
+0 ( x - 5.10 ) = 5.36
+1 5.36 = ( x - 5.10 )
+2 ( x - 5.36 ) = 5.10
+3 ( 5.36 + 5.10 ) = x
+4 5.10 = ( x - 5.36 )
+5 x = ( 5.36 + 5.10 )
+175
  Sandy went to the mall to buy clothes . She spent $13.99 on shorts , $12.14 on a shirt , and $7.43 on a jacket . How much money did Sandy spend on clothes ? 
-1 ( 13.99 + ( 12.14 + 7.43 ) ) = x
-1
-1
-1
+['( ( x - 13.99 ) - 12.14 ) = 7.43', '( ( 13.99 + 12.14 ) + 7.43 ) = x', '13.99 = ( ( x - 12.14 ) - 7.43 )', 'x = ( ( 13.99 + 12.14 ) + 7.43 )', '13.99 = ( x - ( 12.14 + 7.43 ) )', 'x = ( 12.14 + ( 13.99 + 7.43 ) )', 'x = ( ( 13.99 + 7.43 ) + 12.14 )', '( 12.14 + ( 13.99 + 7.43 ) ) = x', '( x - 13.99 ) = ( 12.14 + 7.43 )', '12.14 = ( x - ( 13.99 + 7.43 ) )', '( ( 13.99 + 7.43 ) + 12.14 ) = x', '( 13.99 + ( 12.14 + 7.43 ) ) = x', 'x = ( 13.99 + ( 12.14 + 7.43 ) )', '( x - ( 13.99 + 12.14 ) ) = 7.43', '12.14 = ( ( x - 13.99 ) - 7.43 )', '( x - ( 13.99 + 7.43 ) ) = 12.14', '( ( x - 12.14 ) - 13.99 ) = 7.43']
+dict_items([('7.43', (0, <makesets.aset object at 0x11052ae48>)), ('12.14', (0, <makesets.aset object at 0x11052a1d0>)), ('13.99', (0, <makesets.aset object at 0x1105daef0>)), ('x', (0, <makesets.aset object at 0x11052a160>))])
+0 ( ( x - 13.99 ) - 12.14 ) = 7.43
 1 ( ( 13.99 + 12.14 ) + 7.43 ) = x
-1
-1
-1
-179 223
-
+2 13.99 = ( ( x - 12.14 ) - 7.43 )
+3 x = ( ( 13.99 + 12.14 ) + 7.43 )
+4 13.99 = ( x - ( 12.14 + 7.43 ) )
+5 x = ( 12.14 + ( 13.99 + 7.43 ) )
+6 x = ( ( 13.99 + 7.43 ) + 12.14 )
+7 ( 12.14 + ( 13.99 + 7.43 ) ) = x
+8 ( x - 13.99 ) = ( 12.14 + 7.43 )
+9 12.14 = ( x - ( 13.99 + 7.43 ) )
+10 ( ( 13.99 + 7.43 ) + 12.14 ) = x
+11 ( 13.99 + ( 12.14 + 7.43 ) ) = x
+12 x = ( 13.99 + ( 12.14 + 7.43 ) )
+13 ( x - ( 13.99 + 12.14 ) ) = 7.43
+14 12.14 = ( ( x - 13.99 ) - 7.43 )
+15 ( x - ( 13.99 + 7.43 ) ) = 12.14
+16 ( ( x - 12.14 ) - 13.99 ) = 7.43
+176
  Jason joined his school's band . He bought a flute for $142.46 , a music stand for $8.89 , and a song book for $7 . How much did Jason spend at the music store ? 
+['x = ( ( 142.46 + 8.89 ) + 7 )', '( ( 142.46 + 8.89 ) + 7 ) = x', 'x = ( 8.89 + ( 142.46 + 7 ) )', '( ( x - 8.89 ) - 142.46 ) = 7', 'x = ( 142.46 + ( 8.89 + 7 ) )', '( x - ( 142.46 + 8.89 ) ) = 7', '8.89 = ( x - ( 142.46 + 7 ) )', '( x - 142.46 ) = ( 8.89 + 7 )', '( x - ( 142.46 + 7 ) ) = 8.89', '( ( 142.46 + 7 ) + 8.89 ) = x', '8.89 = ( ( x - 142.46 ) - 7 )', '142.46 = ( x - ( 8.89 + 7 ) )', '142.46 = ( ( x - 8.89 ) - 7 )', 'x = ( ( 142.46 + 7 ) + 8.89 )', '( ( x - 142.46 ) - 8.89 ) = 7', '( 8.89 + ( 142.46 + 7 ) ) = x', '( 142.46 + ( 8.89 + 7 ) ) = x']
+dict_items([('7', (0, <makesets.aset object at 0x110521d68>)), ('8.89', (0, <makesets.aset object at 0x110521c50>)), ('142.46', (0, <makesets.aset object at 0x110360518>)), ('x', (0, <makesets.aset object at 0x110521b38>))])
+0 x = ( ( 142.46 + 8.89 ) + 7 )
 1 ( ( 142.46 + 8.89 ) + 7 ) = x
-1
-1
-1
-0 142.46 = ( ( 8.89 * 7 ) + x )
-1
-1
-1
-1 ( 142.46 + ( 8.89 + 7 ) ) = x
-1
-1
-1
-180 224
-
+2 x = ( 8.89 + ( 142.46 + 7 ) )
+3 ( ( x - 8.89 ) - 142.46 ) = 7
+4 x = ( 142.46 + ( 8.89 + 7 ) )
+5 ( x - ( 142.46 + 8.89 ) ) = 7
+6 8.89 = ( x - ( 142.46 + 7 ) )
+7 ( x - 142.46 ) = ( 8.89 + 7 )
+8 ( x - ( 142.46 + 7 ) ) = 8.89
+9 ( ( 142.46 + 7 ) + 8.89 ) = x
+10 8.89 = ( ( x - 142.46 ) - 7 )
+11 142.46 = ( x - ( 8.89 + 7 ) )
+12 142.46 = ( ( x - 8.89 ) - 7 )
+13 x = ( ( 142.46 + 7 ) + 8.89 )
+14 ( ( x - 142.46 ) - 8.89 ) = 7
+15 ( 8.89 + ( 142.46 + 7 ) ) = x
+16 ( 142.46 + ( 8.89 + 7 ) ) = x
+177
  Tom purchased a football game for $14.02 , a strategy game for $9.46 , and a Batman game for $12.04 . How much did Tom spend on video games ? 
-0 ( ( 14.02 + 9.46 ) - 12.04 ) = x
-0
-0
-0
-0 ( 14.02 - ( 9.46 / 12.04 ) ) = x
-0
-0
-0
-0 ( 14.02 + ( 9.46 * 12.04 ) ) = x
-0
-0
-0
-0 ( 14.02 - ( 9.46 - 12.04 ) ) = x
-0
-0
-0
-1 ( ( 14.02 + 9.46 ) + 12.04 ) = x
-0
-0
-0
-1 ( 14.02 + ( 9.46 + 12.04 ) ) = x
-0
-0
-0
-181 225
-
-182 226
-
-183 227
-
+['( x - ( 14.02 + 9.46 ) ) = 12.04', '( x - ( 14.02 + 12.04 ) ) = 9.46', '9.46 = ( ( x - 14.02 ) - 12.04 )', '9.46 = ( x - ( 14.02 + 12.04 ) )', 'x = ( ( 14.02 + 12.04 ) + 9.46 )', '( x - 14.02 ) = ( 9.46 + 12.04 )', 'x = ( 14.02 + ( 9.46 + 12.04 ) )', 'x = ( 9.46 + ( 14.02 + 12.04 ) )', '( 14.02 + ( 9.46 + 12.04 ) ) = x', '( ( 14.02 + 9.46 ) + 12.04 ) = x', 'x = ( ( 14.02 + 9.46 ) + 12.04 )', '14.02 = ( ( x - 9.46 ) - 12.04 )', '( ( x - 9.46 ) - 14.02 ) = 12.04', '( ( 14.02 + 12.04 ) + 9.46 ) = x', '14.02 = ( x - ( 9.46 + 12.04 ) )', '( 9.46 + ( 14.02 + 12.04 ) ) = x', '( ( x - 14.02 ) - 9.46 ) = 12.04']
+dict_items([('14.02', (0, <makesets.aset object at 0x10fd89ba8>)), ('9.46', (0, <makesets.aset object at 0x1105dca58>)), ('12.04', (0, <makesets.aset object at 0x1105dcb70>)), ('x', (0, <makesets.aset object at 0x1105dc400>))])
+0 ( x - ( 14.02 + 9.46 ) ) = 12.04
+1 ( x - ( 14.02 + 12.04 ) ) = 9.46
+2 9.46 = ( ( x - 14.02 ) - 12.04 )
+3 9.46 = ( x - ( 14.02 + 12.04 ) )
+4 x = ( ( 14.02 + 12.04 ) + 9.46 )
+5 ( x - 14.02 ) = ( 9.46 + 12.04 )
+6 x = ( 14.02 + ( 9.46 + 12.04 ) )
+7 x = ( 9.46 + ( 14.02 + 12.04 ) )
+8 ( 14.02 + ( 9.46 + 12.04 ) ) = x
+9 ( ( 14.02 + 9.46 ) + 12.04 ) = x
+10 x = ( ( 14.02 + 9.46 ) + 12.04 )
+11 14.02 = ( ( x - 9.46 ) - 12.04 )
+12 ( ( x - 9.46 ) - 14.02 ) = 12.04
+13 ( ( 14.02 + 12.04 ) + 9.46 ) = x
+14 14.02 = ( x - ( 9.46 + 12.04 ) )
+15 ( 9.46 + ( 14.02 + 12.04 ) ) = x
+16 ( ( x - 14.02 ) - 9.46 ) = 12.04
+178
+ Fred loves trading cards . He bought 2 packs of football cards for $2.73 each , a pack of Pokemon cards for $4.01 , and a deck of baseball cards for $8.95 . How much did Fred spend on cards ? 
+['( ( ( 2 * 2.73 ) + 4.01 ) + 8.95 ) = x', '( ( ( 2 * 2.73 ) + 8.95 ) + 4.01 ) = x']
+dict_items([('4.01', (0, <makesets.aset object at 0x1103ec518>)), ('8.95', (0, <makesets.aset object at 0x1103ec748>)), ('2.73', (0, <makesets.aset object at 0x1104ef198>)), ('2', (0, <makesets.aset object at 0x110224a90>)), ('x', (0, <makesets.aset object at 0x1103ec710>))])
+0 ( ( ( 2 * 2.73 ) + 4.01 ) + 8.95 ) = x
+1 ( ( ( 2 * 2.73 ) + 8.95 ) + 4.01 ) = x
+179
+ On Saturday , Sara spent $10.62 each on 2 tickets to a movie theater . She also rented a movie for $1.59 , and bought a movie for $13.95 . How much money in total did Sara spend on movies ? 
+['( ( 10.62 * 2 ) + ( 1.59 + 13.95 ) ) = x', 'x = ( ( 10.62 * 2 ) + ( 1.59 + 13.95 ) )', 'x = ( ( ( 10.62 * 2 ) + 1.59 ) + 13.95 )']
+dict_items([('10.62', (0, <makesets.aset object at 0x11016f978>)), ('x', (0, <makesets.aset object at 0x110610160>)), ('13.95', (0, <makesets.aset object at 0x110610048>)), ('1.59', (0, <makesets.aset object at 0x110610978>)), ('2', (0, <makesets.aset object at 0x1104ef048>))])
+0 ( ( 10.62 * 2 ) + ( 1.59 + 13.95 ) ) = x
+1 x = ( ( 10.62 * 2 ) + ( 1.59 + 13.95 ) )
+2 x = ( ( ( 10.62 * 2 ) + 1.59 ) + 13.95 )
+180
  Mike bought some toys . He bought marbles for $9.05 , a football for $4.95 , and spent $6.52 on a baseball . In total , how much did Mike spend on toys ? 
-1 ( ( 9.05 + 4.95 ) + 6.52 ) = x
-1
-1
-1
-1 ( 9.05 + ( 4.95 + 6.52 ) ) = x
-1
-1
-1
-184 229
-
+['( ( x - 4.95 ) - 9.05 ) = 6.52', '( ( 9.05 + 6.52 ) + 4.95 ) = x', '( x - ( 9.05 + 4.95 ) ) = 6.52', '( ( x - 9.05 ) - 4.95 ) = 6.52', '( ( 9.05 + 4.95 ) + 6.52 ) = x', '( x - 9.05 ) = ( 4.95 + 6.52 )', '( x - ( 9.05 + 6.52 ) ) = 4.95', '4.95 = ( ( x - 9.05 ) - 6.52 )', '( 4.95 + ( 9.05 + 6.52 ) ) = x', 'x = ( 4.95 + ( 9.05 + 6.52 ) )', '9.05 = ( ( x - 4.95 ) - 6.52 )', '4.95 = ( x - ( 9.05 + 6.52 ) )', '( 9.05 + ( 4.95 + 6.52 ) ) = x', 'x = ( ( 9.05 + 4.95 ) + 6.52 )', 'x = ( 9.05 + ( 4.95 + 6.52 ) )', 'x = ( ( 9.05 + 6.52 ) + 4.95 )', '9.05 = ( x - ( 4.95 + 6.52 ) )']
+dict_items([('6.52', (0, <makesets.aset object at 0x1103dba58>)), ('4.95', (0, <makesets.aset object at 0x1103db240>)), ('x', (0, <makesets.aset object at 0x11033dc18>)), ('9.05', (0, <makesets.aset object at 0x11049d080>))])
+0 ( ( x - 4.95 ) - 9.05 ) = 6.52
+1 ( ( 9.05 + 6.52 ) + 4.95 ) = x
+2 ( x - ( 9.05 + 4.95 ) ) = 6.52
+3 ( ( x - 9.05 ) - 4.95 ) = 6.52
+4 ( ( 9.05 + 4.95 ) + 6.52 ) = x
+5 ( x - 9.05 ) = ( 4.95 + 6.52 )
+6 ( x - ( 9.05 + 6.52 ) ) = 4.95
+7 4.95 = ( ( x - 9.05 ) - 6.52 )
+8 ( 4.95 + ( 9.05 + 6.52 ) ) = x
+9 x = ( 4.95 + ( 9.05 + 6.52 ) )
+10 9.05 = ( ( x - 4.95 ) - 6.52 )
+11 4.95 = ( x - ( 9.05 + 6.52 ) )
+12 ( 9.05 + ( 4.95 + 6.52 ) ) = x
+13 x = ( ( 9.05 + 4.95 ) + 6.52 )
+14 x = ( 9.05 + ( 4.95 + 6.52 ) )
+15 x = ( ( 9.05 + 6.52 ) + 4.95 )
+16 9.05 = ( x - ( 4.95 + 6.52 ) )
+181
+ Mary loves eating fruits . Mary paid $7.19 for berries , and $6.83 for peaches with a $20 bill . How much change did Mary receive ? 
+['( ( x + 7.19 ) + 6.83 ) = 20', '7.19 = ( 20 - ( x + 6.83 ) )', '( 7.19 + ( 6.83 + x ) ) = 20', '7.19 = ( 20 - ( 6.83 + x ) )', '( 6.83 + ( x + 7.19 ) ) = 20', '( 6.83 + ( 7.19 + x ) ) = 20', '( ( x + 6.83 ) + 7.19 ) = 20', '( ( 7.19 + 6.83 ) + x ) = 20', '( 7.19 + ( x + 6.83 ) ) = 20', '( ( 7.19 + x ) + 6.83 ) = 20', '( 7.19 + 6.83 ) = ( 20 - x )', '( x + ( 7.19 + 6.83 ) ) = 20', '( ( 6.83 + x ) + 7.19 ) = 20', '7.19 = ( ( 20 - 6.83 ) - x )', '7.19 = ( ( 20 - x ) - 6.83 )']
+dict_items([('6.83', (0, <makesets.aset object at 0x110610518>)), ('20', (0, <makesets.aset object at 0x1105f7b38>)), ('7.19', (0, <makesets.aset object at 0x11049d978>)), ('x', (0, <makesets.aset object at 0x1105f7ac8>))])
+0 ( ( x + 7.19 ) + 6.83 ) = 20
+1 7.19 = ( 20 - ( x + 6.83 ) )
+2 ( 7.19 + ( 6.83 + x ) ) = 20
+3 7.19 = ( 20 - ( 6.83 + x ) )
+4 ( 6.83 + ( x + 7.19 ) ) = 20
+5 ( 6.83 + ( 7.19 + x ) ) = 20
+6 ( ( x + 6.83 ) + 7.19 ) = 20
+7 ( ( 7.19 + 6.83 ) + x ) = 20
+8 ( 7.19 + ( x + 6.83 ) ) = 20
+9 ( ( 7.19 + x ) + 6.83 ) = 20
+10 ( 7.19 + 6.83 ) = ( 20 - x )
+11 ( x + ( 7.19 + 6.83 ) ) = 20
+12 ( ( 6.83 + x ) + 7.19 ) = 20
+13 7.19 = ( ( 20 - 6.83 ) - x )
+14 7.19 = ( ( 20 - x ) - 6.83 )
+182
  Sandy went to the mall on Saturday to buy clothes . She paid $9.24 on pants and $8.25 on a shirt with a $20 bill . How much money did Sandy get in change ? 
-0 9.24 = ( 8.25 + ( 20.0 * x ) )
-1
-1
-1
-185 230
-
- Joan paid $8.77 on a cat toy , and a cage cost her $10.97 with a $20 bill . How much change did Joan receive ? 
-186 232
-
- Sandy bought some toys . She bought a football for $9.14 , and paid $6.81 on a baseball with a $20 bill . How much change did he receive from the purchase ? 
-0 ( ( 9.14 / 6.81 ) + 20 ) = x
-1
-1
-1
-187 233
-
- A ship is filled with 5,973 tons of cargo . It stops in the Bahamas , where sailors load 8,723 more tons of cargo onboard . How many tons of cargo does the ship hold now ? 
-1 ( 5973 + 8723 ) = x
-0
-1
-0 5973 = ( 8723 - x )
-1
-0
-188 234
-
- Before December , customers buy 1,346 ear muffs from the mall . During December , they buy 6,444 more , and there are none left . In all , how many ear muffs do the customers buy ? 
-1 ( 1346 + 6444 ) = x
-0
-1
-189 236
-
- An oil pipe in the sea broke . Before engineers started to fix the pipe , 6,522 liters of oil leaked into the water . While the engineers worked , the pipe leaked 5,165 more liters of oil . In all , how many liters of oil leaked into the water ? 
-0 ( 6522 - 5165 ) = x
-1
-1
-1 ( 6522 + 5165 ) = x
-1
-2
-190 237
-
- A car company produced 3,884 cars in North America and 2,871 cars in Europe . How many cars is that in all ? 
-0 x = ( 3884 * 2871 )
-0
-0
-1 ( x - 3884 ) = 2871
-0
-0
-1 x = ( 3884 + 2871 )
-0
-0
-191 238
-
- Abe's family moved from the Bahamas to Japan , so they had convert their money into Japanese yen . Their checking account now has 6,359 yen and their savings account now has 3,485 yen . How many yen do they have ? 
-0 ( x / 6359 ) = 3485
-0
-1
-0 x = ( 6359 * 3485 )
-1
-0
-0 x = ( 6359 - 3485 )
-1
-0
-1 x = ( 6359 + 3485 )
-1
-0
-1 ( x - 6359 ) = 3485
-0
-0
-192 240
-
- There were originally 20,817 houses in Lincoln County . During a housing boom , developers built 97,741 more . How many houses are there now in Lincoln County ? 
-1 ( 20817 + 97741 ) = x
-0
-1
-193 241
-
- A farmer estimates that he will harvest 48,097 bushels of wheat . The weather is perfect during the growing season , so he harvests 684 more bushels of wheat than expected . How many bushels of wheat does the farmer harvest ? 
-0 48097 = ( 684 + x )
-1
-0
-0 ( 48097 - 684 ) = x
-0
-0
-0 ( 48097 * 684 ) = x
-0
-1
-1 ( 48097 + 684 ) = x
-0
-1
-194 242
-
- Christina just transferred $69 out of her bank account . As a result , the account now has $26,935 left in it . How much money was in the account before the transfer ? 
-0 ( 69.0 * 26935.0 ) = x
-0
-1
-1 ( 69.0 + 26935.0 ) = x
-0
-1
-195 243
-
- Last year at Newberg's airport , 14,507 passengers landed on time . Unfortunately , 213 passengers landed late . In all , how many passengers landed in Newberg last year ? 
-0 ( 14507 - 213 ) = x
-0
-0
-0 14507 = ( 213 + x )
-1
-0
-1 ( 14507 + 213 ) = x
-0
-1
-196 244
-
- A dust storm sweeps across the prairie . It covers 64,535 acres of the prairie in dust , but leaves 522 acres untouched . How many acres does the prairie cover ? 
-0 ( 64535 * 522 ) = x
-1
-1
-1 ( 64535 + 522 ) = x
-1
-1
-197 246
-
- Last year , 90,171 people were born in a country , and 16,320 people immigrated to it . How many new people began living in the country last year ? 
-1 x = ( 90171 + 16320 )
-0
-0
-0 x = ( 90171 - 16320 )
-0
-0
-0 x = ( 90171 * 16320 )
-0
-0
-0 ( x / 90171 ) = 16320
-0
-0
-1 ( x - 90171 ) = 16320
-0
-0
-198 247
-
- A ship full of grain crashes into a coral reef . By the time the ship is fixed , 49,952 tons of grain have spilled into the water . Only 918 tons of grain remain onboard . How many tons of grain did the ship originally contain ? 
-0 ( 49952 - 918 ) = x
-1
-1
-0 49952 = ( 918 + x )
-2
-1
-1 ( 49952 + 918 ) = x
-1
-2
-199 248
-
- To fill an order , the factory dyed 61,921 yards of silk green and 49,500 yards pink . How many yards of silk did it dye for that order ? 
-0 ( 61921 * 49500 ) = x
-0
-0
-1 ( 61921 + 49500 ) = x
-0
-0
-200 250
-
- Each year , salmon travel upstream , going from the ocean to the rivers where they were born . This year , 712,261 male and 259,378 female salmon returned to their rivers . How many salmon made the trip ? 
-0 x = ( 712261 - 259378 )
-1
-0
-1 ( x - 712261 ) = 259378
-0
-0
-0 ( x / 712261 ) = 259378
-0
-1
-0 x = ( 712261 * 259378 )
-1
-0
-1 x = ( 712261 + 259378 )
-1
-0
-201 251
-
- A bathing suit manufacturer has a supply of 14,797 bathing suits for men . In addition , it has 4,969 bathing suits for women . How many bathing suits are available overall ? 
-0 14797 = ( 4969 + x )
-1
-0
-0 ( 14797 - 4969 ) = x
-0
-0
-1 ( 14797 + 4969 ) = x
-0
-1
-202 252
-
- Before the recent housing boom , there were 1,426 houses in Lawrence County . Now , there are 2,000 houses . How many houses did developers build during the housing boom ? 
-0 ( 1426 * 2000 ) = x
-0
-1
-0 ( 1426 + 2000 ) = x
-0
-1
-1 1426 = ( 2000 - x )
-1
-0
-203 253
-
- A worker at a medical lab is studying blood samples . Two samples contained a total of 7,341 blood cells . The first sample contained 4,221 blood cells . How many blood cells were in the second sample ? 
-0 ( 7341 + 4221 ) = x
-1
-2
-1 7341 = ( 4221 + x )
-2
-1
-1 ( 7341 - 4221 ) = x
-1
-1
-204 254
-
- So far , an orchard has sold a combined total of 9,792 pounds of fresh and frozen fruit this season . If they have sold 3,513 pounds of frozen fruit , how many pounds of fresh fruit have been sold so far ? 
-0 ( 9792 + 3513 ) = x
-0
-1
-1 ( 9792 - 3513 ) = x
-0
-0
-1 9792 = ( 3513 + x )
-1
-0
-205 255
-
-206 256
-
- Jonathan wants to buy a dictionary that costs $11 , a dinosaur book that costs $19 , and a children's cookbook that costs $7 . He has saved $8 from his allowance . How much more money does Jonathan need to buy all three books ? 
-0 ( 11.0 * ( ( 19.0 + 7.0 ) - 8.0 ) ) = x
-0
-0
-0
-0
-0 ( 11.0 * ( 19.0 - ( 7.0 + 8.0 ) ) ) = x
-0
-0
-0
-0
-1 ( 11.0 + ( 19.0 + ( 7.0 - 8.0 ) ) ) = x
-0
-0
-0
-0
-1 ( 11.0 + ( ( 19.0 + 7.0 ) - 8.0 ) ) = x
-0
-0
-0
-0
-0 ( ( 11.0 - 19.0 ) * ( 7.0 - 8.0 ) ) = x
-0
-0
-0
-0
-1 ( ( 11.0 + ( 19.0 + 7.0 ) ) - 8.0 ) = x
-0
-0
-0
-0
-1 ( ( ( 11.0 + 19.0 ) + 7.0 ) - 8.0 ) = x
-0
-0
-0
-0
-207 259
-
- Mika had 20 stickers . She bought 26 stickers from a store in the mall and got 20 stickers for her birthday . Then Mika gave 6 of the stickers to her sister and used 58 to decorate a greeting card . How many stickers does Mika have left ? 
-208 260
-
-209 262
-
- Kylie was collecting coins . She got 15 coins from her piggy bank and 13 coins from her brother . Her father gave Kylie 8 coins . Kylie gave 21 of the coins to her friend Laura . How many coins did Kylie have left ? 
-1 ( ( 15 - 13 ) - ( 8 - 21 ) ) = x
-2
-1
-1
-1
-1 ( ( ( 15 - 13 ) - 8 ) + 21 ) = x
-1
-1
-1
-3
-0 ( ( 15 * 13 ) * ( 8 + 21 ) ) = x
-2
-1
-1
-3
-1 ( 15 - ( 13 + ( 8 - 21 ) ) ) = x
-2
-1
-1
-1
-0 ( 15 - ( 13 / ( 8 - 21 ) ) ) = x
-2
-1
-1
-1
-0 ( ( 15 * 13 ) - ( 8 + 21 ) ) = x
-2
-1
-1
-1
-0 ( ( 15 - ( 13 - 8 ) ) * 21 ) = x
-1
-1
-1
-3
-0 ( ( ( 15 * 13 ) - 8 ) + 21 ) = x
-1
-1
-1
-3
-1 ( 15 + ( ( 13 + 8 ) - 21 ) ) = x
-1
-2
-1
-2
-0 ( 15 - ( ( 13 + 8 ) / 21 ) ) = x
-1
-2
-1
-1
-0 ( ( 15 + ( 13 * 8 ) ) + 21 ) = x
-1
-1
-2
-3
-0 ( ( 15 * 13 ) + ( 8 + 21 ) ) = x
-2
-1
-1
-3
-1 ( ( 15 + ( 13 + 8 ) ) - 21 ) = x
-1
-1
-2
-2
-0 ( ( ( 15 - 13 ) + 8 ) + 21 ) = x
-1
-1
-2
-3
-1 ( ( ( 15 + 13 ) + 8 ) - 21 ) = x
-1
-1
-2
-2
-1 ( 15 + ( 13 + ( 8 - 21 ) ) ) = x
-2
-1
-1
-2
-210 263
-
- Justin needs 61 paper plates for a birthday party . He already has 26 blue plates and 7 red plates . How many more plates should Justin buy ? 
-0 61 = ( 26 - ( 7 - x ) )
-1
-1
-0
-0 ( ( 61 + 26 ) - 7 ) = x
-0
-1
-1
-0 ( ( 61 + 26 ) + 7 ) = x
-0
-1
-1
-1 ( ( 61 - 26 ) - 7 ) = x
-0
-0
-0
-1 61 = ( 26 + ( 7 + x ) )
-1
-1
-0
-1 ( 61 - ( 26 + 7 ) ) = x
-1
-0
-0
-1 61 = ( ( 26 + 7 ) + x )
-1
-1
-0
-211 264
-
- Mark's father gave him $85 . Mark bought 10 books , each of which cost $5 . How much money does Mark have left ? 
-1 ( 85.0 - ( 10 * 5.0 ) ) = x
-1
-0
-0
-1 85.0 = ( ( 10 * 5.0 ) + x )
-1
-1
-0
-0 ( 85.0 - ( 10 / 5.0 ) ) = x
-1
-0
-0
-212 265
-
- Elise had $8 . Then she saved $13 from her allowance and spent $2 on a comic book and $18 on a puzzle . How much money does Elise have left ? 
-1 ( ( 8.0 + ( 13.0 - 2.0 ) ) - 18.0 ) = x
-1
-0
-1
-1
-1 ( ( 8.0 + 13.0 ) - ( 2.0 + 18.0 ) ) = x
-1
-0
-1
-1
-1 ( 8.0 / ( ( 13.0 * 2.0 ) - 18.0 ) ) = x
-1
-1
-0
-1
-0 ( ( 8.0 - ( 13.0 / 2.0 ) ) * 18.0 ) = x
-1
-0
-0
-1
-0 ( ( 8.0 + ( 13.0 * 2.0 ) ) * 18.0 ) = x
-1
-0
-1
-1
-0 ( ( ( 8.0 - 13.0 ) + 2.0 ) + 18.0 ) = x
-0
-0
-1
-1
-1 ( 8.0 + ( ( 13.0 - 2.0 ) - 18.0 ) ) = x
-1
-1
-0
-1
-0 ( ( 8.0 - 13.0 ) + ( 2.0 + 18.0 ) ) = x
-1
-0
-0
-1
-0 ( 8.0 * ( ( 13.0 * 2.0 ) - 18.0 ) ) = x
-1
-1
-0
-1
-0 ( 8.0 * ( ( 13.0 - 2.0 ) + 18.0 ) ) = x
-1
-1
-0
-1
-0 ( 8.0 + ( 13.0 - ( 2.0 - 18.0 ) ) ) = x
-1
-1
-0
-1
-1 ( ( ( 8.0 + 13.0 ) - 2.0 ) - 18.0 ) = x
-0
-1
-1
-1
-1 ( 8.0 + ( 13.0 - ( 2.0 + 18.0 ) ) ) = x
-1
-1
-0
-1
-213 266
-
- Luke had 20 stickers . He bought 12 stickers from a store in the mall and got 20 stickers for his birthday . Then Luke gave 5 of the stickers to his sister and used 8 to decorate a greeting card . How many stickers does Luke have left ? 
-214 268
-
-215 269
-
- Dalton wants to buy a jump rope that costs $7 , a board game that costs $12 , and a playground ball that costs $4 . He has saved $6 from his allowance , and his uncle gave him $13 . How much more money does Dalton need to buy the jump rope , the game , and the ball ? 
-216 272
-
- Maria needs 21 cartons of berries to make a berry cobbler . She already has 4 cartons of strawberries and 8 cartons of blueberries . How many more cartons of berries should Maria buy ? 
-0 ( 21 + ( 4 + 8 ) ) = x
-1
-0
-1
-0 21 = ( ( 4 * 8 ) - x )
-1
-1
-0
-1 ( ( 21 - 4 ) - 8 ) = x
-0
-0
-0
-1 21 = ( ( 4 + 8 ) + x )
-1
-1
-0
-1 21 = ( 4 + ( 8 + x ) )
-1
-1
-0
-1 ( 21 - ( 4 + 8 ) ) = x
-1
-0
-0
-217 273
-
-218 274
-
- Paula's aunt gave her $109 to spend on clothes at the mall . She bought 2 shirts that cost $11 each and a pair of pants that cost $13 . How much money does Paula have left to buy more clothes ? 
-0 ( ( ( 109.0 + 2 ) - 11.0 ) + 13.0 ) = x
-0
-1
-1
-1
-1 ( ( 109.0 - ( 2 * 11.0 ) ) - 13.0 ) = x
-1
-0
-0
-0
-219 275
-
- Mary has 9 yellow marbles . Joan has 3 yellow marbles . How many yellow marbles do they have in all  ? 
-0 ( 9 * 3 ) = x
-0
-1
-0 ( 9 - 3 ) = x
-0
-0
-1 ( 9 + 3 ) = x
-0
-1
-220 276
-
- Jason had Pokemon cards . Jason gave 9 to his friends . Jason now has 4 Pokemon cards left . How many Pokemon cards did Jason have to start with  ? 
-0 ( x / 9 ) = 4
-0
-1
-1 ( x - 9 ) = 4
-0
-0
-1 x = ( 9 + 4 )
-1
-0
-221 277
-
-222 278
-
- Zach wants to ride the Ferris wheel , the roller coaster , and the log ride . The Ferris wheel costs 2 tickets , the roller coaster costs 7 tickets and the log ride costs 1 ticket . Zach has 1 ticket . How many more tickets should Zach buy ? 
-1 ( ( 2 - ( 1 - 7 ) ) + 1 ) = x
-2
-1
-1
-2
-0 ( ( 2 - ( 1 - 7 ) ) * 1 ) = x
-2
-1
-1
-2
-0 ( ( ( 2 + 1 ) + 7 ) * 1 ) = x
-1
-2
-1
-2
-0 ( ( 2 - ( 1 - 7 ) ) - 1 ) = x
-2
-1
-1
-1
-0 ( 2 + ( 1 + ( 7 + 1 ) ) ) = x
-1
-2
-1
-1
-0 ( ( ( 2 + 1 ) + 7 ) + 1 ) = x
-1
-2
-1
-2
-0 ( ( ( 2 * 1 ) + 7 ) - 1 ) = x
-1
-2
-1
-1
-0 ( 2 + ( ( 1 * 7 ) + 1 ) ) = x
-2
-1
-1
-2
-0 ( 2 * ( 1 + ( 7 - 1 ) ) ) = x
-1
-2
-1
-1
-1 ( ( 2 + ( 1 * 7 ) ) * 1 ) = x
-2
-1
-1
-2
-0 ( ( ( 2 * 1 ) + 7 ) + 1 ) = x
-1
-2
-1
-2
-1 ( ( ( 2 - 1 ) + 7 ) + 1 ) = x
-1
-1
-1
-2
-0 ( ( 2 * 1 ) + ( 7 + 1 ) ) = x
-1
-1
-2
-1
-0 ( ( 2 * 1 ) + ( 7 - 1 ) ) = x
-1
-1
-2
-1
-0 ( ( 2 * ( 1 + 7 ) ) + 1 ) = x
-2
-1
-1
-2
-0 ( ( 2 + 1 ) * ( 7 - 1 ) ) = x
-1
-1
-2
-1
-0 ( 2 + ( 1 * ( 7 + 1 ) ) ) = x
-1
-2
-1
-1
-1 ( ( 2 + 1 ) + ( 7 - 1 ) ) = x
-1
-1
-2
-1
-1 ( ( 2 + ( 1 + 7 ) ) - 1 ) = x
-2
-1
-1
-1
-0 ( ( 2 * 1 ) * ( 7 - 1 ) ) = x
-1
-1
-2
-1
-0 ( ( ( 2 + 1 ) * 7 ) + 1 ) = x
-1
-2
-1
-2
-0 ( ( ( 2 / 1 ) + 7 ) + 1 ) = x
-1
-2
-1
-2
-1 ( ( 2 - 1 ) + ( 7 + 1 ) ) = x
-1
-1
-1
-1
-1 ( ( 2 * 1 ) + ( 7 * 1 ) ) = x
-1
-1
-2
-1
-1 ( 2 - ( 1 - ( 7 + 1 ) ) ) = x
-1
-2
-1
-1
-1 ( ( 2 / 1 ) + ( 7 * 1 ) ) = x
-1
-1
-2
-1
-1 ( ( ( 2 / 1 ) + 7 ) * 1 ) = x
-1
-2
-1
-2
-1 ( ( ( 2 * 1 ) + 7 ) * 1 ) = x
-1
-2
-1
-2
-1 ( ( ( 2 + 1 ) + 7 ) - 1 ) = x
-1
-2
-1
-1
-1 ( 2 - ( ( 1 - 7 ) - 1 ) ) = x
-2
-2
-1
-1
-223 281
-
- Your class is having a pizza party . You buy 5 pizzas . Each pizza has 4 slices . How many slices is that altogether ? 
-0 ( 5 + 4 ) = x
-1
-2
-1 ( 5 * 4 ) = x
-1
-2
-224 282
-
- My car gets 20 miles per gallon . How many miles can I drive on 5 gallons of gas ? 
-1 20 = ( x / 5 )
-1
-0
-0 20 = ( x + 5 )
-1
-0
-225 283
-
- 58 children are taking a bus to the zoo . They sit 2 children in every seat . How many seats will the children need in all ? 
-1 ( 58 / 2 ) = x
-0
-1
-0 58 = ( 2 + x )
-1
-0
-1 58 = ( 2 * x )
-1
-0
-226 284
-
- Marlee has 12 guests coming to her Halloween party . Each table will hold 3 guests . How many tables will Marlee need ? 
-0 12 = ( x / 3 )
-1
-0
-1 12 = ( x * 3 )
-1
-0
-1 ( 12 / x ) = 3
-0
-1
-227 286
-
-228 287
-
-229 288
-
-230 289
-
-231 290
-
-232 291
-
-233 292
-
-234 293
-
-235 294
-
-236 296
-
-237 297
-
-238 298
-
-239 299
-
-240 300
-
-241 301
-
-242 302
-
-243 303
-
-244 304
-
-245 305
-
-246 306
-
-247 307
-
-248 308
-
-249 309
-
-250 311
-
-251 312
-
-252 314
-
-253 315
-
-254 316
-
-255 317
-
-256 318
-
-257 319
-
-258 321
-
-259 322
-
-260 323
-
-261 324
-
-262 325
-
-263 327
-
-264 328
-
-265 329
-
-266 331
-
-267 332
-
-268 334
-
-269 335
-
-270 336
-
-271 337
-
-272 338
-
-273 339
-
-274 340
-
-275 341
-
-276 342
-
-277 344
-
-278 345
-
-279 346
-
-280 347
-
-281 348
-
- Dale's Vegetarian Restaurant bought 2 5/6 pounds of green peppers and 2 5/6 pounds of red peppers . How many pounds of peppers did Dale's Vegetarian Restaurant buy in all ? 
-0 ( 2.8333333333333335 / 2.8333333333333335 ) = x
-0
-0
-1 ( 2.8333333333333335 + 2.8333333333333335 ) = x
-0
-0
-282 351
-
- Roadster's Paving Company used 10 tons of cement to pave Lexi's street and 5 1/10 tons of cement to pave Tess's street . How much cement did Roadster's Paving Company use in all ? 
-1 ( 10 + 5.1 ) = x
-0
-0
-283 352
-
- On a hot day , Sam poured 1 bucket of water into a plastic wading pool . A few minutes later he added another 8 4/5 buckets . How much water did Sam pour into the pool ? 
-0 1 = ( 8.8 / x )
-1
-0
-1 ( 1 + 8.8 ) = x
-0
-1
-0 1 = ( 8.8 - x )
-1
-0
-284 353
-
- Kyle jogged 1 1/8 laps in P.E . class and 2 1/8 laps during track practice . How many laps did Kyle jog in all ? 
-1 ( 1.125 + 2.125 ) = x
-0
-1
-285 354
-
- A bucket contains 3 gallons of water . If Derek adds 6 4/5 gallons more , how many gallons will there be in all ? 
-1 ( 3 + 6.8 ) = x
-0
-1
-0 ( 3 / 6.8 ) = x
-0
-1
-0 3 = ( 6.8 * x )
-1
-0
-286 355
-
- At a pizza party , Mason and his friends drank 2 2/3 bottles of lemon-lime soda and 2 2/3 bottles of cola . How much soda did they drink in all ? 
-0 ( 2.6666666666666665 - 2.6666666666666665 ) = x
-0
-0
-1 ( 2.6666666666666665 + 2.6666666666666665 ) = x
-0
-0
-287 356
-
-288 358
-
- Hoping to be named Salesperson of the Month , Rosa called the names from 10 1/5 pages of the phone book last week . This week , she called the people listed on another 8 3/5 pages of the same phone book . How many pages worth of people did Rosa call in all ? 
-0 ( 10.2 / x ) = 8.6
-0
-1
-1 10.2 = ( x - 8.6 )
-1
-0
-0 ( 10.2 - x ) = 8.6
-0
-0
-289 360
-
- Nicole found an orange caterpillar and a green caterpillar in her backyard . The green caterpillar was 3 inches long and the orange caterpillar was 1 1/6 inches long . How much longer was the green caterpillar than the orange caterpillar ? 
-1 x = ( 3 - 1.1666666666666667 )
-1
-0
-290 362
-
- A farmer started the day with 8 3/4 buckets of seeds . After spending the morning sowing seeds , she now has 6 buckets left . How many buckets of seeds did the farmer sow ? 
-0 8.75 = ( 6 * x )
-1
-0
-0 8.75 = ( 6 / x )
-1
-0
-1 8.75 = ( 6 + x )
-1
-0
-1 ( 8.75 - 6 ) = x
-0
-0
-291 363
-
- Irene just bought a new lamp for her bedside table . The old lamp was 1 foot tall and the new lamp is 2 1/3 feet tall . How much taller is the new lamp than the old lamp ? 
-0 ( 1 / 2.3333333333333335 ) = x
-1
-1
-1 1 = ( 2.3333333333333335 - x )
-1
-1
-292 364
-
- Ezra drew a white line that was 7 2/3 inches long . Then he drew a blue line that was 3 1/3 inches long . How much longer was the white line than the blue line ? 
-1 x = ( 7.666666666666667 - 3.3333333333333335 )
-0
-0
-0 x = ( 7.666666666666667 + 3.3333333333333335 )
-0
-0
-293 365
-
- There are 7 3/4 gallons of water in Becky's fish tank . If Becky adds 7 gallons more , how many gallons will there be in all ? 
-1 ( 7.75 + 7 ) = x
-0
-1
-0 7.75 = ( 7 / x )
-1
-0
-0 7.75 = ( 7 * x )
-1
-0
-294 366
-
- Wendy ran 19 5/6 miles and walked 9 1/6 miles . How much farther did Wendy run than walk ? 
-0 ( 19.833333333333332 / 9.166666666666666 ) = x
-0
-0
-0 19.833333333333332 = ( 9.166666666666666 * x )
-0
-0
-1 19.833333333333332 = ( 9.166666666666666 + x )
-0
-0
-1 ( 19.833333333333332 - 9.166666666666666 ) = x
-0
-0
-295 368
-
- Terrell hiked 8.2 miles on Saturday . Then , on Sunday , he hiked another 1.6 miles . How far did Terrell hike all together ? 
-0 ( 8.2 - 1.6 ) = x
-0
-0
-0 ( 8.2 * 1.6 ) = x
-0
-1
-1 ( 8.2 + 1.6 ) = x
-0
-1
-296 370
-
- Kelly bought 0.1 pounds of peanuts and 0.4 pounds of raisins . How many pounds of snacks did she buy in all ? 
-0 0.1 = ( 0.4 * x )
-0
-0
-1 ( 0.1 + 0.4 ) = x
-0
-0
-0 ( 0.1 / 0.4 ) = x
-0
-0
-297 372
-
- In March it rained 0.81 inches . It rained 0.35 inches less in April than in March . How much did it rain in April ? 
-1 ( 0.81 - 0.35 ) = x
-0
-0
-0 ( 0.81 / 0.35 ) = x
-0
-1
-1 0.81 = ( 0.35 + x )
-1
-0
-298 373
-
-299 375
-
- It rained 0.9 inches on Monday . On Tuesday , it rained 0.7 inches less than on Monday . How much did it rain on Tuesday ? 
-0 ( 0.9 * 0.7 ) = x
-0
-1
-1 ( 0.9 - 0.7 ) = x
-0
-0
-1 0.9 = ( 0.7 + x )
-1
-0
-0 ( 0.9 + 0.7 ) = x
-0
-1
-300 376
-
- It snowed 0.32 inches on Monday and 0.21 inches on Tuesday . How much did it snow on Monday and Tuesday combined ? 
-1 ( 0.32 + 0.21 ) = x
-0
-0
-301 377
-
- Brennan had 0.25 grams of pepper . Then he used 0.16 grams of the pepper to make some scrambled eggs . How much pepper does Brennan have left ? 
-1 ( 0.25 - 0.16 ) = x
-0
-0
-0 ( 0.25 * 0.16 ) = x
-0
-1
-0 0.25 = ( 0.16 / x )
-1
-0
-1 0.25 = ( 0.16 + x )
-1
-0
-302 379
-
- It rained 0.2 inches on Saturday and 0.4 inches on Sunday . How much did it rain on Saturday and Sunday combined ? 
-1 ( 0.2 + 0.4 ) = x
-0
-0
-0 0.2 = ( 0.4 * x )
-0
-0
-0 0.2 = ( 0.4 - x )
-0
-0
-0 0.2 = ( 0.4 / x )
-0
-0
-303 380
-
- Pamela bought 9.8 ounces of sugar , and she spilled 5.2 ounces of it on the floor . How much is left ? 
-1 ( 9.8 - 5.2 ) = x
-0
-0
-0 9.8 = ( 5.2 * x )
-0
-0
-1 9.8 = ( 5.2 + x )
-0
-0
-0 9.8 = ( 5.2 / x )
-0
-0
-304 381
-
- Gordon bought 3.42 pounds of fruit for a class party . The class ate 2.2 pounds of the fruit . How much fruit is left ? 
-0 ( 3.42 / 2.2 ) = x
-0
-1
-0 ( 3.42 + 2.2 ) = x
-0
-1
-1 ( 3.42 - 2.2 ) = x
-0
-0
-1 3.42 = ( 2.2 + x )
-1
-0
-305 382
-
- A chef bought 0.14 kilograms of almonds and 0.38 kilograms of pecans . How many kilograms of nuts did the chef buy in all ? 
-0 0.14 = ( 0.38 * x )
-0
-0
-1 ( 0.14 + 0.38 ) = x
-0
-0
-306 383
-
- Marta picked two pumpkins . The first pumpkin weighed 4 pounds , and the second pumpkin weighed 8.7 pounds . How much did the two pumpkins weigh all together ? 
-1 ( 4 + 8.7 ) = x
-1
-1
-307 384
-
- A truck carrying 4.1 pounds of sand travels to a construction yard and loses 2.4 pounds of sand along the way . How much sand does the truck have when it arrives at the yard ? 
-0 4.1 = ( 2.4 / x )
-0
-0
-1 4.1 = ( 2.4 + x )
-0
-0
-1 ( 4.1 - 2.4 ) = x
-0
-0
+['9.24 = ( ( 20.0 - 8.25 ) - x )', '( ( x + 8.25 ) + 9.24 ) = 20.0', '( 9.24 + ( 8.25 + x ) ) = 20.0', '9.24 = ( ( 20.0 - x ) - 8.25 )', '( 8.25 + ( 9.24 + x ) ) = 20.0', '( 9.24 + 8.25 ) = ( 20.0 - x )', '9.24 = ( 20.0 - ( 8.25 + x ) )', '( 8.25 + ( x + 9.24 ) ) = 20.0', '( 9.24 + ( x + 8.25 ) ) = 20.0', '( x + ( 9.24 + 8.25 ) ) = 20.0', '( ( 8.25 + x ) + 9.24 ) = 20.0', '( ( 9.24 + 8.25 ) + x ) = 20.0', '9.24 = ( 20.0 - ( x + 8.25 ) )', '( ( x + 9.24 ) + 8.25 ) = 20.0', '( ( 9.24 + x ) + 8.25 ) = 20.0']
+dict_items([('x', (0, <makesets.aset object at 0x1105aa5f8>)), ('8.25', (0, <makesets.aset object at 0x1105aaf60>)), ('20.0', (0, <makesets.aset object at 0x1105aa588>)), ('9.24', (0, <makesets.aset object at 0x1105aadd8>))])
+0 9.24 = ( ( 20.0 - 8.25 ) - x )
+1 ( ( x + 8.25 ) + 9.24 ) = 20.0
+2 ( 9.24 + ( 8.25 + x ) ) = 20.0
+3 9.24 = ( ( 20.0 - x ) - 8.25 )
+4 ( 8.25 + ( 9.24 + x ) ) = 20.0
+5 ( 9.24 + 8.25 ) = ( 20.0 - x )
+6 9.24 = ( 20.0 - ( 8.25 + x ) )
+7 ( 8.25 + ( x + 9.24 ) ) = 20.0
+8 ( 9.24 + ( x + 8.25 ) ) = 20.0
+9 ( x + ( 9.24 + 8.25 ) ) = 20.0
+10 ( ( 8.25 + x ) + 9.24 ) = 20.0
+11 ( ( 9.24 + 8.25 ) + x ) = 20.0
+12 9.24 = ( 20.0 - ( x + 8.25 ) )
+13 ( ( x + 9.24 ) + 8.25 ) = 20.0
+14 ( ( 9.24 + x ) + 8.25 ) = 20.0

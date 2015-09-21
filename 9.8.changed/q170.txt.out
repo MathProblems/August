@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 275 | 22 | x=(2*11) | x 2 11 * = | x:cent 2:cent 11:quarter *:cent =:cent
+EXPR: 0 | POS | INT | 10 | 275 | 22 | (2*11)=x | 2 11 * x = | 2:people 11:quarter *:people x:people =:people
+EXPR: 0 | POS | INT | 12 | 275 | 22 | 2=(x/11) | 2 x 11 / = | 2:cent x:cent 11:quarter /:cent =:cent
+EXPR: 0 | POS | INT | 12 | 275 | 22 | (x/2)=11 | x 2 / 11 = | x:cent 2:people /:cent 11:cent =:cent
+EXPR: 0 | POS | INT | 20 | 275 | 13 | (2+11)=x | 2 11 + x = | 2:people 11:people +:people x:people =:people
+EXPR: 0 | POS | INT | 20 | 275 | 13 | x=(2+11) | x 2 11 + = | x:quarter 2:quarter 11:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 22 | 275 | 13 | (x-2)=11 | x 2 - 11 = | x:quarter 2:quarter -:quarter 11:quarter =:quarter
+EXPR: 0 | POS | INT | 22 | 275 | 22 | 11=(x/2) | 11 x 2 / = | 11:cent x:cent 2:people /:cent =:cent
+EXPR: 0 | POS | INT | 22 | 275 | 9 | 2=(11-x) | 2 11 x - = | 2:quarter 11:quarter x:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 22 | 275 | 9 | (2+x)=11 | 2 x + 11 = | 2:cent x:cent +:cent 11:cent =:cent
+EXPR: 0 | POS | INT | 22 | 275 | 9 | (x+2)=11 | x 2 + 11 = | x:people 2:people +:people 11:people =:people
+EXPR: 0 | POS | INT | 22 | 275 | 13 | 2=(x-11) | 2 x 11 - = | 2:cent x:cent 11:cent -:cent =:cent
+EXPR: 0 | POS | INT | 22 | 275 | 22 | (x/11)=2 | x 11 / 2 = | x:cent 11:quarter /:cent 2:cent =:cent
+EXPR: 0 | POS | INT | 30 | 275 | 9 | x=(11-2) | x 11 2 - = | x:quarter 11:quarter 2:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 30 | 275 | 9 | (11-2)=x | 11 2 - x = | 11:cent 2:cent -:cent x:cent =:cent
+EXPR: 0 | POS | INT | 32 | 275 | 13 | (x-11)=2 | x 11 - 2 = | x:quarter 11:quarter -:quarter 2:quarter =:quarter
+EXPR: 0 | POS | INT | 32 | 275 | 9 | (11-x)=2 | 11 x - 2 = | 11:quarter x:quarter -:quarter 2:quarter =:quarter
+EXPR: 0 | POS | INT | 32 | 275 | 9 | 11=(2+x) | 11 2 x + = | 11:quarter 2:quarter x:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 32 | 275 | 9 | 11=(x+2) | 11 x 2 + = | 11:quarter x:quarter 2:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 32 | 275 | 13 | 11=(x-2) | 11 x 2 - = | 11:quarter x:quarter 2:quarter -:quarter =:quarter
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

@@ -1,0 +1,7 @@
+constants : 77.75 9.5
+unknowns :
+operators : + - * / =
+objtypes : inch
+constantOrUnknownType : 0 0
+n : 5
+answer : 68.25

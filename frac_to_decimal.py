@@ -25,10 +25,13 @@ def proc_frac(x):
                 newspl.append(str(float(spl[i])+float(eval(spl[i+1]))))
                 i+=2
             else:
-                newspl.append(spl[i])
+                if "/" in spl[i] and "=" not in spl[i]:
+                    newspl.append(str(float(eval(spl[i]))))
+                else:
+                    newspl.append(spl[i])
                 i+=1
-        return " ".join(newspl)
-    else: return x
+        return " ".join(newspl).strip()
+    else: return x.strip()
 
 
 
@@ -61,4 +64,6 @@ if __name__=='__main__':
             a = str(float(a))
         e = proc_frac(ees[j])
         p = proc_frac(p); #' '.join([str(proc_frac(x)) for x in p.split(" ")])
-        print(p,e,a)
+        print(p)
+        print(e)
+        print(a)

@@ -1,7 +1,7 @@
-constants :
-unknowns :
+constants : 0.5 0.125
+unknowns : x
 operators : + - * / =
-objtypes :
-constantOrUnknownType :
-n : 1
-answer :  0.625
+objtypes : student UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.625

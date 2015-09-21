@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 8 | 192 | x=(2*96) | x 2 96 * = | x:box 2:box 96:muffin *:box =:box
+EXPR: 0 | POS | INT | 10 | 8 | 192 | (2*96)=x | 2 96 * x = | 2:people 96:muffin *:people x:people =:people
+EXPR: 0 | POS | INT | 12 | 8 | 192 | 2=(x/96) | 2 x 96 / = | 2:box x:box 96:muffin /:box =:box
+EXPR: 0 | POS | INT | 12 | 8 | 48 | (2*x)=96 | 2 x * 96 = | 2:people x:box *:people 96:people =:people
+EXPR: 0 | POS | INT | 12 | 8 | 192 | (x/2)=96 | x 2 / 96 = | x:box 2:people /:box 96:box =:box
+EXPR: 0 | POS | INT | 12 | 8 | 48 | (x*2)=96 | x 2 * 96 = | x:muffin 2:people *:muffin 96:muffin =:muffin
+EXPR: 0 | POS | INT | 12 | 8 | 48 | 2=(96/x) | 2 96 x / = | 2:people 96:people x:box /:people =:people
+EXPR: 0 | POS | INT | 20 | 8 | 98 | (2+96)=x | 2 96 + x = | 2:people 96:people +:people x:people =:people
+EXPR: 0 | POS | INT | 20 | 8 | 98 | x=(2+96) | x 2 96 + = | x:muffin 2:muffin 96:muffin +:muffin =:muffin
+EXPR: 0 | POS | INT | 20 | 8 | 48 | (96/2)=x | 96 2 / x = | 96:muffin 2:people /:muffin x:muffin =:muffin
+EXPR: 0 | POS | INT | 20 | 8 | 48 | x=(96/2) | x 96 2 / = | x:muffin 96:muffin 2:people /:muffin =:muffin
+EXPR: 0 | POS | INT | 22 | 8 | 98 | (x-2)=96 | x 2 - 96 = | x:muffin 2:muffin -:muffin 96:muffin =:muffin
+EXPR: 0 | POS | INT | 22 | 8 | 192 | 96=(x/2) | 96 x 2 / = | 96:box x:box 2:people /:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 48 | (96/x)=2 | 96 x / 2 = | 96:people x:box /:people 2:people =:people
+EXPR: 0 | POS | INT | 22 | 8 | 94 | 2=(96-x) | 2 96 x - = | 2:muffin 96:muffin x:muffin -:muffin =:muffin
+EXPR: 0 | POS | INT | 22 | 8 | 94 | (2+x)=96 | 2 x + 96 = | 2:box x:box +:box 96:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 94 | (x+2)=96 | x 2 + 96 = | x:people 2:people +:people 96:people =:people
+EXPR: 0 | POS | INT | 22 | 8 | 48 | 96=(x*2) | 96 x 2 * = | 96:muffin x:muffin 2:people *:muffin =:muffin
+EXPR: 0 | POS | INT | 22 | 8 | 98 | 2=(x-96) | 2 x 96 - = | 2:box x:box 96:box -:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 48 | 96=(2*x) | 96 2 x * = | 96:box 2:people x:box *:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 192 | (x/96)=2 | x 96 / 2 = | x:box 96:muffin /:box 2:box =:box
+EXPR: 0 | POS | INT | 30 | 8 | 94 | x=(96-2) | x 96 2 - = | x:muffin 96:muffin 2:muffin -:muffin =:muffin
+EXPR: 0 | POS | INT | 30 | 8 | 94 | (96-2)=x | 96 2 - x = | 96:box 2:box -:box x:box =:box
+EXPR: 0 | POS | INT | 32 | 8 | 98 | (x-96)=2 | x 96 - 2 = | x:muffin 96:muffin -:muffin 2:muffin =:muffin
+EXPR: 0 | POS | INT | 32 | 8 | 94 | (96-x)=2 | 96 x - 2 = | 96:muffin x:muffin -:muffin 2:muffin =:muffin
+EXPR: 0 | POS | INT | 32 | 8 | 94 | 96=(2+x) | 96 2 x + = | 96:muffin 2:muffin x:muffin +:muffin =:muffin
+EXPR: 0 | POS | INT | 32 | 8 | 94 | 96=(x+2) | 96 x 2 + = | 96:muffin x:muffin 2:muffin +:muffin =:muffin
+EXPR: 0 | POS | INT | 32 | 8 | 98 | 96=(x-2) | 96 x 2 - = | 96:muffin x:muffin 2:muffin -:muffin =:muffin
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

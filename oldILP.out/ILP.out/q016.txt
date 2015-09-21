@@ -1,0 +1,7 @@
+constants : 69
+unknowns : x
+operators : + - * / =
+objtypes : number smallest
+constantOrUnknownType : 0 1
+n : 3
+answer :  21.0

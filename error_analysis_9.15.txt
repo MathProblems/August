@@ -1,0 +1,18 @@
+98
+ There are 115 pencils in the drawer . Sara placed 100 more  pencils in the drawer . How many pencils are now there in all  ? 
+[(0.45166798521150303, 0, '115 = ( 100 + x )', '15'), (0.32476593533861986, 1, '( 115 + 100 ) = x', '215'), (0.032553490717532406, 0, '( 115 - 100 ) = x', '15')]
+
+
+
+105
+ Fred has 110 blue marbles . Fred has 22 times more blue marbles than Tim . How many blue marbles does Tim have ? 
+[(0.8106053337575236, 0, '( 110 * 22 ) = x', '2420'), (0.14893383386350842, 0, '110 = ( 22 + x )', '88'), (0.03612759871182064, 1, '110 = ( 22 * x )', '5')]
+
+
+
+137
+
+ There are 4 children in the classroom , each student will get 2 pencils . How many pencils will the teacher have to give out  ? 
+[(0.7642290941170262, 0, '4 = ( 2 + x )', '2'), (0.762486940257847, 1, '( 4 * 2 ) = x', '8'), (0.015739057177712144, 0, '( 4 - 2 ) = x', '2')]
+
+

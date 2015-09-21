@@ -1,29 +1,17 @@
-import signal
 import sys
-import json
-import jsonrpclib
 import makesets
 import pickle
 from random import randint
 
 def read_parse(k):
-    return pickle.load(open('s_data/'+str(k)+'.pickle', 'rb'))
+    return pickle.load(open('s_data/'+str(int(k))+'.pickle', 'rb'))
 
-class StanfordNLP:
-    def __init__(self, port_number=8080):
-        self.server = jsonrpclib.Server("http://localhost:%d" % port_number)
-
-    def parse(self, text):
-        return json.loads(self.server.parse(text))
-
-#nlp = StanfordNLP()
+def read_sets(k):
+    return pickle.load(open('madesets/'+str(int(k))+'.pickle','rb'))
 
 def cleannum(n):
     n = ''.join([x for x in n if x.isdigit() or x=='.' or x=='x' or x=='x*'])
     return n
-
-def kill(signum, frame):
-    raise Exception("end of time")
 
 def training(trips,problem,story,target):
     #this function take the trips and creates positive and negative training instances from them
@@ -64,13 +52,13 @@ def make_eq(q,a,equations):
         answers = [x[1] for x in eqs if x[0]==1]
         if answers == []: continue
         answers = list(set(answers))
-        print(story["sentences"][0]["text"])
         print(answers)
 
 
         #make story
         #story = nlp.parse(problem)
-        sets = makesets.makesets(story['sentences'])
+        #sets = makesets.makesets(story['sentences'])
+        sets = read_sets(equations[k])
         i = 0
 
         xidx = [i for i,x in enumerate(sets) if x[1].num=='x']
@@ -87,9 +75,27 @@ def make_eq(q,a,equations):
         present = [x for x in consts if x in objs]
         if present!=consts: 
             print(present,consts);print("missing thing");#continue
-            exit()
+            continue
 
+        oanswers = []
+        for eq in answers:
+            consts = [x for x in eq.split(" ") if x not in ['(',')','+','-','/','*','=',]]
+            order = int(consts==[x[0] for x in numlist])
+            if order == 0:continue
+            else: oanswers.append(eq)
+        if oanswers == []: continue
+
+        answers = oanswers
+        print(answers)
+            
+        
+        simpleanswers = [x for x in answers if x.split(" ")[-2]=="="]
+        if simpleanswers:
+            answers = simpleanswers
+        else: answers = [answers[randint(0,len(answers)-1)]]
+        print(answers)
         #simpleanswers = []
+        
         for j,eq in enumerate(answers):
             trips = []
             print(j,eq)

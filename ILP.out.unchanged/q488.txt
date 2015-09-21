@@ -1,0 +1,7 @@
+constants : 30 4
+unknowns :
+operators : + - * / =
+objtypes : foot Hilt
+constantOrUnknownType : 0 1
+n : 5
+answer : 120

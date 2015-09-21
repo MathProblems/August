@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 24 | 32 | x=(4*8) | x 4 8 * = | x:bill 4:bill 8:dollar *:bill =:bill
+EXPR: 0 | POS | INT | 10 | 24 | 32 | (4*8)=x | 4 8 * x = | 4:people 8:dollar *:people x:people =:people
+EXPR: 0 | POS | INT | 12 | 24 | 32 | 4=(x/8) | 4 x 8 / = | 4:bill x:bill 8:dollar /:bill =:bill
+EXPR: 0 | POS | INT | 12 | 24 | 2 | (4*x)=8 | 4 x * 8 = | 4:people x:bill *:people 8:people =:people
+EXPR: 0 | POS | INT | 12 | 24 | 32 | (x/4)=8 | x 4 / 8 = | x:bill 4:people /:bill 8:bill =:bill
+EXPR: 0 | POS | INT | 12 | 24 | 2 | (x*4)=8 | x 4 * 8 = | x:dollar 4:people *:dollar 8:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 24 | 2 | 4=(8/x) | 4 8 x / = | 4:people 8:people x:bill /:people =:people
+EXPR: 0 | POS | INT | 20 | 24 | 12 | (4+8)=x | 4 8 + x = | 4:people 8:people +:people x:people =:people
+EXPR: 0 | POS | INT | 20 | 24 | 12 | x=(4+8) | x 4 8 + = | x:dollar 4:dollar 8:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 24 | 2 | (8/4)=x | 8 4 / x = | 8:dollar 4:people /:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 24 | 2 | x=(8/4) | x 8 4 / = | x:dollar 8:dollar 4:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 24 | 12 | (x-4)=8 | x 4 - 8 = | x:dollar 4:dollar -:dollar 8:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 24 | 32 | 8=(x/4) | 8 x 4 / = | 8:bill x:bill 4:people /:bill =:bill
+EXPR: 0 | POS | INT | 22 | 24 | 2 | (8/x)=4 | 8 x / 4 = | 8:people x:bill /:people 4:people =:people
+EXPR: 0 | POS | INT | 22 | 24 | 4 | 4=(8-x) | 4 8 x - = | 4:dollar 8:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 24 | 4 | (4+x)=8 | 4 x + 8 = | 4:bill x:bill +:bill 8:bill =:bill
+EXPR: 0 | POS | INT | 22 | 24 | 4 | (x+4)=8 | x 4 + 8 = | x:people 4:people +:people 8:people =:people
+EXPR: 0 | POS | INT | 22 | 24 | 2 | 8=(x*4) | 8 x 4 * = | 8:dollar x:dollar 4:people *:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 24 | 12 | 4=(x-8) | 4 x 8 - = | 4:bill x:bill 8:bill -:bill =:bill
+EXPR: 0 | POS | INT | 22 | 24 | 2 | 8=(4*x) | 8 4 x * = | 8:bill 4:people x:bill *:bill =:bill
+EXPR: 0 | POS | INT | 22 | 24 | 32 | (x/8)=4 | x 8 / 4 = | x:bill 8:dollar /:bill 4:bill =:bill
+EXPR: 0 | POS | INT | 30 | 24 | 4 | x=(8-4) | x 8 4 - = | x:dollar 8:dollar 4:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 30 | 24 | 4 | (8-4)=x | 8 4 - x = | 8:bill 4:bill -:bill x:bill =:bill
+EXPR: 0 | POS | INT | 32 | 24 | 12 | (x-8)=4 | x 8 - 4 = | x:dollar 8:dollar -:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 24 | 4 | (8-x)=4 | 8 x - 4 = | 8:dollar x:dollar -:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 24 | 4 | 8=(4+x) | 8 4 x + = | 8:dollar 4:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 24 | 4 | 8=(x+4) | 8 x 4 + = | 8:dollar x:dollar 4:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 24 | 12 | 8=(x-4) | 8 x 4 - = | 8:dollar x:dollar 4:dollar -:dollar =:dollar
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

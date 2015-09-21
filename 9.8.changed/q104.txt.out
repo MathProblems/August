@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 9 | 180 | x=(2*90) | x 2 90 * = | x:dime 2:dime 90:cent *:dime =:dime
+EXPR: 0 | POS | INT | 10 | 9 | 180 | (2*90)=x | 2 90 * x = | 2:people 90:cent *:people x:people =:people
+EXPR: 0 | POS | INT | 12 | 9 | 180 | 2=(x/90) | 2 x 90 / = | 2:dime x:dime 90:cent /:dime =:dime
+EXPR: 0 | POS | INT | 12 | 9 | 45 | (2*x)=90 | 2 x * 90 = | 2:people x:dime *:people 90:people =:people
+EXPR: 0 | POS | INT | 12 | 9 | 180 | (x/2)=90 | x 2 / 90 = | x:dime 2:people /:dime 90:dime =:dime
+EXPR: 0 | POS | INT | 12 | 9 | 45 | (x*2)=90 | x 2 * 90 = | x:cent 2:people *:cent 90:cent =:cent
+EXPR: 0 | POS | INT | 12 | 9 | 45 | 2=(90/x) | 2 90 x / = | 2:people 90:people x:dime /:people =:people
+EXPR: 0 | POS | INT | 20 | 9 | 92 | (2+90)=x | 2 90 + x = | 2:people 90:people +:people x:people =:people
+EXPR: 0 | POS | INT | 20 | 9 | 92 | x=(2+90) | x 2 90 + = | x:cent 2:cent 90:cent +:cent =:cent
+EXPR: 0 | POS | INT | 20 | 9 | 45 | (90/2)=x | 90 2 / x = | 90:cent 2:people /:cent x:cent =:cent
+EXPR: 0 | POS | INT | 20 | 9 | 45 | x=(90/2) | x 90 2 / = | x:cent 90:cent 2:people /:cent =:cent
+EXPR: 0 | POS | INT | 22 | 9 | 92 | (x-2)=90 | x 2 - 90 = | x:cent 2:cent -:cent 90:cent =:cent
+EXPR: 0 | POS | INT | 22 | 9 | 180 | 90=(x/2) | 90 x 2 / = | 90:dime x:dime 2:people /:dime =:dime
+EXPR: 0 | POS | INT | 22 | 9 | 45 | (90/x)=2 | 90 x / 2 = | 90:people x:dime /:people 2:people =:people
+EXPR: 0 | POS | INT | 22 | 9 | 88 | 2=(90-x) | 2 90 x - = | 2:cent 90:cent x:cent -:cent =:cent
+EXPR: 0 | POS | INT | 22 | 9 | 88 | (2+x)=90 | 2 x + 90 = | 2:dime x:dime +:dime 90:dime =:dime
+EXPR: 0 | POS | INT | 22 | 9 | 88 | (x+2)=90 | x 2 + 90 = | x:people 2:people +:people 90:people =:people
+EXPR: 0 | POS | INT | 22 | 9 | 45 | 90=(x*2) | 90 x 2 * = | 90:cent x:cent 2:people *:cent =:cent
+EXPR: 0 | POS | INT | 22 | 9 | 92 | 2=(x-90) | 2 x 90 - = | 2:dime x:dime 90:dime -:dime =:dime
+EXPR: 0 | POS | INT | 22 | 9 | 45 | 90=(2*x) | 90 2 x * = | 90:dime 2:people x:dime *:dime =:dime
+EXPR: 0 | POS | INT | 22 | 9 | 180 | (x/90)=2 | x 90 / 2 = | x:dime 90:cent /:dime 2:dime =:dime
+EXPR: 0 | POS | INT | 30 | 9 | 88 | x=(90-2) | x 90 2 - = | x:cent 90:cent 2:cent -:cent =:cent
+EXPR: 0 | POS | INT | 30 | 9 | 88 | (90-2)=x | 90 2 - x = | 90:dime 2:dime -:dime x:dime =:dime
+EXPR: 0 | POS | INT | 32 | 9 | 92 | (x-90)=2 | x 90 - 2 = | x:cent 90:cent -:cent 2:cent =:cent
+EXPR: 0 | POS | INT | 32 | 9 | 88 | (90-x)=2 | 90 x - 2 = | 90:cent x:cent -:cent 2:cent =:cent
+EXPR: 0 | POS | INT | 32 | 9 | 88 | 90=(2+x) | 90 2 x + = | 90:cent 2:cent x:cent +:cent =:cent
+EXPR: 0 | POS | INT | 32 | 9 | 88 | 90=(x+2) | 90 x 2 + = | 90:cent x:cent 2:cent +:cent =:cent
+EXPR: 0 | POS | INT | 32 | 9 | 92 | 90=(x-2) | 90 x 2 - = | 90:cent x:cent 2:cent -:cent =:cent
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

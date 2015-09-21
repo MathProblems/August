@@ -1,0 +1,7 @@
+constants : 1 69
+unknowns : x
+operators : + - * / =
+objtypes : people number smallest
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 21.0

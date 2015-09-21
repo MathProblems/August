@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 84 | 84 | (7*12)=x | 7 12 * x = | 7:dozen 12:dozen *:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 0 | 84 | 19 | x=(7+12) | x 7 12 + = | x:dozen 7:dozen 12:dozen +:dozen =:dozen
+EXPR: 1 | POS | INT | 0 | 84 | 84 | x=(7*12) | x 7 12 * = | x:dozen 7:dozen 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 0 | 84 | 19 | (7+12)=x | 7 12 + x = | 7:dozen 12:dozen +:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 84 | 19 | 7=(x-12) | 7 x 12 - = | 7:dozen x:dozen 12:dozen -:dozen =:dozen
+EXPR: 1 | POS | INT | 2 | 84 | 84 | (x/7)=12 | x 7 / 12 = | x:dozen 7:dozen /:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 84 | 5 | (7+x)=12 | 7 x + 12 = | 7:dozen x:dozen +:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 84 | 5 | x=(12-7) | x 12 7 - = | x:dozen 12:dozen 7:dozen -:dozen =:dozen
+EXPR: 1 | POS | INT | 2 | 84 | 84 | 7=(x/12) | 7 x 12 / = | 7:dozen x:dozen 12:dozen /:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 84 | 5 | (x+7)=12 | x 7 + 12 = | x:dozen 7:dozen +:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 84 | 19 | (x-7)=12 | x 7 - 12 = | x:dozen 7:dozen -:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 84 | 5 | (12-7)=x | 12 7 - x = | 12:dozen 7:dozen -:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 84 | 5 | 7=(12-x) | 7 12 x - = | 7:dozen 12:dozen x:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 4 | 84 | 5 | 12=(x+7) | 12 x 7 + = | 12:dozen x:dozen 7:dozen +:dozen =:dozen
+EXPR: 1 | POS | INT | 4 | 84 | 84 | (x/12)=7 | x 12 / 7 = | x:dozen 12:dozen /:dozen 7:dozen =:dozen
+EXPR: 0 | POS | INT | 4 | 84 | 5 | (12-x)=7 | 12 x - 7 = | 12:dozen x:dozen -:dozen 7:dozen =:dozen
+EXPR: 0 | POS | INT | 4 | 84 | 5 | 12=(7+x) | 12 7 x + = | 12:dozen 7:dozen x:dozen +:dozen =:dozen
+EXPR: 1 | POS | INT | 4 | 84 | 84 | 12=(x/7) | 12 x 7 / = | 12:dozen x:dozen 7:dozen /:dozen =:dozen
+EXPR: 0 | POS | INT | 4 | 84 | 19 | (x-12)=7 | x 12 - 7 = | x:dozen 12:dozen -:dozen 7:dozen =:dozen
+EXPR: 0 | POS | INT | 4 | 84 | 19 | 12=(x-7) | 12 x 7 - = | 12:dozen x:dozen 7:dozen -:dozen =:dozen
+NET 20 unique, non-negative, integer-valued solutions found out of 56 total solutions

@@ -7,4 +7,5 @@ do
     python3 fold_train_test.py $i $1 ;
 done
 
-#python3 parseSdata.py $1
+python3 parseSdata.py $1
+python3 ILPformatSiena.py $1

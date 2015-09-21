@@ -1,0 +1,49 @@
+parameters: n=11 l=5 k=1 p=5 q=1 m=11
+TOTAL 180 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 4 | 42 | x=(((7.0+12.0)+4.0)+(6.0+13.0)) | x 7.0 12.0 + 4.0 + 6.0 13.0 + + = | x:money 7.0:money 12.0:money +:money 4.0:money +:money 6.0:money 13.0:money +:money +:money =:money
+EXPR: 0 | POS | INT | 0 | 4 | 7 | x=(((7.0-12.0)+4.0)*(6.0-13.0)) | x 7.0 12.0 - 4.0 + 6.0 13.0 - * = | x:money 7.0:money 12.0:money -:money 4.0:money +:money 6.0:money 13.0:money -:money *:money =:money
+EXPR: 0 | POS | INT | 0 | 4 | 8 | ((((7.0+12.0)-4.0)+6.0)-13.0)=x | 7.0 12.0 + 4.0 - 6.0 + 13.0 - x = | 7.0:money 12.0:money +:money 4.0:money -:money 6.0:money +:money 13.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 0 | 4 | 16 | x=((7.0+12.0)+((4.0+6.0)-13.0)) | x 7.0 12.0 + 4.0 6.0 + 13.0 - + = | x:money 7.0:money 12.0:money +:money 4.0:money 6.0:money +:money 13.0:money -:money +:money =:money
+EXPR: 0 | POS | INT | 0 | 4 | 16 | x=(((7.0+12.0)+4.0)+(6.0-13.0)) | x 7.0 12.0 + 4.0 + 6.0 13.0 - + = | x:money 7.0:money 12.0:money +:money 4.0:money +:money 6.0:money 13.0:money -:money +:money =:money
+EXPR: 0 | POS | INT | 0 | 4 | 58 | (((7.0-12.0)*4.0)+(6.0*13.0))=x | 7.0 12.0 - 4.0 * 6.0 13.0 * + x = | 7.0:money 12.0:money -:money 4.0:money *:money 6.0:money 13.0:money *:money +:money x:money =:money
+EXPR: 0 | POS | INT | 2 | 4 | 117 | x=((7.0+(4.0-(12.0/6.0)))*13.0) | x 7.0 4.0 12.0 6.0 / - + 13.0 * = | x:money 7.0:money 4.0:money 12.0:money 6.0:money /:money -:money +:money 13.0:money *:money =:money
+EXPR: 0 | POS | INT | 2 | 4 | 30 | x=(((7.0+12.0)+4.0)+(13.0-6.0)) | x 7.0 12.0 + 4.0 + 13.0 6.0 - + = | x:money 7.0:money 12.0:money +:money 4.0:money +:money 13.0:money 6.0:money -:money +:money =:money
+EXPR: 0 | POS | INT | 2 | 4 | 2 | ((((12.0-7.0)*4.0)+6.0)/13.0)=x | 12.0 7.0 - 4.0 * 6.0 + 13.0 / x = | 12.0:money 7.0:money -:money 4.0:money *:money 6.0:money +:money 13.0:money /:money x:money =:money
+EXPR: 0 | POS | INT | 2 | 4 | 28 | ((((7.0+x)-12.0)-4.0)-6.0)=13.0 | 7.0 x + 12.0 - 4.0 - 6.0 - 13.0 = | 7.0:money x:money +:money 12.0:money -:money 4.0:money -:money 6.0:money -:money 13.0:money =:money
+EXPR: 1 | POS | INT | 2 | 4 | 4 | ((((7.0+12.0)-x)+4.0)-6.0)=13.0 | 7.0 12.0 + x - 4.0 + 6.0 - 13.0 = | 7.0:money 12.0:money +:money x:money -:money 4.0:money +:money 6.0:money -:money 13.0:money =:money
+EXPR: 0 | POS | INT | 2 | 4 | 8 | ((((7.0+12.0)-4.0)+6.0)-x)=13.0 | 7.0 12.0 + 4.0 - 6.0 + x - 13.0 = | 7.0:money 12.0:money +:money 4.0:money -:money 6.0:money +:money x:money -:money 13.0:money =:money
+EXPR: 0 | POS | INT | 2 | 4 | 20 | ((((7.0+x)-12.0)+4.0)-6.0)=13.0 | 7.0 x + 12.0 - 4.0 + 6.0 - 13.0 = | 7.0:money x:money +:money 12.0:money -:money 4.0:money +:money 6.0:money -:money 13.0:money =:money
+EXPR: 1 | POS | INT | 2 | 4 | 4 | ((((7.0+12.0)-6.0)+4.0)-13.0)=x | 7.0 12.0 + 6.0 - 4.0 + 13.0 - x = | 7.0:money 12.0:money +:money 6.0:money -:money 4.0:money +:money 13.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 2 | 4 | 22 | ((((7.0+12.0)-4.0)+13.0)-6.0)=x | 7.0 12.0 + 4.0 - 13.0 + 6.0 - x = | 7.0:money 12.0:money +:money 4.0:money -:money 13.0:money +:money 6.0:money -:money x:money =:money
+EXPR: 1 | POS | INT | 2 | 4 | 4 | ((((7.0+12.0)-4.0)+x)-6.0)=13.0 | 7.0 12.0 + 4.0 - x + 6.0 - 13.0 = | 7.0:money 12.0:money +:money 4.0:money -:money x:money +:money 6.0:money -:money 13.0:money =:money
+EXPR: 0 | POS | INT | 2 | 4 | 30 | x=((7.0+12.0)+((4.0+13.0)-6.0)) | x 7.0 12.0 + 4.0 13.0 + 6.0 - + = | x:money 7.0:money 12.0:money +:money 4.0:money 13.0:money +:money 6.0:money -:money +:money =:money
+EXPR: 0 | POS | INT | 2 | 4 | 27 | (((7.0-12.0)*4.0)+(x+6.0))=13.0 | 7.0 12.0 - 4.0 * x 6.0 + + 13.0 = | 7.0:money 12.0:money -:money 4.0:money *:money x:money 6.0:money +:money +:money 13.0:money =:money
+EXPR: 0 | POS | INT | 2 | 4 | 114 | (((7.0-4.0)*12.0)+(6.0*13.0))=x | 7.0 4.0 - 12.0 * 6.0 13.0 * + x = | 7.0:money 4.0:money -:money 12.0:money *:money 6.0:money 13.0:money *:money +:money x:money =:money
+EXPR: 0 | POS | INT | 2 | 4 | 33 | ((((7.0+x)-12.0)/4.0)+6.0)=13.0 | 7.0 x + 12.0 - 4.0 / 6.0 + 13.0 = | 7.0:money x:money +:money 12.0:money -:money 4.0:money /:money 6.0:money +:money 13.0:money =:money
+EXPR: 0 | POS | INT | 4 | 4 | 28 | ((((7.0+x)-4.0)-12.0)-6.0)=13.0 | 7.0 x + 4.0 - 12.0 - 6.0 - 13.0 = | 7.0:money x:money +:money 4.0:money -:money 12.0:money -:money 6.0:money -:money 13.0:money =:money
+EXPR: 0 | POS | INT | 4 | 4 | 28 | ((((7.0+x)-12.0)-6.0)-4.0)=13.0 | 7.0 x + 12.0 - 6.0 - 4.0 - 13.0 = | 7.0:money x:money +:money 12.0:money -:money 6.0:money -:money 4.0:money -:money 13.0:money =:money
+EXPR: 0 | POS | INT | 4 | 4 | 28 | ((((7.0+x)-12.0)-4.0)-13.0)=6.0 | 7.0 x + 12.0 - 4.0 - 13.0 - 6.0 = | 7.0:money x:money +:money 12.0:money -:money 4.0:money -:money 13.0:money -:money 6.0:money =:money
+EXPR: 0 | POS | INT | 4 | 4 | 2 | ((((12.0-7.0)*6.0)-4.0)/13.0)=x | 12.0 7.0 - 6.0 * 4.0 - 13.0 / x = | 12.0:money 7.0:money -:money 6.0:money *:money 4.0:money -:money 13.0:money /:money x:money =:money
+EXPR: 0 | POS | INT | 5 | 4 | 130 | x=((7.0+(6.0-(12.0/4.0)))*13.0) | x 7.0 6.0 12.0 4.0 / - + 13.0 * = | x:money 7.0:money 6.0:money 12.0:money 4.0:money /:money -:money +:money 13.0:money *:money =:money
+EXPR: 0 | POS | INT | 5 | 4 | 17 | x=((7.0/(12.0-13.0))+(4.0*6.0)) | x 7.0 12.0 13.0 - / 4.0 6.0 * + = | x:money 7.0:money 12.0:money 13.0:money -:money /:money 4.0:money 6.0:money *:money +:money =:money
+EXPR: 1 | POS | INT | 5 | 4 | 4 | ((((7.0+4.0)-6.0)+12.0)-13.0)=x | 7.0 4.0 + 6.0 - 12.0 + 13.0 - x = | 7.0:money 4.0:money +:money 6.0:money -:money 12.0:money +:money 13.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 5 | 4 | 22 | ((((7.0+12.0)-6.0)+13.0)-4.0)=x | 7.0 12.0 + 6.0 - 13.0 + 4.0 - x = | 7.0:money 12.0:money +:money 6.0:money -:money 13.0:money +:money 4.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 5 | 4 | 16 | x=(((12.0+4.0)+7.0)+(6.0-13.0)) | x 12.0 4.0 + 7.0 + 6.0 13.0 - + = | x:money 12.0:money 4.0:money +:money 7.0:money +:money 6.0:money 13.0:money -:money +:money =:money
+EXPR: 0 | POS | INT | 5 | 4 | 87 | x=(((4.0-7.0)+12.0)+(6.0*13.0)) | x 4.0 7.0 - 12.0 + 6.0 13.0 * + = | x:money 4.0:money 7.0:money -:money 12.0:money +:money 6.0:money 13.0:money *:money +:money =:money
+EXPR: 0 | POS | INT | 5 | 4 | 174 | (((7.0-4.0)*6.0)+(12.0*13.0))=x | 7.0 4.0 - 6.0 * 12.0 13.0 * + x = | 7.0:money 4.0:money -:money 6.0:money *:money 12.0:money 13.0:money *:money +:money x:money =:money
+EXPR: 0 | POS | INT | 7 | 4 | 30 | x=(((12.0+4.0)+7.0)+(13.0-6.0)) | x 12.0 4.0 + 7.0 + 13.0 6.0 - + = | x:money 12.0:money 4.0:money +:money 7.0:money +:money 13.0:money 6.0:money -:money +:money =:money
+EXPR: 0 | POS | INT | 7 | 4 | 18 | ((((12.0+x)-4.0)-7.0)-6.0)=13.0 | 12.0 x + 4.0 - 7.0 - 6.0 - 13.0 = | 12.0:money x:money +:money 4.0:money -:money 7.0:money -:money 6.0:money -:money 13.0:money =:money
+EXPR: 0 | POS | INT | 7 | 4 | 28 | ((((7.0+x)-4.0)-6.0)-12.0)=13.0 | 7.0 x + 4.0 - 6.0 - 12.0 - 13.0 = | 7.0:money x:money +:money 4.0:money -:money 6.0:money -:money 12.0:money -:money 13.0:money =:money
+EXPR: 0 | POS | INT | 8 | 4 | 111 | (((7.0-4.0)*13.0)+(12.0*6.0))=x | 7.0 4.0 - 13.0 * 12.0 6.0 * + x = | 7.0:money 4.0:money -:money 13.0:money *:money 12.0:money 6.0:money *:money +:money x:money =:money
+EXPR: 0 | POS | INT | 9 | 4 | 6 | ((((7.0+4.0)-6.0)+13.0)-12.0)=x | 7.0 4.0 + 6.0 - 13.0 + 12.0 - x = | 7.0:money 4.0:money +:money 6.0:money -:money 13.0:money +:money 12.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 11 | 4 | 20 | ((((7.0+4.0)-6.0)+x)-13.0)=12.0 | 7.0 4.0 + 6.0 - x + 13.0 - 12.0 = | 7.0:money 4.0:money +:money 6.0:money -:money x:money +:money 13.0:money -:money 12.0:money =:money
+EXPR: 0 | POS | INT | 12 | 4 | 29 | ((x-7.0)-(12.0/4.0))=(6.0+13.0) | x 7.0 - 12.0 4.0 / - 6.0 13.0 + = | x:money 7.0:money -:money 12.0:money 4.0:money /:money -:money 6.0:money 13.0:money +:money =:money
+EXPR: 0 | POS | INT | 12 | 4 | 154 | ((x/7.0)-(12.0/4.0))=(6.0+13.0) | x 7.0 / 12.0 4.0 / - 6.0 13.0 + = | x:money 7.0:money /:money 12.0:money 4.0:money /:money -:money 6.0:money 13.0:money +:money =:money
+EXPR: 0 | POS | INT | 12 | 4 | 61 | (((7.0-6.0)*13.0)+(12.0*4.0))=x | 7.0 6.0 - 13.0 * 12.0 4.0 * + x = | 7.0:money 6.0:money -:money 13.0:money *:money 12.0:money 4.0:money *:money +:money x:money =:money
+EXPR: 0 | POS | INT | 14 | 4 | 173 | 4.0=((6.0-((7.0+x)/12.0))+13.0) | 4.0 6.0 7.0 x + 12.0 / - 13.0 + = | 4.0:money 6.0:money 7.0:money x:money +:money 12.0:money /:money -:money 13.0:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 4 | 172 | x=(4.0+((7.0+(13.0-6.0))*12.0)) | x 4.0 7.0 13.0 6.0 - + 12.0 * + = | x:money 4.0:money 7.0:money 13.0:money 6.0:money -:money +:money 12.0:money *:money +:money =:money
+EXPR: 0 | POS | INT | 26 | 4 | 7 | ((x/7.0)+(13.0-6.0))=(12.0-4.0) | x 7.0 / 13.0 6.0 - + 12.0 4.0 - = | x:money 7.0:money /:money 13.0:money 6.0:money -:money +:money 12.0:money 4.0:money -:money =:money
+EXPR: 0 | POS | INT | 28 | 4 | 264 | (12.0*6.0)=((13.0-7.0)+(x/4.0)) | 12.0 6.0 * 13.0 7.0 - x 4.0 / + = | 12.0:money 6.0:money *:money 13.0:money 7.0:money -:money x:money 4.0:money /:money +:money =:money
+EXPR: 1 | POS | INT | 33 | 4 | 4 | (((6.0+13.0)-x)-7.0)=(12.0-4.0) | 6.0 13.0 + x - 7.0 - 12.0 4.0 - = | 6.0:money 13.0:money +:money x:money -:money 7.0:money -:money 12.0:money 4.0:money -:money =:money
+NET 45 unique, non-negative, integer-valued solutions found out of 180 total solutions
