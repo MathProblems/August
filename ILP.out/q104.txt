@@ -1,7 +1,7 @@
-constants : 1 90
+constants : 9.0
 unknowns : x
 operators : + - * / =
-objtypes : person cent dime
-constantOrUnknownType : 0 1 2
-n : 5
+objtypes : dime
+constantOrUnknownType : 0 0
+n : 3
 answer : 9.0

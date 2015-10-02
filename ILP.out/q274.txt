@@ -1,4 +1,4 @@
-constants : 109.0 2 11.0 13.0
+constants : 109.0 2 13.0 11.0
 unknowns : x
 operators : + - * / =
 objtypes : money shirt

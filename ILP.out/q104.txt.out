@@ -1,28 +1,6 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 288 solutions found
+parameters: n=3 l=1 k=1 p=5 q=1 m=7
+TOTAL 4 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 9 | 90 | (1*90)=x | 1 90 * x = | 1:person 90:dime *:dime x:dime =:dime
-EXPR: 0 | POS | INT | 10 | 9 | 90 | x=(1*90) | x 1 90 * = | x:person 1:person 90:cent *:person =:person
-EXPR: 0 | POS | INT | 12 | 9 | 90 | (1*x)=90 | 1 x * 90 = | 1:person x:dime *:dime 90:dime =:dime
-EXPR: 0 | POS | INT | 12 | 9 | 90 | (x*1)=90 | x 1 * 90 = | x:dime 1:person *:dime 90:dime =:dime
-EXPR: 0 | POS | INT | 12 | 9 | 90 | 1=(90/x) | 1 90 x / = | 1:person 90:person x:dime /:person =:person
-EXPR: 0 | POS | INT | 12 | 9 | 90 | 1=(x/90) | 1 x 90 / = | 1:person x:person 90:cent /:person =:person
-EXPR: 0 | POS | INT | 20 | 9 | 91 | x=(1+90) | x 1 90 + = | x:cent 1:cent 90:cent +:cent =:cent
-EXPR: 0 | POS | INT | 20 | 9 | 91 | (1+90)=x | 1 90 + x = | 1:dime 90:dime +:dime x:dime =:dime
-EXPR: 0 | POS | INT | 22 | 9 | 89 | (x+1)=90 | x 1 + 90 = | x:cent 1:cent +:cent 90:cent =:cent
-EXPR: 0 | POS | INT | 22 | 9 | 91 | 1=(x-90) | 1 x 90 - = | 1:cent x:cent 90:cent -:cent =:cent
-EXPR: 0 | POS | INT | 22 | 9 | 89 | 1=(90-x) | 1 90 x - = | 1:person 90:person x:person -:person =:person
-EXPR: 0 | POS | INT | 22 | 9 | 90 | (90/x)=1 | 90 x / 1 = | 90:cent x:dime /:cent 1:cent =:cent
-EXPR: 0 | POS | INT | 22 | 9 | 91 | (x-1)=90 | x 1 - 90 = | x:cent 1:cent -:cent 90:cent =:cent
-EXPR: 0 | POS | INT | 22 | 9 | 90 | 90=(1*x) | 90 1 x * = | 90:person 1:person x:dime *:person =:person
-EXPR: 0 | POS | INT | 22 | 9 | 90 | 90=(x*1) | 90 x 1 * = | 90:person x:dime 1:person *:person =:person
-EXPR: 0 | POS | INT | 22 | 9 | 89 | (1+x)=90 | 1 x + 90 = | 1:cent x:cent +:cent 90:cent =:cent
-EXPR: 0 | POS | INT | 22 | 9 | 90 | (x/90)=1 | x 90 / 1 = | x:dime 90:cent /:dime 1:dime =:dime
-EXPR: 0 | POS | INT | 30 | 9 | 89 | (90-1)=x | 90 1 - x = | 90:person 1:person -:person x:person =:person
-EXPR: 0 | POS | INT | 30 | 9 | 89 | x=(90-1) | x 90 1 - = | x:dime 90:dime 1:dime -:dime =:dime
-EXPR: 0 | POS | INT | 32 | 9 | 91 | 90=(x-1) | 90 x 1 - = | 90:cent x:cent 1:cent -:cent =:cent
-EXPR: 0 | POS | INT | 32 | 9 | 91 | (x-90)=1 | x 90 - 1 = | x:dime 90:dime -:dime 1:dime =:dime
-EXPR: 0 | POS | INT | 32 | 9 | 89 | 90=(x+1) | 90 x 1 + = | 90:dime x:dime 1:dime +:dime =:dime
-EXPR: 0 | POS | INT | 32 | 9 | 89 | (90-x)=1 | 90 x - 1 = | 90:person x:person -:person 1:person =:person
-EXPR: 0 | POS | INT | 32 | 9 | 89 | 90=(1+x) | 90 1 x + = | 90:dime 1:dime x:dime +:dime =:dime
-NET 24 unique, non-negative, integer-valued solutions found out of 288 total solutions
+EXPR: 1 | POS | INT | 0 | 9 | 9 | x=9.0 | x 9.0 = | x:dime 9.0:dime =:dime
+EXPR: 1 | POS | INT | 0 | 9 | 9 | 9.0=x | 9.0 x = | 9.0:dime x:dime =:dime
+NET 2 unique, non-negative, integer-valued solutions found out of 4 total solutions

@@ -1,7 +1,7 @@
-constants : 1 14
+constants : 14 1
 unknowns : x
 operators : + - * / =
-objtypes : person toothfairy money
+objtypes : toothfairy person money
 constantOrUnknownType : 0 1 2
 n : 5
 answer : 11.9

@@ -1,0 +1,381 @@
+Joan found 70 seashells on the beach. she gave Sam some of her seashells. She has 27 seashell left. How many seashells did she give to Sam ?
+70-x=27
+43.0
+Sara's high school played 12 basketball games this year. The team won most of their games. They were defeated during 4 games. How many games did they win ?
+12=x+4
+8.0
+Benny bought a soft drink for 2 dollars and 5 candy bars. He spent a total of 27 dollars. How much did each candy bar cost ?
+2+(5*x)=27
+5.0
+Sam had 79 dollars to spend on 9 books. After buying them he had 16 dollars. How much did each book cost ?
+79-(9*x)=16
+7.0
+The sum of three consecutive odd numbers is 69. What is the smallest of the three numbers ?
+(3*x)+6=69
+21.0
+Sam had 9 dimes in his bank. His dad gave him 7 more dimes. How many dimes does Sam have now ?
+9+7=x
+16.0
+Joan found 6 seashells and Jessica found 8 seashells on the beach. How many seashells did they find together ?
+6+8=x
+14.0
+Tim's cat had kittens. He gave 3 to Jessica and 6 to Sara. He now has 9 kittens left. How many kittens did he have to start with ?
+x-3-6=9
+18.0
+Melanie picked 4 plums, Dan picked 9 plums, and Sally picked 3 plums from the plum tree. How many plums were picked in total ?
+4+9+3=x
+16.0
+Sara picked 45 pears and Sally picked 11 pears from the pear tree. How many pears were picked in total ?
+45+11=x
+56.0
+Sara had 21 quarters in her bank. Her dad gave her 49 more quarters. How many quarters does she have now ?
+21+49=x
+70.0
+Fred grew 38 cantelopes. Tim grew 44 cantelopes. How many cantelopes did they grow in total ?
+38+44=x
+82.0
+Sandy has 10 books, Benny has 24 books, and Tim has  33 books. How many books do they have together ?
+10+24+33=x
+67.0
+Alyssa has 37 blue balloons, Sandy has 28 blue balloons, and Sally  has 39 blue balloons. How many blue balloons do they have in all ?
+37+28+39=x
+104.0
+Mike has 35 books in his library. He bought several books at a yard sale over the weekend. He now has 56 books in his library. How many books did he buy at the yard sale ?
+35+x=56
+21.0
+Sally had 13 peaches left at her roadside fruit stand. She went to the orchard and picked more peaches to stock up the stand. There are now 55 peaches at the stand, how many did she pick ?
+13+x=55
+42.0
+There were 73 bales of hay in the barn. Jason stacked more bales in the barn today. There are now 96 bales of hay in the barn. How many bales did he store in the barn ?
+73+x=96
+23.0
+There were a total of 7 football games this year. Melanie missed 4 of the games. How many football games did Melanie go to in all ?
+7=4+x
+3.0
+Joan has 8 orange balloons  but lost 2 of them. How many orange balloons does Joan have now ?
+8-2=x
+6.0
+There are 27 pencils in the drawer. Nancy placed 45 more  pencils in the drawer. How many pencils are now there in total ?
+27+45=x
+72.0
+Mike has 87 baseball cards. Sam bought 13 of Mike's  baseball cards. How many baseball cards does Mike have now ?
+87-13=x
+74.0
+There are 25 popular trees currently in the park. Park workers will plant  73 more popular trees today. How many popular trees will the park have when the workers are finished ?
+25+73=x
+98.0
+Joan found 79 seashells on the beach, she gave Mike 63 of the seashells. How many seashells does she now have ?
+79-63=x
+16.0
+Sally had 760 quarters in her bank. She spent 418 of her quarters. How many quarters does she have now ?
+760-418=x
+342.0
+There are 107 walnut trees currently in the park. Park workers will plant  104 more walnut trees today. How many walnut trees will the park have when the workers are finished ?
+107+104=x
+211.0
+Nancy goes fishing with Joan. They catch 18 trout.  If they equally split up the trout, how many will each one get ?
+18/2=x
+9.0
+Fred has 90 cents in his bank.  How many dimes does Fred have ?
+90/10=x
+9.0
+Tim has saved 2000 cents from selling lemonade.  How many dollars does Tim have?
+2000/100=x
+20.0
+There were a total of 323 football games in the season. The season is played for 17 months. How many football games were played each month, if each month has the same number of games?
+323/17=x
+19.0
+There are 60 calories in a candy bar. How many dozen calories are there in 45 candy bars?
+60*45=x*12
+225.0
+Keith bought 72 eggs from the store to bake some cakes.  How many dozen eggs did Keith buy?
+72=x*12
+6.0
+Jason has 3 Pokemon cards. Benny bought 2 of Jason's  Pokemon cards. How many Pokemon cards does Jason have now ?
+3-2=x
+1.0
+Sara picked 6 pears and Tim picked 5 pears from the pear tree. How many pears were picked in total ?
+6+5=x
+11.0
+Sara has 9 dozen golf balls. How many golf balls does she have ?
+9*12=x
+108.0
+Keith grew 6 turnips. Alyssa grew 9 turnips. How many turnips did they grow in all ?
+6+9=x
+15.0
+Joan has saved 6 quarters from washing cars.  How many cents does Joan have ?
+6*25=x
+150.0
+Joan bought 6 dozen eggs from the grocery store to bake some cakes.  How many eggs did Joan buy ?
+6*12=x
+72.0
+Sally grew 6 carrots. Fred grew 4 carrots. How many carrots did they grow in all ?
+6+4=x
+10.0
+Fred has 5 baseball cards. Melanie bought 3 of Fred's  baseball cards. How many baseball cards does Fred have now ?
+5-3=x
+2.0
+Melanie goes fishing with Tom. Melanie catches 8 trout. Tom catches 2 times as many trout as Melanie. How many trout did Tom catch ?
+8*2=x
+16.0
+Nancy has 9 five dollars bills.  How much money does she have ?
+9*5=x
+45.0
+Alyssa has 36 books. Nancy has 7 times more books than  Alyssa. How many books does Nancy have ?
+36*7=x
+252.0
+Dan has 29 violet balloons. Tim has 7 times more violet balloons than Dan. How many violet balloons does Tim have ?
+29*7=x
+203.0
+Nancy has saved 1 dozen quarters from washing cars.  How much money does Nancy have ?
+(12*0.25)=x
+3.0
+Jessica has 3 dozen red marbles. Sandy has 4 times more red marbles than Jessica. How many red marbles does Sandy have ?
+(3*12)*4=x
+144.0
+Sara goes fishing with Melanie. Sara catches 5 trout. Melanie catches 2 times as many trout as Sara. How many trout did Melanie catch ?
+5*2=x
+10.0
+Mike worked 3 hours, each day, for 5 days. How many hours did he work in total ?
+3*5=x
+15.0
+There were a total of 6 soccer games this year. Jessica missed 4 of the games. How many soccer games did Jessica go to in all ?
+6=4+x
+2.0
+There are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. How many crayons are there now ?
+7-3=x
+4.0
+Joan picked 43 apples from the orchard, and gave 27 apples  to  Melanie. How many apples does Joan have now ?
+43-27=x
+16.0
+Fred found 47 seashells on the beach, he gave Jessica 25 of the seashells. How many seashells does he now have ?
+47-25=x
+22.0
+There are 33 oak trees currently in the park. Park workers had to cut down  18 oak trees that were damaged. How many oak trees will be in the park when the workers are finished ?
+33-18=x
+15.0
+As Alyssa was searching through her couch cushions, she found 12 quarters, and 7 pennies in the couch. How much money in total does Alyssa have?
+(12*0.25)+(7*0.01)=x
+3.07
+On Friday, Sam spent 2 pennies on ice cream. The next day, Sam spent 12 dimes on baseball cards. All in all, how much money did Sam spend?
+(2*0.01)+(12*0.1)=x
+1.22
+Keith loves trading cards. She bought 4 packs of Digimon cards for $4.45 each, and a deck of baseball cards for $6.06. How much did Keith spend on cards?
+(4*4.45)+6.06=x
+23.86
+Alyssa loves eating fruits. Alyssa paid $12.08 for grapes, and $9.85 for cherries. In total, how much money did Alyssa spend?
+12.08+9.85=x
+21.93
+Tom purchased a football game for $14.02, a strategy game for $9.46, and a Batman game for $12.04. How much did Tom spend on video games?
+14.02+9.46+12.04=x
+35.52
+Mary loves eating fruits. Mary paid $7.19 for berries, and $6.83 for peaches with a $20 bill. How much change did Mary receive?
+(7.19+6.83)+x=20
+5.98
+Sandy bought some toys. She bought a football for $9.14, and paid $6.81 on a baseball with a $20 bill. How much change did he receive from the purchase?
+9.14+6.81+x=20
+4.05
+An oil pipe in the sea broke. Before engineers started to fix the pipe, 6,522 liters of oil leaked into the water. While the engineers worked, the pipe leaked 5,165 more liters of oil. In all, how many liters of oil leaked into the water?
+6522+5165=x
+11687.0
+There were originally 20,817 houses in Lincoln County. During a housing boom, developers built 97,741 more. How many houses are there now in Lincoln County?
+20817+97741=x
+118558.0
+A dust storm sweeps across the prairie. It covers 64,535 acres of the prairie in dust, but leaves 522 acres untouched. How many acres does the prairie cover?
+64535+522=x
+65057.0
+To fill an order, the factory dyed 61,921 yards of silk green and 49,500 yards pink. How many yards of silk did it dye for that order?
+61921+49500=x
+111421.0
+Before the recent housing boom, there were 1,426 houses in Lawrence County. Now, there are 2,000 houses. How many houses did developers build during the housing boom?
+1426+x=2000
+574.0
+Jonathan wants to buy a dictionary that costs $11, a dinosaur book that costs $19, and a children's cookbook that costs $7. He has saved $8 from his allowance. How much more money does Jonathan need to buy all three books?
+((11+19)+7)-8=x
+29.0
+A group of science students went on a field trip. They took 6 vans and 8 buses. There were 6 people in each van and 18 people in each bus. How many people went on the field trip?
+(6*6)+(8*18)=x
+180.0
+Mark's father gave him $85. Mark bought 10 books, each of which cost $5. How much money does Mark have left?
+85-(10*5)=x
+35.0
+Seth bought 20 cartons of ice cream and 2 cartons of yogurt. Each carton of ice cream cost $6 and each carton of yogurt cost $1. How much more did Seth spend on ice cream than on yogurt?
+(20*6)-(2*1)=x
+118.0
+Maria needs 21 cartons of berries to make a berry cobbler. She already has 4 cartons of strawberries and 8 cartons of blueberries. How many more cartons of berries should Maria buy?
+21-(4+8)=x
+9.0
+Jason had Pokemon cards. Jason gave 9 to his friends. Jason now has 4 Pokemon cards left. How many Pokemon cards did Jason have to start with ?
+x-9=4
+13.0
+Maggie bought 4 packs of red bouncy balls, 8 packs of yellow bouncy balls, and 4 packs of green bouncy balls. There were 10 bouncy balls in each package. How many bouncy balls did Maggie buy in all?
+(4+8+4)*10=x
+160.0
+Marlee has 12 guests coming to her Halloween party. Each table will hold 3 guests. How many tables will Marlee need?
+12/3=x
+4.0
+Kendall is learning to drive, so this weekend she practiced driving 0.16666666666666666 of a mile with her mother and another 0.5 of a mile with her father. How far did Kendall drive in all?
+0.16666666666666666 + 0.5 = x
+0.6666666666666666
+Darnel sprinted 0.875 of a lap and then took a break by jogging 0.75 of a lap. How much farther did Darnel sprint than jog?
+0.875 - 0.75 = x
+0.125
+Blake filled a bucket with 0.8 of a gallon of water. Later, he poured out 0.2 of a gallon of the water. How much water is left in the bucket?
+0.8 - 0.2 = x
+0.6
+There is 0.16666666666666666 of a cup of oil in Scarlett's measuring cup. If Scarlett adds 0.6666666666666666 of a cup more, how much oil will be in the measuring cup?
+0.16666666666666666 + 0.6666666666666666 = x
+0.8333333333333334
+Each day, the polar bear at Richmond's zoo eats 0.2 of a bucket of trout and 0.4 of a bucket of salmon. How many buckets of fish does the polar bear eat daily?
+0.2 + 0.4 = x
+0.6
+Scarlett made a fruit salad with 0.25 of a pound of melon and 0.375 of a pound of berries. How many pounds of fruit did Scarlett use in all?
+0.25 + 0.375 = x
+0.625
+In Shannon's apartment complex, 0.16666666666666666 of the apartments are one-bedroom apartments and 0.3333333333333333 are two-bedroom apartments. What fraction of the apartments are either one- or two-bedroom apartments?
+0.16666666666666666 + 0.3333333333333333 = x
+0.5
+Craig walked 0.2 of a mile from school to David's house and 0.7 of a mile from David's house to his own house. How many miles did Craig walk in all?
+0.2 + 0.7 = x
+0.9
+Eve ran 0.7 of a mile and walked 0.6 of a mile. How much farther did Eve run than walk?
+0.7 + 0.6 = x
+0.1
+While making pastries, a bakery used 0.2 of a bag of wheat flour and 0.1 of a bag of white flour. How many bags of flour did the bakery use in all?
+0.2 + 0.1 = x
+0.3
+Before starting her shift, a waitress checks to make sure there is enough mustard for her customers. She finds 0.25 of a bottle at the first table, 0.25 of a bottle at the second table, and 0.375 of a bottle at the third table. Altogether, how many bottles of mustard does the waitress find?
+0.25 + 0.25 + 0.375 = x
+0.875
+Allie counted the leftover ice cream after a sundae party. She had 0.3333333333333333 of a carton of rocky road ice cream, 0.3333333333333333 of a carton of cookie dough ice cream, and 0.16666666666666666 of a carton of strawberry cheesecake ice cream. How many cartons of ice cream did Allie have in all?
+0.5 + 0.3333333333333333 + 0.16666666666666666 = x
+0.8333333333333334
+Bonnie's science class recorded the rainfall each day. They recorded 0.16666666666666666 of a centimeter of rain on Monday, 0.4166666666666667 of a centimeter of rain on Tuesday, and 0.08333333333333333 of a centimeter of rain on Wednesday. How many centimeters of rain did the class record in all?
+0.16666666666666666 + 0.4166666666666667 + 0.08333333333333333 = x
+0.6666666666666666
+A spaceship traveled 0.5 of a light-year from Earth to Planet X and 0.1 of a light-year from Planet X to Planet Y. Then it traveled 0.1 of a light-year from Planet Y back to Earth. How many light-years did the spaceship travel in all?
+0.5 + 0.1 + 0.1 = x
+0.7
+Heather went to the county fair last weekend. When she got there, she had to walk 0.3333333333333333 of a mile from the car to the entrance. Then she walked 0.3333333333333333 of a mile to the carnival rides and 0.08333333333333333 of a mile from the carnival rides back to the car. How many miles did Heather walk in all?
+0.3333333333333333 + 0.3333333333333333 + 0.08333333333333333 = x
+0.75
+Dale's Vegetarian Restaurant bought 2.8333333333333335 pounds of green peppers and 2.8333333333333335 pounds of red peppers. How many pounds of peppers did Dale's Vegetarian Restaurant buy in all?
+2.8333333333333335 + 2.8333333333333335 = x
+5.666666666666667
+On a hot day, Sam poured 1 bucket of water into a plastic wading pool. A few minutes later he added another 8.8 buckets. How much water did Sam pour into the pool?
+1 + 8.8 = x
+9.8
+Professor Ellison weighed two pieces of metal for an experiment. The piece of iron weighed 11.166666666666666 pounds and the piece of aluminum weighed 0.8333333333333334 of a pound. How much more did the piece of iron weigh than the piece of aluminum?
+11.166666666666666 - 0.8333333333333334 = x
+10.333333333333334
+Nicole found an orange caterpillar and a green caterpillar in her backyard. The green caterpillar was 3 inches long and the orange caterpillar was 1.1666666666666667 inches long. How much longer was the green caterpillar than the orange caterpillar?
+3 - 1.1666666666666667 = x
+1.8333333333333335
+Ezra drew a white line that was 7.666666666666667 inches long. Then he drew a blue line that was 3.3333333333333335 inches long. How much longer was the white line than the blue line?
+7.666666666666667 - 3.3333333333333335 = x
+4.333333333333333
+Terrell hiked 8.2 miles on Saturday. Then, on Sunday, he hiked another 1.6 miles. How far did Terrell hike all together?
+8.2 + 1.6 = x
+9.8
+In March it rained 0.81 inches. It rained 0.35 inches less in April than in March. How much did it rain in April?
+0.81 - 0.35 = x
+0.46
+It snowed 0.32 inches on Monday and 0.21 inches on Tuesday. How much did it snow on Monday and Tuesday combined?
+0.32 + 0.21 = x
+0.53
+Pamela bought 9.8 ounces of sugar, and she spilled 5.2 ounces of it on the floor. How much is left?
+9.8 - 5.2 = x
+4.6
+A truck carrying 4.1 pounds of sand travels to a construction yard and loses 2.4 pounds of sand along the way. How much sand does the truck have when it arrives at the yard?
+4.1 - 2.4 = x
+1.7
+The Ferris wheel in Paradise Park has 14 seats. Each seat can hold 6 people. How many people can ride the Ferris wheel at the same time?
+14*6=x
+84
+There are 37 baskets. There are 17 apples in each basket. How many apples are there in all?
+37*17=x
+629
+The farmers reported that they harvest 45 sacks of apples from each of the 8 sections of the orchard daily. How many sacks are harvested every day?
+45*8=x
+360
+They entered the circus tent and saw that there are 4 sections for the audience. If each section can accommodate 246 people, how many people can the tent accommodate in total?
+4*246=x
+984
+The library is divided into different sections for different type of books. The science fiction section has 8 books. If each book has 478 pages, how many pages do all the books have in total?
+8*478=x
+3824
+There was a stack of 700 sheets of used paper. Lexie wants to place it in boxes for recycling. If every box can contain 100 sheets, how many boxes does Lexie need?
+700/7=x
+7
+Christian’s mother prepared lemonade. Every pitcher of lemonade can serve 5 glasses. If she was able to serve 30 glasses of lemonade, how many pitchers of lemonade did she prepare?
+5*x=30
+6
+Shiela has 6 neighbors who like to collect animal drawings. Shiela drew 54 animals on small pieces of paper. If she plans to give the same number of animal drawings to her neighbors, how many will each of them receive?
+6*x=54
+9
+In Haley’s class, 5 are boys who love to play marbles. If Haley has 35 marbles, how many will each of the boys receive?
+5*x=35
+7
+Betty bought 88 pink flower stones and wanted to make 8 bracelets out of these stones. How many pink flower stones will each bracelet have if she used the same number of stones in each bracelet?
+88/8=x
+11
+Brenda’s mother made cookies for 5. If she prepared 35 cookies and each of them had the same number of cookies, how many did each of them have?
+5*x=35
+7
+Jane’s dad brought home 24 marble potatoes. If Jane’s mom made potato salad for lunch and served an equal amount of potatoes to Jane, herself and her husband, how many potatoes did each of them have?
+24/3=x
+8
+Willy has 1400 crayons. Lucy has 290 crayons. How many more crayons does Willy have then Lucy?
+1400-290=x
+1110
+Jose has 85 peanuts. Kenya has 48 more than Jose. How many peanuts does Kenya have?
+85+48=x
+133
+Uncle Dave bought 143 ice cream sandwiches. If he wants to give them to his 11 hungry nieces, how many can each niece get?
+143/11=x
+13
+Paco had 93 cookies. Paco ate 15 of them. How many cookies did Paco have left?
+93-15=x
+78
+Iesha has 344 books. 136 are about school and the rest are about sports. How many books about sports does Iesha have?
+344-136=x
+208
+Robin has 27 packages of gum. There are 18 pieces in each package. How many pieces of gum does Robin have?
+27*18=x
+486
+Mr. Guzman bought 48 doughnuts packed equally into 4 boxes. How many doughnuts were in each box?
+48/4=x
+12
+Lisa rented 4 DVDs for $4.80. How much did each DVD cost to rent?
+4*x=4.80
+1.20
+There are 124 students making 3 stars each for the school wall. How many stars will they make all together?
+124*3=x
+372
+Tyler had 15 dogs. Each dog had 5 puppies. How many puppies does Tyler now have?
+15*5=x
+75
+The Spurs basketball team has 22 players. Each player has 11 basketballs. How many basketballs do they have in all? 
+22*11=x
+242
+Mrs. Hilt needs to share $3.75 equally among 3 total people. How much money will each person get?
+3.75/3=x
+1.25
+Mrs. Hilt is baking bread. She needs 5 cups of flour to bake 2 loaves of bread. How much flour will she need to make one loaf of bread?
+5/2=x
+2.5
+Mrs. Hilt measured the distance from her desk to the water fountain. It was 30 feet. How many feet will Mrs. Hilt walk on her trips to the fountain if she goes to the water fountain 4 times today?
+30*4=x
+120
+Harry Hound had a terrible earache yesterday. When I peered into his ears yesterday, I found 36 frisky fleas having a party in his right ear and 85 baby fleas sleeping peacefully in his left ear. I cleaned out Harry Hound's ears. How many fleas perished?
+36+85=x
+121
+Each bag contains 23 pounds of oranges. How many pounds of oranges are in 45 bags?
+23*45=x
+1035
+Trenton sells electronic supplies. Each week he earns 190 dollars plus commission equal to 0.04 of his sales. This week his goal is to earn no less than 500 dollars. How much sales  he must make to reach his goal?
+190.0+(0.04*x)=500.0
+7750.0
+Freeport McMoran projects the world grain supply will be 1800000 metric tons and the supply will be only 0.75 of the world grain demand. What will the world grain demand be?
+1800000.0=0.75*x
+2400000.0

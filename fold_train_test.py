@@ -28,7 +28,8 @@ for x in folds:
     train.extend(open(datadir+x).readlines())
 train = [int(i)-1 for i in train]
 test = [int(i)-1 for i in open(datadir+test).readlines()]
-assert(len([x for x in train if x in test])==0)
+if len([x for x in train if x in test])!=0:
+    print([x for x in train if x in test]);exit()
 
 trainq = [x for i,x in enumerate(q) if i in train]
 traina = [x for i,x in enumerate(a) if i in train]

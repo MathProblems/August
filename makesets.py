@@ -213,7 +213,6 @@ def vector(a,b,problem,story,target,feats=False):
         else:
             vec.append(0)
 
-
     if a.verbs == None or b.verbs == None:
         dist = 1
     else:
@@ -417,7 +416,7 @@ def extract_quantify(story):
         nums = [(x[1],x[2]) for x in deps if x[0]=='num' or x[0]=='number' or x[0]=='det']
         #nums.extend([(x[1],x[2]) for x in deps if x[0] == 'nmod' and x[1][0].isdigit()])
         print(nums)
-        nums.extend([(x[2],x[1]) for x in deps if x[0]=="prep_of" and (x[1][0].isdigit() or x[1].rsplit("-",maxsplit=1)[0] in ['half','third','quarter'])])
+        nums.extend([(x[2],x[1]) for x in deps if x[0]=="prep_of" and (x[1][0].isdigit() or x[1].rsplit("-",maxsplit=1)[0] in ['half','third','quarter','some'])])
         print(nums)
         # w = word, n = number. Take each and split it out
         for w,n in nums:
@@ -786,36 +785,12 @@ def move_x(sets,story):
     if len([x for x in endwords if x in qlem])>0:
         return sets
 
-    """
-    spots = []
-    for j,s in enumerate(story):
-        thissentsets = [x for x in sets if x[0]//1000 == j]
-        potentials = [(i,x) for i,x in enumerate(s['words']) if x[1]["Lemma"]==target]
-        for i,p in potentials:
-            smatch = [x for x in thissentsets if x[1].surface == p[0] and x[1].widx == i+1]
-            if smatch:
-                smatch = [x for x in smatch if x[1].num != 'x' and not floatcheck(x[1].num)]
-                spots.extend([(x[0],x[1].num) for x in smatch])
-            else:
-                #assure this is the only set ref in the vicinity
-                closesets = [x for x in sets if abs(x[0]-(j*1000+i))<10]
-                if len(closesets)==0:
-                    spots.append((j*1000+i,'BARE'))
-                
-
-    if spots:
-        bspots = [x for x in spots if x[1]!='BARE']
-        if bspots:
-            #move to bspots 0 
-            place = bspots[0][0]
-        else:
-            place = spots[0][0]
-        print("moving x")
-        print(targets,spots,place)
-        sets[targets[0][0]] = (place,targets[0][1][1])
-    """
-
-
+    options = [(i,x) for i,x in enumerate(sets) if x[1].num in ['some'] and x[1].entity == target]
+    if options:
+        i,x = options[0]
+        sets[i][1].num = 'x'
+        del(sets[targets[0][0]])
+        print("Moved X Based on Some, The")
 
 
     return sets
@@ -855,17 +830,18 @@ def oneEnt(sets):
 def oneSet(sets,story):
     qsets = [x for x in sets if x[1].num!="x"]
     if len(qsets)==1:
+        place = qsets[0][0]
         allwords = ' '.join([story[i]['text'] for i in range(len(story))])
         allwords = ''.join([x for x in allwords if x.isalnum() or x==' '])
         if 'week' in allwords or "Week" in allwords:
-            sets.append((0,aset('7','day','week',0)))
+            sets.append((0,aset('7','day','week',place+1)))
         else:
             names = []
             for s in story:
                 names.extend([x[0] for x in s['words'] if x[1]["NamedEntityTag"]=='PERSON'])
             
             n = len(set(names))
-            sets.append((0,aset(str(n),'person','names',0)))
+            sets.append((place+1,aset(str(n),'person','names',place+1)))
     return sets
             
 def xAdjFix(sets):
@@ -894,7 +870,6 @@ def makesets(story):
     sets = containers(sets,story)
     #sets = circumscription(sets,story)
     #sets = oneSet(sets,story)
-    (sets, conv) = uc.main(sets)
     sets = add_bare_sets(sets,story)
     # print("units and bare sets")
     # print([(x[0],x[1].entity,x[1].num) for x in sets])
@@ -911,6 +886,7 @@ def makesets(story):
     #sets = oneEnt(sets)
     sets = xAdjFix(sets)
     sets = [x for x in sets if (floatcheck(x[1].num) or x[1].num=='x')]
+    (sets, conv) = uc.main(sets)
     if conv == 0:
         sets = oneSet(sets, story)
     print([(x[0],x[1].num) for x in sets])
@@ -941,16 +917,6 @@ class StanfordNLP:
 
     def parse(self, text):
         return json.loads(self.server.parse(text))
-
-def bug():
-    print("bug")
-    ip = 0
-    while ip==0:
-        inp = input()
-        if inp == 0:
-            ip=1
-        else:
-            exec(inp)
 
 def parse_inp(inp):
     q=[]

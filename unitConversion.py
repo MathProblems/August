@@ -22,7 +22,14 @@ def main(sets):
     conv = 0
 
     for targ in target:
-        if targ.entity not in ['dollar','money','second','minute','hour','cent']:continue
+        if targ.entity not in ['dollar','money','second','minute','hour','cent']:
+            if targ.entity in ['dime','quarter','nickle','half-dollar','penny']:
+                others = [x for x in sets if x[1].entity in ['dime','quarter','nickle','penny','half-dollar','cent']]
+                others = [x for x in others if x[1].entity != targ.entity]
+                if not others:
+                    continue
+            else:
+                continue
         for idx,entity in sets:
             if entity.num == 'x': continue
             if entity.entity == targ.entity: continue
