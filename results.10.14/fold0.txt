@@ -1,0 +1,64 @@
+can't open model file data/0.global.m
+0
+
+ Joan found 70 seashells on the beach  . she gave Sam some of her seashells  . She has 27 seashell  . How many seashells did she give to Sam  ? 
+_____________
+adjs : None
+compound : 0
+container : Joan
+contains : None
+entity : seashell
+idx : 2
+location : None
+num : 70
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 1003
+location : None
+num : x
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : give
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Joan
+contains : None
+entity : seashell
+idx : 2002
+location : None
+num : 27
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : seashell
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x10f49a5f8>)), ('70', (0, <makesets.aset object at 0x10f49a2b0>)), ('27', (0, <makesets.aset object at 0x10f49a6a0>))])
+( 70 - x ) = 27
+['70', '-', 'x'] 0.9246849091941429

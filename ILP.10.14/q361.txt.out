@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 56 | 759 | (33*23)=x | 33 23 * x = | 33:card 23:pokemon *:pokemon x:pokemon =:pokemon
+EXPR: 1 | POS | INT | 10 | 56 | 56 | (33+23)=x | 33 23 + x = | 33:card 23:card +:card x:card =:card
+EXPR: 0 | POS | INT | 10 | 56 | 10 | x=(33-23) | x 33 23 - = | x:card 33:card 23:card -:card =:card
+EXPR: 0 | POS | INT | 10 | 56 | 759 | x=(33*23) | x 33 23 * = | x:pokemon 33:card 23:pokemon *:pokemon =:pokemon
+EXPR: 1 | POS | INT | 10 | 56 | 56 | x=(33+23) | x 33 23 + = | x:card 33:card 23:card +:card =:card
+EXPR: 0 | POS | INT | 10 | 56 | 10 | (33-23)=x | 33 23 - x = | 33:card 23:card -:card x:card =:card
+EXPR: 0 | POS | INT | 12 | 56 | 759 | 33=(x/23) | 33 x 23 / = | 33:pokemon x:pokemon 23:card /:pokemon =:pokemon
+EXPR: 1 | POS | INT | 12 | 56 | 56 | 33=(x-23) | 33 x 23 - = | 33:card x:card 23:card -:card =:card
+EXPR: 0 | POS | INT | 12 | 56 | 10 | (33-x)=23 | 33 x - 23 = | 33:card x:card -:card 23:card =:card
+EXPR: 0 | POS | INT | 12 | 56 | 10 | 33=(x+23) | 33 x 23 + = | 33:card x:card 23:card +:card =:card
+EXPR: 0 | POS | INT | 12 | 56 | 10 | 33=(23+x) | 33 23 x + = | 33:card 23:card x:card +:card =:card
+EXPR: 1 | POS | INT | 12 | 56 | 56 | (x-33)=23 | x 33 - 23 = | x:card 33:card -:card 23:card =:card
+EXPR: 0 | POS | INT | 12 | 56 | 759 | (x/33)=23 | x 33 / 23 = | x:pokemon 33:card /:pokemon 23:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 56 | 759 | (x/23)=33 | x 23 / 33 = | x:pokemon 23:card /:pokemon 33:pokemon =:pokemon
+EXPR: 1 | POS | INT | 22 | 56 | 56 | (x-23)=33 | x 23 - 33 = | x:card 23:card -:card 33:card =:card
+EXPR: 0 | POS | INT | 22 | 56 | 10 | (23+x)=33 | 23 x + 33 = | 23:card x:card +:card 33:card =:card
+EXPR: 1 | POS | INT | 22 | 56 | 56 | 23=(x-33) | 23 x 33 - = | 23:card x:card 33:card -:card =:card
+EXPR: 0 | POS | INT | 22 | 56 | 10 | (x+23)=33 | x 23 + 33 = | x:card 23:card +:card 33:card =:card
+EXPR: 0 | POS | INT | 22 | 56 | 759 | 23=(x/33) | 23 x 33 / = | 23:pokemon x:pokemon 33:card /:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 56 | 10 | 23=(33-x) | 23 33 x - = | 23:card 33:card x:card -:card =:card
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

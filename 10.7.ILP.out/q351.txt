@@ -1,0 +1,7 @@
+constants : 9 8 7 3
+unknowns : x
+operators : + - * / =
+objtypes : game dollar
+constantOrUnknownType : 0 0 0 1 0
+n : 9
+answer : 24

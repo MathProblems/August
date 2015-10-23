@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 0.4 | 1.4 | x=(0.5+0.9) | x 0.5 0.9 + = | x:food 0.5:food 0.9:food +:food =:food
+EXPR: 0 | POS | FRA | 0 | 0.4 | 1.4 | (0.5+0.9)=x | 0.5 0.9 + x = | 0.5:food 0.9:food +:food x:food =:food
+EXPR: 1 | POS | FRA | 2 | 0.4 | 0.4 | (x+0.5)=0.9 | x 0.5 + 0.9 = | x:food 0.5:food +:food 0.9:food =:food
+EXPR: 0 | POS | FRA | 2 | 0.4 | 1.4 | (x-0.5)=0.9 | x 0.5 - 0.9 = | x:food 0.5:food -:food 0.9:food =:food
+EXPR: 1 | POS | FRA | 2 | 0.4 | 0.4 | (0.5+x)=0.9 | 0.5 x + 0.9 = | 0.5:food x:food +:food 0.9:food =:food
+EXPR: 1 | POS | FRA | 2 | 0.4 | 0.4 | 0.5=(0.9-x) | 0.5 0.9 x - = | 0.5:food 0.9:food x:food -:food =:food
+EXPR: 0 | POS | FRA | 2 | 0.4 | 1.4 | 0.5=(x-0.9) | 0.5 x 0.9 - = | 0.5:food x:food 0.9:food -:food =:food
+EXPR: 1 | POS | FRA | 10 | 0.4 | 0.4 | (0.9-0.5)=x | 0.9 0.5 - x = | 0.9:food 0.5:food -:food x:food =:food
+EXPR: 1 | POS | FRA | 10 | 0.4 | 0.4 | x=(0.9-0.5) | x 0.9 0.5 - = | x:food 0.9:food 0.5:food -:food =:food
+EXPR: 0 | POS | FRA | 12 | 0.4 | 1.4 | (x-0.9)=0.5 | x 0.9 - 0.5 = | x:food 0.9:food -:food 0.5:food =:food
+EXPR: 1 | POS | FRA | 12 | 0.4 | 0.4 | 0.9=(x+0.5) | 0.9 x 0.5 + = | 0.9:food x:food 0.5:food +:food =:food
+EXPR: 1 | POS | FRA | 12 | 0.4 | 0.4 | 0.9=(0.5+x) | 0.9 0.5 x + = | 0.9:food 0.5:food x:food +:food =:food
+EXPR: 0 | POS | FRA | 12 | 0.4 | 1.4 | 0.9=(x-0.5) | 0.9 x 0.5 - = | 0.9:food x:food 0.5:food -:food =:food
+EXPR: 1 | POS | FRA | 12 | 0.4 | 0.4 | (0.9-x)=0.5 | 0.9 x - 0.5 = | 0.9:food x:food -:food 0.5:food =:food
+NET 14 unique, non-negative solutions found out of 28 total solutions

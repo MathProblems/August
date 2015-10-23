@@ -1,0 +1,363 @@
+Jason found 49 seashells and 48 starfish on the beach . He gave 13 of the seashells to Tim . How many seashells does Jason now have ?
+seashell,49,1 starfish,48,0 seashell,13,1
+36
+Joan grew 29 carrots and 14 watermelons . Jessica grew 11 carrots . How many carrots did they grow in all ?
+carrot,29,1 watermelon,14,0 carrot,11,1
+40
+Sally had 39 baseball cards , and 9 were torn . Sara bought 24 of Sally 's baseball cards . How many baseball cards does Sally have now ?
+card,39,1 card,9,1 card,24,1
+15
+Dan has 32 green and 38 violet marbles . Mike took 23 of Dan 's green marbles . How many green marbles does Dan now have ?
+marble,32,1 marble,38,0 marble,23,1
+9
+Jason has 18 books and he has read 9 of them . Mary has 42 books . How many books do they have together ?
+book,18,1 book,9,1 book,42,1
+60
+Jason grew 32 watermelons and 22 cantelopes . Dan grew 31 watermelons . How many watermelons did they grow in total ?
+watermelon,32,1 cantelope,22,0 watermelon,31,1
+63
+Benny found 66 seashells and 49 starfish on the beach . He gave 52 of the seashells to Jason . How many seashells does Benny now have ?
+seashell,66,1 starfish,49,0 seashell,52,1
+14
+There are 41 crayons and 26 pencils in the drawer . Sam placed 12 crayons in the drawer . How many crayons are now there in total ?
+crayon,41,1 pencil,26,0 crayon,12,1
+53
+Mike had 33 quarters and 87 nickels in his bank . His dad borrowed 75 nickels from Mike . How many nickels does he have now ?
+quarter,33,0 nickel,87,1 nickel,75,1
+12
+Sam has 86 yellow and 20 green marbles . Joan took 25 of Sam 's yellow marbles . How many yellow marbles does Sam now have ?
+marble,86,1 marble,20,0 marble,25,1
+61
+Dan had 97 baseball cards , and 8 were torn . Sam bought 15 of Dan 's baseball cards . How many baseball cards does Dan have now ?
+card,97,1 card,8,1 card,15,1
+82
+There are 41 short trees and 44 tall trees currently in the park . Park workers will plant 57 short trees today . How many short trees will the park have when the workers are finished ?
+tree,41,1 tree,44,0 tree,57,1
+98
+Alyssa picked 25 limes and Mike picked 32 limes . Tom picked 12 plums . How many limes were picked in all ?
+lime,25,1 lime,32,1 plum,12,0
+57
+Tim found 679 seashells and 110 starfish on the beach . He gave 172 of the seashells to Sara . How many seashells does Tim now have ?
+seashell,679,1 starfish,110,0 seashell,172,1
+507
+There are 139 erasers and 118 scissors in the drawer . Jason placed 131 erasers in the drawer . How many erasers are now there in total ?
+eraser,139,1 scissors,118,0 eraser,131,1
+270
+Mike picked 123 oranges and Melanie picked 104 oranges . Fred picked 130 apples . How many oranges were picked in total ?
+orange,123,1 orange,104,1 apple,130,0
+227
+Joan had 695 Pokemon cards , and 6 were torn . Sara bought 133 of Joan 's Pokemon cards . How many Pokemon cards does Joan have now ?
+card,695,1 card,6,1 card,133,1
+562
+Sally grew 113 turnips and 118 pumpkins . Mary grew 129 turnips . How many turnips did they grow in total ?
+turnip,113,1 pumpkin,118,0 turnip,129,1
+242
+Sara has 792 black and 122 red marbles . Fred took 233 of Sara 's black marbles . How many black marbles does Sara now have ?
+marble,792,1 marble,122,0 marble,233,1
+559
+Joan 's high school played 864 baseball games this year , 128 of the games were played at night . She attended 395 games . How many baseball games did Joan miss ?
+game,128,1 game,864,1 game,395,1
+469
+There are 112 short trees and 119 tall trees currently in the park . Park workers will plant 105 short trees today . How many short trees will the park have when the workers are finished ?
+tree,112,1 tree,119,0 tree,105,1
+217
+Sara had 100 pennies and 783 quarters in her bank . Her dad borrowed 271 quarters from Sara . How many quarters does she have now ?
+penny,100,0 quarter,783,1 quarter,271,1
+512
+A restaurant made 9 hamburgers and 4 hot dogs to serve during lunch . Only 3 hamburgers were actually served . How many hamburgers were over ?
+hamburger,9,1 dog,4,0 hamburger,3,1
+6
+Melanie picked 7 plums and 4 oranges from the orchard . She gave 3 plums to Sam . How many plums does she have now ?
+plum,7,1 orange,4,0 plum,3,1
+4
+There are 6 short bushes and 4 tall trees currently in the park . Park workers had to cut down 2 short bushes that were damaged . How many short bushes will the park have when the workers are finished ?
+bush,6,1 tree,4,0 bush,2,1
+4
+There were a total of 8 football games this year , 4 are played at night . Keith missed 4 of the games . How many football games did Keith go to in total ?
+game,8,1 game,4,1 game,4,1
+4
+There are 9 pencils and 4 rulers in the drawer . Sally took 4 pencils out of the drawer . How many pencils are there now ?
+pencil,9,1 ruler,4,0 pencil,4,1
+5
+Jason has 7 violet balloons and 4 red balloons . He lost 3 of the violet balloons . How many violet balloons does Jason have now ?
+balloon,7,1 balloon,4,0 balloon,3,1
+4
+Dan had 7 potatoes and 4 cantelopes in the garden . The rabbits ate 4 of the potatoes . How many potatoes does Dan now have ?
+potato,7,1 cantelope,4,0 potato,4,1
+3
+Sara had 4 quarters and 8 dimes in her bank . Her sister borrowed 4 dimes . How many dimes does Sara have now ?
+quarter,4,0 dime,8,1 dime,4,1
+4
+Sandy 's dog had 8 puppies and 4 had spots . She gave 4 to her friends . How many puppies does she now have ?
+puppy,8,1 puppy,4,1 puppy,4,1
+4
+Mike found 6 seashells and 4 starfish , but 4 of the seashells were broken . How many unbroken seashells did Mike find ?
+seashell,6,1 starfish,4,0 seashell,4,1
+2
+Melanie had 30 baseball cards , and 9 were torn . Sara bought 18 of Melanie 's baseball cards . How many baseball cards does Melanie have now ?
+card,30,1 card,9,1 card,18,1
+12
+Sara picked 35 pears and 27 apples from the orchard . She gave 28 pears to Dan . How many pears does Sara have ?
+pear,35,1 apple,27,0 pear,28,1
+7
+Jessica grew 35 watermelons and 30 carrots , but the rabbits ate 27 watermelons . How many watermelons does Jessica have ?
+watermelon,35,1 carrot,30,0 watermelon,27,1
+8
+Nancy found 35 seashells and 25 starfish on the beach . She gave 17 of the seashells to Jason . How many seashells does Nancy now have ?
+seashell,35,1 starfish,25,0 seashell,17,1
+18
+Joan has 47 green and 48 red marbles . Fred took 24 of Joan 's green marbles . How many green marbles does Joan now have ?
+marble,47,1 marble,48,0 marble,24,1
+23
+There are 42 walnut trees and 12 orange trees currently in the park . Park workers had to cut down 13 walnut trees that were damaged . How many walnut trees will be in the park when the workers are finished ?
+tree,42,1 tree,12,0 tree,13,1
+29
+Sandy had 36 pennies and 31 nickels in her bank . Her dad borrowed 20 nickels from Sandy . How many nickels does she have now ?
+penny,36,0 nickel,31,1 nickel,20,1
+11
+There are 34 pencils and 49 crayons in the drawer . Dan took 22 pencils from the drawer . How many pencils are now in the drawer ?
+pencil,34,1 crayon,49,0 pencil,22,1
+12
+Sally paid $ 12.32 total for peaches , after a 3 dollar coupon , and $ 11.54 for cherries . In total , how much money did Sally spend ?
+$,12.32,0 $,3,0 $,11.54,0
+23.86
+Dan spent $ 11.76 on a snake toy , and a cage cost him $ 14.54 . Dan also found a dollar bill on the ground . What was the total cost of Dan 's purchases ?
+$,11.76,0 $,14.54,0
+26.3
+Mary went to the mall . She spent $ 13.04 on a shirt and $ 12.27 on a jacket . She went to 2 shops . In total , how much money did Mary spend on clothing ?
+$,13.04,0 $,12.27,0 shop,2,0
+25.31
+Dan joined his school 's band . He bought a clarinet for $ 130.30 , and a song book which was $ 11.24 . Dan found $ 12.32 in his pocket . How much did Dan spend at the music store ?
+$,130.30,0 $,11.24,0 $,12.32,0
+141.54
+Tom bought a skateboard for $ 9.46 , and spent $ 9.56 on marbles . Tom also spent $ 14.50 on shorts . In total , how much did Tom spend on toys ?
+$,9.46,0 $,9.56,0 $,14.50,0
+19.02
+Mary got fast food for lunch . Mary spent $ 1.08 on soup and $ 4.80 on a salad . Mary paid with a 20 dollar bill . What was the total of the lunch bill ?
+$,1.08,0 $,4.80,0 bill,20,1
+5.88
+For his car , Mike spent $ 118.54 on speakers and $ 106.33 on new tires . Mike wanted 3 CD 's for $ 4.58 but decided not to . In total , how much did Mike spend on car parts ?
+$,118.54,0 $,106.33,0 cd,3,0 $,4.58,0
+224.87
+Tom purchased a Batman game for $ 13.60 , and a Superman game for $ 5.06 . Tom already owns 2 games . How much did Tom spend on video games ?
+$,13.60,1 $,5.06,1 game,2,0
+18.66
+Joan spent $ 15 on shorts and $ 14.82 on a jacket , and $ 12.51 on a shirt . She went to 3 shops . In total , how much money did Joan spend on clothing ?
+$,15,0 $,14.82,0 $,12.51,0 shop,3,0
+42.33
+Joan joined her school 's band . She bought a trumpet for $ 149.16 , a music tool for $ 9.98 , and a song book which was $ 4.14 . Joan found $ 8.65 in her pocket . How much did Joan spend at the music store ?
+$,149.16,0 $,9.98,0 $,4.14,0 $,8.65,0
+163.28
+Melanie bought a Batman game for $ 6.95 , a strategy game for $ 7.90 , and a Superman game for $ 7.73 . Melanie already owns 4 games . How much did Melanie spend on video games ?
+$,6.95,0 $,7.90,0 $,7.73,0 game,4,1
+22.58
+Keith spent $ 6.51 on a rabbit toy , $ 5.79 on pet food , and a cage cost him $ 12.51 . He found a dollar bill on the ground . What was the total cost of Keith 's purchases ?
+$,6.51,0 $,5.79,0 $,12.51,0
+24.81
+Keith spent $ 136.01 on speakers , $ 139.38 on a CD player , and $ 112.46 on new tires . He wanted 3 CD 's for $ 6.16 , but did n't buy them . In total , how much did he spend ?
+$,136.01,0 $,139.38,0 $,112.46,0 cd,3,0 $,6.16,0
+387.85
+Joan bought toy cars for $ 14.88 , a skateboard for $ 4.88 , and got toy trucks for $ 5.86 . She spent $ 14.55 on pants . In total , how much did Joan spend on toys ?
+$,5.86,0 $,14.88,0 $,4.88,0 $,14.55,0
+25.62
+After paying 6 dollars for the pie , Mary has 52 dollars , her friend has 43 dollars . How much money did she have before buying the pie ?
+dollar,43,0 dollar,6,0 dollar,52,0
+58
+There were 46 bales of hay in the barn and 32 bales in the shed . Tom stacked bales in the barn today . There are now 60 bales of hay in the barn . How many bales did he store in the barn ?
+bale,46,1 bale,32,1 bale,60,1
+14
+Mary is baking a cake . The recipe calls for 7 cups of flour and 3 cups of sugar . She already put in 2 cups of flour . How many cups of flour does she need to add ?
+cup,7,1 cup,3,1 cup,2,1
+5
+Last week Fred had 23 dollars and Jason had 46 dollars . Fred washed cars over the weekend and now has 86 dollars . How much money did Fred make washing cars ?
+dollar,23,0 dollar,46,0 dollar,86,0
+63
+There are 31 short trees and 32 tall trees currently in the park . Park workers will plant short trees today . When the workers are finished there will be 95 short trees in the park . How many short trees did the workers plant today ?
+tree,31,1 tree,32,0 tree,95,1
+64
+There were 9 red orchids and 3 white orchids in the vase . Sally cut some red orchids from her flower garden . There are now 15 red orchids in the vase . How many red orchids did she cut ?
+orchid,9,1 orchid,3,0 orchid,15,1
+6
+Sara had 24 peaches and 37 pears at her fruit dish . She went to the orchard and picked peaches . There are now 61 peaches . how many did she pick ?
+peach,24,0 pear,37,0 peach,61,0
+37
+Joan found 72 seashells and 12 starfishes on the beach . She gave Alyssa some of her seashells . She has 28 seashell . How many seashells did she give to Alyssa ?
+seashell,72,1 starfish,12,0 seashell,28,1
+44
+There are 6 pencils and 7 rulers in the drawer . Benny placed 3 pencils in the drawer . How many pencils are now there in total ?
+pencil,6,1 ruler,7,0 pencil,3,1
+9
+Sara has 3 green and 5 red marbles . Tom has 4 green marbles . How many green marbles do they have in total ?
+marble,3,1 marble,5,0 marble,4,1
+7
+Joan grew 8 watermelons and 4 turnips . Tom grew 9 watermelons . How many watermelons did they grow in total ?
+watermelon,8,1 turnip,4,0 watermelon,9,1
+17
+There are 2 maple trees and 5 popular trees currently in the park . Park workers will plant 9 maple trees today . How many maple trees will the park have when the workers are finished ?
+tree,2,1 tree,5,0 tree,9,1
+11
+Mary found 2 seashells and Keith found 5 seashells on the beach . When they cleaned them , they discovered that 9 were cracked . How many seashells did they find together ?
+seashell,2,1 seashell,5,1 seashell,9,1
+7
+Mike picked 8 pears and Jason picked 7 pears from the pear tree . Fred picked 6 apples from the apple tree . How many pears were picked in total ?
+pear,8,1 pear,7,1 apple,6,0
+15
+Tim had 7 quarters and 9 nickels in his bank . His dad gave him 3 nickels and 5 pennies . How many nickels does Tim have now ?
+quarter,7,0 nickel,9,1 nickel,3,1 penny,5,0
+12
+A restaurant served 7 slices of pie during lunch and 5 during dinner today . It served 8 of them yesterday . How many slices of pie were served today ?
+slice,7,1 slice,5,1 slice,8,1
+12
+Tom went to 4 hockey games this year , but missed 7 . He went to 9 games last year . How many hockey games did Tom go to in all ?
+game,4,1 game,7,1 game,9,1
+13
+Sam 's dog had puppies and 8 had spots . He gave 2 to his friends . He now has 6 puppies . How many puppies did he have to start with ?
+puppy,8,1 puppy,2,1 puppy,6,1
+8
+Mike picked 7 apples , Nancy picked 3 apples , and Keith picked 6 apples and 4 pears , at the farm . How many apples were picked in total ?
+apple,7,1 apple,3,1 apple,6,1 pear,4,0
+16
+There are 7 dogwood trees currently in the park . Park workers will plant 5 dogwood trees today and 4 dogwood trees tomorrow . It took 8 workers to finish the work . How many dogwood trees will the park have when the workers are finished ?
+tree,7,1 tree,5,1 tree,4,1 worker,8,0
+16
+Dan 's cat had kittens and 5 had spots . He gave 7 to Tim and 4 to Jason . He now has 5 kittens . How many kittens did he have to start with ?
+kitten,5,1 kitten,7,1 kitten,4,1 kitten,5,1
+16
+There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ?
+crayon,7,1 crayon,6,1 crayon,4,1 scissors,8,0
+17
+Sally had 8 pennies and 7 nickels in her bank . Her dad gave her 9 nickels and her mother gave her 2 nickels . How many nickels does Sally have now ?
+penny,8,0 nickel,7,1 nickel,9,1 nickel,2,1
+18
+Nancy went to 9 football games this month . She went to 8 games last month , and plans to go to 7 games next month . She paid 3 dollars for the tickets . How many games will she attend in all ?
+game,9,1 game,7,1 game,8,1 dollar,3,0
+24
+Keith found 6 seashells , Jessica found 8 seashells , and Tim found 7 seashells on the beach . When they cleaned them , they discovered that 3 were cracked . How many seashells did they find together ?
+seashell,6,1 seashell,8,1 seashell,7,1 seashell,3,1
+21
+Nancy grew 2 onions , Dan grew 9 onions , and Mike grew 4 onions . They worked for 6 days on the farm . How many onions did they grow in total ?
+onion,2,1 onion,9,1 onion,4,1 day,6,0
+15
+Fred has 5 yellow balloons , Sam has 6 yellow balloons , and Mary has 7 yellow balloons . The balloons cost 5 dollars . How many yellow balloons do they have in total ?
+balloon,5,1 balloon,6,1 balloon,7,1 dollar,5,0
+18
+A restaurant served 4 pies during lunch and 9 during dinner today . The restaurant served 7 pies and 2 pizzas yesterday . How many pies were served in total ?
+pie,4,1 pie,9,1 pie,7,1 pizza,2,0
+20
+Tim found 37 seashells and Sally found 13 seashells on the beach . When they cleaned them , they discovered that 25 were cracked . How many seashells did they find together ?
+seashell,37,1 seashell,13,1 seashell,25,1
+50
+Tom had 27 pennies and 15 dimes in his bank . His dad gave him 33 dimes and 49 nickels . How many dimes does he have now ?
+penny,27,0 dime,15,1 dime,33,1 nickel,49,0
+48
+There are 39 scissors and 22 pencils in the drawer . Dan placed 13 scissors in the drawer . How many scissors are now there in total ?
+scissors,39,1 pencil,22,0 scissors,13,1
+52
+Sam has 16 blue and 25 green balloons . Alyssa has 21 blue balloons . How many blue balloons do they have in all ?
+balloon,16,1 balloon,25,0 balloon,21,1
+37
+There are 22 orchid bushes and 40 orange trees currently in the park . Park workers will plant 13 orchid bushes today . How many orchid bushes will the park have when the workers are finished ?
+bush,22,1 tree,40,0 bush,13,1
+35
+Mary had 33 Pokemon cards , and 6 were torn . Sam gave Mary 23 new Pokemon cards . How many Pokemon cards does Mary have now ?
+card,33,1 card,6,1 card,23,0
+56
+Mary picked 14 oranges and Jason picked 41 oranges . Keith picked 38 apples . How many oranges were picked in all ?
+orange,14,1 orange,41,1 apple,38,0
+55
+Jason grew 37 watermelons and 30 pumpkins . Sandy grew 11 watermelons . How many watermelons did they grow in total ?
+watermelon,37,1 pumpkin,30,0 watermelon,11,1
+48
+Mike went to 15 basketball games this year , but missed 41 . He went to 39 games last year . How many basketball games did Mike go to in total ?
+game,15,1 game,41,1 game,39,1
+54
+Melanie had 10 quarters and 17 pennies in her bank . Her dad gave her 27 pennies and her mother gave her 19 pennies . How many pennies does Melanie have now ?
+quarter,10,0 penny,17,1 penny,27,1 penny,19,1
+63
+Joan grew 24 pumpkins , Keith grew 42 pumpkins , and Alyssa grew 13 pumpkins . They worked for 34 days on the farm . How many pumpkins did they grow in all ?
+pumpkin,24,1 pumpkin,42,1 pumpkin,13,1 day,34,0
+79
+Mary had 18 baseball cards , and 8 were torn . Fred gave Mary 26 new baseball cards . Mary bought 40 baseball cards . How many baseball cards does Mary have now ?
+card,18,1 card,8,1 card,26,0 card,40,1
+84
+Alyssa went to 11 soccer games this year , but missed 12 . She went to 13 games last year and plans to go to 15 games next year . How many soccer games will Alyssa go to in all ?
+game,11,1 game,12,1 game,15,1 game,13,1
+39
+There are 48 erasers in the drawer and 30 erasers on the desk . Alyssa placed 39 erasers and 45 rulers on the desk . How many erasers are now there in total ?
+eraser,48,1 eraser,30,1 eraser,39,1 ruler,45,0
+117
+There are 47 orchid bushes currently in the park . Park workers will plant 37 orchid bushes today and 25 orchid bushes tomorrow . It took 35 workers to finish the work . How many orchid bushes will the park have when the workers are finished ?
+bush,47,1 bush,37,1 bush,25,1 worker,35,0
+109
+Fred has 10 red balloons , Sam has 46 red balloons , and Dan has 16 red balloons . The balloons cost 10 dollars . How many red balloons do they have in all ?
+balloon,10,1 balloon,46,1 balloon,16,1 dollar,10,0
+72
+Mary found 45 seashells , Melanie found 23 seashells , and Jason found 32 seashells on the beach . When they cleaned them , they discovered that 31 were cracked . How many seashells did they find together ?
+seashell,45,1 seashell,23,1 seashell,32,1 seashell,31,1
+100
+Fred picked 36 limes , Alyssa picked 32 limes , and Nancy picked 35 limes and 18 pears , at the farm . How many limes were picked in total ?
+lime,36,1 lime,32,1 lime,35,1 pear,18,0
+103
+Benny received 79 dollars and 9 movie tickets for his birthday . He went to a sporting goods store and bought a baseball glove , baseball , and bat . He had 32 dollars over , how much did he spent on the baseball gear ?
+dollar,79,0 ticket,9,0 dollar,32,0
+47
+There are 43 maple trees and 22 orange trees currently in the park . Park workers will plant maple trees today . When the workers are finished there will be 54 maple trees in the park . How many maple trees did the workers plant today ?
+tree,43,1 tree,22,1 tree,54,1
+11
+Dan had 14 peaches and 10 pears at his roadside fruit dish . He went to the orchard and picked peaches to stock up . There are now 85 peaches . how many did he pick ?
+peach,14,0 pear,10,0 peach,85,0
+71
+Melanie has 41 books and 31 magazines in her library . She bought several books at a yard sale over the weekend . She now has 87 books in her library . How many books did she buy at the yard sale ?
+book,41,1 magazine,31,0 book,87,1
+46
+There were 2 red orchids and 4 white orchids in the vase . Jessica cut some red orchids from her flower garden . There are now 18 red orchids in the vase . How many red orchids did she cut ?
+orchid,2,1 orchid,4,0 orchid,18,1
+16
+Last week Tim had 12 dollars and Keith had 36 dollars . Tim washed cars over the weekend and now has 75 dollars . How much money did Tim make washing cars ?
+dollar,12,0 dollar,36,0 dollar,75,0
+63
+Joan found 75 seashells and 14 starfishes on the beach . She gave Tim some of her seashells . She has 62 seashell . How many seashells did she give to Tim ?
+seashell,75,1 starfish,14,0 seashell,62,1
+13
+There were 32 bales of hay in the barn and 26 bales in the shed . Jason stacked bales in the barn today . There are now 98 bales of hay in the barn . How many bales did he store in the barn ?
+bale,32,1 bale,26,1 bale,98,1
+66
+Jessica is baking a cake . The recipe calls for 8 cups of flour and 2 cups of sugar . She already put in 4 cups of flour . How many cups of flour does she need to add ?
+cup,8,1 cup,2,1 cup,4,1
+4
+Keith picked 3 pears and Jason picked 2 pears from the pear tree . Joan picked 5 apples from the apple tree . How many pears were picked in total ?
+pear,3,1 pear,2,1 apple,5,0
+5
+Sally has 9 orange balloons and 4 blue balloons . She lost 2 of the orange balloons . How many orange balloons does Sally have now ?
+balloon,9,1 balloon,4,0 balloon,2,1
+7
+Sandy grew 8 carrots and 7 turnips . Mary grew 6 carrots . How many carrots did they grow in all ?
+carrot,8,1 turnip,7,0 carrot,6,1
+14
+There are 5 scissors and 3 pencils in the drawer . Jason placed 4 scissors in the drawer . How many scissors are now there in total ?
+scissors,5,1 pencil,3,0 scissors,4,1
+9
+Alyssa 's cat had 8 kittens and 8 had spots . She gave 4 to her friends . How many kittens does she now have ?
+kitten,8,1 kitten,8,1 kitten,4,1
+4
+Sam had 7 pennies and 8 dimes in his bank . His sister borrowed 4 dimes . How many dimes does Sam have now ?
+penny,7,0 dime,8,1 dime,4,1
+4
+A restaurant served 9 hot dogs during lunch and 2 during dinner today . It served 5 of them yesterday . How many hot dogs were served today ?
+dog,9,1 dog,2,1 dog,5,1
+11
+There are 3 short trees and 6 tall trees currently in the park . Park workers will plant 9 short trees today . How many short trees will the park have when the workers are finished ?
+tree,3,1 tree,6,0 tree,9,1
+12
+Mary had 21 dimes and 38 pennies in her bank . Her dad borrowed 18 pennies from Mary . How many pennies does she have now ?
+dime,21,0 penny,38,1 penny,18,1
+20
+Alyssa picked 17 plums and Jason picked 10 plums . Melanie picked 35 pears . How many plums were picked in all ?
+plum,17,1 plum,10,1 pear,35,0
+27
+There are 48 pencils and 40 scissors in the drawer . Joan placed 29 pencils in the drawer . How many pencils are now there in all ?
+pencil,48,1 scissors,40,0 pencil,29,1
+77
+There are 37 short bushes and 30 tall trees currently in the park . Park workers will plant 20 short bushes today . How many short bushes will the park have when the workers are finished ?
+bush,37,1 tree,30,0 bush,20,1
+57

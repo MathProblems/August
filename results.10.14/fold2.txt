@@ -1,0 +1,64 @@
+can't open model file data/2.global.m
+273
+
+ A carpenter bought a piece of wood that was 8.9 centimeters long  . Then he sawed 2.3 centimeters off the end  . How long is the piece of wood now  ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : centimeter
+idx : 9
+location : None
+num : 8.9
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : centimeters
+type_failure : 0
+verbs : buy
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : centimeter
+idx : 1003
+location : None
+num : 2.3
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : centimeters
+type_failure : 0
+verbs : sawed
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : LENGTH
+idx : 2001
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : LENGTH
+type_failure : 0
+verbs : be
+widx : 2
+_____________
+
+dict_items([('2.3', (0, <makesets.aset object at 0x10732c278>)), ('8.9', (0, <makesets.aset object at 0x10732bf28>)), ('x', (0, <makesets.aset object at 0x10732c390>))])
+( 8.9 + 2.3 ) = x
+['8.9', '+', '2.3'] 0.1212190968335577

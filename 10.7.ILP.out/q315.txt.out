@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 26.3 | 1.23639455782313 | 11.76=(14.54/x) | 11.76 14.54 x / = | 11.76:dollar 14.54:dollar x:cost /:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 26.3 | 0.808803301237964 | 11.76=(x*14.54) | 11.76 x 14.54 * = | 11.76:dollar x:cost 14.54:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 26.3 | 0.808803301237964 | 11.76=(14.54*x) | 11.76 14.54 x * = | 11.76:dollar 14.54:dollar x:cost *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 26.3 | 1.23639455782313 | (x*11.76)=14.54 | x 11.76 * 14.54 = | x:cost 11.76:dollar *:dollar 14.54:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 26.3 | 1.23639455782313 | (11.76*x)=14.54 | 11.76 x * 14.54 = | 11.76:dollar x:cost *:dollar 14.54:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 26.3 | 0.808803301237964 | (11.76/x)=14.54 | 11.76 x / 14.54 = | 11.76:dollar x:cost /:dollar 14.54:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 26.3 | 170.9904 | (11.76*14.54)=x | 11.76 14.54 * x = | 11.76:dollar 14.54:cost *:cost x:cost =:cost
+EXPR: 1 | POS | FRA | 10 | 26.3 | 26.3 | (11.76+14.54)=x | 11.76 14.54 + x = | 11.76:dollar 14.54:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 26.3 | 170.9904 | x=(11.76*14.54) | x 11.76 14.54 * = | x:cost 11.76:dollar 14.54:cost *:cost =:cost
+EXPR: 1 | POS | FRA | 10 | 26.3 | 26.3 | x=(11.76+14.54) | x 11.76 14.54 + = | x:dollar 11.76:dollar 14.54:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 26.3 | 0.808803301237964 | x=(11.76/14.54) | x 11.76 14.54 / = | x:cost 11.76:cost 14.54:dollar /:cost =:cost
+EXPR: 0 | POS | FRA | 10 | 26.3 | 0.808803301237964 | (11.76/14.54)=x | 11.76 14.54 / x = | 11.76:cost 14.54:dollar /:cost x:cost =:cost
+EXPR: 0 | POS | FRA | 12 | 26.3 | 0.808803301237964 | 14.54=(11.76/x) | 14.54 11.76 x / = | 14.54:dollar 11.76:dollar x:cost /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 26.3 | 0.808803301237964 | (x*14.54)=11.76 | x 14.54 * 11.76 = | x:cost 14.54:dollar *:dollar 11.76:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 26.3 | 170.9904 | 11.76=(x/14.54) | 11.76 x 14.54 / = | 11.76:cost x:cost 14.54:dollar /:cost =:cost
+EXPR: 0 | POS | FRA | 12 | 26.3 | 1.23639455782313 | 14.54=(11.76*x) | 14.54 11.76 x * = | 14.54:dollar 11.76:dollar x:cost *:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 26.3 | 26.3 | 11.76=(x-14.54) | 11.76 x 14.54 - = | 11.76:dollar x:dollar 14.54:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 26.3 | 1.23639455782313 | 14.54=(x*11.76) | 14.54 x 11.76 * = | 14.54:dollar x:cost 11.76:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 26.3 | 2.78 | 11.76=(14.54-x) | 11.76 14.54 x - = | 11.76:dollar 14.54:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 26.3 | 0.808803301237964 | (14.54*x)=11.76 | 14.54 x * 11.76 = | 14.54:dollar x:cost *:dollar 11.76:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 26.3 | 1.23639455782313 | (14.54/x)=11.76 | 14.54 x / 11.76 = | 14.54:dollar x:cost /:dollar 11.76:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 26.3 | 2.78 | (x+11.76)=14.54 | x 11.76 + 14.54 = | x:dollar 11.76:dollar +:dollar 14.54:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 26.3 | 2.78 | (11.76+x)=14.54 | 11.76 x + 14.54 = | 11.76:dollar x:dollar +:dollar 14.54:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 26.3 | 26.3 | (x-11.76)=14.54 | x 11.76 - 14.54 = | x:dollar 11.76:dollar -:dollar 14.54:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 26.3 | 170.9904 | (x/11.76)=14.54 | x 11.76 / 14.54 = | x:cost 11.76:dollar /:cost 14.54:cost =:cost
+EXPR: 0 | POS | FRA | 20 | 26.3 | 1.23639455782313 | (14.54/11.76)=x | 14.54 11.76 / x = | 14.54:cost 11.76:dollar /:cost x:cost =:cost
+EXPR: 0 | POS | FRA | 20 | 26.3 | 2.78 | x=(14.54-11.76) | x 14.54 11.76 - = | x:dollar 14.54:dollar 11.76:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 26.3 | 2.78 | (14.54-11.76)=x | 14.54 11.76 - x = | 14.54:dollar 11.76:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 26.3 | 1.23639455782313 | x=(14.54/11.76) | x 14.54 11.76 / = | x:cost 14.54:cost 11.76:dollar /:cost =:cost
+EXPR: 0 | POS | FRA | 22 | 26.3 | 2.78 | (14.54-x)=11.76 | 14.54 x - 11.76 = | 14.54:dollar x:dollar -:dollar 11.76:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 26.3 | 170.9904 | (x/14.54)=11.76 | x 14.54 / 11.76 = | x:cost 14.54:dollar /:cost 11.76:cost =:cost
+EXPR: 1 | POS | FRA | 22 | 26.3 | 26.3 | (x-14.54)=11.76 | x 14.54 - 11.76 = | x:dollar 14.54:dollar -:dollar 11.76:dollar =:dollar
+EXPR: 1 | POS | FRA | 22 | 26.3 | 26.3 | 14.54=(x-11.76) | 14.54 x 11.76 - = | 14.54:dollar x:dollar 11.76:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 26.3 | 2.78 | 14.54=(x+11.76) | 14.54 x 11.76 + = | 14.54:dollar x:dollar 11.76:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 26.3 | 2.78 | 14.54=(11.76+x) | 14.54 11.76 x + = | 14.54:dollar 11.76:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 26.3 | 170.9904 | 14.54=(x/11.76) | 14.54 x 11.76 / = | 14.54:cost x:cost 11.76:dollar /:cost =:cost
+NET 36 unique, non-negative solutions found out of 136 total solutions

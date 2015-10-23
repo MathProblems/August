@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 56 | 198 | (33*6)=x | 33 6 * x = | 33:card 6:pokemon *:pokemon x:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 56 | 39 | (33+6)=x | 33 6 + x = | 33:card 6:card +:card x:card =:card
+EXPR: 0 | POS | INT | 10 | 56 | 27 | x=(33-6) | x 33 6 - = | x:card 33:card 6:card -:card =:card
+EXPR: 0 | POS | INT | 10 | 56 | 198 | x=(33*6) | x 33 6 * = | x:pokemon 33:card 6:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 56 | 39 | x=(33+6) | x 33 6 + = | x:card 33:card 6:card +:card =:card
+EXPR: 0 | POS | INT | 10 | 56 | 27 | (33-6)=x | 33 6 - x = | 33:card 6:card -:card x:card =:card
+EXPR: 0 | POS | INT | 12 | 56 | 198 | 33=(x/6) | 33 x 6 / = | 33:pokemon x:pokemon 6:card /:pokemon =:pokemon
+EXPR: 0 | POS | INT | 12 | 56 | 39 | 33=(x-6) | 33 x 6 - = | 33:card x:card 6:card -:card =:card
+EXPR: 0 | POS | INT | 12 | 56 | 27 | (33-x)=6 | 33 x - 6 = | 33:card x:card -:card 6:card =:card
+EXPR: 0 | POS | INT | 12 | 56 | 27 | 33=(x+6) | 33 x 6 + = | 33:card x:card 6:card +:card =:card
+EXPR: 0 | POS | INT | 12 | 56 | 27 | 33=(6+x) | 33 6 x + = | 33:card 6:card x:card +:card =:card
+EXPR: 0 | POS | INT | 12 | 56 | 39 | (x-33)=6 | x 33 - 6 = | x:card 33:card -:card 6:card =:card
+EXPR: 0 | POS | INT | 12 | 56 | 198 | (x/33)=6 | x 33 / 6 = | x:pokemon 33:card /:pokemon 6:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 56 | 198 | (x/6)=33 | x 6 / 33 = | x:pokemon 6:card /:pokemon 33:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 56 | 39 | (x-6)=33 | x 6 - 33 = | x:card 6:card -:card 33:card =:card
+EXPR: 0 | POS | INT | 22 | 56 | 27 | (6+x)=33 | 6 x + 33 = | 6:card x:card +:card 33:card =:card
+EXPR: 0 | POS | INT | 22 | 56 | 39 | 6=(x-33) | 6 x 33 - = | 6:card x:card 33:card -:card =:card
+EXPR: 0 | POS | INT | 22 | 56 | 27 | (x+6)=33 | x 6 + 33 = | x:card 6:card +:card 33:card =:card
+EXPR: 0 | POS | INT | 22 | 56 | 198 | 6=(x/33) | 6 x 33 / = | 6:pokemon x:pokemon 33:card /:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 56 | 27 | 6=(33-x) | 6 33 x - = | 6:card 33:card x:card -:card =:card
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

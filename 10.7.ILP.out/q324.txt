@@ -1,0 +1,7 @@
+constants : 4 6.95 7.90 7.73
+unknowns : x
+operators : + - * / =
+objtypes : game dollar
+constantOrUnknownType : 0 1 1 1 1
+n : 9
+answer : 22.58

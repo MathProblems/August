@@ -1,0 +1,10160 @@
+
+0
+constants : 70 27
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 43.0
+
+
+1
+constants : 28 54
+unknowns : x
+operators : + - * / =
+objtypes : bale
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 26.0
+
+
+2
+constants : 45 3
+unknowns : x
+operators : + - * / =
+objtypes : dollar person total
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 135.0
+
+
+3
+constants : 8 2
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.0
+
+
+4
+constants : 12 4
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 8.0
+
+
+5
+constants : 22 55
+unknowns : x
+operators : + - * / =
+objtypes : tree
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 33.0
+
+
+6
+constants : 34 86
+unknowns : x
+operators : + - * / =
+objtypes : peach stand
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 52.0
+
+
+7
+constants : 6 16
+unknowns : x
+operators : + - * / =
+objtypes : rose
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 10.0
+
+
+8
+constants : 2 5 27
+unknowns : x
+operators : + - * / =
+objtypes : dollar bar
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 5.0
+
+
+9
+constants : 4 0.5 34
+unknowns : x
+operators : + - * / =
+objtypes : card half
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 64.0
+
+
+10
+constants : 0.5 8 12
+unknowns : x
+operators : + - * / =
+objtypes : half dollar allowance
+constantOrUnknownType : 0 1 1 2
+n : 7
+answer : 8.0
+
+
+11
+constants : 162 0
+unknowns : x
+operators : + - * / =
+objtypes : number person smallest
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 52.0
+
+
+12
+constants : 79 9 16
+unknowns : x
+operators : + - * / =
+objtypes : dollar book
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 7.0
+
+
+13
+constants : 17 7 80
+unknowns : x
+operators : + - * / =
+objtypes : dollar hour
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 9.0
+
+
+14
+constants : 375 7 4
+unknowns : x
+operators : + - * / =
+objtypes : student bus
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 53.0
+
+
+15
+constants : 0.5 6 13
+unknowns : x
+operators : + - * / =
+objtypes : half book
+constantOrUnknownType : 0 1 1 1
+n : 7
+answer : 14.0
+
+
+16
+constants : 69 0
+unknowns : x
+operators : + - * / =
+objtypes : number person smallest
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 21.0
+
+
+17
+constants : 4 9
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 13.0
+
+
+18
+constants : 9 8
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 17.0
+
+
+19
+constants : 4 6
+unknowns : x
+operators : + - * / =
+objtypes : tree walnut
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 10.0
+
+
+20
+constants : 9 7
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 16.0
+
+
+21
+constants : 7 5
+unknowns : x
+operators : + - * / =
+objtypes : puppy
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+22
+constants : 9 6
+unknowns : x
+operators : + - * / =
+objtypes : pizza
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 15.0
+
+
+23
+constants : 2 3
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.0
+
+
+24
+constants : 6 8
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.0
+
+
+25
+constants : 6 3
+unknowns : x
+operators : + - * / =
+objtypes : carrot
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 9.0
+
+
+26
+constants : 2 9
+unknowns : x
+operators : + - * / =
+objtypes : apple
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 11.0
+
+
+27
+constants : 9 7 5
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 21.0
+
+
+28
+constants : 3 6 9
+unknowns : x
+operators : + - * / =
+objtypes : kitten
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 18.0
+
+
+29
+constants : 9 5 2
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 16.0
+
+
+30
+constants : 7 8 4
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 19.0
+
+
+31
+constants : 5 6 3
+unknowns : x
+operators : + - * / =
+objtypes : cake
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 14.0
+
+
+32
+constants : 4 9 3
+unknowns : x
+operators : + - * / =
+objtypes : plum
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 16.0
+
+
+33
+constants : 7 3 2
+unknowns : x
+operators : + - * / =
+objtypes : tree dogwood
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 12.0
+
+
+34
+constants : 4 5 9
+unknowns : x
+operators : + - * / =
+objtypes : onion
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 18.0
+
+
+35
+constants : 18 47
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 65.0
+
+
+36
+constants : 45 11
+unknowns : x
+operators : + - * / =
+objtypes : pear
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 56.0
+
+
+37
+constants : 20 21
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 41.0
+
+
+38
+constants : 49 25
+unknowns : x
+operators : + - * / =
+objtypes : quarter
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 74.0
+
+
+39
+constants : 33 44
+unknowns : x
+operators : + - * / =
+objtypes : tree walnut
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 77.0
+
+
+40
+constants : 21 49
+unknowns : x
+operators : + - * / =
+objtypes : quarter
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 70.0
+
+
+41
+constants : 41 30
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 71.0
+
+
+42
+constants : 10 38
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 48.0
+
+
+43
+constants : 40 41
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 81.0
+
+
+44
+constants : 38 44
+unknowns : x
+operators : + - * / =
+objtypes : cantelope
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 82.0
+
+
+45
+constants : 14 29
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 43.0
+
+
+46
+constants : 18 41
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 59.0
+
+
+47
+constants : 39 41 20
+unknowns : x
+operators : + - * / =
+objtypes : tree dogwood
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 100.0
+
+
+48
+constants : 10 24 33
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 67.0
+
+
+49
+constants : 46 47 12
+unknowns : x
+operators : + - * / =
+objtypes : pear
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 105.0
+
+
+50
+constants : 29 16 20
+unknowns : x
+operators : + - * / =
+objtypes : cantelope
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 65.0
+
+
+51
+constants : 19 39 25
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 83.0
+
+
+52
+constants : 37 28 39
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 104.0
+
+
+53
+constants : 27 41 20
+unknowns : x
+operators : + - * / =
+objtypes : card
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 88.0
+
+
+54
+constants : 11 17 16
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 44.0
+
+
+55
+constants : 43 19 16
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 78.0
+
+
+56
+constants : 35 56
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 21.0
+
+
+57
+constants : 7 4
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.0
+
+
+58
+constants : 53 64
+unknowns : x
+operators : + - * / =
+objtypes : tree
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 11.0
+
+
+59
+constants : 56 22
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 34.0
+
+
+60
+constants : 13 55
+unknowns : x
+operators : + - * / =
+objtypes : peach stand
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 42.0
+
+
+61
+constants : 67 33
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 34.0
+
+
+62
+constants : 3 14
+unknowns : x
+operators : + - * / =
+objtypes : rose
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 11.0
+
+
+63
+constants : 74.0 86.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+64
+constants : 73 96
+unknowns : x
+operators : + - * / =
+objtypes : bale
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 23.0
+
+
+65
+constants : 6 7
+unknowns : x
+operators : + - * / =
+objtypes : potato
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 13.0
+
+
+66
+constants : 9 3
+unknowns : x
+operators : + - * / =
+objtypes : crayon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+67
+constants : 5 4
+unknowns : x
+operators : + - * / =
+objtypes : tree oak
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.0
+
+
+68
+constants : 7 4
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.0
+
+
+69
+constants : 7 4
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.0
+
+
+70
+constants : 7 9
+unknowns : x
+operators : + - * / =
+objtypes : lemon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 16.0
+
+
+71
+constants : 6 9
+unknowns : x
+operators : + - * / =
+objtypes : cake
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 15.0
+
+
+72
+constants : 8 2
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.0
+
+
+73
+constants : 7 3
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4.0
+
+
+74
+constants : 8 2
+unknowns : x
+operators : + - * / =
+objtypes : kitten
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.0
+
+
+75
+constants : 34 49
+unknowns : x
+operators : + - * / =
+objtypes : tree dogwood
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 83.0
+
+
+76
+constants : 27 45
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 72.0
+
+
+77
+constants : 39 14
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 25.0
+
+
+78
+constants : 35 18
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 17.0
+
+
+79
+constants : 22 20
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 42.0
+
+
+80
+constants : 87 13
+unknowns : x
+operators : + - * / =
+objtypes : card
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 74.0
+
+
+81
+constants : 51 23
+unknowns : x
+operators : + - * / =
+objtypes : pumpkin
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 74.0
+
+
+82
+constants : 44 52
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 96.0
+
+
+83
+constants : 64 14
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 50.0
+
+
+84
+constants : 25 73
+unknowns : x
+operators : + - * / =
+objtypes : tree
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 98.0
+
+
+85
+constants : 54 22
+unknowns : x
+operators : + - * / =
+objtypes : scissors
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 76.0
+
+
+86
+constants : 42 17
+unknowns : x
+operators : + - * / =
+objtypes : pear
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 59.0
+
+
+87
+constants : 98 93
+unknowns : x
+operators : + - * / =
+objtypes : penny
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.0
+
+
+88
+constants : 79 63
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 16.0
+
+
+89
+constants : 64 32
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 32.0
+
+
+90
+constants : 110 102
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 212.0
+
+
+91
+constants : 122 105
+unknowns : x
+operators : + - * / =
+objtypes : orange
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 227.0
+
+
+92
+constants : 760 418
+unknowns : x
+operators : + - * / =
+objtypes : quarter
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 342.0
+
+
+93
+constants : 616 147
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 469.0
+
+
+94
+constants : 139 113
+unknowns : x
+operators : + - * / =
+objtypes : turnip
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 252.0
+
+
+95
+constants : 676 224
+unknowns : x
+operators : + - * / =
+objtypes : card pokemon
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 452.0
+
+
+96
+constants : 107 104
+unknowns : x
+operators : + - * / =
+objtypes : tree walnut
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 211.0
+
+
+97
+constants : 709 221
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 488.0
+
+
+98
+constants : 115 100
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 215.0
+
+
+99
+constants : 45 5
+unknowns : x
+operators : + - * / =
+objtypes : dollar bill
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 9.0
+
+
+100
+constants : 18 2
+unknowns : x
+operators : + - * / =
+objtypes : trout person
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 9.0
+
+
+101
+constants : 7 63
+unknowns : x
+operators : + - * / =
+objtypes : day hamburger
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 9.0
+
+
+102
+constants : 45 5
+unknowns : x
+operators : + - * / =
+objtypes : hour day LENGTH
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 9.0
+
+
+103
+constants : 27 3
+unknowns : x
+operators : + - * / =
+objtypes : game season
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 9.0
+
+
+104
+constants : 9.0
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0
+n : 3
+answer : 9.0
+
+
+105
+constants : 110 22
+unknowns : x
+operators : + - * / =
+objtypes : marble Fred
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 5.0
+
+
+106
+constants : 390 30
+unknowns : x
+operators : + - * / =
+objtypes : student classroom
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 13.0
+
+
+107
+constants : 96 1
+unknowns : x
+operators : + - * / =
+objtypes : muffin person box
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 8.0
+
+
+108
+constants : 20.0
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0
+n : 3
+answer : 20.0
+
+
+109
+constants : 45 315
+unknowns : x
+operators : + - * / =
+objtypes : book shelf
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7.0
+
+
+110
+constants : 615 15
+unknowns : x
+operators : + - * / =
+objtypes : crayon pack
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 41.0
+
+
+111
+constants : 46 276
+unknowns : x
+operators : + - * / =
+objtypes : dollar home
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.0
+
+
+112
+constants : 323 17
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 19.0
+
+
+113
+constants : 540 20
+unknowns : x
+operators : + - * / =
+objtypes : card pack
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 108.0
+
+
+114
+constants : 344 43
+unknowns : x
+operators : + - * / =
+objtypes : piece student
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 8.0
+
+
+115
+constants : 25.00 96 12
+unknowns : x
+operators : + - * / =
+objtypes : dollar house dozen
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 200.0
+
+
+116
+constants : 60 45 12
+unknowns : x
+operators : + - * / =
+objtypes : calorie bar dozen
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 225.0
+
+
+117
+constants : 96 12
+unknowns : x
+operators : + - * / =
+objtypes : bird dozen
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 8.0
+
+
+118
+constants : 84 8 12
+unknowns : x
+operators : + - * / =
+objtypes : marble Melanie dozen
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 56.0
+
+
+119
+constants : 192 12
+unknowns : x
+operators : + - * / =
+objtypes : ball dozen
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 16.0
+
+
+120
+constants : 72 12
+unknowns : x
+operators : + - * / =
+objtypes : egg dozen
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.0
+
+
+121
+constants : 48 8 12
+unknowns : x
+operators : + - * / =
+objtypes : book Mike dozen
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 32.0
+
+
+122
+constants : 9 12
+unknowns : x
+operators : + - * / =
+objtypes : dollar quarter dozen
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 3.0
+
+
+123
+constants : 96 12
+unknowns : x
+operators : + - * / =
+objtypes : card dozen
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 32.0
+
+
+124
+constants : 3 2
+unknowns : x
+operators : + - * / =
+objtypes : card pokemon
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.0
+
+
+125
+constants : 8 4
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4.0
+
+
+126
+constants : 5 2
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.0
+
+
+127
+constants : 2 4
+unknowns : x
+operators : + - * / =
+objtypes : bush
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.0
+
+
+128
+constants : 6 5
+unknowns : x
+operators : + - * / =
+objtypes : pear
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 11.0
+
+
+129
+constants : 4 3
+unknowns : x
+operators : + - * / =
+objtypes : watermelon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.0
+
+
+130
+constants : 3 5
+unknowns : x
+operators : + - * / =
+objtypes : calorie bar
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 15.0
+
+
+131
+constants : 5 2
+unknowns : x
+operators : + - * / =
+objtypes : marble Dan
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 10.0
+
+
+132
+constants : 9 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen ball golf
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 108.0
+
+
+133
+constants : 9 4
+unknowns : x
+operators : + - * / =
+objtypes : pokemon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 13.0
+
+
+134
+constants : 7 5
+unknowns : x
+operators : + - * / =
+objtypes : nickel
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+135
+constants : 3 4
+unknowns : x
+operators : + - * / =
+objtypes : card person
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 12.0
+
+
+136
+constants : 6 9
+unknowns : x
+operators : + - * / =
+objtypes : turnip
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 15.0
+
+
+137
+constants : 4 2
+unknowns : x
+operators : + - * / =
+objtypes : child pencil
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 8.0
+
+
+138
+constants : 9 3
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+139
+constants : 8 3
+unknowns : x
+operators : + - * / =
+objtypes : calorie bar
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 24.0
+
+
+140
+constants : 150.0
+unknowns : x
+operators : + - * / =
+objtypes : cent
+constantOrUnknownType : 0 0
+n : 3
+answer : 150.0
+
+
+141
+constants : 960 30
+unknowns : x
+operators : + - * / =
+objtypes : student classroom
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 32.0
+
+
+142
+constants : 12.5 12
+unknowns : x
+operators : + - * / =
+objtypes : money hour
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 150.0
+
+
+143
+constants : 12 2
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 6.0
+
+
+144
+constants : 6 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen egg
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 72.0
+
+
+145
+constants : 6 4
+unknowns : x
+operators : + - * / =
+objtypes : card person
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 24.0
+
+
+146
+constants : 4 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen egg
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 48.0
+
+
+147
+constants : 1110 30
+unknowns : x
+operators : + - * / =
+objtypes : student classroom
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 37.0
+
+
+148
+constants : 6 4
+unknowns : x
+operators : + - * / =
+objtypes : carrot
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 10.0
+
+
+149
+constants : 6 5
+unknowns : x
+operators : + - * / =
+objtypes : marble Benny
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 30.0
+
+
+150
+constants : 12.5 8
+unknowns : x
+operators : + - * / =
+objtypes : money hour
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 100.0
+
+
+151
+constants : 5 2
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.0
+
+
+152
+constants : 5 3
+unknowns : x
+operators : + - * / =
+objtypes : card
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 2.0
+
+
+153
+constants : 49.0
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0
+n : 3
+answer : 49.0
+
+
+154
+constants : 10 5
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 2.0
+
+
+155
+constants : 8 3
+unknowns : x
+operators : + - * / =
+objtypes : dollar person bill
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 24.0
+
+
+156
+constants : 8 2
+unknowns : x
+operators : + - * / =
+objtypes : trout Melanie
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 16.0
+
+
+157
+constants : 5 7
+unknowns : x
+operators : + - * / =
+objtypes : day seashell
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 35.0
+
+
+158
+constants : 3 144.0
+unknowns : x
+operators : + - * / =
+objtypes : hour
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 18.0
+
+
+159
+constants : 7 8
+unknowns : x
+operators : + - * / =
+objtypes : day pie
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 56.0
+
+
+160
+constants : 9 1
+unknowns : x
+operators : + - * / =
+objtypes : bill person money
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 45.0
+
+
+161
+constants : 7 4
+unknowns : x
+operators : + - * / =
+objtypes : balloon Nancy
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 28.0
+
+
+162
+constants : 8 3
+unknowns : x
+operators : + - * / =
+objtypes : pencil person
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 24.0
+
+
+163
+constants : 14 4
+unknowns : x
+operators : + - * / =
+objtypes : card person pokemon
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 56.0
+
+
+164
+constants : 36 7
+unknowns : x
+operators : + - * / =
+objtypes : book Alyssa
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 252.0
+
+
+165
+constants : 13 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen ball golf
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 156.0
+
+
+166
+constants : 13 14
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 182.0
+
+
+167
+constants : 7 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen egg
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 84.0
+
+
+168
+constants : 29 7
+unknowns : x
+operators : + - * / =
+objtypes : balloon Dan
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 203.0
+
+
+169
+constants : 31 11
+unknowns : x
+operators : + - * / =
+objtypes : calorie bar
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 341.0
+
+
+170
+constants : 275.0
+unknowns : x
+operators : + - * / =
+objtypes : cent
+constantOrUnknownType : 0 0
+n : 3
+answer : 275.0
+
+
+171
+constants : 46 4 12
+unknowns : x
+operators : + - * / =
+objtypes : child dozen pencil
+constantOrUnknownType : 0 1 2 2
+n : 7
+answer : 2208.0
+
+
+172
+constants : 1 3.0
+unknowns : x
+operators : + - * / =
+objtypes : dozen money
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 3.0
+
+
+173
+constants : 9 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen egg
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 108.0
+
+
+174
+constants : 4 12 42
+unknowns : x
+operators : + - * / =
+objtypes : dozen calorie bar
+constantOrUnknownType : 0 1 2 1
+n : 7
+answer : 2016.0
+
+
+175
+constants : 8 12 5
+unknowns : x
+operators : + - * / =
+objtypes : dozen book
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 480.0
+
+
+176
+constants : 3 12 4
+unknowns : x
+operators : + - * / =
+objtypes : dozen marble
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 144.0
+
+
+177
+constants : 1 12 9
+unknowns : x
+operators : + - * / =
+objtypes : dozen pokemon
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 432.0
+
+
+178
+constants : 1 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen bird
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 12.0
+
+
+179
+constants : 24 3
+unknowns : x
+operators : + - * / =
+objtypes : crayon person
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 8.0
+
+
+180
+constants : 5 2
+unknowns : x
+operators : + - * / =
+objtypes : trout Sara
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 10.0
+
+
+181
+constants : 15 3
+unknowns : x
+operators : + - * / =
+objtypes : dollar person bill
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 5.0
+
+
+182
+constants : 7 49
+unknowns : x
+operators : + - * / =
+objtypes : day hamburger
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 7.0
+
+
+183
+constants : 6 3
+unknowns : x
+operators : + - * / =
+objtypes : balloon Sally
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 18.0
+
+
+184
+constants : 3 120.0
+unknowns : x
+operators : + - * / =
+objtypes : hour
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 15.0
+
+
+185
+constants : 7 2
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 14.0
+
+
+186
+constants : 4 1
+unknowns : x
+operators : + - * / =
+objtypes : gumball person money
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 32.0
+
+
+187
+constants : 8 3
+unknowns : x
+operators : + - * / =
+objtypes : potato
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.0
+
+
+188
+constants : 6 4
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 2.0
+
+
+189
+constants : 9 2
+unknowns : x
+operators : + - * / =
+objtypes : tree oak
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7.0
+
+
+190
+constants : 8 3
+unknowns : x
+operators : + - * / =
+objtypes : quarter
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.0
+
+
+191
+constants : 9 3
+unknowns : x
+operators : + - * / =
+objtypes : hamburger
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.0
+
+
+192
+constants : 7 3
+unknowns : x
+operators : + - * / =
+objtypes : crayon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4.0
+
+
+193
+constants : 9 4
+unknowns : x
+operators : + - * / =
+objtypes : lime
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.0
+
+
+194
+constants : 7 3
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4.0
+
+
+195
+constants : 9 2
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7.0
+
+
+196
+constants : 43 27
+unknowns : x
+operators : + - * / =
+objtypes : apple
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 16.0
+
+
+197
+constants : 31 13
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 18.0
+
+
+198
+constants : 30 16
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.0
+
+
+199
+constants : 40 22
+unknowns : x
+operators : + - * / =
+objtypes : card
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 18.0
+
+
+200
+constants : 47 25
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 22.0
+
+
+201
+constants : 43 23
+unknowns : x
+operators : + - * / =
+objtypes : pumpkin
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 20.0
+
+
+202
+constants : 33 26
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7.0
+
+
+203
+constants : 46 25
+unknowns : x
+operators : + - * / =
+objtypes : ruler
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 21.0
+
+
+204
+constants : 33 18
+unknowns : x
+operators : + - * / =
+objtypes : tree
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 15.0
+
+
+205
+constants : 17 6
+unknowns : x
+operators : + - * / =
+objtypes : half-dollar UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 11.5
+
+
+206
+constants : 0.09 1.75
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.84
+
+
+207
+constants : 14 1
+unknowns : x
+operators : + - * / =
+objtypes : toothfairy person money
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 11.9
+
+
+208
+constants : 3.0 0.07
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.07
+
+
+209
+constants : 4 14
+unknowns : x
+operators : + - * / =
+objtypes : half-dollar amount
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.0
+
+
+210
+constants : 0.15 1.3 0.7 4.5
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 6.65
+
+
+211
+constants : 1.5 0.4
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.9
+
+
+212
+constants : 0.02 1.2
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.22
+
+
+213
+constants : 5.20 4.23
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 9.43
+
+
+214
+constants : 145.16 5.84
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 151.0
+
+
+215
+constants : 5.71 6.59
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.3
+
+
+216
+constants : 4 6.06 4.45
+unknowns : x
+operators : + - * / =
+objtypes : pack dollar
+constantOrUnknownType : 0 1 1 1
+n : 7
+answer : 23.86
+
+
+217
+constants : 10.22 11.73
+unknowns : x
+operators : + - * / =
+objtypes : dollar cost
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 21.95
+
+
+218
+constants : 5.36 5.10
+unknowns : x
+operators : + - * / =
+objtypes : dollar total
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 10.46
+
+
+219
+constants : 14.28 4.74
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 19.02
+
+
+220
+constants : 12.08 9.85
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 21.93
+
+
+221
+constants : 11.08 14.33 9.31
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 34.72
+
+
+222
+constants : 13.99 12.14 7.43
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 33.56
+
+
+223
+constants : 142.46 8.89 7
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 158.35
+
+
+224
+constants : 14.02 9.46 12.04
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 35.52
+
+
+225
+constants : 2 2.73 4.01 8.95
+unknowns : x
+operators : + - * / =
+objtypes : pack dollar
+constantOrUnknownType : 0 1 1 1 1
+n : 9
+answer : 18.42
+
+
+226
+constants : 10.62 2 1.59 13.95
+unknowns : x
+operators : + - * / =
+objtypes : dollar ticket
+constantOrUnknownType : 0 1 0 0 0
+n : 9
+answer : 36.78
+
+
+227
+constants : 9.05 4.95 6.52
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 20.52
+
+
+228
+constants : 7.19 6.83 20
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 5.98
+
+
+229
+constants : 9.24 8.25 20.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 2.51
+
+
+230
+constants : 8.77 10.97 20
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.26
+
+
+231
+constants : 5.92 2 6.79 20
+unknowns : x
+operators : + - * / =
+objtypes : dollar ticket
+constantOrUnknownType : 0 1 0 0 0
+n : 9
+answer : 1.37
+
+
+232
+constants : 9.14 6.81 20
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 4.05
+
+
+233
+constants : 5,973 8,723
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14696.0
+
+
+234
+constants : 1,346 6,444
+unknowns : x
+operators : + - * / =
+objtypes : muff
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7790.0
+
+
+235
+constants : 2,479 6,085
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 8564.0
+
+
+236
+constants : 6,522 5,165
+unknowns : x
+operators : + - * / =
+objtypes : liter
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 11687.0
+
+
+237
+constants : 3,884 2,871
+unknowns : x
+operators : + - * / =
+objtypes : car
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6755.0
+
+
+238
+constants : 6,359 3,485
+unknowns : x
+operators : + - * / =
+objtypes : yen
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 9844.0
+
+
+239
+constants : 1,986 5,106
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7092.0
+
+
+240
+constants : 20,817 97,741
+unknowns : x
+operators : + - * / =
+objtypes : house
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 118558.0
+
+
+241
+constants : 48,097 684
+unknowns : x
+operators : + - * / =
+objtypes : bushel
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 48781.0
+
+
+242
+constants : 69.0 26935.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 27004.0
+
+
+243
+constants : 14,507 213
+unknowns : x
+operators : + - * / =
+objtypes : passenger
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14720.0
+
+
+244
+constants : 64,535 522
+unknowns : x
+operators : + - * / =
+objtypes : acre
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 65057.0
+
+
+245
+constants : 12,170 54,912
+unknowns : x
+operators : + - * / =
+objtypes : ladybug
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 67082.0
+
+
+246
+constants : 90,171 16,320
+unknowns : x
+operators : + - * / =
+objtypes : people
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 106491.0
+
+
+247
+constants : 49,952 918
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 50870.0
+
+
+248
+constants : 61,921 49,500
+unknowns : x
+operators : + - * / =
+objtypes : yard
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 111421.0
+
+
+249
+constants : 2,041 63,093
+unknowns : x
+operators : + - * / =
+objtypes : employee
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 65134.0
+
+
+250
+constants : 712,261 259,378
+unknowns : x
+operators : + - * / =
+objtypes : male salmon
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 971639.0
+
+
+251
+constants : 14,797 4,969
+unknowns : x
+operators : + - * / =
+objtypes : suit bathing
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 19766.0
+
+
+252
+constants : 1,426 2,000
+unknowns : x
+operators : + - * / =
+objtypes : house
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 574.0
+
+
+253
+constants : 7,341 4,221
+unknowns : x
+operators : + - * / =
+objtypes : cell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3120.0
+
+
+254
+constants : 9,792 3,513
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6279.0
+
+
+255
+constants : 10.62 2 1.59 13.95
+unknowns : x
+operators : + - * / =
+objtypes : dollar ticket
+constantOrUnknownType : 0 1 0 0 0
+n : 9
+answer : 36.78
+
+
+256
+constants : 11.0 19.0 7.0 8.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 29.0
+
+
+257
+constants : 13.0 9 10 3
+unknowns : x
+operators : + - * / =
+objtypes : money hour
+constantOrUnknownType : 0 1 1 1 0
+n : 9
+answer : 286.0
+
+
+258
+constants : 17.0 48.0 25.0 49.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 41.0
+
+
+259
+constants : 20 26 20 6 58
+unknowns : x
+operators : + - * / =
+objtypes : sticker
+constantOrUnknownType : 0 0 0 0 0 0
+n : 11
+answer : 2.0
+
+
+260
+constants : 6 6 8 18
+unknowns : x
+operators : + - * / =
+objtypes : van people bus
+constantOrUnknownType : 0 1 2 1 1
+n : 9
+answer : 180.0
+
+
+261
+constants : 91.0 24.0 6.0 11.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 50.0
+
+
+262
+constants : 15 13 8 21
+unknowns : x
+operators : + - * / =
+objtypes : coin
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 15.0
+
+
+263
+constants : 61 26 7
+unknowns : x
+operators : + - * / =
+objtypes : plate
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 28.0
+
+
+264
+constants : 85.0 10 5.0
+unknowns : x
+operators : + - * / =
+objtypes : money book
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 35.0
+
+
+265
+constants : 8.0 13.0 2.0 18.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 1.0
+
+
+266
+constants : 20 12 20 5 8
+unknowns : x
+operators : + - * / =
+objtypes : sticker
+constantOrUnknownType : 0 0 0 0 0 0
+n : 11
+answer : 39.0
+
+
+267
+constants : 30.0 49.0 46.0 58.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 67.0
+
+
+268
+constants : 20 2 1 6
+unknowns : x
+operators : + - * / =
+objtypes : carton dollar
+constantOrUnknownType : 0 0 1 1 1
+n : 9
+answer : 118.0
+
+
+269
+constants : 7.0 12.0 4.0 6.0 13.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0 0
+n : 11
+answer : 4.0
+
+
+270
+constants : 10 1 3 16
+unknowns : x
+operators : + - * / =
+objtypes : book dollar
+constantOrUnknownType : 0 0 0 1 1
+n : 9
+answer : 224.0
+
+
+271
+constants : 54 15 25
+unknowns : x
+operators : + - * / =
+objtypes : cupcake vanilla
+constantOrUnknownType : 0 0 1 0
+n : 7
+answer : 14.0
+
+
+272
+constants : 21 4 8
+unknowns : x
+operators : + - * / =
+objtypes : carton
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 9.0
+
+
+273
+constants : 24 14 3 2
+unknowns : x
+operators : + - * / =
+objtypes : bicycle tricycle wheel
+constantOrUnknownType : 0 1 2 2 2
+n : 9
+answer : 90.0
+
+
+274
+constants : 109.0 2 13.0 11.0
+unknowns : x
+operators : + - * / =
+objtypes : money shirt
+constantOrUnknownType : 0 1 0 0 0
+n : 9
+answer : 74.0
+
+
+275
+constants : 9 3
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+276
+constants : 9 4
+unknowns : x
+operators : + - * / =
+objtypes : card pokemon
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 13.0
+
+
+277
+constants : 9 7 10 5
+unknowns : x
+operators : + - * / =
+objtypes : package can
+constantOrUnknownType : 0 0 1 1 1
+n : 9
+answer : 55.0
+
+
+278
+constants : 2 7 1 1
+unknowns : x
+operators : + - * / =
+objtypes : ticket
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 9.0
+
+
+279
+constants : 53 7 19
+unknowns : x
+operators : + - * / =
+objtypes : cupcake vanilla
+constantOrUnknownType : 0 0 1 0
+n : 7
+answer : 32.0
+
+
+280
+constants : 4 8 4 10
+unknowns : x
+operators : + - * / =
+objtypes : pack ball
+constantOrUnknownType : 0 0 0 1 1
+n : 9
+answer : 160.0
+
+
+281
+constants : 5 4
+unknowns : x
+operators : + - * / =
+objtypes : pizza slice
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 20.0
+
+
+282
+constants : 20 5
+unknowns : x
+operators : + - * / =
+objtypes : mile gallon
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 100.0
+
+
+283
+constants : 58 2
+unknowns : x
+operators : + - * / =
+objtypes : child seat
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 29.0
+
+
+284
+constants : 12 3
+unknowns : x
+operators : + - * / =
+objtypes : guest table
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4.0
+
+
+285
+constants : 15 12
+unknowns : x
+operators : + - * / =
+objtypes : dollar chair
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 180.0
+
+
+286
+constants : 0.75 0.25
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.5
+
+
+287
+constants : 0.25 0.25
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.5
+
+
+288
+constants : 0.16666666666666666 0.5
+unknowns : x
+operators : + - * / =
+objtypes : mile DISTANCE
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.6666666666666666
+
+
+289
+constants : 0.6666666666666666 0.3333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : pie
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.3333333333333333
+
+
+290
+constants : 0.75 0.5
+unknowns : x
+operators : + - * / =
+objtypes : inch tailor
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.25
+
+
+291
+constants : 0.375 0.25
+unknowns : x
+operators : + - * / =
+objtypes : garment UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.625
+
+
+292
+constants : 0.875 0.75
+unknowns : x
+operators : + - * / =
+objtypes : lap jogging
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 0.125
+
+
+293
+constants : 0.3 0.2
+unknowns : x
+operators : + - * / =
+objtypes : foot
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.1
+
+
+294
+constants : 0.3333333333333333 0.3333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.6666666666666666
+
+
+295
+constants : 0.125 0.125
+unknowns : x
+operators : + - * / =
+objtypes : scoop
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.25
+
+
+296
+constants : 0.8 0.2
+unknowns : x
+operators : + - * / =
+objtypes : gallon water
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.6
+
+
+297
+constants : 0.6666666666666666 0.5
+unknowns : x
+operators : + - * / =
+objtypes : tablespoon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.16666666666666666
+
+
+298
+constants : 0.6 0.2
+unknowns : x
+operators : + - * / =
+objtypes : budget UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.8
+
+
+299
+constants : 0.7 0.2
+unknowns : x
+operators : + - * / =
+objtypes : student UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.9
+
+
+300
+constants : 0.16666666666666666 0.6666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : cup oil
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.8333333333333334
+
+
+301
+constants : 0.2 0.4
+unknowns : x
+operators : + - * / =
+objtypes : total loaf
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 0.6
+
+
+302
+constants : 0.4 0.2
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.2
+
+
+303
+constants : 0.625 0.25
+unknowns : x
+operators : + - * / =
+objtypes : cup flour
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.375
+
+
+304
+constants : 0.2 0.4
+unknowns : x
+operators : + - * / =
+objtypes : bucket
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.6
+
+
+305
+constants : 0.6 0.4
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.2
+
+
+306
+constants : 0.5 0.125
+unknowns : x
+operators : + - * / =
+objtypes : student UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.625
+
+
+307
+constants : 0.8 0.1
+unknowns : x
+operators : + - * / =
+objtypes : inch
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.7
+
+
+308
+constants : 0.25 0.375
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.625
+
+
+309
+constants : 0.625 0.5
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.125
+
+
+310
+constants : 0.5 0.1
+unknowns : x
+operators : + - * / =
+objtypes : carton milk
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.6
+
+
+311
+constants : 0.375 0.5
+unknowns : x
+operators : + - * / =
+objtypes : inch hair
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.875
+
+
+312
+constants : 0.16666666666666666 0.3333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : apartment UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.5
+
+
+313
+constants : 0.8333333333333334 0.5
+unknowns : x
+operators : + - * / =
+objtypes : foot sandcastle
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.3333333333333333
+
+
+314
+constants : 0.5 0.16666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : tank gas
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.3333333333333333
+
+
+315
+constants : 0.4 0.3
+unknowns : x
+operators : + - * / =
+objtypes : box
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.1
+
+
+316
+constants : 0.2 0.7
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.9
+
+
+317
+constants : 0.4 0.1
+unknowns : x
+operators : + - * / =
+objtypes : acre
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.3
+
+
+318
+constants : 0.25 0.5
+unknowns : x
+operators : + - * / =
+objtypes : nail UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.75
+
+
+319
+constants : 0.625 0.25
+unknowns : x
+operators : + - * / =
+objtypes : scoop
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.375
+
+
+320
+constants : 0.7 0.6
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.1
+
+
+321
+constants : 0.3 0.4
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.7
+
+
+322
+constants : 0.5 0.9
+unknowns : x
+operators : + - * / =
+objtypes : can
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.4
+
+
+323
+constants : 0.125 0.5
+unknowns : x
+operators : + - * / =
+objtypes : inch amount
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.625
+
+
+324
+constants : 0.2 0.1
+unknowns : x
+operators : + - * / =
+objtypes : bag
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.3
+
+
+325
+constants : 0.75 0.5
+unknowns : x
+operators : + - * / =
+objtypes : gallon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.25
+
+
+326
+constants : 0.2 0.4 0.1
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.7
+
+
+327
+constants : 0.16666666666666666 0.16666666666666666 0.3333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : bag
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.6666666666666666
+
+
+328
+constants : 0.25 0.25 0.375
+unknowns : x
+operators : + - * / =
+objtypes : bottle
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.875
+
+
+329
+constants : 0.08333333333333333 0.75 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : restaurant tart
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 0.9166666666666666
+
+
+330
+constants : 0.1111111111111111 0.1111111111111111 0.6666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8888888888888888
+
+
+331
+constants : 0.16666666666666666 0.16666666666666666 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.4166666666666667
+
+
+332
+constants : 0.3333333333333333 0.3333333333333333 0.16666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : carton
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8333333333333334
+
+
+333
+constants : 0.125 0.125 0.5
+unknowns : x
+operators : + - * / =
+objtypes : bin
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.75
+
+
+334
+constants : 0.3333333333333333 0.3333333333333333 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.75
+
+
+335
+constants : 0.08333333333333333 0.08333333333333333 0.6666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8333333333333334
+
+
+336
+constants : 0.16666666666666666 0.4166666666666667 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : centimeter
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.6666666666666666
+
+
+337
+constants : 0.3 0.1 0.4
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8
+
+
+338
+constants : 0.16666666666666666 0.16666666666666666 0.5
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8333333333333334
+
+
+339
+constants : 0.25 0.375 0.125
+unknowns : x
+operators : + - * / =
+objtypes : gallon
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.75
+
+
+340
+constants : 0.5 0.1 0.1
+unknowns : x
+operators : + - * / =
+objtypes : light-year
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.7
+
+
+341
+constants : 0.3333333333333333 0.3333333333333333 0.2222222222222222
+unknowns : x
+operators : + - * / =
+objtypes : centimeter
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8888888888888888
+
+
+342
+constants : 0.2 0.1 0.2
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.5
+
+
+343
+constants : 0.25 0.4166666666666667 0.25
+unknowns : x
+operators : + - * / =
+objtypes : pitcher
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.9166666666666666
+
+
+344
+constants : 0.3333333333333333 0.3333333333333333 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.75
+
+
+345
+constants : 0.16666666666666666 0.3333333333333333 0.16666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : truck-load
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.6666666666666666
+
+
+346
+constants : 0.08333333333333333 0.3333333333333333 0.4166666666666667
+unknowns : x
+operators : + - * / =
+objtypes : ounce weight
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 0.8333333333333334
+
+
+347
+constants : 0.16666666666666666 1.1666666666666667
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.3333333333333333
+
+
+348
+constants : 2.8333333333333335 2.8333333333333335
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.666666666666667
+
+
+349
+constants : 3.8333333333333335 0.16666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.6666666666666665
+
+
+350
+constants : 7.125 0.625
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.5
+
+
+351
+constants : 10 5.1
+unknowns : x
+operators : + - * / =
+objtypes : ton cement
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 15.1
+
+
+352
+constants : 1 8.8
+unknowns : x
+operators : + - * / =
+objtypes : bucket water
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.8
+
+
+353
+constants : 1.125 2.125
+unknowns : x
+operators : + - * / =
+objtypes : lap
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.25
+
+
+354
+constants : 3 6.8
+unknowns : x
+operators : + - * / =
+objtypes : gallon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 9.8
+
+
+355
+constants : 2.6666666666666665 2.6666666666666665
+unknowns : x
+operators : + - * / =
+objtypes : bottle soda
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 5.333333333333333
+
+
+356
+constants : 11.166666666666666 0.8333333333333334
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 10.333333333333334
+
+
+357
+constants : 1.25 5.25
+unknowns : x
+operators : + - * / =
+objtypes : inch DISTANCE
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.5
+
+
+358
+constants : 10.2 8.6
+unknowns : x
+operators : + - * / =
+objtypes : page
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 18.8
+
+
+359
+constants : 3.6666666666666665 2.3333333333333335
+unknowns : x
+operators : + - * / =
+objtypes : foot sandcastle
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.3333333333333333
+
+
+360
+constants : 3 1.1666666666666667
+unknowns : x
+operators : + - * / =
+objtypes : inch caterpillar
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.8333333333333335
+
+
+361
+constants : 3.25 0.25
+unknowns : x
+operators : + - * / =
+objtypes : pint
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.5
+
+
+362
+constants : 8.75 6
+unknowns : x
+operators : + - * / =
+objtypes : bucket
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 2.75
+
+
+363
+constants : 1 2.3333333333333335
+unknowns : x
+operators : + - * / =
+objtypes : foot
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.3333333333333333
+
+
+364
+constants : 7.666666666666667 3.3333333333333335
+unknowns : x
+operators : + - * / =
+objtypes : inch line
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4.333333333333333
+
+
+365
+constants : 7.75 7
+unknowns : x
+operators : + - * / =
+objtypes : gallon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.75
+
+
+366
+constants : 19.833333333333332 9.166666666666666
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 10.666666666666666
+
+
+367
+constants : 0.6 0.4
+unknowns : x
+operators : + - * / =
+objtypes : pound block
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.2
+
+
+368
+constants : 8.2 1.6
+unknowns : x
+operators : + - * / =
+objtypes : mile DISTANCE
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.8
+
+
+369
+constants : 0.41 0.33
+unknowns : x
+operators : + - * / =
+objtypes : meter LENGTH
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.08
+
+
+370
+constants : 0.1 0.4
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.5
+
+
+371
+constants : 9.91 4.11
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.02
+
+
+372
+constants : 0.81 0.35
+unknowns : x
+operators : + - * / =
+objtypes : inch
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.46
+
+
+373
+constants : 6 3.12
+unknowns : x
+operators : + - * / =
+objtypes : pound UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.12
+
+
+374
+constants : 0.36 0.05
+unknowns : x
+operators : + - * / =
+objtypes : pound honey
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.31
+
+
+375
+constants : 0.9 0.7
+unknowns : x
+operators : + - * / =
+objtypes : inch
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.2
+
+
+376
+constants : 0.32 0.21
+unknowns : x
+operators : + - * / =
+objtypes : inch
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.53
+
+
+377
+constants : 0.25 0.16
+unknowns : x
+operators : + - * / =
+objtypes : gram pepper
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.09
+
+
+378
+constants : 5.91 8.11
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.02
+
+
+379
+constants : 0.2 0.4
+unknowns : x
+operators : + - * / =
+objtypes : inch
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.6
+
+
+380
+constants : 9.8 5.2
+unknowns : x
+operators : + - * / =
+objtypes : ounce floor
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4.6
+
+
+381
+constants : 3.42 2.2
+unknowns : x
+operators : + - * / =
+objtypes : pound fruit
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.22
+
+
+382
+constants : 0.14 0.38
+unknowns : x
+operators : + - * / =
+objtypes : kilogram
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.52
+
+
+383
+constants : 4 8.7
+unknowns : x
+operators : + - * / =
+objtypes : pound pumpkin
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 12.7
+
+
+384
+constants : 4.1 2.4
+unknowns : x
+operators : + - * / =
+objtypes : pound sand
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.7
+
+
+385
+constants : 4.4 2.86
+unknowns : x
+operators : + - * / =
+objtypes : foot UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7.26
+
+
+386
+constants : 8.9 2.3
+unknowns : x
+operators : + - * / =
+objtypes : centimeter LENGTH
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.6
+
+
+387
+constants : 37 19
+unknowns : x
+operators : + - * / =
+objtypes : bag cookie
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 703
+
+
+388
+constants : 14 6
+unknowns : x
+operators : + - * / =
+objtypes : seat people
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 84
+
+
+389
+constants : 261 23
+unknowns : x
+operators : + - * / =
+objtypes : fishbowl fish
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 6003
+
+
+390
+constants : 21 8
+unknowns : x
+operators : + - * / =
+objtypes : pizza slice
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 168
+
+
+391
+constants : 303 28
+unknowns : x
+operators : + - * / =
+objtypes : basket egg
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 8484
+
+
+392
+constants : 37 17
+unknowns : x
+operators : + - * / =
+objtypes : basket apple
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 629
+
+
+393
+constants : 56 9
+unknowns : x
+operators : + - * / =
+objtypes : book bookshelf
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 504
+
+
+394
+constants : 4 122 4
+unknowns : x
+operators : + - * / =
+objtypes : continent book
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 488
+
+
+395
+constants : 8 1785.0
+unknowns : x
+operators : + - * / =
+objtypes : stone money
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 14280
+
+
+396
+constants : 45 8
+unknowns : x
+operators : + - * / =
+objtypes : sack section
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 360
+
+
+397
+constants : 83 6
+unknowns : x
+operators : + - * / =
+objtypes : sack day
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 498
+
+
+398
+constants : 324 9
+unknowns : x
+operators : + - * / =
+objtypes : drum day
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 2916
+
+
+399
+constants : 7 44
+unknowns : x
+operators : + - * / =
+objtypes : ticket dollar
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 308
+
+
+400
+constants : 4 246
+unknowns : x
+operators : + - * / =
+objtypes : section people
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 984
+
+
+401
+constants : 5 28
+unknowns : x
+operators : + - * / =
+objtypes : mobile clown
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 140
+
+
+402
+constants : 378 6
+unknowns : x
+operators : + - * / =
+objtypes : juggler ball
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 2268
+
+
+403
+constants : 934 7
+unknowns : x
+operators : + - * / =
+objtypes : crown feather
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 6538
+
+
+404
+constants : 8 478
+unknowns : x
+operators : + - * / =
+objtypes : book page
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 3824
+
+
+405
+constants : 49 9
+unknowns : x
+operators : + - * / =
+objtypes : booklet page
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 441
+
+
+406
+constants : 6 33
+unknowns : x
+operators : + - * / =
+objtypes : author book
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 198
+
+
+407
+constants : 80 8
+unknowns : x
+operators : + - * / =
+objtypes : crayon box
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 10
+
+
+408
+constants : 700 100
+unknowns : x
+operators : + - * / =
+objtypes : sheet box
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7
+
+
+409
+constants : 4 32
+unknowns : x
+operators : + - * / =
+objtypes : room painting
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 8
+
+
+410
+constants : 81 9
+unknowns : x
+operators : + - * / =
+objtypes : clip box paper
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 9
+
+
+411
+constants : 420 7
+unknowns : x
+operators : + - * / =
+objtypes : seedling seed packet
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 60
+
+
+412
+constants : 5 30
+unknowns : x
+operators : + - * / =
+objtypes : glass pitcher
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6
+
+
+413
+constants : 20 80
+unknowns : x
+operators : + - * / =
+objtypes : piece sack
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4
+
+
+414
+constants : 140 7
+unknowns : x
+operators : + - * / =
+objtypes : nail station
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 20
+
+
+415
+constants : 8 56
+unknowns : x
+operators : + - * / =
+objtypes : carving shelf
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7
+
+
+416
+constants : 6 54
+unknowns : x
+operators : + - * / =
+objtypes : neighbor animal number
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 9
+
+
+417
+constants : 49 7
+unknowns : x
+operators : + - * / =
+objtypes : block color
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7
+
+
+418
+constants : 5 50
+unknowns : x
+operators : + - * / =
+objtypes : member ball LENGTH
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 10
+
+
+419
+constants : 9 72
+unknowns : x
+operators : + - * / =
+objtypes : friend sticker number
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 8
+
+
+420
+constants : 5 35
+unknowns : x
+operators : + - * / =
+objtypes : boy marble
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 7
+
+
+421
+constants : 48 6
+unknowns : x
+operators : + - * / =
+objtypes : papers cousin
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 8
+
+
+422
+constants : 4 36
+unknowns : x
+operators : + - * / =
+objtypes : ball bag
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9
+
+
+423
+constants : 63 9
+unknowns : x
+operators : + - * / =
+objtypes : magazine box
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7
+
+
+424
+constants : 88 8
+unknowns : x
+operators : + - * / =
+objtypes : stone bracelet flower
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 11
+
+
+425
+constants : 140 14
+unknowns : x
+operators : + - * / =
+objtypes : stone piece bracelet
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 10
+
+
+426
+constants : 3 36
+unknowns : x
+operators : + - * / =
+objtypes : bracelet stone
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 12
+
+
+427
+constants : 48 8
+unknowns : x
+operators : + - * / =
+objtypes : stone type bracelet
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 6
+
+
+428
+constants : 5 35
+unknowns : x
+operators : + - * / =
+objtypes : cookie
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7
+
+
+429
+constants : 54 9
+unknowns : x
+operators : + - * / =
+objtypes : seed can
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 6
+
+
+430
+constants : 56 8
+unknowns : x
+operators : + - * / =
+objtypes : tomato jar
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7
+
+
+431
+constants : 2 18
+unknowns : x
+operators : + - * / =
+objtypes : lemon glass
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9
+
+
+432
+constants : 24 1
+unknowns : x
+operators : + - * / =
+objtypes : potato person
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 8
+
+
+433
+constants : 12 3
+unknowns : x
+operators : + - * / =
+objtypes : piece
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4
+
+
+434
+constants : 380 57
+unknowns : x
+operators : + - * / =
+objtypes : lego
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 323
+
+
+435
+constants : 35 83
+unknowns : x
+operators : + - * / =
+objtypes : muffin
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 48
+
+
+436
+constants : 1400 290
+unknowns : x
+operators : + - * / =
+objtypes : crayon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1110
+
+
+437
+constants : 10 22
+unknowns : x
+operators : + - * / =
+objtypes : sticker page
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 220
+
+
+438
+constants : 96 8
+unknowns : x
+operators : + - * / =
+objtypes : cupcake child person
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 12
+
+
+439
+constants : 639 504
+unknowns : x
+operators : + - * / =
+objtypes : crayon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 135
+
+
+440
+constants : 85 48
+unknowns : x
+operators : + - * / =
+objtypes : peanut
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 133
+
+
+441
+constants : 813 125
+unknowns : x
+operators : + - * / =
+objtypes : stamp
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 688
+
+
+442
+constants : 6 71
+unknowns : x
+operators : + - * / =
+objtypes : package t-shirt
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 426
+
+
+443
+constants : 648 4
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 162
+
+
+444
+constants : 143 11
+unknowns : x
+operators : + - * / =
+objtypes : sandwich niece
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 13
+
+
+445
+constants : 217 109
+unknowns : x
+operators : + - * / =
+objtypes : marker
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 326
+
+
+446
+constants : 126 81
+unknowns : x
+operators : + - * / =
+objtypes : dvd
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 45
+
+
+447
+constants : 489 2778
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 2289
+
+
+448
+constants : 93 15
+unknowns : x
+operators : + - * / =
+objtypes : cookie
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 78
+
+
+449
+constants : 121 22
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 99
+
+
+450
+constants : 183 593
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 776
+
+
+451
+constants : 2315 1028
+unknowns : x
+operators : + - * / =
+objtypes : marker
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3343
+
+
+452
+constants : 344 136
+unknowns : x
+operators : + - * / =
+objtypes : book rest
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 208
+
+
+453
+constants : 1222 513
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 208
+
+
+454
+constants : 223 95
+unknowns : x
+operators : + - * / =
+objtypes : whistle
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 128
+
+
+455
+constants : 323 175
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 498
+
+
+456
+constants : 27 18
+unknowns : x
+operators : + - * / =
+objtypes : package piece
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 486
+
+
+457
+constants : 5.00 4.28
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.72
+
+
+458
+constants : 3 1.54
+unknowns : x
+operators : + - * / =
+objtypes : ball dollar
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 4.62
+
+
+459
+constants : 20 8 3
+unknowns : x
+operators : + - * / =
+objtypes : dollar UNKNOWN
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 9
+
+
+460
+constants : 48 4
+unknowns : x
+operators : + - * / =
+objtypes : doughnut box
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 12
+
+
+461
+constants : 5 250
+unknowns : x
+operators : + - * / =
+objtypes : vacation mile
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 1250
+
+
+462
+constants : 0.34
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0
+n : 3
+answer : 134
+
+
+463
+constants : 5256 2987
+unknowns : x
+operators : + - * / =
+objtypes : grown-up child people
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 8243
+
+
+464
+constants : 4 4.80
+unknowns : x
+operators : + - * / =
+objtypes : dvd dollar
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 1.20
+
+
+465
+constants : 3409 145
+unknowns : x
+operators : + - * / =
+objtypes : piece rest
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 3264
+
+
+466
+constants : 1250 3
+unknowns : x
+operators : + - * / =
+objtypes : people
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3750
+
+
+467
+constants : 8 45
+unknowns : x
+operators : + - * / =
+objtypes : bus student
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 360
+
+
+468
+constants : 124 3
+unknowns : x
+operators : + - * / =
+objtypes : student star
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 372
+
+
+469
+constants : 5.0
+unknowns : x
+operators : + - * / =
+objtypes : hour
+constantOrUnknownType : 0 0
+n : 3
+answer : 5
+
+
+470
+constants : 1134 1475 3
+unknowns : x
+operators : + - * / =
+objtypes : mile week
+constantOrUnknownType : 0 0 1 0
+n : 7
+answer : 7827
+
+
+471
+constants : 6 34
+unknowns : x
+operators : + - * / =
+objtypes : student table
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 204
+
+
+472
+constants : 15 5
+unknowns : x
+operators : + - * / =
+objtypes : dog puppy
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 75
+
+
+473
+constants : 127 88
+unknowns : x
+operators : + - * / =
+objtypes : apple
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 39
+
+
+474
+constants : 4 6
+unknowns : x
+operators : + - * / =
+objtypes : book week
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 48
+
+
+475
+constants : 37 8
+unknowns : x
+operators : + - * / =
+objtypes : people piece
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 296
+
+
+476
+constants : 22 11
+unknowns : x
+operators : + - * / =
+objtypes : player basketball
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 242
+
+
+477
+constants : 2 9
+unknowns : x
+operators : + - * / =
+objtypes : ounce pound UNKNOWN
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 18
+
+
+478
+constants : 65899 119
+unknowns : x
+operators : + - * / =
+objtypes : people
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 66018
+
+
+479
+constants : 16 14 5
+unknowns : x
+operators : + - * / =
+objtypes : pecan pie row
+constantOrUnknownType : 0 1 1 2
+n : 7
+answer : 6
+
+
+480
+constants : 3.75 3
+unknowns : x
+operators : + - * / =
+objtypes : money people
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 1.25
+
+
+481
+constants : 74 35 18 3
+unknowns : x
+operators : + - * / =
+objtypes : cent pencil cost
+constantOrUnknownType : 0 0 0 1 2
+n : 9
+answer : 7
+
+
+482
+constants : 40 7
+unknowns : x
+operators : + - * / =
+objtypes : marker package
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 5
+
+
+483
+constants : 4 17
+unknowns : x
+operators : + - * / =
+objtypes : book chapter UNKNOWN
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 68
+
+
+484
+constants : 5 2
+unknowns : x
+operators : + - * / =
+objtypes : cup loaf
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 2.5
+
+
+485
+constants : 1.30 0
+unknowns : x
+operators : + - * / =
+objtypes : dollar person nickel
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 26
+
+
+486
+constants : 7 5 15
+unknowns : x
+operators : + - * / =
+objtypes : student minute
+constantOrUnknownType : 0 1 1 0
+n : 7
+answer : 21
+
+
+487
+constants : 144 3
+unknowns : x
+operators : + - * / =
+objtypes : bee Hilt
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 432
+
+
+488
+constants : 30 4
+unknowns : x
+operators : + - * / =
+objtypes : foot Hilt UNKNOWN
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 120
+
+
+489
+constants : 212 68
+unknowns : x
+operators : + - * / =
+objtypes : fish
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 280
+
+
+490
+constants : 212 280
+unknowns : x
+operators : + - * / =
+objtypes : fish
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 68
+
+
+491
+constants : 25.0 20.0 75.0 279.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 159
+
+
+492
+constants : 36 85
+unknowns : x
+operators : + - * / =
+objtypes : flea
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 121
+
+
+493
+constants : 600 327
+unknowns : x
+operators : + - * / =
+objtypes : bag
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 273
+
+
+494
+constants : 7 4
+unknowns : x
+operators : + - * / =
+objtypes : box dog
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 28
+
+
+495
+constants : 532 750
+unknowns : x
+operators : + - * / =
+objtypes : people seat
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 218
+
+
+496
+constants : 23 45
+unknowns : x
+operators : + - * / =
+objtypes : pound bag
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 1035
+
+
+497
+constants : 2 3
+unknowns : x
+operators : + - * / =
+objtypes : mile week
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 42
+
+
+498
+constants : 2 12 23.36
+unknowns : x
+operators : + - * / =
+objtypes : dollar cent minute
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 178.0
+
+
+499
+constants : 16,000 0.8
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 20000.0
+
+
+500
+constants : 190 0.04 500
+unknowns : x
+operators : + - * / =
+objtypes : dollar sale
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 7750.0
+
+
+501
+constants : 4 5 29
+unknowns : x
+operators : + - * / =
+objtypes : tree foot year
+constantOrUnknownType : 0 1 1 2
+n : 7
+answer : 5.0
+
+
+502
+constants : 77.75 9.5
+unknowns : x
+operators : + - * / =
+objtypes : inch UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 68.25
+
+
+503
+constants : 0.20 4 6
+unknowns : x
+operators : + - * / =
+objtypes : number UNKNOWN
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 50.0
+
+
+504
+constants : 1800000 0.75
+unknowns : x
+operators : + - * / =
+objtypes : ton demand UNKNOWN
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 2400000.0
+
+
+505
+constants : 12 84
+unknowns : x
+operators : + - * / =
+objtypes : ounce cent cost
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 7.0
+
+
+506
+constants : 177 500 19
+unknowns : x
+operators : + - * / =
+objtypes : dollar week
+constantOrUnknownType : 0 0 1 1
+n : 7
+answer : 17.0
+
+
+507
+constants : 45 225 450
+unknowns : x
+operators : + - * / =
+objtypes : dollar hour
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 5.0
+
+
+0
+constants : 70 27
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 43.0
+
+
+1
+constants : 28 54
+unknowns : x
+operators : + - * / =
+objtypes : bale
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 26.0
+
+
+2
+constants : 45 3
+unknowns : x
+operators : + - * / =
+objtypes : dollar person total
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 135.0
+
+
+3
+constants : 8 2
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.0
+
+
+4
+constants : 12 4
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 8.0
+
+
+5
+constants : 22 55
+unknowns : x
+operators : + - * / =
+objtypes : tree
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 33.0
+
+
+6
+constants : 34 86
+unknowns : x
+operators : + - * / =
+objtypes : peach stand
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 52.0
+
+
+7
+constants : 6 16
+unknowns : x
+operators : + - * / =
+objtypes : rose
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 10.0
+
+
+8
+constants : 2 5 27
+unknowns : x
+operators : + - * / =
+objtypes : dollar bar
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 5.0
+
+
+9
+constants : 4 0.5 34
+unknowns : x
+operators : + - * / =
+objtypes : card half
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 64.0
+
+
+10
+constants : 0.5 8 12
+unknowns : x
+operators : + - * / =
+objtypes : half dollar allowance
+constantOrUnknownType : 0 1 1 2
+n : 7
+answer : 8.0
+
+
+11
+constants : 162 0
+unknowns : x
+operators : + - * / =
+objtypes : number person smallest
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 52.0
+
+
+12
+constants : 79 9 16
+unknowns : x
+operators : + - * / =
+objtypes : dollar book
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 7.0
+
+
+13
+constants : 17 7 80
+unknowns : x
+operators : + - * / =
+objtypes : dollar hour
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 9.0
+
+
+14
+constants : 375 7 4
+unknowns : x
+operators : + - * / =
+objtypes : student bus
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 53.0
+
+
+15
+constants : 0.5 6 13
+unknowns : x
+operators : + - * / =
+objtypes : half book
+constantOrUnknownType : 0 1 1 1
+n : 7
+answer : 14.0
+
+
+16
+constants : 69 0
+unknowns : x
+operators : + - * / =
+objtypes : number person smallest
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 21.0
+
+
+17
+constants : 4 9
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 13.0
+
+
+18
+constants : 9 8
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 17.0
+
+
+19
+constants : 4 6
+unknowns : x
+operators : + - * / =
+objtypes : tree walnut
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 10.0
+
+
+20
+constants : 9 7
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 16.0
+
+
+21
+constants : 7 5
+unknowns : x
+operators : + - * / =
+objtypes : puppy
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+22
+constants : 9 6
+unknowns : x
+operators : + - * / =
+objtypes : pizza
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 15.0
+
+
+23
+constants : 2 3
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.0
+
+
+24
+constants : 6 8
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.0
+
+
+25
+constants : 6 3
+unknowns : x
+operators : + - * / =
+objtypes : carrot
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 9.0
+
+
+26
+constants : 2 9
+unknowns : x
+operators : + - * / =
+objtypes : apple
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 11.0
+
+
+27
+constants : 9 7 5
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 21.0
+
+
+28
+constants : 3 6 9
+unknowns : x
+operators : + - * / =
+objtypes : kitten
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 18.0
+
+
+29
+constants : 9 5 2
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 16.0
+
+
+30
+constants : 7 8 4
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 19.0
+
+
+31
+constants : 5 6 3
+unknowns : x
+operators : + - * / =
+objtypes : cake
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 14.0
+
+
+32
+constants : 4 9 3
+unknowns : x
+operators : + - * / =
+objtypes : plum
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 16.0
+
+
+33
+constants : 7 3 2
+unknowns : x
+operators : + - * / =
+objtypes : tree dogwood
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 12.0
+
+
+34
+constants : 4 5 9
+unknowns : x
+operators : + - * / =
+objtypes : onion
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 18.0
+
+
+35
+constants : 18 47
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 65.0
+
+
+36
+constants : 45 11
+unknowns : x
+operators : + - * / =
+objtypes : pear
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 56.0
+
+
+37
+constants : 20 21
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 41.0
+
+
+38
+constants : 49 25
+unknowns : x
+operators : + - * / =
+objtypes : quarter
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 74.0
+
+
+39
+constants : 33 44
+unknowns : x
+operators : + - * / =
+objtypes : tree walnut
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 77.0
+
+
+40
+constants : 21 49
+unknowns : x
+operators : + - * / =
+objtypes : quarter
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 70.0
+
+
+41
+constants : 41 30
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 71.0
+
+
+42
+constants : 10 38
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 48.0
+
+
+43
+constants : 40 41
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 81.0
+
+
+44
+constants : 38 44
+unknowns : x
+operators : + - * / =
+objtypes : cantelope
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 82.0
+
+
+45
+constants : 14 29
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 43.0
+
+
+46
+constants : 18 41
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 59.0
+
+
+47
+constants : 39 41 20
+unknowns : x
+operators : + - * / =
+objtypes : tree dogwood
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 100.0
+
+
+48
+constants : 10 24 33
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 67.0
+
+
+49
+constants : 46 47 12
+unknowns : x
+operators : + - * / =
+objtypes : pear
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 105.0
+
+
+50
+constants : 29 16 20
+unknowns : x
+operators : + - * / =
+objtypes : cantelope
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 65.0
+
+
+51
+constants : 19 39 25
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 83.0
+
+
+52
+constants : 37 28 39
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 104.0
+
+
+53
+constants : 27 41 20
+unknowns : x
+operators : + - * / =
+objtypes : card
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 88.0
+
+
+54
+constants : 11 17 16
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 44.0
+
+
+55
+constants : 43 19 16
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 78.0
+
+
+56
+constants : 35 56
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 21.0
+
+
+57
+constants : 7 4
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.0
+
+
+58
+constants : 53 64
+unknowns : x
+operators : + - * / =
+objtypes : tree
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 11.0
+
+
+59
+constants : 56 22
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 34.0
+
+
+60
+constants : 13 55
+unknowns : x
+operators : + - * / =
+objtypes : peach stand
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 42.0
+
+
+61
+constants : 67 33
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 34.0
+
+
+62
+constants : 3 14
+unknowns : x
+operators : + - * / =
+objtypes : rose
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 11.0
+
+
+63
+constants : 74.0 86.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+64
+constants : 73 96
+unknowns : x
+operators : + - * / =
+objtypes : bale
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 23.0
+
+
+65
+constants : 6 7
+unknowns : x
+operators : + - * / =
+objtypes : potato
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 13.0
+
+
+66
+constants : 9 3
+unknowns : x
+operators : + - * / =
+objtypes : crayon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+67
+constants : 5 4
+unknowns : x
+operators : + - * / =
+objtypes : tree oak
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.0
+
+
+68
+constants : 7 4
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.0
+
+
+69
+constants : 7 4
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.0
+
+
+70
+constants : 7 9
+unknowns : x
+operators : + - * / =
+objtypes : lemon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 16.0
+
+
+71
+constants : 6 9
+unknowns : x
+operators : + - * / =
+objtypes : cake
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 15.0
+
+
+72
+constants : 8 2
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.0
+
+
+73
+constants : 7 3
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4.0
+
+
+74
+constants : 8 2
+unknowns : x
+operators : + - * / =
+objtypes : kitten
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.0
+
+
+75
+constants : 34 49
+unknowns : x
+operators : + - * / =
+objtypes : tree dogwood
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 83.0
+
+
+76
+constants : 27 45
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 72.0
+
+
+77
+constants : 39 14
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 25.0
+
+
+78
+constants : 35 18
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 17.0
+
+
+79
+constants : 22 20
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 42.0
+
+
+80
+constants : 87 13
+unknowns : x
+operators : + - * / =
+objtypes : card
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 74.0
+
+
+81
+constants : 51 23
+unknowns : x
+operators : + - * / =
+objtypes : pumpkin
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 74.0
+
+
+82
+constants : 44 52
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 96.0
+
+
+83
+constants : 64 14
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 50.0
+
+
+84
+constants : 25 73
+unknowns : x
+operators : + - * / =
+objtypes : tree
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 98.0
+
+
+85
+constants : 54 22
+unknowns : x
+operators : + - * / =
+objtypes : scissors
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 76.0
+
+
+86
+constants : 42 17
+unknowns : x
+operators : + - * / =
+objtypes : pear
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 59.0
+
+
+87
+constants : 98 93
+unknowns : x
+operators : + - * / =
+objtypes : penny
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.0
+
+
+88
+constants : 79 63
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 16.0
+
+
+89
+constants : 64 32
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 32.0
+
+
+90
+constants : 110 102
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 212.0
+
+
+91
+constants : 122 105
+unknowns : x
+operators : + - * / =
+objtypes : orange
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 227.0
+
+
+92
+constants : 760 418
+unknowns : x
+operators : + - * / =
+objtypes : quarter
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 342.0
+
+
+93
+constants : 616 147
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 469.0
+
+
+94
+constants : 139 113
+unknowns : x
+operators : + - * / =
+objtypes : turnip
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 252.0
+
+
+95
+constants : 676 224
+unknowns : x
+operators : + - * / =
+objtypes : card pokemon
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 452.0
+
+
+96
+constants : 107 104
+unknowns : x
+operators : + - * / =
+objtypes : tree walnut
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 211.0
+
+
+97
+constants : 709 221
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 488.0
+
+
+98
+constants : 115 100
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 215.0
+
+
+99
+constants : 45 5
+unknowns : x
+operators : + - * / =
+objtypes : dollar bill
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 9.0
+
+
+100
+constants : 18 2
+unknowns : x
+operators : + - * / =
+objtypes : trout person
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 9.0
+
+
+101
+constants : 7 63
+unknowns : x
+operators : + - * / =
+objtypes : day hamburger
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 9.0
+
+
+102
+constants : 45 5
+unknowns : x
+operators : + - * / =
+objtypes : hour day LENGTH
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 9.0
+
+
+103
+constants : 27 3
+unknowns : x
+operators : + - * / =
+objtypes : game season
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 9.0
+
+
+104
+constants : 9.0
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0
+n : 3
+answer : 9.0
+
+
+105
+constants : 110 22
+unknowns : x
+operators : + - * / =
+objtypes : marble Fred
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 5.0
+
+
+106
+constants : 390 30
+unknowns : x
+operators : + - * / =
+objtypes : student classroom
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 13.0
+
+
+107
+constants : 96 1
+unknowns : x
+operators : + - * / =
+objtypes : muffin person box
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 8.0
+
+
+108
+constants : 20.0
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0
+n : 3
+answer : 20.0
+
+
+109
+constants : 45 315
+unknowns : x
+operators : + - * / =
+objtypes : book shelf
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7.0
+
+
+110
+constants : 615 15
+unknowns : x
+operators : + - * / =
+objtypes : crayon pack
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 41.0
+
+
+111
+constants : 46 276
+unknowns : x
+operators : + - * / =
+objtypes : dollar home
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.0
+
+
+112
+constants : 323 17
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 19.0
+
+
+113
+constants : 540 20
+unknowns : x
+operators : + - * / =
+objtypes : card pack
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 108.0
+
+
+114
+constants : 344 43
+unknowns : x
+operators : + - * / =
+objtypes : piece student
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 8.0
+
+
+115
+constants : 25.00 96 12
+unknowns : x
+operators : + - * / =
+objtypes : dollar house dozen
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 200.0
+
+
+116
+constants : 60 45 12
+unknowns : x
+operators : + - * / =
+objtypes : calorie bar dozen
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 225.0
+
+
+117
+constants : 96 12
+unknowns : x
+operators : + - * / =
+objtypes : bird dozen
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 8.0
+
+
+118
+constants : 84 8 12
+unknowns : x
+operators : + - * / =
+objtypes : marble Melanie dozen
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 56.0
+
+
+119
+constants : 192 12
+unknowns : x
+operators : + - * / =
+objtypes : ball dozen
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 16.0
+
+
+120
+constants : 72 12
+unknowns : x
+operators : + - * / =
+objtypes : egg dozen
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.0
+
+
+121
+constants : 48 8 12
+unknowns : x
+operators : + - * / =
+objtypes : book Mike dozen
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 32.0
+
+
+122
+constants : 9 12
+unknowns : x
+operators : + - * / =
+objtypes : dollar quarter dozen
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 3.0
+
+
+123
+constants : 96 12
+unknowns : x
+operators : + - * / =
+objtypes : card dozen
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 32.0
+
+
+124
+constants : 3 2
+unknowns : x
+operators : + - * / =
+objtypes : card pokemon
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.0
+
+
+125
+constants : 8 4
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4.0
+
+
+126
+constants : 5 2
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.0
+
+
+127
+constants : 2 4
+unknowns : x
+operators : + - * / =
+objtypes : bush
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.0
+
+
+128
+constants : 6 5
+unknowns : x
+operators : + - * / =
+objtypes : pear
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 11.0
+
+
+129
+constants : 4 3
+unknowns : x
+operators : + - * / =
+objtypes : watermelon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.0
+
+
+130
+constants : 3 5
+unknowns : x
+operators : + - * / =
+objtypes : calorie bar
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 15.0
+
+
+131
+constants : 5 2
+unknowns : x
+operators : + - * / =
+objtypes : marble Dan
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 10.0
+
+
+132
+constants : 9 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen ball golf
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 108.0
+
+
+133
+constants : 9 4
+unknowns : x
+operators : + - * / =
+objtypes : pokemon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 13.0
+
+
+134
+constants : 7 5
+unknowns : x
+operators : + - * / =
+objtypes : nickel
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+135
+constants : 3 4
+unknowns : x
+operators : + - * / =
+objtypes : card person
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 12.0
+
+
+136
+constants : 6 9
+unknowns : x
+operators : + - * / =
+objtypes : turnip
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 15.0
+
+
+137
+constants : 4 2
+unknowns : x
+operators : + - * / =
+objtypes : child pencil
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 8.0
+
+
+138
+constants : 9 3
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+139
+constants : 8 3
+unknowns : x
+operators : + - * / =
+objtypes : calorie bar
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 24.0
+
+
+140
+constants : 150.0
+unknowns : x
+operators : + - * / =
+objtypes : cent
+constantOrUnknownType : 0 0
+n : 3
+answer : 150.0
+
+
+141
+constants : 960 30
+unknowns : x
+operators : + - * / =
+objtypes : student classroom
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 32.0
+
+
+142
+constants : 12.5 12
+unknowns : x
+operators : + - * / =
+objtypes : money hour
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 150.0
+
+
+143
+constants : 12 2
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 6.0
+
+
+144
+constants : 6 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen egg
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 72.0
+
+
+145
+constants : 6 4
+unknowns : x
+operators : + - * / =
+objtypes : card person
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 24.0
+
+
+146
+constants : 4 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen egg
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 48.0
+
+
+147
+constants : 1110 30
+unknowns : x
+operators : + - * / =
+objtypes : student classroom
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 37.0
+
+
+148
+constants : 6 4
+unknowns : x
+operators : + - * / =
+objtypes : carrot
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 10.0
+
+
+149
+constants : 6 5
+unknowns : x
+operators : + - * / =
+objtypes : marble Benny
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 30.0
+
+
+150
+constants : 12.5 8
+unknowns : x
+operators : + - * / =
+objtypes : money hour
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 100.0
+
+
+151
+constants : 5 2
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.0
+
+
+152
+constants : 5 3
+unknowns : x
+operators : + - * / =
+objtypes : card
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 2.0
+
+
+153
+constants : 49.0
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0
+n : 3
+answer : 49.0
+
+
+154
+constants : 10 5
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 2.0
+
+
+155
+constants : 8 3
+unknowns : x
+operators : + - * / =
+objtypes : dollar person bill
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 24.0
+
+
+156
+constants : 8 2
+unknowns : x
+operators : + - * / =
+objtypes : trout Melanie
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 16.0
+
+
+157
+constants : 5 7
+unknowns : x
+operators : + - * / =
+objtypes : day seashell
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 35.0
+
+
+158
+constants : 3 144.0
+unknowns : x
+operators : + - * / =
+objtypes : hour
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 18.0
+
+
+159
+constants : 7 8
+unknowns : x
+operators : + - * / =
+objtypes : day pie
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 56.0
+
+
+160
+constants : 9 1
+unknowns : x
+operators : + - * / =
+objtypes : bill person money
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 45.0
+
+
+161
+constants : 7 4
+unknowns : x
+operators : + - * / =
+objtypes : balloon Nancy
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 28.0
+
+
+162
+constants : 8 3
+unknowns : x
+operators : + - * / =
+objtypes : pencil person
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 24.0
+
+
+163
+constants : 14 4
+unknowns : x
+operators : + - * / =
+objtypes : card person pokemon
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 56.0
+
+
+164
+constants : 36 7
+unknowns : x
+operators : + - * / =
+objtypes : book Alyssa
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 252.0
+
+
+165
+constants : 13 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen ball golf
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 156.0
+
+
+166
+constants : 13 14
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 182.0
+
+
+167
+constants : 7 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen egg
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 84.0
+
+
+168
+constants : 29 7
+unknowns : x
+operators : + - * / =
+objtypes : balloon Dan
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 203.0
+
+
+169
+constants : 31 11
+unknowns : x
+operators : + - * / =
+objtypes : calorie bar
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 341.0
+
+
+170
+constants : 275.0
+unknowns : x
+operators : + - * / =
+objtypes : cent
+constantOrUnknownType : 0 0
+n : 3
+answer : 275.0
+
+
+171
+constants : 46 4 12
+unknowns : x
+operators : + - * / =
+objtypes : child dozen pencil
+constantOrUnknownType : 0 1 2 2
+n : 7
+answer : 2208.0
+
+
+172
+constants : 1 3.0
+unknowns : x
+operators : + - * / =
+objtypes : dozen money
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 3.0
+
+
+173
+constants : 9 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen egg
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 108.0
+
+
+174
+constants : 4 12 42
+unknowns : x
+operators : + - * / =
+objtypes : dozen calorie bar
+constantOrUnknownType : 0 1 2 1
+n : 7
+answer : 2016.0
+
+
+175
+constants : 8 12 5
+unknowns : x
+operators : + - * / =
+objtypes : dozen book
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 480.0
+
+
+176
+constants : 3 12 4
+unknowns : x
+operators : + - * / =
+objtypes : dozen marble
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 144.0
+
+
+177
+constants : 1 12 9
+unknowns : x
+operators : + - * / =
+objtypes : dozen pokemon
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 432.0
+
+
+178
+constants : 1 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen bird
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 12.0
+
+
+179
+constants : 24 3
+unknowns : x
+operators : + - * / =
+objtypes : crayon person
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 8.0
+
+
+180
+constants : 5 2
+unknowns : x
+operators : + - * / =
+objtypes : trout Sara
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 10.0
+
+
+181
+constants : 15 3
+unknowns : x
+operators : + - * / =
+objtypes : dollar person bill
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 5.0
+
+
+182
+constants : 7 49
+unknowns : x
+operators : + - * / =
+objtypes : day hamburger
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 7.0
+
+
+183
+constants : 6 3
+unknowns : x
+operators : + - * / =
+objtypes : balloon Sally
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 18.0
+
+
+184
+constants : 3 120.0
+unknowns : x
+operators : + - * / =
+objtypes : hour
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 15.0
+
+
+185
+constants : 7 2
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 14.0
+
+
+186
+constants : 4 1
+unknowns : x
+operators : + - * / =
+objtypes : gumball person money
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 32.0
+
+
+187
+constants : 8 3
+unknowns : x
+operators : + - * / =
+objtypes : potato
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.0
+
+
+188
+constants : 6 4
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 2.0
+
+
+189
+constants : 9 2
+unknowns : x
+operators : + - * / =
+objtypes : tree oak
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7.0
+
+
+190
+constants : 8 3
+unknowns : x
+operators : + - * / =
+objtypes : quarter
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.0
+
+
+191
+constants : 9 3
+unknowns : x
+operators : + - * / =
+objtypes : hamburger
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.0
+
+
+192
+constants : 7 3
+unknowns : x
+operators : + - * / =
+objtypes : crayon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4.0
+
+
+193
+constants : 9 4
+unknowns : x
+operators : + - * / =
+objtypes : lime
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.0
+
+
+194
+constants : 7 3
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4.0
+
+
+195
+constants : 9 2
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7.0
+
+
+196
+constants : 43 27
+unknowns : x
+operators : + - * / =
+objtypes : apple
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 16.0
+
+
+197
+constants : 31 13
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 18.0
+
+
+198
+constants : 30 16
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.0
+
+
+199
+constants : 40 22
+unknowns : x
+operators : + - * / =
+objtypes : card
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 18.0
+
+
+200
+constants : 47 25
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 22.0
+
+
+201
+constants : 43 23
+unknowns : x
+operators : + - * / =
+objtypes : pumpkin
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 20.0
+
+
+202
+constants : 33 26
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7.0
+
+
+203
+constants : 46 25
+unknowns : x
+operators : + - * / =
+objtypes : ruler
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 21.0
+
+
+204
+constants : 33 18
+unknowns : x
+operators : + - * / =
+objtypes : tree
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 15.0
+
+
+205
+constants : 17 6
+unknowns : x
+operators : + - * / =
+objtypes : half-dollar UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 11.5
+
+
+206
+constants : 0.09 1.75
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.84
+
+
+207
+constants : 14 1
+unknowns : x
+operators : + - * / =
+objtypes : toothfairy person money
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 11.9
+
+
+208
+constants : 3.0 0.07
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.07
+
+
+209
+constants : 4 14
+unknowns : x
+operators : + - * / =
+objtypes : half-dollar amount
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.0
+
+
+210
+constants : 0.15 1.3 0.7 4.5
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 6.65
+
+
+211
+constants : 1.5 0.4
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.9
+
+
+212
+constants : 0.02 1.2
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.22
+
+
+213
+constants : 5.20 4.23
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 9.43
+
+
+214
+constants : 145.16 5.84
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 151.0
+
+
+215
+constants : 5.71 6.59
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.3
+
+
+216
+constants : 4 6.06 4.45
+unknowns : x
+operators : + - * / =
+objtypes : pack dollar
+constantOrUnknownType : 0 1 1 1
+n : 7
+answer : 23.86
+
+
+217
+constants : 10.22 11.73
+unknowns : x
+operators : + - * / =
+objtypes : dollar cost
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 21.95
+
+
+218
+constants : 5.36 5.10
+unknowns : x
+operators : + - * / =
+objtypes : dollar total
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 10.46
+
+
+219
+constants : 14.28 4.74
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 19.02
+
+
+220
+constants : 12.08 9.85
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 21.93
+
+
+221
+constants : 11.08 14.33 9.31
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 34.72
+
+
+222
+constants : 13.99 12.14 7.43
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 33.56
+
+
+223
+constants : 142.46 8.89 7
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 158.35
+
+
+224
+constants : 14.02 9.46 12.04
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 35.52
+
+
+225
+constants : 2 2.73 4.01 8.95
+unknowns : x
+operators : + - * / =
+objtypes : pack dollar
+constantOrUnknownType : 0 1 1 1 1
+n : 9
+answer : 18.42
+
+
+226
+constants : 10.62 2 1.59 13.95
+unknowns : x
+operators : + - * / =
+objtypes : dollar ticket
+constantOrUnknownType : 0 1 0 0 0
+n : 9
+answer : 36.78
+
+
+227
+constants : 9.05 4.95 6.52
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 20.52
+
+
+228
+constants : 7.19 6.83 20
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 5.98
+
+
+229
+constants : 9.24 8.25 20.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 2.51
+
+
+230
+constants : 8.77 10.97 20
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.26
+
+
+231
+constants : 5.92 2 6.79 20
+unknowns : x
+operators : + - * / =
+objtypes : dollar ticket
+constantOrUnknownType : 0 1 0 0 0
+n : 9
+answer : 1.37
+
+
+232
+constants : 9.14 6.81 20
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 4.05
+
+
+233
+constants : 5,973 8,723
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14696.0
+
+
+234
+constants : 1,346 6,444
+unknowns : x
+operators : + - * / =
+objtypes : muff
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7790.0
+
+
+235
+constants : 2,479 6,085
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 8564.0
+
+
+236
+constants : 6,522 5,165
+unknowns : x
+operators : + - * / =
+objtypes : liter
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 11687.0
+
+
+237
+constants : 3,884 2,871
+unknowns : x
+operators : + - * / =
+objtypes : car
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6755.0
+
+
+238
+constants : 6,359 3,485
+unknowns : x
+operators : + - * / =
+objtypes : yen
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 9844.0
+
+
+239
+constants : 1,986 5,106
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7092.0
+
+
+240
+constants : 20,817 97,741
+unknowns : x
+operators : + - * / =
+objtypes : house
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 118558.0
+
+
+241
+constants : 48,097 684
+unknowns : x
+operators : + - * / =
+objtypes : bushel
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 48781.0
+
+
+242
+constants : 69.0 26935.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 27004.0
+
+
+243
+constants : 14,507 213
+unknowns : x
+operators : + - * / =
+objtypes : passenger
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14720.0
+
+
+244
+constants : 64,535 522
+unknowns : x
+operators : + - * / =
+objtypes : acre
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 65057.0
+
+
+245
+constants : 12,170 54,912
+unknowns : x
+operators : + - * / =
+objtypes : ladybug
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 67082.0
+
+
+246
+constants : 90,171 16,320
+unknowns : x
+operators : + - * / =
+objtypes : people
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 106491.0
+
+
+247
+constants : 49,952 918
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 50870.0
+
+
+248
+constants : 61,921 49,500
+unknowns : x
+operators : + - * / =
+objtypes : yard
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 111421.0
+
+
+249
+constants : 2,041 63,093
+unknowns : x
+operators : + - * / =
+objtypes : employee
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 65134.0
+
+
+250
+constants : 712,261 259,378
+unknowns : x
+operators : + - * / =
+objtypes : male salmon
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 971639.0
+
+
+251
+constants : 14,797 4,969
+unknowns : x
+operators : + - * / =
+objtypes : suit bathing
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 19766.0
+
+
+252
+constants : 1,426 2,000
+unknowns : x
+operators : + - * / =
+objtypes : house
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 574.0
+
+
+253
+constants : 7,341 4,221
+unknowns : x
+operators : + - * / =
+objtypes : cell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3120.0
+
+
+254
+constants : 9,792 3,513
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6279.0
+
+
+255
+constants : 10.62 2 1.59 13.95
+unknowns : x
+operators : + - * / =
+objtypes : dollar ticket
+constantOrUnknownType : 0 1 0 0 0
+n : 9
+answer : 36.78
+
+
+256
+constants : 11.0 19.0 7.0 8.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 29.0
+
+
+257
+constants : 13.0 9 10 3
+unknowns : x
+operators : + - * / =
+objtypes : money hour
+constantOrUnknownType : 0 1 1 1 0
+n : 9
+answer : 286.0
+
+
+258
+constants : 17.0 48.0 25.0 49.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 41.0
+
+
+259
+constants : 20 26 20 6 58
+unknowns : x
+operators : + - * / =
+objtypes : sticker
+constantOrUnknownType : 0 0 0 0 0 0
+n : 11
+answer : 2.0
+
+
+260
+constants : 6 6 8 18
+unknowns : x
+operators : + - * / =
+objtypes : van people bus
+constantOrUnknownType : 0 1 2 1 1
+n : 9
+answer : 180.0
+
+
+261
+constants : 91.0 24.0 6.0 11.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 50.0
+
+
+262
+constants : 15 13 8 21
+unknowns : x
+operators : + - * / =
+objtypes : coin
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 15.0
+
+
+263
+constants : 61 26 7
+unknowns : x
+operators : + - * / =
+objtypes : plate
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 28.0
+
+
+264
+constants : 85.0 10 5.0
+unknowns : x
+operators : + - * / =
+objtypes : money book
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 35.0
+
+
+265
+constants : 8.0 13.0 2.0 18.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 1.0
+
+
+266
+constants : 20 12 20 5 8
+unknowns : x
+operators : + - * / =
+objtypes : sticker
+constantOrUnknownType : 0 0 0 0 0 0
+n : 11
+answer : 39.0
+
+
+267
+constants : 30.0 49.0 46.0 58.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 67.0
+
+
+268
+constants : 20 2 1 6
+unknowns : x
+operators : + - * / =
+objtypes : carton dollar
+constantOrUnknownType : 0 0 1 1 1
+n : 9
+answer : 118.0
+
+
+269
+constants : 7.0 12.0 4.0 6.0 13.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0 0
+n : 11
+answer : 4.0
+
+
+270
+constants : 10 1 3 16
+unknowns : x
+operators : + - * / =
+objtypes : book dollar
+constantOrUnknownType : 0 0 0 1 1
+n : 9
+answer : 224.0
+
+
+271
+constants : 54 15 25
+unknowns : x
+operators : + - * / =
+objtypes : cupcake vanilla
+constantOrUnknownType : 0 0 1 0
+n : 7
+answer : 14.0
+
+
+272
+constants : 21 4 8
+unknowns : x
+operators : + - * / =
+objtypes : carton
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 9.0
+
+
+273
+constants : 24 14 3 2
+unknowns : x
+operators : + - * / =
+objtypes : bicycle tricycle wheel
+constantOrUnknownType : 0 1 2 2 2
+n : 9
+answer : 90.0
+
+
+274
+constants : 109.0 2 13.0 11.0
+unknowns : x
+operators : + - * / =
+objtypes : money shirt
+constantOrUnknownType : 0 1 0 0 0
+n : 9
+answer : 74.0
+
+
+275
+constants : 9 3
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12.0
+
+
+276
+constants : 9 4
+unknowns : x
+operators : + - * / =
+objtypes : card pokemon
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 13.0
+
+
+277
+constants : 9 7 10 5
+unknowns : x
+operators : + - * / =
+objtypes : package can
+constantOrUnknownType : 0 0 1 1 1
+n : 9
+answer : 55.0
+
+
+278
+constants : 2 7 1 1
+unknowns : x
+operators : + - * / =
+objtypes : ticket
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 9.0
+
+
+279
+constants : 53 7 19
+unknowns : x
+operators : + - * / =
+objtypes : cupcake vanilla
+constantOrUnknownType : 0 0 1 0
+n : 7
+answer : 32.0
+
+
+280
+constants : 4 8 4 10
+unknowns : x
+operators : + - * / =
+objtypes : pack ball
+constantOrUnknownType : 0 0 0 1 1
+n : 9
+answer : 160.0
+
+
+281
+constants : 5 4
+unknowns : x
+operators : + - * / =
+objtypes : pizza slice
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 20.0
+
+
+282
+constants : 20 5
+unknowns : x
+operators : + - * / =
+objtypes : mile gallon
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 100.0
+
+
+283
+constants : 58 2
+unknowns : x
+operators : + - * / =
+objtypes : child seat
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 29.0
+
+
+284
+constants : 12 3
+unknowns : x
+operators : + - * / =
+objtypes : guest table
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4.0
+
+
+285
+constants : 15 12
+unknowns : x
+operators : + - * / =
+objtypes : dollar chair
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 180.0
+
+
+286
+constants : 0.75 0.25
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.5
+
+
+287
+constants : 0.25 0.25
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.5
+
+
+288
+constants : 0.16666666666666666 0.5
+unknowns : x
+operators : + - * / =
+objtypes : mile DISTANCE
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.6666666666666666
+
+
+289
+constants : 0.6666666666666666 0.3333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : pie
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.3333333333333333
+
+
+290
+constants : 0.75 0.5
+unknowns : x
+operators : + - * / =
+objtypes : inch tailor
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.25
+
+
+291
+constants : 0.375 0.25
+unknowns : x
+operators : + - * / =
+objtypes : garment UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.625
+
+
+292
+constants : 0.875 0.75
+unknowns : x
+operators : + - * / =
+objtypes : lap jogging
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 0.125
+
+
+293
+constants : 0.3 0.2
+unknowns : x
+operators : + - * / =
+objtypes : foot
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.1
+
+
+294
+constants : 0.3333333333333333 0.3333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.6666666666666666
+
+
+295
+constants : 0.125 0.125
+unknowns : x
+operators : + - * / =
+objtypes : scoop
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.25
+
+
+296
+constants : 0.8 0.2
+unknowns : x
+operators : + - * / =
+objtypes : gallon water
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.6
+
+
+297
+constants : 0.6666666666666666 0.5
+unknowns : x
+operators : + - * / =
+objtypes : tablespoon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.16666666666666666
+
+
+298
+constants : 0.6 0.2
+unknowns : x
+operators : + - * / =
+objtypes : budget UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.8
+
+
+299
+constants : 0.7 0.2
+unknowns : x
+operators : + - * / =
+objtypes : student UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.9
+
+
+300
+constants : 0.16666666666666666 0.6666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : cup oil
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.8333333333333334
+
+
+301
+constants : 0.2 0.4
+unknowns : x
+operators : + - * / =
+objtypes : total loaf
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 0.6
+
+
+302
+constants : 0.4 0.2
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.2
+
+
+303
+constants : 0.625 0.25
+unknowns : x
+operators : + - * / =
+objtypes : cup flour
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.375
+
+
+304
+constants : 0.2 0.4
+unknowns : x
+operators : + - * / =
+objtypes : bucket
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.6
+
+
+305
+constants : 0.6 0.4
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.2
+
+
+306
+constants : 0.5 0.125
+unknowns : x
+operators : + - * / =
+objtypes : student UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.625
+
+
+307
+constants : 0.8 0.1
+unknowns : x
+operators : + - * / =
+objtypes : inch
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.7
+
+
+308
+constants : 0.25 0.375
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.625
+
+
+309
+constants : 0.625 0.5
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.125
+
+
+310
+constants : 0.5 0.1
+unknowns : x
+operators : + - * / =
+objtypes : carton milk
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.6
+
+
+311
+constants : 0.375 0.5
+unknowns : x
+operators : + - * / =
+objtypes : inch hair
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.875
+
+
+312
+constants : 0.16666666666666666 0.3333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : apartment UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.5
+
+
+313
+constants : 0.8333333333333334 0.5
+unknowns : x
+operators : + - * / =
+objtypes : foot sandcastle
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.3333333333333333
+
+
+314
+constants : 0.5 0.16666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : tank gas
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.3333333333333333
+
+
+315
+constants : 0.4 0.3
+unknowns : x
+operators : + - * / =
+objtypes : box
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.1
+
+
+316
+constants : 0.2 0.7
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.9
+
+
+317
+constants : 0.4 0.1
+unknowns : x
+operators : + - * / =
+objtypes : acre
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.3
+
+
+318
+constants : 0.25 0.5
+unknowns : x
+operators : + - * / =
+objtypes : nail UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.75
+
+
+319
+constants : 0.625 0.25
+unknowns : x
+operators : + - * / =
+objtypes : scoop
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.375
+
+
+320
+constants : 0.7 0.6
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.1
+
+
+321
+constants : 0.3 0.4
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.7
+
+
+322
+constants : 0.5 0.9
+unknowns : x
+operators : + - * / =
+objtypes : can
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.4
+
+
+323
+constants : 0.125 0.5
+unknowns : x
+operators : + - * / =
+objtypes : inch amount
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.625
+
+
+324
+constants : 0.2 0.1
+unknowns : x
+operators : + - * / =
+objtypes : bag
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.3
+
+
+325
+constants : 0.75 0.5
+unknowns : x
+operators : + - * / =
+objtypes : gallon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.25
+
+
+326
+constants : 0.2 0.4 0.1
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.7
+
+
+327
+constants : 0.16666666666666666 0.16666666666666666 0.3333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : bag
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.6666666666666666
+
+
+328
+constants : 0.25 0.25 0.375
+unknowns : x
+operators : + - * / =
+objtypes : bottle
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.875
+
+
+329
+constants : 0.08333333333333333 0.75 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : restaurant tart
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 0.9166666666666666
+
+
+330
+constants : 0.1111111111111111 0.1111111111111111 0.6666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8888888888888888
+
+
+331
+constants : 0.16666666666666666 0.16666666666666666 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.4166666666666667
+
+
+332
+constants : 0.3333333333333333 0.3333333333333333 0.16666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : carton
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8333333333333334
+
+
+333
+constants : 0.125 0.125 0.5
+unknowns : x
+operators : + - * / =
+objtypes : bin
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.75
+
+
+334
+constants : 0.3333333333333333 0.3333333333333333 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.75
+
+
+335
+constants : 0.08333333333333333 0.08333333333333333 0.6666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8333333333333334
+
+
+336
+constants : 0.16666666666666666 0.4166666666666667 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : centimeter
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.6666666666666666
+
+
+337
+constants : 0.3 0.1 0.4
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8
+
+
+338
+constants : 0.16666666666666666 0.16666666666666666 0.5
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8333333333333334
+
+
+339
+constants : 0.25 0.375 0.125
+unknowns : x
+operators : + - * / =
+objtypes : gallon
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.75
+
+
+340
+constants : 0.5 0.1 0.1
+unknowns : x
+operators : + - * / =
+objtypes : light-year
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.7
+
+
+341
+constants : 0.3333333333333333 0.3333333333333333 0.2222222222222222
+unknowns : x
+operators : + - * / =
+objtypes : centimeter
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8888888888888888
+
+
+342
+constants : 0.2 0.1 0.2
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.5
+
+
+343
+constants : 0.25 0.4166666666666667 0.25
+unknowns : x
+operators : + - * / =
+objtypes : pitcher
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.9166666666666666
+
+
+344
+constants : 0.3333333333333333 0.3333333333333333 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.75
+
+
+345
+constants : 0.16666666666666666 0.3333333333333333 0.16666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : truck-load
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.6666666666666666
+
+
+346
+constants : 0.08333333333333333 0.3333333333333333 0.4166666666666667
+unknowns : x
+operators : + - * / =
+objtypes : ounce weight
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 0.8333333333333334
+
+
+347
+constants : 0.16666666666666666 1.1666666666666667
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.3333333333333333
+
+
+348
+constants : 2.8333333333333335 2.8333333333333335
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5.666666666666667
+
+
+349
+constants : 3.8333333333333335 0.16666666666666666
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.6666666666666665
+
+
+350
+constants : 7.125 0.625
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6.5
+
+
+351
+constants : 10 5.1
+unknowns : x
+operators : + - * / =
+objtypes : ton cement
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 15.1
+
+
+352
+constants : 1 8.8
+unknowns : x
+operators : + - * / =
+objtypes : bucket water
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.8
+
+
+353
+constants : 1.125 2.125
+unknowns : x
+operators : + - * / =
+objtypes : lap
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.25
+
+
+354
+constants : 3 6.8
+unknowns : x
+operators : + - * / =
+objtypes : gallon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 9.8
+
+
+355
+constants : 2.6666666666666665 2.6666666666666665
+unknowns : x
+operators : + - * / =
+objtypes : bottle soda
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 5.333333333333333
+
+
+356
+constants : 11.166666666666666 0.8333333333333334
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 10.333333333333334
+
+
+357
+constants : 1.25 5.25
+unknowns : x
+operators : + - * / =
+objtypes : inch DISTANCE
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.5
+
+
+358
+constants : 10.2 8.6
+unknowns : x
+operators : + - * / =
+objtypes : page
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 18.8
+
+
+359
+constants : 3.6666666666666665 2.3333333333333335
+unknowns : x
+operators : + - * / =
+objtypes : foot sandcastle
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.3333333333333333
+
+
+360
+constants : 3 1.1666666666666667
+unknowns : x
+operators : + - * / =
+objtypes : inch caterpillar
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.8333333333333335
+
+
+361
+constants : 3.25 0.25
+unknowns : x
+operators : + - * / =
+objtypes : pint
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.5
+
+
+362
+constants : 8.75 6
+unknowns : x
+operators : + - * / =
+objtypes : bucket
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 2.75
+
+
+363
+constants : 1 2.3333333333333335
+unknowns : x
+operators : + - * / =
+objtypes : foot
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1.3333333333333333
+
+
+364
+constants : 7.666666666666667 3.3333333333333335
+unknowns : x
+operators : + - * / =
+objtypes : inch line
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4.333333333333333
+
+
+365
+constants : 7.75 7
+unknowns : x
+operators : + - * / =
+objtypes : gallon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.75
+
+
+366
+constants : 19.833333333333332 9.166666666666666
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 10.666666666666666
+
+
+367
+constants : 0.6 0.4
+unknowns : x
+operators : + - * / =
+objtypes : pound block
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.2
+
+
+368
+constants : 8.2 1.6
+unknowns : x
+operators : + - * / =
+objtypes : mile DISTANCE
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.8
+
+
+369
+constants : 0.41 0.33
+unknowns : x
+operators : + - * / =
+objtypes : meter LENGTH
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.08
+
+
+370
+constants : 0.1 0.4
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.5
+
+
+371
+constants : 9.91 4.11
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.02
+
+
+372
+constants : 0.81 0.35
+unknowns : x
+operators : + - * / =
+objtypes : inch
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.46
+
+
+373
+constants : 6 3.12
+unknowns : x
+operators : + - * / =
+objtypes : pound UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.12
+
+
+374
+constants : 0.36 0.05
+unknowns : x
+operators : + - * / =
+objtypes : pound honey
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.31
+
+
+375
+constants : 0.9 0.7
+unknowns : x
+operators : + - * / =
+objtypes : inch
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.2
+
+
+376
+constants : 0.32 0.21
+unknowns : x
+operators : + - * / =
+objtypes : inch
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.53
+
+
+377
+constants : 0.25 0.16
+unknowns : x
+operators : + - * / =
+objtypes : gram pepper
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.09
+
+
+378
+constants : 5.91 8.11
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.02
+
+
+379
+constants : 0.2 0.4
+unknowns : x
+operators : + - * / =
+objtypes : inch
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.6
+
+
+380
+constants : 9.8 5.2
+unknowns : x
+operators : + - * / =
+objtypes : ounce floor
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4.6
+
+
+381
+constants : 3.42 2.2
+unknowns : x
+operators : + - * / =
+objtypes : pound fruit
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.22
+
+
+382
+constants : 0.14 0.38
+unknowns : x
+operators : + - * / =
+objtypes : kilogram
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.52
+
+
+383
+constants : 4 8.7
+unknowns : x
+operators : + - * / =
+objtypes : pound pumpkin
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 12.7
+
+
+384
+constants : 4.1 2.4
+unknowns : x
+operators : + - * / =
+objtypes : pound sand
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.7
+
+
+385
+constants : 4.4 2.86
+unknowns : x
+operators : + - * / =
+objtypes : foot UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7.26
+
+
+386
+constants : 8.9 2.3
+unknowns : x
+operators : + - * / =
+objtypes : centimeter LENGTH
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.6
+
+
+387
+constants : 37 19
+unknowns : x
+operators : + - * / =
+objtypes : bag cookie
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 703
+
+
+388
+constants : 14 6
+unknowns : x
+operators : + - * / =
+objtypes : seat people
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 84
+
+
+389
+constants : 261 23
+unknowns : x
+operators : + - * / =
+objtypes : fishbowl fish
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 6003
+
+
+390
+constants : 21 8
+unknowns : x
+operators : + - * / =
+objtypes : pizza slice
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 168
+
+
+391
+constants : 303 28
+unknowns : x
+operators : + - * / =
+objtypes : basket egg
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 8484
+
+
+392
+constants : 37 17
+unknowns : x
+operators : + - * / =
+objtypes : basket apple
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 629
+
+
+393
+constants : 56 9
+unknowns : x
+operators : + - * / =
+objtypes : book bookshelf
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 504
+
+
+394
+constants : 4 122 4
+unknowns : x
+operators : + - * / =
+objtypes : continent book
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 488
+
+
+395
+constants : 8 1785.0
+unknowns : x
+operators : + - * / =
+objtypes : stone money
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 14280
+
+
+396
+constants : 45 8
+unknowns : x
+operators : + - * / =
+objtypes : sack section
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 360
+
+
+397
+constants : 83 6
+unknowns : x
+operators : + - * / =
+objtypes : sack day
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 498
+
+
+398
+constants : 324 9
+unknowns : x
+operators : + - * / =
+objtypes : drum day
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 2916
+
+
+399
+constants : 7 44
+unknowns : x
+operators : + - * / =
+objtypes : ticket dollar
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 308
+
+
+400
+constants : 4 246
+unknowns : x
+operators : + - * / =
+objtypes : section people
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 984
+
+
+401
+constants : 5 28
+unknowns : x
+operators : + - * / =
+objtypes : mobile clown
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 140
+
+
+402
+constants : 378 6
+unknowns : x
+operators : + - * / =
+objtypes : juggler ball
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 2268
+
+
+403
+constants : 934 7
+unknowns : x
+operators : + - * / =
+objtypes : crown feather
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 6538
+
+
+404
+constants : 8 478
+unknowns : x
+operators : + - * / =
+objtypes : book page
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 3824
+
+
+405
+constants : 49 9
+unknowns : x
+operators : + - * / =
+objtypes : booklet page
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 441
+
+
+406
+constants : 6 33
+unknowns : x
+operators : + - * / =
+objtypes : author book
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 198
+
+
+407
+constants : 80 8
+unknowns : x
+operators : + - * / =
+objtypes : crayon box
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 10
+
+
+408
+constants : 700 100
+unknowns : x
+operators : + - * / =
+objtypes : sheet box
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7
+
+
+409
+constants : 4 32
+unknowns : x
+operators : + - * / =
+objtypes : room painting
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 8
+
+
+410
+constants : 81 9
+unknowns : x
+operators : + - * / =
+objtypes : clip box paper
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 9
+
+
+411
+constants : 420 7
+unknowns : x
+operators : + - * / =
+objtypes : seedling seed packet
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 60
+
+
+412
+constants : 5 30
+unknowns : x
+operators : + - * / =
+objtypes : glass pitcher
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6
+
+
+413
+constants : 20 80
+unknowns : x
+operators : + - * / =
+objtypes : piece sack
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4
+
+
+414
+constants : 140 7
+unknowns : x
+operators : + - * / =
+objtypes : nail station
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 20
+
+
+415
+constants : 8 56
+unknowns : x
+operators : + - * / =
+objtypes : carving shelf
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7
+
+
+416
+constants : 6 54
+unknowns : x
+operators : + - * / =
+objtypes : neighbor animal number
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 9
+
+
+417
+constants : 49 7
+unknowns : x
+operators : + - * / =
+objtypes : block color
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7
+
+
+418
+constants : 5 50
+unknowns : x
+operators : + - * / =
+objtypes : member ball LENGTH
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 10
+
+
+419
+constants : 9 72
+unknowns : x
+operators : + - * / =
+objtypes : friend sticker number
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 8
+
+
+420
+constants : 5 35
+unknowns : x
+operators : + - * / =
+objtypes : boy marble
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 7
+
+
+421
+constants : 48 6
+unknowns : x
+operators : + - * / =
+objtypes : papers cousin
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 8
+
+
+422
+constants : 4 36
+unknowns : x
+operators : + - * / =
+objtypes : ball bag
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9
+
+
+423
+constants : 63 9
+unknowns : x
+operators : + - * / =
+objtypes : magazine box
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7
+
+
+424
+constants : 88 8
+unknowns : x
+operators : + - * / =
+objtypes : stone bracelet flower
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 11
+
+
+425
+constants : 140 14
+unknowns : x
+operators : + - * / =
+objtypes : stone piece bracelet
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 10
+
+
+426
+constants : 3 36
+unknowns : x
+operators : + - * / =
+objtypes : bracelet stone
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 12
+
+
+427
+constants : 48 8
+unknowns : x
+operators : + - * / =
+objtypes : stone type bracelet
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 6
+
+
+428
+constants : 5 35
+unknowns : x
+operators : + - * / =
+objtypes : cookie
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7
+
+
+429
+constants : 54 9
+unknowns : x
+operators : + - * / =
+objtypes : seed can
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 6
+
+
+430
+constants : 56 8
+unknowns : x
+operators : + - * / =
+objtypes : tomato jar
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7
+
+
+431
+constants : 2 18
+unknowns : x
+operators : + - * / =
+objtypes : lemon glass
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9
+
+
+432
+constants : 24 1
+unknowns : x
+operators : + - * / =
+objtypes : potato person
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 8
+
+
+433
+constants : 12 3
+unknowns : x
+operators : + - * / =
+objtypes : piece
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4
+
+
+434
+constants : 380 57
+unknowns : x
+operators : + - * / =
+objtypes : lego
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 323
+
+
+435
+constants : 35 83
+unknowns : x
+operators : + - * / =
+objtypes : muffin
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 48
+
+
+436
+constants : 1400 290
+unknowns : x
+operators : + - * / =
+objtypes : crayon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 1110
+
+
+437
+constants : 10 22
+unknowns : x
+operators : + - * / =
+objtypes : sticker page
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 220
+
+
+438
+constants : 96 8
+unknowns : x
+operators : + - * / =
+objtypes : cupcake child person
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 12
+
+
+439
+constants : 639 504
+unknowns : x
+operators : + - * / =
+objtypes : crayon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 135
+
+
+440
+constants : 85 48
+unknowns : x
+operators : + - * / =
+objtypes : peanut
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 133
+
+
+441
+constants : 813 125
+unknowns : x
+operators : + - * / =
+objtypes : stamp
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 688
+
+
+442
+constants : 6 71
+unknowns : x
+operators : + - * / =
+objtypes : package t-shirt
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 426
+
+
+443
+constants : 648 4
+unknowns : x
+operators : + - * / =
+objtypes : pencil
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 162
+
+
+444
+constants : 143 11
+unknowns : x
+operators : + - * / =
+objtypes : sandwich niece
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 13
+
+
+445
+constants : 217 109
+unknowns : x
+operators : + - * / =
+objtypes : marker
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 326
+
+
+446
+constants : 126 81
+unknowns : x
+operators : + - * / =
+objtypes : dvd
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 45
+
+
+447
+constants : 489 2778
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 2289
+
+
+448
+constants : 93 15
+unknowns : x
+operators : + - * / =
+objtypes : cookie
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 78
+
+
+449
+constants : 121 22
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 99
+
+
+450
+constants : 183 593
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 776
+
+
+451
+constants : 2315 1028
+unknowns : x
+operators : + - * / =
+objtypes : marker
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3343
+
+
+452
+constants : 344 136
+unknowns : x
+operators : + - * / =
+objtypes : book rest
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 208
+
+
+453
+constants : 1222 513
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 208
+
+
+454
+constants : 223 95
+unknowns : x
+operators : + - * / =
+objtypes : whistle
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 128
+
+
+455
+constants : 323 175
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 498
+
+
+456
+constants : 27 18
+unknowns : x
+operators : + - * / =
+objtypes : package piece
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 486
+
+
+457
+constants : 5.00 4.28
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.72
+
+
+458
+constants : 3 1.54
+unknowns : x
+operators : + - * / =
+objtypes : ball dollar
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 4.62
+
+
+459
+constants : 20 8 3
+unknowns : x
+operators : + - * / =
+objtypes : dollar UNKNOWN
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 9
+
+
+460
+constants : 48 4
+unknowns : x
+operators : + - * / =
+objtypes : doughnut box
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 12
+
+
+461
+constants : 5 250
+unknowns : x
+operators : + - * / =
+objtypes : vacation mile
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 1250
+
+
+462
+constants : 0.34
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0
+n : 3
+answer : 134
+
+
+463
+constants : 5256 2987
+unknowns : x
+operators : + - * / =
+objtypes : grown-up child people
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 8243
+
+
+464
+constants : 4 4.80
+unknowns : x
+operators : + - * / =
+objtypes : dvd dollar
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 1.20
+
+
+465
+constants : 3409 145
+unknowns : x
+operators : + - * / =
+objtypes : piece rest
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 3264
+
+
+466
+constants : 1250 3
+unknowns : x
+operators : + - * / =
+objtypes : people
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3750
+
+
+467
+constants : 8 45
+unknowns : x
+operators : + - * / =
+objtypes : bus student
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 360
+
+
+468
+constants : 124 3
+unknowns : x
+operators : + - * / =
+objtypes : student star
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 372
+
+
+469
+constants : 5.0
+unknowns : x
+operators : + - * / =
+objtypes : hour
+constantOrUnknownType : 0 0
+n : 3
+answer : 5
+
+
+470
+constants : 1134 1475 3
+unknowns : x
+operators : + - * / =
+objtypes : mile week
+constantOrUnknownType : 0 0 1 0
+n : 7
+answer : 7827
+
+
+471
+constants : 6 34
+unknowns : x
+operators : + - * / =
+objtypes : student table
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 204
+
+
+472
+constants : 15 5
+unknowns : x
+operators : + - * / =
+objtypes : dog puppy
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 75
+
+
+473
+constants : 127 88
+unknowns : x
+operators : + - * / =
+objtypes : apple
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 39
+
+
+474
+constants : 4 6
+unknowns : x
+operators : + - * / =
+objtypes : book week
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 48
+
+
+475
+constants : 37 8
+unknowns : x
+operators : + - * / =
+objtypes : people piece
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 296
+
+
+476
+constants : 22 11
+unknowns : x
+operators : + - * / =
+objtypes : player basketball
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 242
+
+
+477
+constants : 2 9
+unknowns : x
+operators : + - * / =
+objtypes : ounce pound UNKNOWN
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 18
+
+
+478
+constants : 65899 119
+unknowns : x
+operators : + - * / =
+objtypes : people
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 66018
+
+
+479
+constants : 16 14 5
+unknowns : x
+operators : + - * / =
+objtypes : pecan pie row
+constantOrUnknownType : 0 1 1 2
+n : 7
+answer : 6
+
+
+480
+constants : 3.75 3
+unknowns : x
+operators : + - * / =
+objtypes : money people
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 1.25
+
+
+481
+constants : 74 35 18 3
+unknowns : x
+operators : + - * / =
+objtypes : cent pencil cost
+constantOrUnknownType : 0 0 0 1 2
+n : 9
+answer : 7
+
+
+482
+constants : 40 7
+unknowns : x
+operators : + - * / =
+objtypes : marker package
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 5
+
+
+483
+constants : 4 17
+unknowns : x
+operators : + - * / =
+objtypes : book chapter UNKNOWN
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 68
+
+
+484
+constants : 5 2
+unknowns : x
+operators : + - * / =
+objtypes : cup loaf
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 2.5
+
+
+485
+constants : 1.30 0
+unknowns : x
+operators : + - * / =
+objtypes : dollar person nickel
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 26
+
+
+486
+constants : 7 5 15
+unknowns : x
+operators : + - * / =
+objtypes : student minute
+constantOrUnknownType : 0 1 1 0
+n : 7
+answer : 21
+
+
+487
+constants : 144 3
+unknowns : x
+operators : + - * / =
+objtypes : bee Hilt
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 432
+
+
+488
+constants : 30 4
+unknowns : x
+operators : + - * / =
+objtypes : foot Hilt UNKNOWN
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 120
+
+
+489
+constants : 212 68
+unknowns : x
+operators : + - * / =
+objtypes : fish
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 280
+
+
+490
+constants : 212 280
+unknowns : x
+operators : + - * / =
+objtypes : fish
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 68
+
+
+491
+constants : 25.0 20.0 75.0 279.0
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 159
+
+
+492
+constants : 36 85
+unknowns : x
+operators : + - * / =
+objtypes : flea
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 121
+
+
+493
+constants : 600 327
+unknowns : x
+operators : + - * / =
+objtypes : bag
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 273
+
+
+494
+constants : 7 4
+unknowns : x
+operators : + - * / =
+objtypes : box dog
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 28
+
+
+495
+constants : 532 750
+unknowns : x
+operators : + - * / =
+objtypes : people seat
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 218
+
+
+496
+constants : 23 45
+unknowns : x
+operators : + - * / =
+objtypes : pound bag
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 1035
+
+
+497
+constants : 2 3
+unknowns : x
+operators : + - * / =
+objtypes : mile week
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 42
+
+
+498
+constants : 2 12 23.36
+unknowns : x
+operators : + - * / =
+objtypes : dollar cent minute
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 178.0
+
+
+499
+constants : 16,000 0.8
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 20000.0
+
+
+500
+constants : 190 0.04 500
+unknowns : x
+operators : + - * / =
+objtypes : dollar sale
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 7750.0
+
+
+501
+constants : 4 5 29
+unknowns : x
+operators : + - * / =
+objtypes : tree foot year
+constantOrUnknownType : 0 1 1 2
+n : 7
+answer : 5.0
+
+
+502
+constants : 77.75 9.5
+unknowns : x
+operators : + - * / =
+objtypes : inch UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 68.25
+
+
+503
+constants : 0.20 4 6
+unknowns : x
+operators : + - * / =
+objtypes : number UNKNOWN
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 50.0
+
+
+504
+constants : 1800000 0.75
+unknowns : x
+operators : + - * / =
+objtypes : ton demand UNKNOWN
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 2400000.0
+
+
+505
+constants : 12 84
+unknowns : x
+operators : + - * / =
+objtypes : ounce cent cost
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 7.0
+
+
+506
+constants : 177 500 19
+unknowns : x
+operators : + - * / =
+objtypes : dollar week
+constantOrUnknownType : 0 0 1 1
+n : 7
+answer : 17.0
+
+
+507
+constants : 45 225 450
+unknowns : x
+operators : + - * / =
+objtypes : dollar hour
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 5.0
+

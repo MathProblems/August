@@ -1,0 +1,84 @@
+can't open model file data/1.global.m
+133
+
+ Mike bought some toys  . He bought marbles for $ 9.05  , a football for $ 4.95  , and spent $ 6.52 on a baseball  . In total  , how much did Mike spend on toys  ? 
+_____________
+adjs : None
+compound : 0
+container : football
+contains : None
+entity : dollar
+idx : 1005
+location : None
+num : 9.05
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1011
+location : None
+num : 4.95
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : buy spend
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : baseball
+contains : None
+entity : dollar
+idx : 1016
+location : None
+num : 6.52
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : spent
+widx : 16
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2010
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : spend
+widx : 11
+_____________
+
+dict_items([('6.52', (0, <makesets.aset object at 0x105f095c0>)), ('9.05', (0, <makesets.aset object at 0x105f09240>)), ('x', (0, <makesets.aset object at 0x105f096a0>)), ('4.95', (0, <makesets.aset object at 0x105f09550>))])
+9.05 = ( ( 4.95 + 6.52 ) - x )
+['4.95', '+', '6.52'] 0.9756803697768421
+['(4.95+6.52)', '-', 'x'] 0.22973144351959832

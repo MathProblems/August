@@ -1,0 +1,37 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 122 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 63 | 2385 | x=((49*24)+(39*31)) | x 49 24 * 39 31 * + = | x:nickel 49:penny 24:nickel *:nickel 39:nickel 31:quarter *:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 0 | 63 | 35247 | x=(((49*24)-39)*31) | x 49 24 * 39 - 31 * = | x:nickel 49:penny 24:nickel *:nickel 39:nickel -:nickel 31:quarter *:nickel =:nickel
+EXPR: 0 | POS | INT | 10 | 63 | 4606 | (49*((24+39)+31))=x | 49 24 39 + 31 + * x = | 49:penny 24:nickel 39:nickel +:nickel 31:nickel +:nickel *:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 10 | 63 | 37665 | x=(((49*24)+39)*31) | x 49 24 * 39 + 31 * = | x:quarter 49:penny 24:nickel *:nickel 39:nickel +:nickel 31:quarter *:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 63 | 37665 | (x/((49*24)+39))=31 | x 49 24 * 39 + / 31 = | x:quarter 49:penny 24:nickel *:nickel 39:nickel +:nickel /:quarter 31:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 63 | 35247 | (x/((49*24)-39))=31 | x 49 24 * 39 - / 31 = | x:quarter 49:penny 24:nickel *:nickel 39:nickel -:nickel /:quarter 31:quarter =:quarter
+EXPR: 0 | POS | INT | 20 | 63 | 9408 | x=((49*24)*(39-31)) | x 49 24 * 39 31 - * = | x:nickel 49:penny 24:nickel *:nickel 39:penny 31:penny -:penny *:nickel =:nickel
+EXPR: 0 | POS | INT | 20 | 63 | 82320 | x=((49*24)*(39+31)) | x 49 24 * 39 31 + * = | x:nickel 49:penny 24:nickel *:nickel 39:penny 31:penny +:penny *:nickel =:nickel
+EXPR: 0 | POS | INT | 20 | 63 | 58497 | (((49*39)-24)*31)=x | 49 39 * 24 - 31 * x = | 49:penny 39:nickel *:nickel 24:nickel -:nickel 31:penny *:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 20 | 63 | 59985 | (((49*39)+24)*31)=x | 49 39 * 24 + 31 * x = | 49:penny 39:nickel *:nickel 24:nickel +:nickel 31:penny *:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 63 | 59985 | (x/((49*39)+24))=31 | x 49 39 * 24 + / 31 = | x:quarter 49:penny 39:nickel *:nickel 24:nickel +:nickel /:quarter 31:quarter =:quarter
+EXPR: 0 | POS | INT | 30 | 63 | 1246 | x=(((49*24)+39)+31) | x 49 24 * 39 + 31 + = | x:quarter 49:penny 24:quarter *:quarter 39:quarter +:quarter 31:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 30 | 63 | 44655 | (((49*24)-31)*39)=x | 49 24 * 31 - 39 * x = | 49:penny 24:nickel *:nickel 31:nickel -:nickel 39:penny *:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 30 | 63 | 47073 | (((49*24)+31)*39)=x | 49 24 * 31 + 39 * x = | 49:penny 24:nickel *:nickel 31:nickel +:nickel 39:penny *:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 35 | 63 | 734 | x=((39-49)+(24*31)) | x 39 49 - 24 31 * + = | x:nickel 39:nickel 49:nickel -:nickel 24:nickel 31:quarter *:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 35 | 63 | 1582 | ((49*31)+(24+39))=x | 49 31 * 24 39 + + x = | 49:nickel 31:quarter *:nickel 24:nickel 39:nickel +:nickel +:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 35 | 63 | 416 | ((49*(39-31))+24)=x | 49 39 31 - * 24 + x = | 49:penny 39:nickel 31:nickel -:nickel *:nickel 24:nickel +:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 40 | 63 | 1750 | x=((49-24)*(39+31)) | x 49 24 - 39 31 + * = | x:penny 49:nickel 24:nickel -:nickel 39:penny 31:penny +:penny *:penny =:penny
+EXPR: 0 | POS | INT | 40 | 63 | 47073 | x=(((49*24)+31)*39) | x 49 24 * 31 + 39 * = | x:quarter 49:penny 24:nickel *:nickel 31:nickel +:nickel 39:quarter *:quarter =:quarter
+EXPR: 0 | POS | INT | 45 | 63 | 33 | x=(((49+39)-31)-24) | x 49 39 + 31 - 24 - = | x:nickel 49:nickel 39:nickel +:nickel 31:nickel -:nickel 24:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 50 | 63 | 58497 | x=(((49*39)-24)*31) | x 49 39 * 24 - 31 * = | x:quarter 49:penny 39:quarter *:quarter 24:quarter -:quarter 31:penny *:quarter =:quarter
+EXPR: 0 | POS | INT | 55 | 63 | 46608 | x=(((49*39)+31)*24) | x 49 39 * 31 + 24 * = | x:quarter 49:penny 39:nickel *:nickel 31:nickel +:nickel 24:quarter *:quarter =:quarter
+EXPR: 0 | POS | INT | 55 | 63 | 27497 | (((24*39)-49)*31)=x | 24 39 * 49 - 31 * x = | 24:penny 39:nickel *:nickel 49:nickel -:nickel 31:penny *:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 55 | 63 | 30535 | (((24*39)+49)*31)=x | 24 39 * 49 + 31 * x = | 24:penny 39:nickel *:nickel 49:nickel +:nickel 31:penny *:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 57 | 63 | 30535 | (x/((24*39)+49))=31 | x 24 39 * 49 + / 31 = | x:quarter 24:penny 39:nickel *:nickel 49:nickel +:nickel /:quarter 31:quarter =:quarter
+EXPR: 0 | POS | INT | 62 | 63 | 2096 | 49=(((24+31)*39)-x) | 49 24 31 + 39 * x - = | 49:quarter 24:penny 31:penny +:penny 39:quarter *:quarter x:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 67 | 63 | 2254 | 24=((39+31)-(x/49)) | 24 39 31 + x 49 / - = | 24:nickel 39:nickel 31:nickel +:nickel x:nickel 49:quarter /:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 72 | 63 | 52 | (24/x)=((49-31)/39) | 24 x / 49 31 - 39 / = | 24:quarter x:penny /:quarter 49:quarter 31:quarter -:quarter 39:penny /:quarter =:quarter
+EXPR: 0 | POS | INT | 75 | 63 | 1568 | (((24-31)+39)*49)=x | 24 31 - 39 + 49 * x = | 24:nickel 31:nickel -:nickel 39:nickel +:nickel 49:quarter *:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 82 | 63 | 1568 | 31=((24+39)-(x/49)) | 31 24 39 + x 49 / - = | 31:nickel 24:nickel 39:nickel +:nickel x:nickel 49:penny /:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 90 | 63 | 584 | ((39-31)*(49+24))=x | 39 31 - 49 24 + * x = | 39:quarter 31:quarter -:quarter 49:penny 24:penny +:penny *:quarter x:quarter =:quarter
+EXPR: 0 | POS | INT | 100 | 63 | 30535 | x=(31*((24*39)+49)) | x 31 24 39 * 49 + * = | x:quarter 31:quarter 24:quarter 39:nickel *:nickel 49:nickel +:nickel *:quarter =:quarter
+EXPR: 0 | POS | INT | 100 | 63 | 27497 | x=(31*((24*39)-49)) | x 31 24 39 * 49 - * = | x:quarter 31:quarter 24:quarter 39:nickel *:nickel 49:nickel -:nickel *:quarter =:quarter
+NET 33 unique, non-negative, integer-valued solutions found out of 122 total solutions

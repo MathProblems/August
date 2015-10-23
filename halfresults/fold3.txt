@@ -1,0 +1,4479 @@
+0
+
+ Joan found 70 seashells on the beach . she gave Sam some of her seashells . She has 27 seashell left . How many seashells did she give to Sam  ? 
+_____________
+adjs : None
+compound : 0
+container : Joan
+contains : None
+entity : seashell
+idx : 2
+location : None
+num : 70
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 1003
+location : None
+num : x
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : give
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Joan
+contains : None
+entity : seashell
+idx : 2002
+location : None
+num : 27
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : seashell
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x10d253278>)), ('70', (0, <makesets.aset object at 0x10d251ef0>)), ('27', (0, <makesets.aset object at 0x10d253320>))])
+( 70 - x ) = 27
+['70', '-', 'x'] 0.6593436421844615
+gscore  0.600033856295414
+70 = ( x - 27 )
+['x', '-', '27'] 0.49071353383412536
+gscore  0.6108634473562177
+70 = ( x + 27 )
+['x', '+', '27'] 0.413298304042173
+gscore  0.48399323608023787
+[(0.395628508243806, 1, '( 70 - x ) = 27', '43'), (0.2997589609422658, 0, '70 = ( x - 27 )', '97'), (0.20003358363984536, 1, '70 = ( x + 27 )', '43')]
+CORRECT
+12
+
+ Sam had 79 dollars to spend on 9 books . After buying them he had 16 dollars . How much did each book cost  ? 
+_____________
+adjs : None
+compound : 0
+container : Sam
+contains : None
+entity : dollar
+idx : 2
+location : None
+num : 79
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : dollar
+entity : book
+idx : 7
+location : None
+num : 9
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : spend
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : dollar
+idx : 8
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Sam
+contains : None
+entity : dollar
+idx : 1005
+location : None
+num : 16
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : had
+widx : 7
+_____________
+
+dict_items([('9', (0, <makesets.aset object at 0x10d251438>)), ('x', (0, <makesets.aset object at 0x10d251550>)), ('79', (0, <makesets.aset object at 0x10d251080>)), ('16', (0, <makesets.aset object at 0x10d2515f8>))])
+( ( 79 - 9 ) - x ) = 16
+['79', '-', '9'] 0.18740321973614224
+['(79-9)', '-', 'x'] 0.5789907650612962
+gscore  0.467288754760978
+( 79 - ( 9 + x ) ) = 16
+['9', '+', 'x'] 0.05048322551837064
+['79', '-', '(9+x)'] 0.354790379688396
+gscore  0.4573674008501888
+( 79 - ( 9 * x ) ) = 16
+['9', '*', 'x'] 0.781349398438909
+['79', '-', '(9*x)'] 0.354790379688396
+gscore  0.546790585789981
+( 79 * 9 ) = ( x - 16 )
+['79', '*', '9'] 0.5825275584806238
+['x', '-', '16'] 0.4652340623249824
+gscore  0.5400935437320952
+( 79 * 9 ) = ( x + 16 )
+['79', '*', '9'] 0.5825275584806238
+['x', '+', '16'] 0.3373884409341039
+gscore  0.7335021661319568
+79 = ( ( 9 + x ) + 16 )
+['9', '+', 'x'] 0.05048322551837064
+['(9+x)', '+', '16'] 0.7985714530085839
+gscore  0.353024605349833
+79 = ( ( 9 * x ) + 16 )
+['9', '*', 'x'] 0.781349398438909
+['(9*x)', '+', '16'] 0.7985714530085839
+gscore  0.4674564921823593
+79 = ( 9 + ( x + 16 ) )
+['x', '+', '16'] 0.3373884409341039
+['9', '+', '(x+16)'] 0.11128118484070573
+gscore  0.3525122664560827
+( 79 + ( 9 - x ) ) = 16
+['9', '-', 'x'] 0.08633376020011274
+['79', '+', '(9-x)'] 0.09085093184420288
+gscore  0.652408029885055
+( ( 79 + 9 ) - x ) = 16
+['79', '+', '9'] 0.07394375512549292
+['(79+9)', '-', 'x'] 0.5512750050478072
+gscore  0.6613929429486809
+( ( 79 * 9 ) - x ) = 16
+['79', '*', '9'] 0.5825275584806238
+['(79*9)', '-', 'x'] 0.5512750050478072
+gscore  0.7959895991721319
+79 = ( ( 9 + x ) - 16 )
+['9', '+', 'x'] 0.05048322551837064
+['(9+x)', '-', '16'] 0.17503255550533242
+gscore  0.35581351919200105
+79 = ( 9 + ( x - 16 ) )
+['x', '-', '16'] 0.4652340623249824
+['9', '+', '(x-16)'] 0.11278351307349253
+gscore  0.3792160075662458
+[(0.29167570688322886, 1, '79 = ( ( 9 * x ) + 16 )', '7'), (0.25561843461471034, 0, '( ( 79 * 9 ) - x ) = 16', '695'), (0.15157868879603803, 1, '( 79 - ( 9 * x ) ) = 16', '7')]
+CORRECT
+14
+
+ On Monday , 375 students went on a trip to the zoo . All 7 buses were filled and 4 students had to travel in cars . How many students were in each bus  ? 
+_____________
+adjs : None
+compound : 0
+container : trip
+contains : None
+entity : student
+idx : 3
+location : None
+num : 375
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : students
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : student
+entity : bus
+idx : 1001
+location : None
+num : 7
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : buses
+type_failure : 0
+verbs : fill travel
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bus
+contains : None
+entity : student
+idx : 1002
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : students
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : student
+idx : 1006
+location : None
+num : 4
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : students
+type_failure : 0
+verbs : fill travel
+widx : 8
+_____________
+
+dict_items([('375', (0, <makesets.aset object at 0x10d24c080>)), ('x', (0, <makesets.aset object at 0x110ba98d0>)), ('4', (0, <makesets.aset object at 0x110ba99e8>)), ('7', (0, <makesets.aset object at 0x110b943c8>))])
+375 = ( 7 + ( x + 4 ) )
+['x', '+', '4'] 0.40456990589098024
+['7', '+', '(x+4)'] 0.3933709049233836
+gscore  0.2512435808216538
+( ( 375 - 7 ) - x ) = 4
+['375', '-', '7'] 0.07233672327392884
+['(375-7)', '-', 'x'] 0.6981264764735355
+gscore  0.5280099432681099
+375 = ( 7 + ( x - 4 ) )
+['x', '-', '4'] 0.3911740760224709
+['7', '+', '(x-4)'] 0.08502974775841801
+gscore  0.08310910277931069
+( 375 - ( 7 + x ) ) = 4
+['7', '+', 'x'] 0.05154796824719922
+['375', '-', '(7+x)'] 0.3632390196696981
+gscore  0.5
+( ( 375 * 7 ) - x ) = 4
+['375', '*', '7'] 0.7107483852409313
+['(375*7)', '-', 'x'] 0.37472131507444406
+gscore  0.5
+( ( 375 + 7 ) - x ) = 4
+['375', '+', '7'] 0.07825254700708874
+['(375+7)', '-', 'x'] 0.37472131507444406
+gscore  0.3191933929084077
+( 375 + ( 7 - x ) ) = 4
+['7', '-', 'x'] 0.036268543349098806
+['375', '+', '(7-x)'] 0.08610614211430725
+gscore  0.30934149422801477
+375 = ( ( 7 * x ) + 4 )
+['7', '*', 'x'] 0.8538228544601492
+['(7*x)', '+', '4'] 0.7819957640988096
+gscore  0.6791448620620024
+( 375 - ( 7 * x ) ) = 4
+['7', '*', 'x'] 0.8538228544601492
+['375', '-', '(7*x)'] 0.3632390196696981
+gscore  0.7772961557688647
+375 = ( ( 7 + x ) - 4 )
+['7', '+', 'x'] 0.05154796824719922
+['(7+x)', '-', '4'] 0.1623346020546369
+gscore  0.07690063727513838
+375 = ( ( 7 + x ) + 4 )
+['7', '+', 'x'] 0.05154796824719922
+['(7+x)', '+', '4'] 0.7819957640988096
+gscore  0.1799552407936693
+[(0.4534554182197578, 1, '375 = ( ( 7 * x ) + 4 )', '53'), (0.24107201071447315, 1, '( 375 - ( 7 * x ) ) = 4', '53'), (0.13316628480225967, 0, '( ( 375 * 7 ) - x ) = 4', '2621')]
+CORRECT
+28
+
+ Tim's cat had kittens . He gave 3 to Jessica and 6 to Sara . He now has 9 kittens left . How many kittens did he have to start with  ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : kitten
+idx : 0
+location : None
+num : x
+origs : 3
+role : other
+subset : 0
+subtypes : []
+surface : kittens
+type_failure : 0
+verbs : start
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : kitten
+idx : 1002
+location : None
+num : 3
+origs : 4
+role : other
+subset : 0
+subtypes : []
+surface : kittens
+type_failure : 0
+verbs : give
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : kitten
+idx : 1006
+location : None
+num : 6
+origs : 4
+role : other
+subset : 0
+subtypes : []
+surface : kittens
+type_failure : 0
+verbs : give
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : He
+contains : None
+entity : kitten
+idx : 2003
+location : None
+num : 9
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : kittens
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110b942b0>)), ('9', (0, <makesets.aset object at 0x110b948d0>)), ('3', (0, <makesets.aset object at 0x110b94668>)), ('6', (0, <makesets.aset object at 0x110b94898>))])
+x = ( ( 3 + 6 ) + 9 )
+['3', '+', '6'] 0.823407569179094
+['(3+6)', '+', '9'] 0.7900076380157671
+gscore  0.5745454333503619
+x = ( ( 3 + 6 ) - 9 )
+['3', '+', '6'] 0.823407569179094
+['(3+6)', '-', '9'] 0.19454184528292098
+gscore  0.08936918789465494
+( ( x - 3 ) - 6 ) = 9
+['x', '-', '3'] 0.7683751456021042
+['(x-3)', '-', '6'] 0.0797411775801006
+gscore  0.2049642195138864
+( ( x + 3 ) + 6 ) = 9
+['x', '+', '3'] 0.17215103896103748
+['(x+3)', '+', '6'] 0.9135020593885176
+gscore  0.5
+( x + ( 3 + 6 ) ) = 9
+['3', '+', '6'] 0.823407569179094
+['x', '+', '(3+6)'] 0.5297468037586743
+gscore  0.5616814045653824
+( x + ( 3 - 6 ) ) = 9
+['3', '-', '6'] 0.15040740356231164
+['x', '+', '(3-6)'] 0.2238175002033296
+gscore  0.18562614336454236
+x = ( 3 + ( 6 + 9 ) )
+['6', '+', '9'] 0.7334395794539613
+['3', '+', '(6+9)'] 0.9229050498414558
+gscore  0.607022993344153
+x = ( ( 3 - 6 ) + 9 )
+['3', '-', '6'] 0.15040740356231164
+['(3-6)', '+', '9'] 0.9338792382869171
+gscore  0.07711080343149432
+x = ( 3 + ( 6 - 9 ) )
+['6', '-', '9'] 0.21248178757174568
+['3', '+', '(6-9)'] 0.8298613818415265
+gscore  0.09767632542301685
+( x - ( 3 + 6 ) ) = 9
+['3', '+', '6'] 0.823407569179094
+['x', '-', '(3+6)'] 0.44301438351389283
+gscore  0.30611777768419524
+( ( x - 3 ) + 6 ) = 9
+['x', '-', '3'] 0.7683751456021042
+['(x-3)', '+', '6'] 0.9120703381936988
+gscore  0.5969204684530481
+( x - ( 3 - 6 ) ) = 9
+['3', '-', '6'] 0.15040740356231164
+['x', '-', '(3-6)'] 0.7560517354009922
+gscore  0.22164916287903172
+( ( x + 3 ) - 6 ) = 9
+['x', '+', '3'] 0.17215103896103748
+['(x+3)', '-', '6'] 0.07924932564086733
+gscore  0.17996173146068253
+( x - 3 ) = ( 6 + 9 )
+['x', '-', '3'] 0.7683751456021042
+['6', '+', '9'] 0.7334395794539613
+gscore  0.48931339330059903
+x = ( 3 - ( 6 - 9 ) )
+['6', '-', '9'] 0.21248178757174568
+['3', '-', '(6-9)'] 0.1535584985026687
+gscore  0.0974669233693128
+[(0.418329134131928, 0, '( ( x - 3 ) + 6 ) = 9', '6'), (0.4108908847022117, 1, 'x = ( 3 + ( 6 + 9 ) )', '18'), (0.37374080977093405, 1, 'x = ( ( 3 + 6 ) + 9 )', '18')]
+INCORRECT
+38
+
+ Jason had 49 quarters in his bank . His dad gave him 25 more quarters . How many quarters does he have now  ? 
+_____________
+adjs : None
+compound : 0
+container : Jason
+contains : None
+entity : quarter
+idx : 2
+location : bank
+num : 49
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : Jason
+contains : None
+entity : quarter
+idx : 1004
+location : None
+num : 25
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : gave
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 2002
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : do have
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110bb6a20>)), ('25', (0, <makesets.aset object at 0x110bb6128>)), ('49', (0, <makesets.aset object at 0x10d24af28>))])
+49 = ( 25 + x )
+['25', '+', 'x'] 0.3989140915498181
+gscore  0.6663490038113095
+( 49 + 25 ) = x
+['49', '+', '25'] 0.9572812416350303
+gscore  0.8844697081622084
+( 49 - 25 ) = x
+['49', '-', '25'] 0.025263308789240643
+gscore  0.3025443861891976
+[(0.8466862604180917, 1, '( 49 + 25 ) = x', '74'), (0.2658160075105148, 0, '49 = ( 25 + x )', '24'), (0.0076432722507489715, 0, '( 49 - 25 ) = x', '24')]
+CORRECT
+40
+
+ Sara had 21 quarters in her bank . Her dad gave her 49 more quarters . How many quarters does she have now  ? 
+_____________
+adjs : None
+compound : 0
+container : Sara
+contains : None
+entity : quarter
+idx : 2
+location : bank
+num : 21
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 1004
+location : None
+num : 49
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : give
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 2002
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : do have
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110ba0b70>)), ('21', (0, <makesets.aset object at 0x110ba0940>)), ('49', (0, <makesets.aset object at 0x110ba0780>))])
+21 = ( 49 - x )
+['49', '-', 'x'] 0.672459584527725
+gscore  0.3860208928766847
+( 21 + 49 ) = x
+['21', '+', '49'] 0.795615992925931
+gscore  0.7665096387077087
+[(0.6098473272877303, 1, '( 21 + 49 ) = x', '70'), (0.25958344924287685, 0, '21 = ( 49 - x )', '28')]
+CORRECT
+44
+
+ Fred grew 38 cantelopes . Tim grew 44 cantelopes . How many cantelopes did they grow in total  ? 
+_____________
+adjs : None
+compound : 0
+container : Fred
+contains : None
+entity : cantelope
+idx : 2
+location : None
+num : 38
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : cantelopes
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Tim
+contains : None
+entity : cantelope
+idx : 1002
+location : None
+num : 44
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : cantelopes
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cantelope
+idx : 2002
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : cantelopes
+type_failure : 0
+verbs : grow
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110ba0b00>)), ('38', (0, <makesets.aset object at 0x110ba04a8>)), ('44', (0, <makesets.aset object at 0x110ba0a20>))])
+( 38 + 44 ) = x
+['38', '+', '44'] 0.8206249468515057
+gscore  0.9176463232525661
+38 = ( 44 - x )
+['44', '-', 'x'] 0.3680342125695837
+gscore  0.16306515181509412
+[(0.7530434652476167, 1, '( 38 + 44 ) = x', '82'), (0.06001355474580779, 0, '38 = ( 44 - x )', '6')]
+CORRECT
+50
+
+ Keith grew 29 cantelopes , Fred grew 16 cantelopes , and Jason grew  20 cantelopes . How many cantelopes did they grow in total  ? 
+_____________
+adjs : None
+compound : 0
+container : Keith
+contains : None
+entity : cantelope
+idx : 2
+location : None
+num : 29
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : cantelopes
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Fred
+contains : None
+entity : cantelope
+idx : 7
+location : None
+num : 16
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : cantelopes
+type_failure : 0
+verbs : grew
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Jason
+contains : None
+entity : cantelope
+idx : 13
+location : None
+num : 20
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : cantelopes
+type_failure : 0
+verbs : grew
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cantelope
+idx : 1002
+location : None
+num : x
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : cantelopes
+type_failure : 0
+verbs : grow
+widx : 3
+_____________
+
+dict_items([('29', (0, <makesets.aset object at 0x10d241320>)), ('x', (0, <makesets.aset object at 0x110bb69e8>)), ('16', (0, <makesets.aset object at 0x110ba05f8>)), ('20', (0, <makesets.aset object at 0x110bb6908>))])
+( ( 29 + 16 ) + 20 ) = x
+['29', '+', '16'] 0.8936115265336221
+['(29+16)', '+', '20'] 0.956967165628303
+gscore  0.9300082656789632
+( 29 - 16 ) = ( 20 - x )
+['29', '-', '16'] 0.07968294936041338
+['20', '-', 'x'] 0.36803421256714725
+gscore  0.044824024531706114
+( 29 - ( 16 - 20 ) ) = x
+['16', '-', '20'] 0.025682654441024372
+['29', '-', '(16-20)'] 0.047233372406918876
+gscore  0.03943255462807209
+29 = ( ( 16 + 20 ) - x )
+['16', '+', '20'] 0.9555531308451006
+['(16+20)', '-', 'x'] 0.45706050886440863
+gscore  0.040511627414466955
+( 29 + ( 16 - 20 ) ) = x
+['16', '-', '20'] 0.025682654441024372
+['29', '+', '(16-20)'] 0.930659048499439
+gscore  0.045443494264379325
+( ( 29 - 16 ) + 20 ) = x
+['29', '-', '16'] 0.07968294936041338
+['(29-16)', '+', '20'] 0.9569671656282204
+gscore  0.1544804994280031
+29 = ( 16 + ( 20 - x ) )
+['20', '-', 'x'] 0.36803421256714725
+['16', '+', '(20-x)'] 0.9643079291905226
+gscore  0.03454633894033687
+( 29 + ( 16 + 20 ) ) = x
+['16', '+', '20'] 0.9555531308451006
+['29', '+', '(16+20)'] 0.9643079291904572
+gscore  0.9467980494483854
+29 = ( ( 16 - 20 ) + x )
+['16', '-', '20'] 0.025682654441024372
+['(16-20)', '+', 'x'] 0.9063463876219344
+gscore  0.0669164853260563
+29 = ( 16 - ( 20 - x ) )
+['20', '-', 'x'] 0.36803421256714725
+['16', '-', '(20-x)'] 0.01976586478679628
+gscore  0.03596436679711697
+( ( 29 + 16 ) - 20 ) = x
+['29', '+', '16'] 0.8936115265336221
+['(29+16)', '-', '20'] 0.03783442949218422
+gscore  0.048327416201451534
+[(0.8724246585893521, 1, '( 29 + ( 16 + 20 ) ) = x', '65'), (0.7953029758915987, 1, '( ( 29 + 16 ) + 20 ) = x', '65'), (0.017693275031467646, 0, '29 = ( ( 16 + 20 ) - x )', '7')]
+CORRECT
+60
+
+ Sally had 13 peaches left at her roadside fruit stand . She went to the orchard and picked more peaches to stock up the stand . There are now 55 peaches at the stand , how many did she pick  ? 
+_____________
+adjs : None
+compound : 0
+container : Sally
+contains : None
+entity : peach
+idx : 2
+location : None
+num : 13
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : peaches
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : peach
+idx : 2003
+location : stand
+num : 55
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : peaches
+type_failure : 0
+verbs : pick
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : stand
+idx : 2011
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : stand
+type_failure : 0
+verbs : pick
+widx : 12
+_____________
+
+dict_items([('55', (0, <makesets.aset object at 0x110bb60f0>)), ('x', (0, <makesets.aset object at 0x110b94908>)), ('13', (0, <makesets.aset object at 0x10d24c940>))])
+13 = ( 55 - x )
+['55', '-', 'x'] 0.6703616938510748
+gscore  0.3717652811424063
+( 13 * 55 ) = x
+['13', '*', '55'] 0.015300919462711737
+gscore  0.04190378088010193
+( 13 + 55 ) = x
+['13', '+', '55'] 0.7770730021696094
+gscore  0.5473071323768377
+[(0.4252975964649091, 0, '( 13 + 55 ) = x', '68'), (0.24921720358164454, 1, '13 = ( 55 - x )', '42'), (0.0006411663764295596, 0, '( 13 * 55 ) = x', '715')]
+INCORRECT
+66
+
+ There are 9 crayons in the drawer . Benny placed 3 more crayons in the drawer . How many crayons are now there in total  ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 2
+location : drawer
+num : 9
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : Benny
+contains : None
+entity : crayon
+idx : 1002
+location : None
+num : 3
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : placed
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 2003
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+dict_items([('9', (0, <makesets.aset object at 0x110bb6128>)), ('x', (0, <makesets.aset object at 0x110bb6e48>)), ('3', (0, <makesets.aset object at 0x110bb6cc0>))])
+( 9 - 3 ) = x
+['9', '-', '3'] 0.01620950572010575
+gscore  0.052540673743035296
+( 9 + 3 ) = x
+['9', '+', '3'] 0.9536103048752623
+gscore  0.9380482446760059
+9 = ( 3 + x )
+['3', '+', 'x'] 0.2898533847700391
+gscore  0.25134074520800676
+[(0.8945324725931907, 1, '( 9 + 3 ) = x', '12'), (0.07285196572916473, 0, '9 = ( 3 + x )', '6'), (0.0008516583515759405, 0, '( 9 - 3 ) = x', '6')]
+CORRECT
+72
+
+ Joan has 8 orange balloons  but lost 2 of them . How many orange balloons does Joan have now  ? 
+_____________
+adjs : orange
+compound : 0
+container : Joan
+contains : None
+entity : balloon
+idx : 2
+location : None
+num : 8
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : balloon
+idx : 7
+location : None
+num : 2
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : lose
+widx : 8
+_____________
+
+_____________
+adjs : orange
+compound : 0
+container : None
+contains : None
+entity : balloon
+idx : 1003
+location : None
+num : x
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : do have
+widx : 4
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110ba97b8>)), ('8', (0, <makesets.aset object at 0x110ba69b0>)), ('2', (0, <makesets.aset object at 0x110ba9128>))])
+8 = ( 2 + x )
+['2', '+', 'x'] 0.4116782064882507
+gscore  0.7023008373938656
+( 8 - 2 ) = x
+['8', '-', '2'] 0.7783573018791601
+gscore  0.8253507261943762
+( 8 + 2 ) = x
+['8', '+', '2'] 0.10099852461962339
+gscore  0.14637412498602306
+[(0.6424177643446601, 1, '( 8 - 2 ) = x', '6'), (0.2891219491535032, 1, '8 = ( 2 + x )', '6'), (0.014783570666076681, 0, '( 8 + 2 ) = x', '10')]
+CORRECT
+76
+
+ There are 27 pencils in the drawer . Nancy placed 45 more  pencils in the drawer . How many pencils are now there in total  ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pencil
+idx : 2
+location : drawer
+num : 27
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : Nancy
+contains : None
+entity : pencil
+idx : 1002
+location : None
+num : 45
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : placed
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pencil
+idx : 2002
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : be
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110ba60f0>)), ('45', (0, <makesets.aset object at 0x110ba6eb8>)), ('27', (0, <makesets.aset object at 0x10d241320>))])
+( 27 + 45 ) = x
+['27', '+', '45'] 0.9536103048752623
+gscore  0.9544184411633245
+27 = ( 45 - x )
+['45', '-', 'x'] 0.3756434457047346
+gscore  0.09165649982659428
+[(0.9101432606563306, 1, '( 27 + 45 ) = x', '72'), (0.03443016341609729, 0, '27 = ( 45 - x )', '18')]
+CORRECT
+102
+
+ Sandy worked 45 hours in the last 5 days . Assuming that she worked the same amount of hours each day , how long did she work each day  ? 
+_____________
+adjs : None
+compound : 0
+container : Sandy
+contains : None
+entity : hour
+idx : 2
+location : None
+num : 45
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : hours
+type_failure : 0
+verbs : worked
+widx : 4
+_____________
+
+_____________
+adjs : last
+compound : 0
+container : None
+contains : LENGTH
+entity : day
+idx : 7
+location : None
+num : 5
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : days
+type_failure : 0
+verbs : work
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : day
+contains : None
+entity : LENGTH
+idx : 8
+location : None
+num : x
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : LENGTH
+type_failure : 0
+verbs : None
+widx : 14
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x10d2534e0>)), ('45', (0, <makesets.aset object at 0x110c02940>)), ('5', (0, <makesets.aset object at 0x10d2531d0>))])
+( 45 / 5 ) = x
+['45', '/', '5'] 0.35793817856137156
+gscore  0.5234962354141518
+45 = ( 5 + x )
+['5', '+', 'x'] 0.046095619725476794
+gscore  0.5325524783014033
+( 45 - 5 ) = x
+['45', '-', '5'] 0.09924180634051143
+gscore  0.1332787771616062
+( 45 * 5 ) = x
+['45', '*', '5'] 0.33937193490599066
+gscore  0.5
+( 45 + 5 ) = x
+['45', '+', '5'] 0.20344808019212635
+gscore  0.2972057659952407
+45 = ( 5 * x )
+['5', '*', 'x'] 0.8844978675652921
+gscore  0.8028748184024341
+[(0.7101410647988241, 1, '45 = ( 5 * x )', '9'), (0.18737928898787648, 1, '( 45 / 5 ) = x', '9'), (0.16968596745299533, 0, '( 45 * 5 ) = x', '225')]
+CORRECT
+110
+
+ Nancy bought 615 crayons that came in packs of 15 .  How many packs of crayons did Nancy buy ? 
+_____________
+adjs : None
+compound : 0
+container : Nancy
+contains : None
+entity : crayon
+idx : 2
+location : None
+num : 615
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 9
+location : None
+num : 15
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : buy come
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Nancy
+contains : None
+entity : pack
+idx : 1002
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : buy
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110bc65f8>)), ('615', (0, <makesets.aset object at 0x110bc61d0>)), ('15', (0, <makesets.aset object at 0x110bc66d8>))])
+( 615 / 15 ) = x
+['615', '/', '15'] 0.06263327958598197
+gscore  0.1404200502619591
+( 615 - 15 ) = x
+['615', '-', '15'] 0.26493297039045743
+gscore  0.3074751690879512
+( 615 * 15 ) = x
+['615', '*', '15'] 0.01890187689246909
+gscore  0.12152661194270059
+615 = ( 15 * x )
+['15', '*', 'x'] 0.221049216161907
+gscore  0.6113897009299774
+( 615 + 15 ) = x
+['615', '+', '15'] 0.6535318731310914
+gscore  0.5638559623814067
+615 = ( 15 + x )
+['15', '+', 'x'] 0.1999133741342816
+gscore  0.5066357670050005
+[(0.3684978432712549, 0, '( 615 + 15 ) = x', '630'), (0.13514721416003425, 1, '615 = ( 15 * x )', '41'), (0.10128326563907937, 0, '615 = ( 15 + x )', '600')]
+INCORRECT
+138
+
+ Mary has 9 yellow marbles Joan has 3 yellow marbles . How many yellow marbles do they have in all  ? 
+_____________
+adjs : yellow
+compound : 0
+container : Mary
+contains : None
+entity : marble
+idx : 2
+location : None
+num : 9
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : yellow
+compound : 0
+container : Joan
+contains : None
+entity : marble
+idx : 7
+location : None
+num : 3
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : has
+widx : 10
+_____________
+
+_____________
+adjs : yellow
+compound : 0
+container : they
+contains : None
+entity : marble
+idx : 1003
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : have
+widx : 4
+_____________
+
+dict_items([('9', (0, <makesets.aset object at 0x110bb63c8>)), ('x', (0, <makesets.aset object at 0x110bc6240>)), ('3', (0, <makesets.aset object at 0x110ba9ac8>))])
+( 9 - 3 ) = x
+['9', '-', '3'] 0.1950534553164632
+gscore  0.456374147019957
+( 9 + 3 ) = x
+['9', '+', '3'] 0.711134806349963
+gscore  0.7715301649165878
+9 = ( 3 + x )
+['3', '+', 'x'] 0.4596243514783923
+gscore  0.391690691488052
+[(0.5486619544211127, 1, '( 9 + 3 ) = x', '12'), (0.18003058005531894, 0, '9 = ( 3 + x )', '6'), (0.08901735429334619, 0, '( 9 - 3 ) = x', '6')]
+CORRECT
+140
+
+ Joan has saved 6 quarters from washing cars .  How many cents does Joan have  ? 
+_____________
+adjs : None
+compound : 0
+container : Joan
+contains : None
+entity : cent
+idx : 3
+location : None
+num : 150.0
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : saved
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cent
+idx : 1002
+location : None
+num : x
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : cents
+type_failure : 0
+verbs : do have
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110b94908>)), ('150.0', (0, <makesets.aset object at 0x110bb61d0>))])
+150.0 = x
+gscore  0.942590838382845
+[(0.942590838382845, 1, '150.0 = x', '150')]
+CORRECT
+146
+
+ Sally bought 4 dozen eggs from the grocery store to bake some cakes .  How many eggs did Sally buy  ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : egg
+entity : dozen
+idx : 2
+location : None
+num : 4
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : dozen
+type_failure : 0
+verbs : buy bake
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dozen
+contains : None
+entity : egg
+idx : 3
+location : None
+num : 12
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : eggs
+type_failure : 0
+verbs : bought
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Sally
+contains : None
+entity : egg
+idx : 1002
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : eggs
+type_failure : 0
+verbs : buy
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110ba9cc0>)), ('12', (0, <makesets.aset object at 0x110ba96a0>)), ('4', (0, <makesets.aset object at 0x110bc65f8>))])
+( 4 + 12 ) = x
+['4', '+', '12'] 0.0929632344017275
+gscore  0.15734138125104882
+4 = ( 12 / x )
+['12', '/', 'x'] 0.17240238211781264
+gscore  0.47501664156027434
+4 = ( 12 - x )
+['12', '-', 'x'] 0.6124464240545021
+gscore  0.30119538609622903
+( 4 * 12 ) = x
+['4', '*', '12'] 0.8095967238075252
+gscore  0.8693783883328778
+[(0.7038458949433644, 1, '( 4 * 12 ) = x', '48'), (0.18446603715635057, 0, '4 = ( 12 - x )', '8'), (0.08189400055059445, 0, '4 = ( 12 / x )', '3')]
+CORRECT
+148
+
+ Sally grew 6 carrots . Fred grew 4 carrots . How many carrots did they grow in all  ? 
+_____________
+adjs : None
+compound : 0
+container : Sally
+contains : None
+entity : carrot
+idx : 2
+location : None
+num : 6
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : carrots
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Fred
+contains : None
+entity : carrot
+idx : 1002
+location : None
+num : 4
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : carrots
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : carrot
+idx : 2002
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : carrots
+type_failure : 0
+verbs : grow
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110ba9da0>)), ('4', (0, <makesets.aset object at 0x110ba94e0>)), ('6', (0, <makesets.aset object at 0x110bc63c8>))])
+( 6 + 4 ) = x
+['6', '+', '4'] 0.7608995246543374
+gscore  0.6797267035631225
+6 = ( 4 + x )
+['4', '+', 'x'] 0.33923946147826434
+gscore  0.4857463817745558
+( 6 - 4 ) = x
+['6', '-', '4'] 0.15271520747819847
+gscore  0.2140927091938131
+[(0.5172037256360396, 1, '( 6 + 4 ) = x', '10'), (0.1647843409682157, 0, '6 = ( 4 + x )', '2'), (0.032695212504102775, 0, '( 6 - 4 ) = x', '2')]
+CORRECT
+156
+
+ Melanie goes fishing with Tom . Melanie catches 8 trout . Tom catches 2 times as many trout as Melanie . How many trout did Tom catch  ? 
+_____________
+adjs : None
+compound : 0
+container : Melanie
+contains : None
+entity : trout
+idx : 1002
+location : None
+num : 8
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : trout
+type_failure : 0
+verbs : catches
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : Melanie
+idx : 2002
+location : None
+num : 2
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : catch
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Tom
+contains : None
+entity : trout
+idx : 3002
+location : None
+num : x
+origs : 3
+role : do
+subset : 0
+subtypes : []
+surface : trout
+type_failure : 0
+verbs : catch
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110c28ac8>)), ('8', (0, <makesets.aset object at 0x110bc60b8>)), ('2', (0, <makesets.aset object at 0x110c285f8>))])
+( 8 * 2 ) = x
+['8', '*', '2'] 0.518071083874503
+gscore  0.6671849390492403
+( 8 + 2 ) = x
+['8', '+', '2'] 0.09849291700587277
+gscore  0.1360282054864595
+8 = ( 2 * x )
+['2', '*', 'x'] 0.14437892516795675
+gscore  0.4102798886674702
+( 8 - 2 ) = x
+['8', '-', '2'] 0.1655138071940679
+gscore  0.17167169561249843
+( 8 / 2 ) = x
+['8', '/', '2'] 0.21792219192555667
+gscore  0.37503006424575114
+8 = ( 2 + x )
+['2', '+', 'x'] 0.2375909360634789
+gscore  0.3697394273570124
+[(0.3456492245179841, 1, '( 8 * 2 ) = x', '16'), (0.08784673664532723, 0, '8 = ( 2 + x )', '6'), (0.08172737363841642, 0, '( 8 / 2 ) = x', '4')]
+CORRECT
+166
+
+ There were a total of 13 hockey games a month . The season is played for  14 months . How many hockey games are in the seasons  ? 
+_____________
+adjs : None
+compound : 0
+container : month
+contains : None
+entity : game
+idx : 5
+location : None
+num : 13
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : games
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : month
+idx : 8
+location : None
+num : 14
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : month
+type_failure : 0
+verbs : be
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 2003
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : games
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x10d24c9b0>)), ('13', (0, <makesets.aset object at 0x10d24aeb8>)), ('14', (0, <makesets.aset object at 0x110c282e8>))])
+( 13 + 14 ) = x
+['13', '+', '14'] 0.05754979645787748
+gscore  0.2946445270761577
+13 = ( 14 - x )
+['14', '-', 'x'] 0.22602859320059476
+gscore  0.35690804848644003
+( 13 * 14 ) = x
+['13', '*', '14'] 0.6307601867173512
+gscore  0.9264889619591433
+[(0.5843923506369142, 1, '( 13 * 14 ) = x', '182'), (0.0806714241013597, 0, '13 = ( 14 - x )', '1'), (0.016956732560660444, 0, '( 13 + 14 ) = x', '27')]
+CORRECT
+180
+
+ Sara goes fishing with Melanie . Sara catches 5 trout . Melanie catches 2 times as many trout as Sara . How many trout did Melanie catch  ? 
+_____________
+adjs : None
+compound : 0
+container : Sara
+contains : None
+entity : trout
+idx : 1002
+location : None
+num : 5
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : trout
+type_failure : 0
+verbs : catches
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : Sara
+idx : 2002
+location : None
+num : 2
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : catch
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Melanie
+contains : None
+entity : trout
+idx : 3002
+location : None
+num : x
+origs : 3
+role : do
+subset : 0
+subtypes : []
+surface : trout
+type_failure : 0
+verbs : catch
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110ba9fd0>)), ('2', (0, <makesets.aset object at 0x10d241320>)), ('5', (0, <makesets.aset object at 0x110aebeb8>))])
+( 5 * 2 ) = x
+['5', '*', '2'] 0.518071083874503
+gscore  0.6671849390492403
+( 5 + 2 ) = x
+['5', '+', '2'] 0.09849291700587277
+gscore  0.1360282054864595
+( 5 - 2 ) = x
+['5', '-', '2'] 0.1655138071940679
+gscore  0.17167169561249843
+5 = ( 2 + x )
+['2', '+', 'x'] 0.2375909360634789
+gscore  0.3697394273570124
+[(0.3456492245179841, 1, '( 5 * 2 ) = x', '10'), (0.08784673664532723, 0, '5 = ( 2 + x )', '3'), (0.02841403592828578, 0, '( 5 - 2 ) = x', '3')]
+CORRECT
+188
+
+ There were a total of 6 soccer games this year . Jessica missed 4 of the games . How many soccer games did Jessica go to in all  ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 5
+location : None
+num : 6
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : games
+type_failure : 0
+verbs : be
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 1002
+location : None
+num : 4
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : games
+type_failure : 0
+verbs : miss
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 2003
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : games
+type_failure : 0
+verbs : go
+widx : 4
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110ba6630>)), ('4', (0, <makesets.aset object at 0x10d2530b8>)), ('6', (0, <makesets.aset object at 0x10d251358>))])
+6 = ( 4 + x )
+['4', '+', 'x'] 0.727241953640122
+gscore  0.5545689162073185
+( 6 + 4 ) = x
+['6', '+', '4'] 0.17095528495822343
+gscore  0.2518626041762498
+( 6 - 4 ) = x
+['6', '-', '4'] 0.7295706665504824
+gscore  0.8090219141809665
+[(0.5902386571829549, 1, '( 6 - 4 ) = x', '2'), (0.40330578205069545, 1, '6 = ( 4 + x )', '2'), (0.04305724326727101, 0, '( 6 + 4 ) = x', '10')]
+CORRECT
+198
+
+ Tom has 30 violet balloons , he gave Fred 16 of the balloons . How many violet balloons does he now have  ? 
+_____________
+adjs : None
+compound : 0
+container : Tom
+contains : None
+entity : balloon
+idx : 2
+location : None
+num : 30
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : balloon
+idx : 9
+location : None
+num : 16
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : give
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : balloon
+idx : 1003
+location : None
+num : x
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : do have
+widx : 4
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110c282e8>)), ('30', (0, <makesets.aset object at 0x110b94908>)), ('16', (0, <makesets.aset object at 0x110c28390>))])
+30 = ( 16 + x )
+['16', '+', 'x'] 0.3185494582261021
+gscore  0.5335636131055177
+( 30 + 16 ) = x
+['30', '+', '16'] 0.1946409563218363
+gscore  0.3798615088578377
+( 30 - 16 ) = x
+['30', '-', '16'] 0.7683349784875847
+gscore  0.8326511177834985
+[(0.6397549786698477, 1, '( 30 - 16 ) = x', '14'), (0.1699663998839242, 1, '30 = ( 16 + x )', '14'), (0.07393660735394522, 0, '( 30 + 16 ) = x', '46')]
+CORRECT
+208
+
+ As Alyssa was searching through her couch cushions , she found 12 quarters , and 7 pennies in the couch . How much money in total does Alyssa have ? 
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : money
+idx : 11
+location : None
+num : 3.0
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : found
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : money
+idx : 15
+location : couch
+num : 0.07
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : pennies
+type_failure : 0
+verbs : search find
+widx : 17
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Alyssa
+contains : None
+entity : money
+idx : 1002
+location : total
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : money
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+dict_items([('3.0', (0, <makesets.aset object at 0x110bb61d0>)), ('x', (0, <makesets.aset object at 0x110c95a20>)), ('0.07', (0, <makesets.aset object at 0x110c95860>))])
+3.0 = ( 0.07 + x )
+['0.07', '+', 'x'] 0.7100228120637844
+gscore  0.06842963430016956
+( 3.0 - 0.07 ) = x
+['3.0', '-', '0.07'] 0.06528077495195939
+gscore  0.014865512326128849
+( 3.0 + 0.07 ) = x
+['3.0', '+', '0.07'] 0.9110995845621732
+gscore  0.8702019985474118
+[(0.7928406793617198, 1, '( 3.0 + 0.07 ) = x', '3.07'), (0.04858660137430278, 0, '3.0 = ( 0.07 + x )', '2.93'), (0.0009704321647075957, 0, '( 3.0 - 0.07 ) = x', '2.93')]
+CORRECT
+236
+
+ An oil pipe in the sea broke . Before engineers started to fix the pipe , 6,522 liters of oil leaked into the water . While the engineers worked , the pipe leaked 5,165 more liters of oil . In all , how many liters of oil leaked into the water ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : liter
+idx : 1008
+location : None
+num : 6,522
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : liters
+type_failure : 0
+verbs : start fix leak
+widx : 10
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : pipe
+contains : None
+entity : liter
+idx : 2008
+location : None
+num : 5,165
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : liters
+type_failure : 0
+verbs : leaked
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : liter
+idx : 3005
+location : all
+num : x
+origs : 3
+role : subj
+subset : 0
+subtypes : []
+surface : liters
+type_failure : 0
+verbs : leak
+widx : 6
+_____________
+
+dict_items([('5165', (0, <makesets.aset object at 0x110c8bbe0>)), ('x', (0, <makesets.aset object at 0x110c8bda0>)), ('6522', (0, <makesets.aset object at 0x110c8b4a8>))])
+6522 = ( 5165 + x )
+['5165', '+', 'x'] 0.22976899288178312
+gscore  0.3553305108755112
+( 6522 + 5165 ) = x
+['6522', '+', '5165'] 0.8282838457290188
+gscore  0.3031864169753643
+( 6522 - 5165 ) = x
+['6522', '-', '5165'] 0.040492238045752325
+gscore  0.07561958878937933
+[(0.2511244114251566, 1, '( 6522 + 5165 ) = x', '11687'), (0.0816439336240357, 0, '6522 = ( 5165 + x )', '1357'), (0.0030620063901814517, 0, '( 6522 - 5165 ) = x', '1357')]
+CORRECT
+256
+
+ Jonathan wants to buy a dictionary that costs $11 , a dinosaur book that costs $19 , and a children's cookbook that costs $7 . He has saved $8 from his allowance . How much more money does Jonathan need to buy all three books ? 
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : money
+idx : 9
+location : None
+num : 11.0
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : costs
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : child
+contains : None
+entity : money
+idx : 17
+location : None
+num : 19.0
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : costs
+widx : 17
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : money
+idx : 27
+location : None
+num : 7.0
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : want buy cost cost
+widx : 27
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : He
+contains : None
+entity : money
+idx : 1004
+location : None
+num : 8.0
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : None
+contains : None
+entity : money
+idx : 2003
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : money
+type_failure : 0
+verbs : buy
+widx : 4
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110ba9588>)), ('19.0', (0, <makesets.aset object at 0x110ba9fd0>)), ('7.0', (0, <makesets.aset object at 0x110ba9d30>)), ('8.0', (0, <makesets.aset object at 0x110ba9278>)), ('11.0', (0, <makesets.aset object at 0x110bc62e8>))])
+( 11.0 + ( 19.0 + ( 7.0 + 8.0 ) ) ) = x
+['7.0', '+', '8.0'] 0.27194760194306367
+['19.0', '+', '(7.0+8.0)'] 0.3455576203264459
+['11.0', '+', '(19.0+(7.0+8.0))'] 0.345557620325081
+gscore  0.07281255040563106
+( ( 11.0 + ( 19.0 + 7.0 ) ) - 8.0 ) = x
+['19.0', '+', '7.0'] 0.49189191477348526
+['11.0', '+', '(19.0+7.0)'] 0.42400135381042225
+['(11.0+(19.0+7.0))', '-', '8.0'] 0.7099251383617852
+gscore  0.04756629013211884
+( ( ( 11.0 - 19.0 ) + 7.0 ) + 8.0 ) = x
+['11.0', '-', '19.0'] 0.5807723246192708
+['(11.0-19.0)', '+', '7.0'] 0.45787357930532674
+['((11.0-19.0)+7.0)', '+', '8.0'] 0.277853871711587
+gscore  0.08982731240593986
+( ( ( 11.0 + 19.0 ) - 7.0 ) - 8.0 ) = x
+['11.0', '+', '19.0'] 0.366250509566287
+['(11.0+19.0)', '-', '7.0'] 0.5245878719616293
+['((11.0+19.0)-7.0)', '-', '8.0'] 0.718518932893167
+gscore  0.1244718326607001
+( ( 11.0 + ( 19.0 + 7.0 ) ) + 8.0 ) = x
+['19.0', '+', '7.0'] 0.49189191477348526
+['11.0', '+', '(19.0+7.0)'] 0.42400135381042225
+['(11.0+(19.0+7.0))', '+', '8.0'] 0.277853871711587
+gscore  0.08290390443554996
+11.0 = ( ( 19.0 - ( 7.0 - 8.0 ) ) - x )
+['7.0', '-', '8.0'] 0.6963029932134976
+['19.0', '-', '(7.0-8.0)'] 0.5531861009779998
+['(19.0-(7.0-8.0))', '-', 'x'] 0.02414028437201631
+gscore  0.6997038409530782
+( ( 11.0 + ( 19.0 - 7.0 ) ) - 8.0 ) = x
+['19.0', '-', '7.0'] 0.45861872430170186
+['11.0', '+', '(19.0-7.0)'] 0.49689606913247214
+['(11.0+(19.0-7.0))', '-', '8.0'] 0.718518932893167
+gscore  0.14239219657101013
+( 11.0 + ( ( 19.0 - 7.0 ) - 8.0 ) ) = x
+['19.0', '-', '7.0'] 0.45861872430170186
+['(19.0-7.0)', '-', '8.0'] 0.718518932893167
+['11.0', '+', '((19.0-7.0)-8.0)'] 0.49689606913247214
+gscore  0.14239219657101013
+11.0 = ( ( 19.0 + ( 7.0 + 8.0 ) ) - x )
+['7.0', '+', '8.0'] 0.27194760194306367
+['19.0', '+', '(7.0+8.0)'] 0.3455576203264459
+['(19.0+(7.0+8.0))', '-', 'x'] 0.20424411489905953
+gscore  0.17096570758973986
+( 11.0 + ( ( 19.0 + 7.0 ) - 8.0 ) ) = x
+['19.0', '+', '7.0'] 0.49189191477348526
+['(19.0+7.0)', '-', '8.0'] 0.7099251383617852
+['11.0', '+', '((19.0+7.0)-8.0)'] 0.42400135381042225
+gscore  0.04756629013211884
+11.0 = ( ( 19.0 - ( 7.0 + 8.0 ) ) + x )
+['7.0', '+', '8.0'] 0.27194760194306367
+['19.0', '-', '(7.0+8.0)'] 0.6166509098672864
+['(19.0-(7.0+8.0))', '+', 'x'] 0.9702077721193582
+gscore  0.2535197861219501
+( 11.0 + ( ( 19.0 + 7.0 ) + 8.0 ) ) = x
+['19.0', '+', '7.0'] 0.49189191477348526
+['(19.0+7.0)', '+', '8.0'] 0.277853871711587
+['11.0', '+', '((19.0+7.0)+8.0)'] 0.345557620325081
+gscore  0.0785151837791946
+( ( ( 11.0 + 19.0 ) + 7.0 ) - 8.0 ) = x
+['11.0', '+', '19.0'] 0.366250509566287
+['(11.0+19.0)', '+', '7.0'] 0.45787357930621425
+['((11.0+19.0)+7.0)', '-', '8.0'] 0.7099251383617852
+gscore  0.04066492866138193
+( ( 11.0 + ( 19.0 - 7.0 ) ) + 8.0 ) = x
+['19.0', '-', '7.0'] 0.45861872430170186
+['11.0', '+', '(19.0-7.0)'] 0.49689606913247214
+['(11.0+(19.0-7.0))', '+', '8.0'] 0.26116648794376845
+gscore  0.08356282226647266
+( ( ( 11.0 + 19.0 ) - 7.0 ) + 8.0 ) = x
+['11.0', '+', '19.0'] 0.366250509566287
+['(11.0+19.0)', '-', '7.0'] 0.5245878719616293
+['((11.0+19.0)-7.0)', '+', '8.0'] 0.26116648794376845
+gscore  0.07970147813688552
+( ( 11.0 - ( 19.0 - 7.0 ) ) + 8.0 ) = x
+['19.0', '-', '7.0'] 0.45861872430170186
+['11.0', '-', '(19.0-7.0)'] 0.46560770875393864
+['(11.0-(19.0-7.0))', '+', '8.0'] 0.2611664879427678
+gscore  0.08199376236808469
+( ( ( 11.0 + 19.0 ) + 7.0 ) + 8.0 ) = x
+['11.0', '+', '19.0'] 0.366250509566287
+['(11.0+19.0)', '+', '7.0'] 0.45787357930621425
+['((11.0+19.0)+7.0)', '+', '8.0'] 0.277853871711587
+gscore  0.07826235861120145
+( ( 11.0 + 19.0 ) - ( 7.0 - 8.0 ) ) = x
+['7.0', '-', '8.0'] 0.6963029932134976
+['11.0', '+', '19.0'] 0.366250509566287
+['(11.0+19.0)', '-', '(7.0-8.0)'] 0.5839952130886652
+gscore  0.1318212852068058
+11.0 = ( ( 19.0 + ( 7.0 - 8.0 ) ) - x )
+['7.0', '-', '8.0'] 0.6963029932134976
+['19.0', '+', '(7.0-8.0)'] 0.424001353812077
+['(19.0+(7.0-8.0))', '-', 'x'] 0.11114928853567665
+gscore  0.380651399006588
+( ( 11.0 + 19.0 ) - ( 7.0 + 8.0 ) ) = x
+['7.0', '+', '8.0'] 0.27194760194306367
+['11.0', '+', '19.0'] 0.366250509566287
+['(11.0+19.0)', '-', '(7.0+8.0)'] 0.6806797655725132
+gscore  0.08489624658580805
+( ( 11.0 - 19.0 ) + ( 7.0 + 8.0 ) ) = x
+['7.0', '+', '8.0'] 0.27194760194306367
+['11.0', '-', '19.0'] 0.5807723246192708
+['(11.0-19.0)', '+', '(7.0+8.0)'] 0.31032880495847487
+gscore  0.07923105756021445
+( 11.0 - ( ( 19.0 - 7.0 ) - 8.0 ) ) = x
+['19.0', '-', '7.0'] 0.45861872430170186
+['(19.0-7.0)', '-', '8.0'] 0.718518932893167
+['11.0', '-', '((19.0-7.0)-8.0)'] 0.46560770875393864
+gscore  0.13496244946857341
+( 11.0 + ( 19.0 - ( 7.0 + 8.0 ) ) ) = x
+['7.0', '+', '8.0'] 0.27194760194306367
+['19.0', '-', '(7.0+8.0)'] 0.6166509098672864
+['11.0', '+', '(19.0-(7.0+8.0))'] 0.49689606913247214
+gscore  0.09254581326870633
+( 11.0 - ( 19.0 - ( 7.0 + 8.0 ) ) ) = x
+['7.0', '+', '8.0'] 0.27194760194306367
+['19.0', '-', '(7.0+8.0)'] 0.6166509098672864
+['11.0', '-', '(19.0-(7.0+8.0))'] 0.46560770875393864
+gscore  0.0898963068509835
+( ( 11.0 + 19.0 ) + ( 7.0 - 8.0 ) ) = x
+['7.0', '-', '8.0'] 0.6963029932134976
+['11.0', '+', '19.0'] 0.366250509566287
+['(11.0+19.0)', '+', '(7.0-8.0)'] 0.40985623565463186
+gscore  0.03756886250809624
+( ( 11.0 + 19.0 ) + ( 7.0 + 8.0 ) ) = x
+['7.0', '+', '8.0'] 0.27194760194306367
+['11.0', '+', '19.0'] 0.366250509566287
+['(11.0+19.0)', '+', '(7.0+8.0)'] 0.3103288049597703
+gscore  0.07223021938901632
+( 11.0 + ( ( 19.0 - 7.0 ) + 8.0 ) ) = x
+['19.0', '-', '7.0'] 0.45861872430170186
+['(19.0-7.0)', '+', '8.0'] 0.26116648794376845
+['11.0', '+', '((19.0-7.0)+8.0)'] 0.345557620325081
+gscore  0.07621257727529807
+[(0.041247840783083765, 0, '11.0 = ( ( 19.0 - ( 7.0 + 8.0 ) ) + x )', '7'), (0.023315339779309104, 0, '( 11.0 + ( ( 19.0 - 7.0 ) - 8.0 ) ) = x', '15'), (0.023315339779309104, 0, '( ( 11.0 + ( 19.0 - 7.0 ) ) - 8.0 ) = x', '15')]
+INCORRECT
+258
+
+ Tanner saved $17 in September . He saved $48 in October and $25 in November . Then Tanner spent $49 on a video game . How much money does Tanner have left ? 
+_____________
+adjs : None
+compound : 0
+container : Tanner
+contains : None
+entity : money
+idx : 3
+location : September
+num : 17.0
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Tanner
+contains : None
+entity : money
+idx : 1003
+location : None
+num : 48.0
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : money
+idx : 1008
+location : None
+num : 25.0
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : save
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : game
+contains : None
+entity : money
+idx : 2004
+location : None
+num : 49.0
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : spent
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Tanner
+contains : None
+entity : money
+idx : 3002
+location : None
+num : x
+origs : 3
+role : do
+subset : 0
+subtypes : []
+surface : money
+type_failure : 0
+verbs : left
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110c93518>)), ('49.0', (0, <makesets.aset object at 0x110c933c8>)), ('17.0', (0, <makesets.aset object at 0x10967cd30>)), ('25.0', (0, <makesets.aset object at 0x110c932e8>)), ('48.0', (0, <makesets.aset object at 0x110c93240>))])
+( ( 17.0 + ( 48.0 - 25.0 ) ) + 49.0 ) = x
+['48.0', '-', '25.0'] 0.7312484577800874
+['17.0', '+', '(48.0-25.0)'] 0.21202844054519845
+['(17.0+(48.0-25.0))', '+', '49.0'] 0.43288011652881364
+gscore  0.6248507255246077
+( ( 17.0 - 48.0 ) + ( 25.0 + 49.0 ) ) = x
+['25.0', '+', '49.0'] 0.7116538805358854
+['17.0', '-', '48.0'] 0.8682023059704713
+['(17.0-48.0)', '+', '(25.0+49.0)'] 0.6488643303674058
+gscore  0.8914119533385519
+17.0 = ( ( 48.0 + ( 25.0 - 49.0 ) ) - x )
+['25.0', '-', '49.0'] 0.23164313938846604
+['48.0', '+', '(25.0-49.0)'] 0.16417991418440867
+['(48.0+(25.0-49.0))', '-', 'x'] 0.263901241460431
+gscore  0.36611424595101977
+( ( 17.0 + 48.0 ) - ( 25.0 - 49.0 ) ) = x
+['25.0', '-', '49.0'] 0.23164313938846604
+['17.0', '+', '48.0'] 0.11265679045622776
+['(17.0+48.0)', '-', '(25.0-49.0)'] 0.8130392432888465
+gscore  0.4483073299209114
+17.0 = ( ( 48.0 + ( 25.0 + 49.0 ) ) - x )
+['25.0', '+', '49.0'] 0.7116538805358854
+['48.0', '+', '(25.0+49.0)'] 0.6303469627553331
+['(48.0+(25.0+49.0))', '-', 'x'] 0.6671904590224769
+gscore  0.5910405429341359
+( ( 17.0 + 48.0 ) + ( 25.0 - 49.0 ) ) = x
+['25.0', '-', '49.0'] 0.23164313938846604
+['17.0', '+', '48.0'] 0.11265679045622776
+['(17.0+48.0)', '+', '(25.0-49.0)'] 0.1716689407606765
+gscore  0.26148209364270947
+( ( ( 17.0 - 48.0 ) + 25.0 ) + 49.0 ) = x
+['17.0', '-', '48.0'] 0.8682023059704713
+['(17.0-48.0)', '+', '25.0'] 0.1286540307171167
+['((17.0-48.0)+25.0)', '+', '49.0'] 0.7211111236735851
+gscore  0.6396026932101543
+( 17.0 + ( 48.0 + ( 25.0 + 49.0 ) ) ) = x
+['25.0', '+', '49.0'] 0.7116538805358854
+['48.0', '+', '(25.0+49.0)'] 0.6303469627553331
+['17.0', '+', '(48.0+(25.0+49.0))'] 0.6528851463026665
+gscore  0.8325166200328247
+17.0 = ( ( 48.0 - ( 25.0 - 49.0 ) ) - x )
+['25.0', '-', '49.0'] 0.23164313938846604
+['48.0', '-', '(25.0-49.0)'] 0.7866237364392381
+['(48.0-(25.0-49.0))', '-', 'x'] 0.41787875765676735
+gscore  0.6318162910179547
+( 17.0 + ( ( 48.0 + 25.0 ) - 49.0 ) ) = x
+['48.0', '+', '25.0'] 0.1696863393726303
+['(48.0+25.0)', '-', '49.0'] 0.26214875379737157
+['17.0', '+', '((48.0+25.0)-49.0)'] 0.16339795357777329
+gscore  0.2642208852073414
+( 17.0 - ( 48.0 - ( 25.0 + 49.0 ) ) ) = x
+['25.0', '+', '49.0'] 0.7116538805358854
+['48.0', '-', '(25.0+49.0)'] 0.3163668670501273
+['17.0', '-', '(48.0-(25.0+49.0))'] 0.758392264444443
+gscore  0.40403207159874976
+( ( ( 17.0 + 48.0 ) + 25.0 ) + 49.0 ) = x
+['17.0', '+', '48.0'] 0.11265679045622776
+['(17.0+48.0)', '+', '25.0'] 0.1564343930296957
+['((17.0+48.0)+25.0)', '+', '49.0'] 0.7211111236735851
+gscore  0.5610905366345694
+( ( 17.0 + ( 48.0 + 25.0 ) ) + 49.0 ) = x
+['48.0', '+', '25.0'] 0.1696863393726303
+['17.0', '+', '(48.0+25.0)'] 0.16339795357777329
+['(17.0+(48.0+25.0))', '+', '49.0'] 0.7211111236735851
+gscore  0.5699437196677658
+( 17.0 + ( ( 48.0 + 25.0 ) + 49.0 ) ) = x
+['48.0', '+', '25.0'] 0.1696863393726303
+['(48.0+25.0)', '+', '49.0'] 0.7211111236735851
+['17.0', '+', '((48.0+25.0)+49.0)'] 0.6528851463026665
+gscore  0.6388903735070507
+( ( ( 17.0 + 48.0 ) - 25.0 ) + 49.0 ) = x
+['17.0', '+', '48.0'] 0.11265679045622776
+['(17.0+48.0)', '-', '25.0'] 0.8085341072438476
+['((17.0+48.0)-25.0)', '+', '49.0'] 0.43288011652881364
+gscore  0.5931331113404775
+( 17.0 + ( ( 48.0 - 25.0 ) + 49.0 ) ) = x
+['48.0', '-', '25.0'] 0.7312484577800874
+['(48.0-25.0)', '+', '49.0'] 0.43288011652881364
+['17.0', '+', '((48.0-25.0)+49.0)'] 0.6528851463026665
+gscore  0.7675171257125958
+( ( 17.0 + 48.0 ) + ( 25.0 + 49.0 ) ) = x
+['25.0', '+', '49.0'] 0.7116538805358854
+['17.0', '+', '48.0'] 0.11265679045622776
+['(17.0+48.0)', '+', '(25.0+49.0)'] 0.6503071531655109
+gscore  0.6078994317585016
+( ( 17.0 + ( 48.0 + 25.0 ) ) - 49.0 ) = x
+['48.0', '+', '25.0'] 0.1696863393726303
+['17.0', '+', '(48.0+25.0)'] 0.16339795357777329
+['(17.0+(48.0+25.0))', '-', '49.0'] 0.26214875379737157
+gscore  0.2642208852073414
+( 17.0 - ( ( 48.0 - 25.0 ) - 49.0 ) ) = x
+['48.0', '-', '25.0'] 0.7312484577800874
+['(48.0-25.0)', '-', '49.0'] 0.5356275860580599
+['17.0', '-', '((48.0-25.0)-49.0)'] 0.758392264444443
+gscore  0.571900837768418
+( ( 17.0 - ( 48.0 - 25.0 ) ) + 49.0 ) = x
+['48.0', '-', '25.0'] 0.7312484577800874
+['17.0', '-', '(48.0-25.0)'] 0.758392264444443
+['(17.0-(48.0-25.0))', '+', '49.0'] 0.4118170930299302
+gscore  0.7855247988372377
+( ( ( 17.0 + 48.0 ) + 25.0 ) - 49.0 ) = x
+['17.0', '+', '48.0'] 0.11265679045622776
+['(17.0+48.0)', '+', '25.0'] 0.1564343930296957
+['((17.0+48.0)+25.0)', '-', '49.0'] 0.26214875379737157
+gscore  0.26161924081868254
+17.0 = ( ( 48.0 - ( 25.0 + 49.0 ) ) + x )
+['25.0', '+', '49.0'] 0.7116538805358854
+['48.0', '-', '(25.0+49.0)'] 0.3163668670501273
+['(48.0-(25.0+49.0))', '+', 'x'] 0.5405541040216193
+gscore  0.31726339057739855
+[(0.35737330692627306, 0, '( ( 17.0 - 48.0 ) + ( 25.0 + 49.0 ) ) = x', '43'), (0.24382497418864718, 0, '( 17.0 + ( 48.0 + ( 25.0 + 49.0 ) ) ) = x', '139'), (0.1794002841320589, 0, '( ( 17.0 - ( 48.0 - 25.0 ) ) + 49.0 ) = x', '43')]
+INCORRECT
+268
+
+ Seth bought 20 cartons of ice cream and 2 cartons of yogurt . Each carton of ice cream cost $6 and each carton of yogurt cost $1 . How much more did Seth spend on ice cream than on yogurt ? 
+_____________
+adjs : None
+compound : 0
+container : Seth
+contains : dollar
+entity : carton
+idx : 2
+location : None
+num : 20
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : cartons
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : carton
+idx : 8
+location : None
+num : 2
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : cartons
+type_failure : 0
+verbs : buy
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : dollar
+entity : dollar
+idx : 1015
+location : None
+num : 1
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : cost
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dollar
+contains : None
+entity : dollar
+idx : 1016
+location : None
+num : 6
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : cost
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2012
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : spend
+widx : 13
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110c97c88>)), ('2', (0, <makesets.aset object at 0x110c979e8>)), ('1', (0, <makesets.aset object at 0x110c97c18>)), ('20', (0, <makesets.aset object at 0x110c97518>)), ('6', (0, <makesets.aset object at 0x110c97d30>))])
+( ( 20 - ( 2 * 1 ) ) * 6 ) = x
+['2', '*', '1'] 0.28493960550678793
+['20', '-', '(2*1)'] 0.20260893534249294
+['(20-(2*1))', '*', '6'] 0.24019031080350256
+gscore  0.17933287427267358
+( ( 20 - 2 ) * ( 1 + 6 ) ) = x
+['1', '+', '6'] 0.47945060175468046
+['20', '-', '2'] 0.46354944829483935
+['(20-2)', '*', '(1+6)'] 0.21155725618047744
+gscore  0.2093139865421468
+( ( ( 20 + 2 ) - 1 ) * 6 ) = x
+['20', '+', '2'] 0.46119213245054574
+['(20+2)', '-', '1'] 0.13754729401501486
+['((20+2)-1)', '*', '6'] 0.16680817468528342
+gscore  0.08826750200073478
+( ( ( 20 + 2 ) * 1 ) + 6 ) = x
+['20', '+', '2'] 0.46119213245054574
+['(20+2)', '*', '1'] 0.3420004916615674
+['((20+2)*1)', '+', '6'] 0.47404879805397926
+gscore  0.23696634678872014
+( ( ( 20 + 2 ) * 1 ) - 6 ) = x
+['20', '+', '2'] 0.46119213245054574
+['(20+2)', '*', '1'] 0.3420004916615674
+['((20+2)*1)', '-', '6'] 0.5167122789912734
+gscore  0.19021777344932855
+( ( 20 + 2 ) * ( 1 + 6 ) ) = x
+['1', '+', '6'] 0.47945060175468046
+['20', '+', '2'] 0.46119213245054574
+['(20+2)', '*', '(1+6)'] 0.27643987199093933
+gscore  0.2230823289241523
+( ( 20 + ( 2 * 1 ) ) * 6 ) = x
+['2', '*', '1'] 0.28493960550678793
+['20', '+', '(2*1)'] 0.06565706160040552
+['(20+(2*1))', '*', '6'] 0.005925866336538158
+gscore  0.16787035654752505
+( ( ( 20 - 2 ) * 1 ) - 6 ) = x
+['20', '-', '2'] 0.46354944829483935
+['(20-2)', '*', '1'] 0.3376845698543045
+['((20-2)*1)', '-', '6'] 0.5167122789912734
+gscore  0.18963947337803005
+( ( ( 20 - 2 ) + 1 ) * 6 ) = x
+['20', '-', '2'] 0.46354944829483935
+['(20-2)', '+', '1'] 0.2518097364614273
+['((20-2)+1)', '*', '6'] 0.005925866336538158
+gscore  0.08389290452715537
+( 20 * ( ( 2 * 1 ) + 6 ) ) = x
+['2', '*', '1'] 0.28493960550678793
+['(2*1)', '+', '6'] 0.47404879805397926
+['20', '*', '((2*1)+6)'] 0.4379154605085693
+gscore  0.22111923736488148
+( ( ( 20 + 2 ) + 1 ) * 6 ) = x
+['20', '+', '2'] 0.46119213245054574
+['(20+2)', '+', '1'] 0.43571890191701107
+['((20+2)+1)', '*', '6'] 0.005925866336538158
+gscore  0.08410900291497164
+( 20 * ( 2 + 1 ) ) = ( 6 * x )
+['2', '+', '1'] 0.3149316613923264
+['20', '*', '(2+1)'] 0.47511796660605127
+['6', '*', 'x'] 0.03707013852195654
+gscore  0.6710383069289008
+( ( 20 - ( 2 * 1 ) ) / 6 ) = x
+['2', '*', '1'] 0.28493960550678793
+['20', '-', '(2*1)'] 0.20260893534249294
+['(20-(2*1))', '/', '6'] 0.1904211789958981
+gscore  0.08845386422372974
+( ( ( 20 - 2 ) * 1 ) + 6 ) = x
+['20', '-', '2'] 0.46354944829483935
+['(20-2)', '*', '1'] 0.3376845698543045
+['((20-2)*1)', '+', '6'] 0.47404879805397926
+gscore  0.23637919447324943
+[(0.017718148749831686, 0, '( ( ( 20 + 2 ) * 1 ) + 6 ) = x', '28'), (0.01754040363785056, 0, '( ( ( 20 - 2 ) * 1 ) + 6 ) = x', '24'), (0.015502741173974847, 0, '( ( ( 20 + 2 ) * 1 ) - 6 ) = x', '16')]
+TOP SCORING NO CORRECT SOLUTION 
+INCORRECT
+276
+
+ Jason had Pokemon cards . Jason gave 9 to his friends . Jason now has 4 Pokemon cards left . How many Pokemon cards did Jason have to start with  ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pokemon
+idx : 0
+location : None
+num : x
+origs : 3
+role : other
+subset : 0
+subtypes : []
+surface : Pokemon
+type_failure : 0
+verbs : start
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 1002
+location : None
+num : 9
+origs : 4
+role : other
+subset : 0
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : give
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Jason
+contains : None
+entity : pokemon
+idx : 2003
+location : None
+num : 4
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : Pokemon
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110ba6550>)), ('9', (0, <makesets.aset object at 0x110ba9b00>)), ('4', (0, <makesets.aset object at 0x110ba9358>))])
+x = ( 9 * 4 )
+['9', '*', '4'] 0.45186236008169917
+gscore  0.42973951469571364
+x = ( 9 - 4 )
+['9', '-', '4'] 0.09873312335844223
+gscore  0.053469793366832434
+( x / 9 ) = 4
+['x', '/', '9'] 0.3092790185213247
+gscore  0.5188781665260803
+x = ( 9 + 4 )
+['9', '+', '4'] 0.23821627656530972
+gscore  0.17602729706315054
+( x - 9 ) = 4
+['x', '-', '9'] 0.26580001951615323
+gscore  0.5
+[(0.1941831113307692, 0, 'x = ( 9 * 4 )', '36'), (0.1604781300753306, 0, '( x / 9 ) = 4', '36'), (0.13290000975807661, 1, '( x - 9 ) = 4', '13')]
+INCORRECT
+280
+
+ Maggie bought 4 packs of red bouncy balls , 8 packs of yellow bouncy balls , and 4 packs of green bouncy balls . There were 10 bouncy balls in each package . How many bouncy balls did Maggie buy in all ? 
+_____________
+adjs : None
+compound : 0
+container : Maggie
+contains : None
+entity : pack
+idx : 2
+location : None
+num : 4
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pack
+idx : 9
+location : None
+num : 8
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : buy
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pack
+idx : 17
+location : None
+num : 4
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : buy
+widx : 19
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : package
+contains : None
+entity : ball
+idx : 1002
+location : package
+num : 10
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : balls
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : bouncy
+compound : 0
+container : Maggie
+contains : None
+entity : ball
+idx : 2003
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : balls
+type_failure : 0
+verbs : buy
+widx : 4
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110d25a58>)), ('8', (0, <makesets.aset object at 0x110c021d0>)), ('4', (0, <makesets.aset object at 0x110c028d0>)), ('10', (0, <makesets.aset object at 0x10d56e080>))])
+( ( 4 + ( 8 + 4 ) ) * 10 ) = x
+['8', '+', '4'] 0.9492974002067072
+['4', '+', '(8+4)'] 0.7884203689925029
+['(4+(8+4))', '*', '10'] 0.6603865625306505
+gscore  0.5809201769062604
+( ( ( 4 + 8 ) - 4 ) * 10 ) = x
+['4', '+', '8'] 0.9492974002067072
+['(4+8)', '-', '4'] 0.016095461585508435
+['((4+8)-4)', '*', '10'] 0.7343086699513703
+gscore  0.11789010513814223
+( ( ( 4 + 8 ) + 4 ) * 10 ) = x
+['4', '+', '8'] 0.9492974002067072
+['(4+8)', '+', '4'] 0.9783319490662753
+['((4+8)+4)', '*', '10'] 0.6603865625306505
+gscore  0.7042588174023213
+( 4 - ( 8 - ( 4 * 10 ) ) ) = x
+['4', '*', '10'] 0.7005997470431532
+['8', '-', '(4*10)'] 0.11168971590284409
+['4', '-', '(8-(4*10))'] 0.03120578129927583
+gscore  0.091627130212975
+( ( 4 - ( 8 - 4 ) ) * 10 ) = x
+['8', '-', '4'] 0.029783301408490205
+['4', '-', '(8-4)'] 0.03120578129927583
+['(4-(8-4))', '*', '10'] 0.6603865625306505
+gscore  0.1123966528875884
+( ( 4 + ( 8 - 4 ) ) * 10 ) = x
+['8', '-', '4'] 0.029783301408490205
+['4', '+', '(8-4)'] 0.9477962099792966
+['(4+(8-4))', '*', '10'] 0.7343086699513703
+gscore  0.12300344818658436
+( ( 4 * 8 ) * ( 4 + 10 ) ) = x
+['4', '+', '10'] 0.16022261816241906
+['4', '*', '8'] 0.017369735119946193
+['(4*8)', '*', '(4+10)'] 0.6920251504210729
+gscore  0.055514168257907025
+( ( 4 + 8 ) * ( 4 + 10 ) ) = x
+['4', '+', '10'] 0.16022261816241906
+['4', '+', '8'] 0.9492974002067072
+['(4+8)', '*', '(4+10)'] 0.6920251504210729
+gscore  0.08849651066939936
+( ( 4 * 8 ) + ( 4 - 10 ) ) = x
+['4', '-', '10'] 0.11898659368717102
+['4', '*', '8'] 0.017369735119946193
+['(4*8)', '+', '(4-10)'] 0.9754491476639718
+gscore  0.08656488525164104
+( ( ( 4 * 8 ) - 4 ) * 10 ) = x
+['4', '*', '8'] 0.017369735119946193
+['(4*8)', '-', '4'] 0.016095461585508435
+['((4*8)-4)', '*', '10'] 0.7343086699513703
+gscore  0.05731222786456723
+( ( ( 4 - 8 ) + 4 ) * 10 ) = x
+['4', '-', '8'] 0.029783301408490205
+['(4-8)', '+', '4'] 0.829682895687683
+['((4-8)+4)', '*', '10'] 0.6603865625306505
+gscore  0.1206096682916518
+[(0.43193564847483384, 1, '( ( ( 4 + 8 ) + 4 ) * 10 ) = x', '160'), (0.28712751744474246, 1, '( ( 4 + ( 8 + 4 ) ) * 10 ) = x', '160'), (0.009314813014520527, 0, '( ( 4 + 8 ) * ( 4 + 10 ) ) = x', '168')]
+CORRECT
+284
+
+ Marlee has 12 guests coming to her Halloween party . Each table will hold 3 guests . How many tables will Marlee need ? 
+_____________
+adjs : None
+compound : 0
+container : Marlee
+contains : None
+entity : guest
+idx : 2
+location : None
+num : 12
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : guests
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : table
+contains : None
+entity : guest
+idx : 1004
+location : None
+num : 3
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : guests
+type_failure : 0
+verbs : hold
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Marlee
+contains : None
+entity : table
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : tables
+type_failure : 0
+verbs : need
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110c956a0>)), ('12', (0, <makesets.aset object at 0x110c97908>)), ('3', (0, <makesets.aset object at 0x10d2530f0>))])
+( 12 * 3 ) = x
+['12', '*', '3'] 0.030683558723263202
+gscore  0.24936867688485623
+( 12 / 3 ) = x
+['12', '/', '3'] 0.1234596323459132
+gscore  0.33051923664013455
+12 = ( 3 * x )
+['3', '*', 'x'] 0.22395619950003118
+gscore  0.6293680429385238
+( 12 - 3 ) = x
+['12', '-', '3'] 0.5469796699977661
+gscore  0.7291568935755064
+12 = ( 3 + x )
+['3', '+', 'x'] 0.06760341954891179
+gscore  0.5462760742221779
+( 12 + 3 ) = x
+['12', '+', '3'] 0.29887713893305745
+gscore  0.5054571876485577
+[(0.39883399702452677, 0, '( 12 - 3 ) = x', '9'), (0.1510695980975505, 0, '( 12 + 3 ) = x', '15'), (0.1409508749832842, 1, '12 = ( 3 * x )', '4')]
+INCORRECT
+308
+
+ Scarlett made a fruit salad with 0.25 of a pound of melon and 0.375 of a pound of berries . How many pounds of fruit did Scarlett use in all ? 
+_____________
+adjs : None
+compound : 0
+container : pound
+contains : pound
+entity : pound
+idx : 7
+location : None
+num : 0.25
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : pound
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : pound
+contains : None
+entity : pound
+idx : 8
+location : None
+num : 0.375
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : pound
+type_failure : 0
+verbs : None
+widx : 17
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Scarlett
+contains : None
+entity : pound
+idx : 1002
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : pounds
+type_failure : 0
+verbs : use
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110c8b6a0>)), ('0.25', (0, <makesets.aset object at 0x110aebeb8>)), ('0.375', (0, <makesets.aset object at 0x110c8b048>))])
+( 0.25 + 0.375 ) = x
+['0.25', '+', '0.375'] 0.7597593005965818
+gscore  0.7540503374282281
+0.25 = ( 0.375 - x )
+['0.375', '-', 'x'] 0.1717023355867934
+gscore  0.11390998188515643
+[(0.5728967569790872, 1, '( 0.25 + 0.375 ) = x', '0.625'), (0.019558609936330688, 0, '0.25 = ( 0.375 - x )', '0.125')]
+CORRECT
+318
+
+ At the hardware store , 0.25 of the nails are size 2d and 0.5 of the nails are size 4d . What fraction of the nails are either size 2d or 4d ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : nail
+idx : 5
+location : None
+num : 0.25
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : nails
+type_failure : 0
+verbs : be be
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : nail
+idx : 13
+location : None
+num : 0.5
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : nails
+type_failure : 0
+verbs : be be
+widx : 17
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : UNKNOWN
+idx : 1000
+location : None
+num : x
+origs : 10
+role : other
+subset : 0
+subtypes : []
+surface : UNKNOWN
+type_failure : 0
+verbs : None
+widx : 1
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110c28a20>)), ('0.5', (0, <makesets.aset object at 0x110c289e8>)), ('0.25', (0, <makesets.aset object at 0x110aebf60>))])
+( 0.25 + 0.5 ) = x
+['0.25', '+', '0.5'] 0.763229494159713
+gscore  0.8286508556561293
+( 0.25 / 0.5 ) = x
+['0.25', '/', '0.5'] 0.0342770345741669
+gscore  0.09756647327494514
+0.25 = ( 0.5 * x )
+['0.5', '*', 'x'] 0.2524104820402893
+gscore  0.3798463137249207
+0.25 = ( 0.5 / x )
+['0.5', '/', 'x'] 0.31884377078866283
+gscore  0.4271135991121386
+( 0.25 * 0.5 ) = x
+['0.25', '*', '0.5'] 0.01497461581887787
+gscore  0.08854224247061532
+0.25 = ( 0.5 - x )
+['0.5', '-', 'x'] 0.26304466119600556
+gscore  0.2976350558413248
+[(0.6324507733974409, 1, '( 0.25 + 0.5 ) = x', '0.75'), (0.13618251049603153, 0, '0.25 = ( 0.5 / x )', '2'), (0.0958771911485342, 0, '0.25 = ( 0.5 * x )', '0.5')]
+CORRECT
+324
+
+ While making pastries , a bakery used 0.2 of a bag of wheat flour and 0.1 of a bag of white flour . How many bags of flour did the bakery use in all ? 
+_____________
+adjs : None
+compound : 0
+container : bag
+contains : bag
+entity : bag
+idx : 8
+location : None
+num : 0.2
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : bag
+type_failure : 0
+verbs : None
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bag
+contains : None
+entity : bag
+idx : 9
+location : None
+num : 0.1
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : bag
+type_failure : 0
+verbs : None
+widx : 19
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : bag
+idx : 1002
+location : None
+num : x
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : bags
+type_failure : 0
+verbs : do
+widx : 3
+_____________
+
+dict_items([('0.2', (0, <makesets.aset object at 0x10d24c9b0>)), ('x', (0, <makesets.aset object at 0x110d252e8>)), ('0.1', (0, <makesets.aset object at 0x110d259b0>))])
+0.2 = ( 0.1 + x )
+['0.1', '+', 'x'] 0.87305023181419
+gscore  0.19508984473576949
+( 0.2 - 0.1 ) = x
+['0.2', '-', '0.1'] 0.15445462455011583
+gscore  0.2592858213180481
+( 0.2 + 0.1 ) = x
+['0.2', '+', '0.1'] 0.7597593005965818
+gscore  0.8487878598768784
+[(0.6448744707749267, 1, '( 0.2 + 0.1 ) = x', '0.3'), (0.17032323417115788, 0, '0.2 = ( 0.1 + x )', '0.1'), (0.04004789418284754, 0, '( 0.2 - 0.1 ) = x', '0.1')]
+CORRECT
+334
+
+ Paco's Countertop Company purchased pieces of marble from a quarry . The weights of the pieces they purchased were 0.3333333333333333 of a ton , 0.3333333333333333 of a ton , and 0.08333333333333333 of a ton . How many tons of marble did Paco's Countertop Company purchase in all ? 
+_____________
+adjs : None
+compound : 0
+container : ton
+contains : ton
+entity : ton
+idx : 1009
+location : None
+num : 0.3333333333333333
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : ton
+type_failure : 0
+verbs : None
+widx : 12
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : ton
+contains : None
+entity : ton
+idx : 1010
+location : None
+num : 0.3333333333333333
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : ton
+type_failure : 0
+verbs : None
+widx : 17
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : ton
+contains : None
+entity : ton
+idx : 1010
+location : None
+num : 0.08333333333333333
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : ton
+type_failure : 0
+verbs : None
+widx : 23
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : ton
+idx : 2002
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : tons
+type_failure : 0
+verbs : do
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110d25c50>)), ('0.3333333333333333', (0, <makesets.aset object at 0x110d25780>)), ('0.08333333333333333', (0, <makesets.aset object at 0x110d25cc0>))])
+0.3333333333333333 = ( 0.3333333333333333 - ( 0.08333333333333333 - x ) )
+['0.08333333333333333', '-', 'x'] 0.05439143323492187
+['0.3333333333333333', '-', '(0.08333333333333333-x)'] 0.0508147789766101
+gscore  0.0783351777231115
+0.3333333333333333 = ( 0.3333333333333333 + ( 0.08333333333333333 - x ) )
+['0.08333333333333333', '-', 'x'] 0.05439143323492187
+['0.3333333333333333', '+', '(0.08333333333333333-x)'] 0.9006604051270949
+gscore  0.08608018597290995
+( ( 0.3333333333333333 + 0.3333333333333333 ) + 0.08333333333333333 ) = x
+['0.3333333333333333', '+', '0.3333333333333333'] 0.8879682160536065
+['(0.3333333333333333+0.3333333333333333)', '+', '0.08333333333333333'] 0.9277402363048541
+gscore  0.7760005057845517
+( 0.3333333333333333 + 0.3333333333333333 ) = ( 0.08333333333333333 + x )
+['0.3333333333333333', '+', '0.3333333333333333'] 0.8879682160536065
+['0.08333333333333333', '+', 'x'] 0.9169371524977306
+gscore  0.3731775754040636
+( 0.3333333333333333 - 0.3333333333333333 ) = ( 0.08333333333333333 - x )
+['0.3333333333333333', '-', '0.3333333333333333'] 0.07164189677575612
+['0.08333333333333333', '-', 'x'] 0.05439143323492187
+gscore  0.192951276884336
+( ( 0.3333333333333333 - 0.3333333333333333 ) + 0.08333333333333333 ) = x
+['0.3333333333333333', '-', '0.3333333333333333'] 0.07164189677575612
+['(0.3333333333333333-0.3333333333333333)', '+', '0.08333333333333333'] 0.9277402363048541
+gscore  0.10656287994092233
+( ( 0.3333333333333333 + 0.3333333333333333 ) - 0.08333333333333333 ) = x
+['0.3333333333333333', '+', '0.3333333333333333'] 0.8879682160536065
+['(0.3333333333333333+0.3333333333333333)', '-', '0.08333333333333333'] 0.06181889633239173
+gscore  0.10136168942976491
+( 0.3333333333333333 + ( 0.3333333333333333 + 0.08333333333333333 ) ) = x
+['0.3333333333333333', '+', '0.08333333333333333'] 0.8879682160536065
+['0.3333333333333333', '+', '(0.3333333333333333+0.08333333333333333)'] 0.9006604051270949
+gscore  0.7585660328410121
+( 0.3333333333333333 + ( 0.3333333333333333 - 0.08333333333333333 ) ) = x
+['0.3333333333333333', '-', '0.08333333333333333'] 0.07164189677575612
+['0.3333333333333333', '+', '(0.3333333333333333-0.08333333333333333)'] 0.9006604051270949
+gscore  0.10567546122409871
+0.3333333333333333 = ( ( 0.3333333333333333 - 0.08333333333333333 ) + x )
+['0.3333333333333333', '-', '0.08333333333333333'] 0.07164189677575612
+['(0.3333333333333333-0.08333333333333333)', '+', 'x'] 0.9350423126255624
+gscore  0.25605186253326695
+0.3333333333333333 = ( ( 0.3333333333333333 + 0.08333333333333333 ) - x )
+['0.3333333333333333', '+', '0.08333333333333333'] 0.8879682160536065
+['(0.3333333333333333+0.08333333333333333)', '-', 'x'] 0.05692079292824795
+gscore  0.08635013715172181
+( 0.3333333333333333 - ( 0.3333333333333333 - 0.08333333333333333 ) ) = x
+['0.3333333333333333', '-', '0.08333333333333333'] 0.07164189677575612
+['0.3333333333333333', '-', '(0.3333333333333333-0.08333333333333333)'] 0.0508147789766101
+gscore  0.08085647923641169
+[(0.6392721985192489, 1, '( ( 0.3333333333333333 + 0.3333333333333333 ) + 0.08333333333333333 ) = x', '0.75'), (0.6066691116009386, 1, '( 0.3333333333333333 + ( 0.3333333333333333 + 0.08333333333333333 ) ) = x', '0.75'), (0.30384530458694237, 0, '( 0.3333333333333333 + 0.3333333333333333 ) = ( 0.08333333333333333 + x )', '0.583333333333333')]
+CORRECT
+348
+
+ Dale's Vegetarian Restaurant bought 2.8333333333333335 pounds of green peppers and 2.8333333333333335 pounds of red peppers . How many pounds of peppers did Dale's Vegetarian Restaurant buy in all ? 
+_____________
+adjs : None
+compound : 0
+container : Restaurant
+contains : None
+entity : pound
+idx : 5
+location : None
+num : 2.8333333333333335
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : pounds
+type_failure : 0
+verbs : bought
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pound
+idx : 11
+location : None
+num : 2.8333333333333335
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : pounds
+type_failure : 0
+verbs : buy
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Dale
+contains : None
+entity : pound
+idx : 1002
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : pounds
+type_failure : 0
+verbs : buy
+widx : 3
+_____________
+
+dict_items([('2.8333333333333335', (0, <makesets.aset object at 0x110c975f8>)), ('x', (0, <makesets.aset object at 0x110c97748>))])
+2.8333333333333335 = ( 2.8333333333333335 + x )
+['2.8333333333333335', '+', 'x'] 0.67290915852728
+gscore  0.444615007106882
+( 2.8333333333333335 + 2.8333333333333335 ) = x
+['2.8333333333333335', '+', '2.8333333333333335'] 0.7331304713519411
+gscore  0.6508743081886378
+( 2.8333333333333335 - 2.8333333333333335 ) = x
+['2.8333333333333335', '-', '2.8333333333333335'] 0.2208673344409785
+gscore  0.2840814741826018
+2.8333333333333335 = ( 2.8333333333333335 - x )
+['2.8333333333333335', '-', 'x'] 0.23703942946074796
+gscore  0.27147393538775655
+[(0.47717578835320457, 1, '( 2.8333333333333335 + 2.8333333333333335 ) = x', '5.66666666666667'), (0.2991855103008926, 0, '2.8333333333333335 = ( 2.8333333333333335 + x )', '0'), (0.06435002675777776, 0, '2.8333333333333335 = ( 2.8333333333333335 - x )', '0')]
+CORRECT
+352
+
+ On a hot day , Sam poured 1 bucket of water into a plastic wading pool . A few minutes later he added another 8.8 buckets . How much water did Sam pour into the pool ? 
+_____________
+adjs : None
+compound : 0
+container : Sam
+contains : None
+entity : bucket
+idx : 7
+location : None
+num : 1
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : bucket
+type_failure : 0
+verbs : poured
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Sam
+contains : None
+entity : bucket
+idx : 1007
+location : None
+num : 8.8
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : buckets
+type_failure : 0
+verbs : added
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Sam
+contains : None
+entity : water
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : water
+type_failure : 0
+verbs : pour
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110d25f28>)), ('1', (0, <makesets.aset object at 0x110ba67b8>)), ('8.8', (0, <makesets.aset object at 0x110c8bb70>))])
+( 1 / 8.8 ) = x
+['1', '/', '8.8'] 0.0590727103743962
+gscore  0.10812124057567209
+( 1 + 8.8 ) = x
+['1', '+', '8.8'] 0.3510819622820373
+gscore  0.3099242115201745
+1 = ( 8.8 - x )
+['8.8', '-', 'x'] 0.295277549066628
+gscore  0.5394244000261752
+1 = ( 8.8 * x )
+['8.8', '*', 'x'] 0.08322308004034229
+gscore  0.6031180791096661
+1 = ( 8.8 / x )
+['8.8', '/', 'x'] 0.4928451201799871
+gscore  0.6786813114263734
+( 1 * 8.8 ) = x
+['1', '*', '8.8'] 0.02883405258734541
+gscore  0.09535566794930546
+[(0.3344847724938423, 0, '1 = ( 8.8 / x )', '8.8'), (0.15927991474646533, 0, '1 = ( 8.8 - x )', '7.8'), (0.10880880033921607, 1, '( 1 + 8.8 ) = x', '9.8')]
+INCORRECT
+356
+
+ Professor Ellison weighed two pieces of metal for an experiment . The piece of iron weighed 11.166666666666666 pounds and the piece of aluminum weighed 0.8333333333333334 of a pound . How much more did the piece of iron weigh than the piece of aluminum ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : pound
+entity : pound
+idx : 1005
+location : None
+num : 11.166666666666666
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : pounds
+type_failure : 0
+verbs : weigh weigh
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : pound
+contains : None
+entity : pound
+idx : 1006
+location : None
+num : 0.8333333333333334
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : pound
+type_failure : 0
+verbs : None
+widx : 17
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pound
+idx : 2001
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : pound
+type_failure : 0
+verbs : weigh
+widx : 2
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110ba9b00>)), ('0.8333333333333334', (0, <makesets.aset object at 0x110ba9400>)), ('11.166666666666666', (0, <makesets.aset object at 0x110c977f0>))])
+( 11.166666666666666 - 0.8333333333333334 ) = x
+['11.166666666666666', '-', '0.8333333333333334'] 0.6903934061543647
+gscore  0.7028343834559585
+( 11.166666666666666 + 0.8333333333333334 ) = x
+['11.166666666666666', '+', '0.8333333333333334'] 0.16625407907987808
+gscore  0.07471056415632983
+11.166666666666666 = ( 0.8333333333333334 + x )
+['0.8333333333333334', '+', 'x'] 0.8637446661050129
+gscore  0.8137893040257755
+[(0.7029061706855743, 1, '11.166666666666666 = ( 0.8333333333333334 + x )', '10.3333333333333'), (0.48523222395656207, 1, '( 11.166666666666666 - 0.8333333333333334 ) = x', '10.3333333333333'), (0.012420936041348763, 0, '( 11.166666666666666 + 0.8333333333333334 ) = x', '12')]
+CORRECT
+358
+
+ Hoping to be named Salesperson of the Month , Rosa called the names from 10.2 pages of the phone book last week . This week , she called the people listed on another 8.6 pages of the same phone book . How many pages worth of people did Rosa call in all ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : page
+idx : 14
+location : None
+num : 10.2
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : pages
+type_failure : 0
+verbs : hope name call
+widx : 16
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : page
+idx : 1010
+location : None
+num : 8.6
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : pages
+type_failure : 0
+verbs : call list
+widx : 12
+_____________
+
+_____________
+adjs : worth
+compound : 0
+container : Rosa
+contains : None
+entity : page
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : pages
+type_failure : 0
+verbs : call
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x10d24cef0>)), ('8.6', (0, <makesets.aset object at 0x10d24c978>)), ('10.2', (0, <makesets.aset object at 0x110c95278>))])
+10.2 = ( 8.6 + x )
+['8.6', '+', 'x'] 0.6273811707570452
+gscore  0.265164437772683
+( 10.2 - 8.6 ) = x
+['10.2', '-', '8.6'] 0.2627539549668059
+gscore  0.16797863095300145
+( 10.2 + 8.6 ) = x
+['10.2', '+', '8.6'] 0.7148571803912102
+gscore  0.4786942061771547
+[(0.3421979904974094, 1, '( 10.2 + 8.6 ) = x', '18.8'), (0.16635917541295953, 0, '10.2 = ( 8.6 + x )', '1.6'), (0.044137049632810656, 0, '( 10.2 - 8.6 ) = x', '1.6')]
+CORRECT
+364
+
+ Ezra drew a white line that was 7.666666666666667 inches long . Then he drew a blue line that was 3.3333333333333335 inches long . How much longer was the white line than the blue line ? 
+_____________
+adjs : white
+compound : 0
+container : Ezra
+contains : None
+entity : line
+idx : 2
+location : None
+num : x
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : line
+type_failure : 0
+verbs : drew
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : inch
+idx : 7
+location : None
+num : 7.666666666666667
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : inches
+type_failure : 0
+verbs : draw
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : inch
+idx : 1008
+location : None
+num : 3.3333333333333335
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : inches
+type_failure : 0
+verbs : draw
+widx : 10
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110bb63c8>)), ('7.666666666666667', (0, <makesets.aset object at 0x110ba6518>)), ('3.3333333333333335', (0, <makesets.aset object at 0x110cd7a58>))])
+( x / 7.666666666666667 ) = 3.3333333333333335
+['x', '/', '7.666666666666667'] 0.615370463685303
+gscore  0.8301270426972903
+x = ( 7.666666666666667 + 3.3333333333333335 )
+['7.666666666666667', '+', '3.3333333333333335'] 0.06700791032553201
+gscore  0.24845550653925494
+( x * 7.666666666666667 ) = 3.3333333333333335
+['x', '*', '7.666666666666667'] 0.0866812787729212
+gscore  0.8352379738766506
+x = ( 7.666666666666667 * 3.3333333333333335 )
+['7.666666666666667', '*', '3.3333333333333335'] 0.0071785318073049826
+gscore  0.20632422520217264
+( x - 7.666666666666667 ) = 3.3333333333333335
+['x', '-', '7.666666666666667'] 0.21949571556695102
+gscore  0.45143305312356685
+x = ( 7.666666666666667 / 3.3333333333333335 )
+['7.666666666666667', '/', '3.3333333333333335'] 0.01782579472679759
+gscore  0.2134565312754441
+x = ( 7.666666666666667 - 3.3333333333333335 )
+['7.666666666666667', '-', '3.3333333333333335'] 0.9079877631403654
+gscore  0.872328664038847
+[(0.7920637523838561, 1, 'x = ( 7.666666666666667 - 3.3333333333333335 )', '4.33333333333333'), (0.5108356631823409, 0, '( x / 7.666666666666667 ) = 3.3333333333333335', '25.5555555555556'), (0.09908762102593072, 0, '( x - 7.666666666666667 ) = 3.3333333333333335', '11')]
+CORRECT
+398
+
+ Lewis saved checking on the grapevines for his last stop . He was told by one of the pickers that they fill 324 drums of grapes per day . How many drums of grapes would be filled in 9 days ? 
+_____________
+adjs : None
+compound : 0
+container : they
+contains : None
+entity : drum
+idx : 1011
+location : None
+num : 324
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : drums
+type_failure : 0
+verbs : fill
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : drum
+idx : 2002
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : drums
+type_failure : 0
+verbs : fill
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : day
+idx : 2009
+location : None
+num : 9
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : days
+type_failure : 0
+verbs : fill
+widx : 11
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110dd9240>)), ('9', (0, <makesets.aset object at 0x110c97d68>)), ('324', (0, <makesets.aset object at 0x110dd4828>))])
+( 324 - x ) = 9
+['324', '-', 'x'] 0.5867756612142828
+gscore  0.4714626520329575
+324 = ( x + 9 )
+['x', '+', '9'] 0.4550246181464371
+gscore  0.6354047219032227
+324 = ( x * 9 )
+['x', '*', '9'] 0.08929474190221645
+gscore  0.649081018724876
+( 324 / x ) = 9
+['324', '/', 'x'] 0.14204980207707574
+gscore  0.473835493443515
+324 = ( x / 9 )
+['x', '/', '9'] 0.2069828485221343
+gscore  0.6696209987009334
+324 = ( x - 9 )
+['x', '-', '9'] 0.24869779142921208
+gscore  0.48556525048506655
+[(0.28912479095245697, 0, '324 = ( x + 9 )', '315'), (0.276642809384478, 0, '( 324 - x ) = 9', '315'), (0.13860006174135558, 1, '324 = ( x / 9 )', '2916')]
+INCORRECT
+408
+
+ There was a stack of 700 sheets of used paper . Lexie wants to place it in boxes for recycling . If every box can contain 100 sheets , how many boxes does Lexie need ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : sheet
+idx : 5
+location : None
+num : 700
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : sheets
+type_failure : 0
+verbs : stack use
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : box
+idx : 2001
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : box
+type_failure : 0
+verbs : contain
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : box
+contains : None
+entity : sheet
+idx : 2005
+location : None
+num : 100
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : sheets
+type_failure : 0
+verbs : contain
+widx : 7
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110dd9940>)), ('100', (0, <makesets.aset object at 0x110dd9ac8>)), ('700', (0, <makesets.aset object at 0x110c8bb70>))])
+700 = ( x / 100 )
+['x', '/', '100'] 0.16749505900216835
+gscore  0.5
+700 = ( x + 100 )
+['x', '+', '100'] 0.06660026961041407
+gscore  0.4625582482008293
+( 700 - x ) = 100
+['700', '-', 'x'] 0.13413009334477946
+gscore  0.3815809041013821
+( 700 / x ) = 100
+['700', '/', 'x'] 0.38578981635011583
+gscore  0.5983299868720118
+700 = ( x * 100 )
+['x', '*', '100'] 0.5675899135724316
+gscore  0.6700406155207262
+700 = ( x - 100 )
+['x', '-', '100'] 0.19831475781498623
+gscore  0.6413283222496293
+[(0.3803082950534279, 1, '700 = ( x * 100 )', '7'), (0.23082961575212063, 1, '( 700 / x ) = 100', '7'), (0.12718487090682667, 0, '700 = ( x - 100 )', '800')]
+CORRECT
+432
+
+ Jane’s dad brought home 24 marble potatoes . If Jane’s mom made potato salad for lunch and served an equal amount of potatoes to Jane , herself and her husband , how many potatoes did each of them have ? 
+_____________
+adjs : None
+compound : 0
+container : dad
+contains : potato
+entity : potato
+idx : 5
+location : None
+num : 24
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : potatoes
+type_failure : 0
+verbs : brought
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : potato
+contains : None
+entity : potato
+idx : 6
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : potatoes
+type_failure : 0
+verbs : have
+widx : 27
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : person
+idx : 6
+location : None
+num : 1
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : names
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+dict_items([('24', (0, <makesets.aset object at 0x110c97eb8>)), ('x', (0, <makesets.aset object at 0x110ddd588>)), ('1', (0, <makesets.aset object at 0x110ddd630>))])
+24 = ( x + 1 )
+['x', '+', '1'] 0.052855858976170116
+gscore  0.6026765841692465
+( 24 / x ) = 1
+['24', '/', 'x'] 0.2947550222622109
+gscore  0.33293166657076073
+24 = ( x * 1 )
+['x', '*', '1'] 0.2942143098538594
+gscore  0.771494989887725
+( 24 - x ) = 1
+['24', '-', 'x'] 0.3089785030097217
+gscore  0.3374693108118661
+24 = ( x - 1 )
+['x', '-', '1'] 0.17889210450097268
+gscore  0.4068417202662786
+[(0.22698486600552725, 0, '24 = ( x * 1 )', '24'), (0.10427076246637287, 0, '( 24 - x ) = 1', '23'), (0.09813328079185955, 0, '( 24 / x ) = 1', '24')]
+TOP SCORING NO CORRECT SOLUTION 
+INCORRECT
+436
+
+ Willy has 1400 crayons . Lucy has 290 crayons . How many more crayons does Willy have then Lucy ? 
+_____________
+adjs : None
+compound : 0
+container : Willy
+contains : None
+entity : crayon
+idx : 2
+location : None
+num : 1400
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Lucy
+contains : None
+entity : crayon
+idx : 1002
+location : None
+num : 290
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 2006
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : do have
+widx : 7
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110df16a0>)), ('290', (0, <makesets.aset object at 0x110df14a8>)), ('1400', (0, <makesets.aset object at 0x110d25c18>))])
+( 1400 + 290 ) = x
+['1400', '+', '290'] 0.26209128658778874
+gscore  0.6398781686347003
+1400 = ( 290 + x )
+['290', '+', 'x'] 0.8810533251694432
+gscore  0.7392973646802071
+( 1400 - 290 ) = x
+['1400', '-', '290'] 0.6915924754147288
+gscore  0.9258948474112013
+[(0.651360401440503, 1, '1400 = ( 290 + x )', '1110'), (0.6403419094948554, 1, '( 1400 - 290 ) = x', '1110'), (0.16770649247690664, 0, '( 1400 + 290 ) = x', '1690')]
+CORRECT
+442
+
+ White t-shirts can be purchased in packages of 6 . If Mom buys 71 packages , how many white t-shirts will Mom have ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : package
+idx : 8
+location : None
+num : 6
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : packages
+type_failure : 0
+verbs : purchase
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Mom
+contains : None
+entity : package
+idx : 1003
+location : None
+num : 71
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : packages
+type_failure : 0
+verbs : buys
+widx : 5
+_____________
+
+_____________
+adjs : white
+compound : 0
+container : Mom
+contains : None
+entity : t-shirt
+idx : 1009
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : t-shirts
+type_failure : 0
+verbs : have
+widx : 10
+_____________
+
+dict_items([('71', (0, <makesets.aset object at 0x110c976d8>)), ('x', (0, <makesets.aset object at 0x110ddd198>)), ('6', (0, <makesets.aset object at 0x110c97a90>))])
+6 = ( 71 - x )
+['71', '-', 'x'] 0.153195816760536
+gscore  0.4841924665826366
+( 6 + 71 ) = x
+['6', '+', '71'] 0.49783909508169644
+gscore  0.4786481501636536
+( 6 * 71 ) = x
+['6', '*', '71'] 0.04577558745240612
+gscore  0.1548233518153173
+[(0.23828976194000126, 0, '( 6 + 71 ) = x', '77'), (0.07417626038742554, 0, '6 = ( 71 - x )', '65'), (0.007087129880696697, 1, '( 6 * 71 ) = x', '426')]
+INCORRECT
+448
+
+ Paco had 93 cookies . Paco ate 15 of them . How many cookies did Paco have left ? 
+_____________
+adjs : None
+compound : 0
+container : Paco
+contains : None
+entity : cookie
+idx : 2
+location : None
+num : 93
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : cookies
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cookie
+idx : 1002
+location : None
+num : 15
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : cookies
+type_failure : 0
+verbs : eat
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Paco
+contains : None
+entity : cookie
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : cookies
+type_failure : 0
+verbs : left
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110df1fd0>)), ('93', (0, <makesets.aset object at 0x110df1a90>)), ('15', (0, <makesets.aset object at 0x110df1e10>))])
+( 93 - 15 ) = x
+['93', '-', '15'] 0.8379452584912467
+gscore  0.98141906448437
+( 93 + 15 ) = x
+['93', '+', '15'] 0.07295727011979236
+gscore  0.33567508964656523
+93 = ( 15 + x )
+['15', '+', 'x'] 0.6635374412329792
+gscore  0.8610614548622029
+[(0.822375451677593, 1, '( 93 - 15 ) = x', '78'), (0.5713465145036125, 1, '93 = ( 15 + x )', '78'), (0.024489938187829977, 0, '( 93 + 15 ) = x', '108')]
+CORRECT
+454
+
+ Sean has 223 whistles . Sean has 95 more whistles than Charles . How many whistles does Charles have ? 
+_____________
+adjs : None
+compound : 0
+container : Sean
+contains : None
+entity : whistle
+idx : 2
+location : None
+num : 223
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : whistles
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : Sean
+contains : None
+entity : whistle
+idx : 1002
+location : None
+num : 95
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : whistles
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Charles
+contains : None
+entity : whistle
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : whistles
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110df16a0>)), ('223', (0, <makesets.aset object at 0x110df1ba8>)), ('95', (0, <makesets.aset object at 0x110df1a58>))])
+( 223 + 95 ) = x
+['223', '+', '95'] 0.9542415721156925
+gscore  0.8427691760325215
+223 = ( 95 + x )
+['95', '+', 'x'] 0.41824547927485783
+gscore  0.5
+( 223 - 95 ) = x
+['223', '-', '95'] 0.01920590035536566
+gscore  0.21032550687998816
+[(0.8042053834679201, 0, '( 223 + 95 ) = x', '318'), (0.20912273963742892, 1, '223 = ( 95 + x )', '128'), (0.004039490727328827, 1, '( 223 - 95 ) = x', '128')]
+INCORRECT
+472
+
+ Tyler had 15 dogs . Each dog had 5 puppies . How many puppies does Tyler now have ? 
+_____________
+adjs : None
+compound : 0
+container : Tyler
+contains : None
+entity : dog
+idx : 2
+location : None
+num : 15
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : dogs
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dog
+contains : None
+entity : puppy
+idx : 1003
+location : None
+num : 5
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : puppies
+type_failure : 0
+verbs : had
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Tyler
+contains : None
+entity : puppy
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : puppies
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110dd4860>)), ('5', (0, <makesets.aset object at 0x110dd45c0>)), ('15', (0, <makesets.aset object at 0x110df1710>))])
+( 15 + 5 ) = x
+['15', '+', '5'] 0.11388507601643014
+gscore  0.28473849109330485
+( 15 / 5 ) = x
+['15', '/', '5'] 0.10794556589384945
+gscore  0.2810629864491263
+15 = ( 5 * x )
+['5', '*', 'x'] 0.009134735950094676
+gscore  0.700461472639612
+( 15 * 5 ) = x
+['15', '*', '5'] 0.5510228234597174
+gscore  0.7218331070438578
+15 = ( 5 + x )
+['5', '+', 'x'] 0.16154468192824326
+gscore  0.6804731311441504
+( 15 - 5 ) = x
+['15', '-', '5'] 0.2271465346300032
+gscore  0.30914409606238397
+[(0.397746516710007, 1, '( 15 * 5 ) = x', '75'), (0.10992681553139753, 0, '15 = ( 5 + x )', '10'), (0.07022101012189534, 0, '( 15 - 5 ) = x', '10')]
+CORRECT
+484
+
+ Mrs . Hilt is baking bread . She needs 5 cups of flour to bake 2 loaves of bread . How much flour will she need to make one loaf of bread ? 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cup
+idx : 2002
+location : None
+num : 5
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : cups
+type_failure : 0
+verbs : bake
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : cups
+contains : loaf
+entity : loaf
+idx : 2008
+location : None
+num : 2
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : loaves
+type_failure : 0
+verbs : bake
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : loaf
+contains : None
+entity : loaf
+idx : 2009
+location : None
+num : x
+origs : 3
+role : other
+subset : 0
+subtypes : []
+surface : loaves
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110df9668>)), ('2', (0, <makesets.aset object at 0x110ba67b8>)), ('5', (0, <makesets.aset object at 0x110dd4940>))])
+( 5 + 2 ) = x
+['5', '+', '2'] 0.14186763727163293
+gscore  0.3565811828707623
+( 5 * 2 ) = x
+['5', '*', '2'] 0.6377292385548947
+gscore  0.9070444230508939
+( 5 - 2 ) = x
+['5', '-', '2'] 0.1491752596165903
+gscore  0.170618383991759
+5 = ( 2 + x )
+['2', '+', 'x'] 0.17635669591209824
+gscore  0.29523435482401
+[(0.5784487492477104, 0, '( 5 * 2 ) = x', '10'), (0.052066555336502444, 0, '5 = ( 2 + x )', '3'), (0.05058732990939911, 0, '( 5 + 2 ) = x', '7')]
+TOP SCORING NO CORRECT SOLUTION 
+INCORRECT
+504
+
+ Freeport McMoran projects the world grain supply will be 1800000 metric tons and the supply will be only 0.75 of the world grain demand . What will the world grain demand be ? 
+_____________
+adjs : metric
+compound : 0
+container : None
+contains : None
+entity : ton
+idx : 9
+location : None
+num : 1800000
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : tons
+type_failure : 0
+verbs : project
+widx : 12
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : demand
+idx : 18
+location : None
+num : 0.75
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : demand
+type_failure : 0
+verbs : project
+widx : 24
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : UNKNOWN
+idx : 1000
+location : None
+num : x
+origs : 10
+role : other
+subset : 0
+subtypes : []
+surface : UNKNOWN
+type_failure : 0
+verbs : None
+widx : 1
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x110c97eb8>)), ('1800000', (0, <makesets.aset object at 0x10d24af98>)), ('0.75', (0, <makesets.aset object at 0x110c97d68>))])
+( 1800000 + 0.75 ) = x
+['1800000', '+', '0.75'] 0.6873292087702854
+gscore  0.758899243875389
+1800000 = ( 0.75 + x )
+['0.75', '+', 'x'] 0.16570108597509067
+gscore  0.18505217544166092
+( 1800000 - 0.75 ) = x
+['1800000', '-', '0.75'] 0.030533314554498866
+gscore  0.04408448723917152
+( 1800000 * 0.75 ) = x
+['1800000', '*', '0.75'] 0.18630022746627384
+gscore  0.19922501882409588
+1800000 = ( 0.75 * x )
+['0.75', '*', 'x'] 0.25241048204055033
+gscore  0.23013195575193354
+1800000 = ( 0.75 / x )
+['0.75', '/', 'x'] 0.31884377078879894
+gscore  0.26516646182966885
+( 1800000 / 0.75 ) = x
+['1800000', '/', '0.75'] 0.095837249208942
+gscore  0.13182636490347305
+[(0.5216136168292389, 0, '( 1800000 + 0.75 ) = x', '1800000.75'), (0.08454667457649574, 0, '1800000 = ( 0.75 / x )', '4.16666666666667e-7'), (0.058087717884280146, 1, '1800000 = ( 0.75 * x )', '2400000')]
+INCORRECT
+35 15 0.7

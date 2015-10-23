@@ -57,9 +57,9 @@ def make_eq(q,a,equations):
                 problem[i] = x[:-1]+" "+x[-1]
         problem = ' '.join(problem)
         problem = " " + problem + " "
-        print(equations[k])
-        print(problem)
-        if len(answers)==0:print("0 Answers \nINCORRECT"); wrong += 1; continue
+        #print(equations[k])
+        #print(problem)
+        if len(answers)==0:print("0 Answers \n"+str(equations[k])+" INCORRECT"); wrong += 1; continue
 
 
         #make story
@@ -73,7 +73,7 @@ def make_eq(q,a,equations):
 
         xidx = [i for i,x in enumerate(sets) if x[1].num=='x']
         if not xidx:
-            print("NO X WHY");wrong += 1; continue
+            print(str(equations[k])+" INCORRECT NO X WHY");wrong += 1; continue
 
         xidx = xidx[0]
 
@@ -82,11 +82,11 @@ def make_eq(q,a,equations):
         numlist = [x for x in numlist if x[0]!='']
         allnumbs = {str(k):v for k,v in numlist}
         objs = {k:(0,v) for k,v in numlist}
-        print(objs.items())
+        #print(objs.items())
         consts = [x for x in answers[0][1].split(" ") if x not in ['(',')','+','-','/','*','=',]]
         present = [x for x in consts if x in objs]
-        if consts!=present: print(present,consts);print("missing thing");wrong += 1; continue
-        if len([x for x in objs if x not in consts])>0: print("missing thing");wrong +=1;continue
+        if consts!=present: print(present,consts);print(str(equations[k])+" INCORRECT missing thing");wrong += 1; continue
+        if len([x for x in objs if x not in consts])>0: print(str(equations[k])+" INCORRECT missing thing");wrong +=1;continue
         scores = []
 
 
@@ -107,7 +107,7 @@ def make_eq(q,a,equations):
             target = (target,objs[target])
 
             #find innermost parens?
-            print(eq)
+            #print(eq)
             sides = []
             thisscore = []
             for i,compound in enumerate([l,r]):
@@ -132,21 +132,21 @@ def make_eq(q,a,equations):
                         exit()
                     score,c,vals = pute
                     thisscore.append(score)
-                    print(subeq,score)
+                    #print(subeq,score)
                 sides.append(objs[compound[0]])
             p = sides[0]; e = sides[1]
             score = 1
             for s in thisscore: score *= s
             gscore = compute(p,'=',e,target,problem,story,order,score,cons)[0]
-            print("gscore ",gscore)
+            #print("gscore ",gscore)
             score *= gscore
             scores.append((score,j,eq,guess))
         scores = sorted(scores,reverse=True)
         righties = [x for x in scores if x[1]==1]
-        print(scores[:3])
+        #print(scores[:3])
         if not righties:
             wrong+=1
-            print("TOP SCORING NO CORRECT SOLUTION \nINCORRECT")
+            print("TOP SCORING NO CORRECT SOLUTION \n,"+str(equations[k])+" INCORRECT")
             continue
         else:
             corr = righties[0][3]
@@ -155,13 +155,13 @@ def make_eq(q,a,equations):
         if len(scores)>0:
             if scores[0][1]==1:
                 right += 1
-                print("CORRECT")
+                print(str(equations[k])+" CORRECT")
             else:
                 wrong += 1
-                print("INCORRECT")
+                print(str(equations[k])+" INCORRECT")
         else:
             wrong += 1
-            print("INCORRECT")
+            print(str(equations[k])+" INCORRECT")
 
     return (right,wrong)
 
